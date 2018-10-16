@@ -1,0 +1,41 @@
+brcode with text on left barcdoe on riht
+
+label type selector
+
+
+
+
+Checkout with UPS or checkout with user options
+
+
+option on checkout for user does his own shipping for freight or fedex
+
+
+Cnge history scrren titles to dates are switched
+more detailed titles and labels
+
+color legend for asset portal 
+remove button on task bar assets
+
+left bar user prefeerence pop out allways shift site over
+
+editable check in pdf
+
+
+on receiving sheet instead of shipper put recever and use the currently logged in user
+
+
+
+save asset on checkout
+
+
+checkout messag include custoemr name
+meeage sent confirm
+
+
+on asset create if calibrated checked make cal fiedls rewuired
+
+
+
+
+Map link on asset page..more detailed location data on asset

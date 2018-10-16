@@ -1,0 +1,3668 @@
+<?xml version="1.0" encoding="utf-16"?>
+<AssetList>
+  <Asset Name="Niveltronic Angle Level">
+    <AssetNumber>0001</AssetNumber>
+    <Description>Model # 54-800-000</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00010.JPG</Image>
+    </Images>
+    <DateRecieved>10/20/2017 2:42:13 PM</DateRecieved>
+    <DateShipped>10/20/2017 2:42:13 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>17.0</Weight>
+    <OnHold>true</OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\9-21-2017 8-41-15 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\10-20-2017-490011834.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Niveltronic angle level">
+    <AssetNumber>0002</AssetNumber>
+    <Description>Model#54-800-000 ELL009</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00020.JPG</Image>
+    </Images>
+    <DateRecieved>2/23/2017 12:56:49 PM</DateRecieved>
+    <DateShipped>8/8/2017 9:45:21 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>9999</OrderNumber>
+    <PersonShipping>Jason Noble</PersonShipping>
+    <ServiceEngineer>Werner Brinkheinrich</ServiceEngineer>
+    <ShipTo>Orizon</ShipTo>
+    <Weight>17.0</Weight>
+    <OnHold>false</OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\8-8-2017 9-45-24 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Niveltronic Level">
+    <AssetNumber>0003</AssetNumber>
+    <Description>S/N: G1542</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00030.JPG</Image>
+    </Images>
+    <DateRecieved>9/21/2017 8:18:31 AM</DateRecieved>
+    <DateShipped>2/21/2018 2:57:00 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>9999</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Matthew Metzger</ServiceEngineer>
+    <ShipTo>Manfred Schumacher</ShipTo>
+    <Weight>17.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\2-21-2018 2-57-04 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Wyler Level Set">
+    <AssetNumber>0005</AssetNumber>
+    <Description>S/N Q0068&amp;Q0088</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00050.JPG</Image>
+    </Images>
+    <DateRecieved>11/13/2017 12:50:44 PM</DateRecieved>
+    <DateShipped>1/22/2018 12:45:07 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490013033</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Gus Morales</ServiceEngineer>
+    <ShipTo>Siemens</ShipTo>
+    <Weight>22.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\1-22-2018 12-45-11 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Wyler Blue Level Set #2">
+    <AssetNumber>0006</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\000600.JPG</Image>
+    </Images>
+    <DateRecieved>2/13/2018 1:01:55 PM</DateRecieved>
+    <DateShipped>2/13/2018 1:01:55 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>26</Weight>
+    <OnHold>false</OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\12-22-2017 9-26-48 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\2-20-2018-490012811.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Allignment ToolsHSK100">
+    <AssetNumber>0007</AssetNumber>
+    <Description>Set#2 Proofing Bar, Tool Changer Tools, Spindle Alignment Tool</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00070.JPG</Image>
+    </Images>
+    <DateRecieved>2/5/2018 1:09:39 PM</DateRecieved>
+    <DateShipped>2/5/2018 1:09:39 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>47</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\1-24-2018 10-04-09 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\2-5-2018-9.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="HSK100 Proofing Bar Alignment Tools">
+    <AssetNumber>0008</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00080.JPG</Image>
+    </Images>
+    <DateRecieved>1/2/2018 4:25:23 PM</DateRecieved>
+    <DateShipped>1/2/2018 4:25:23 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>25.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\12-7-2017 2-37-32 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\1-2-2018-490012827.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="HSK50 Proofing Bar Tool Changer Tools">
+    <AssetNumber>0009</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00090.JPG</Image>
+    </Images>
+    <DateRecieved>12/12/2017 9:06:24 AM</DateRecieved>
+    <DateShipped>12/12/2017 9:06:24 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>27.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\4-20-2017 8-09-42 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\12-12-2017-490011261.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Level Tronic A40">
+    <AssetNumber>0028</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00100.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 10:24:40 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>13.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Belt Tensioner ST-9">
+    <AssetNumber>0011</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00110.JPG</Image>
+    </Images>
+    <DateRecieved>12/12/2017 9:06:24 AM</DateRecieved>
+    <DateShipped>1/22/2018 12:45:07 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490013033</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Gus Morales</ServiceEngineer>
+    <ShipTo>Siemens</ShipTo>
+    <Weight>1.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\1-22-2018 12-45-11 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="3/8&quot; Drive Torque Wrench">
+    <AssetNumber>0012</AssetNumber>
+    <Description>10-100 ft. lbs</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00120.JPG</Image>
+      <Image>Images\001290.JPG</Image>
+    </Images>
+    <DateRecieved>1/30/2017 7:57:03 AM</DateRecieved>
+    <DateShipped>1/22/2018 12:45:07 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490013033</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Gus Morales</ServiceEngineer>
+    <ShipTo>Siemens</ShipTo>
+    <Weight>3</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\1-22-2018 12-45-11 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="NivelTronic Level">
+    <AssetNumber>0004</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\000400.JPG</Image>
+      <Image>Images\000411.JPG</Image>
+      <Image>Images\000422.JPG</Image>
+    </Images>
+    <DateRecieved>12/5/2017 2:43:57 PM</DateRecieved>
+    <DateShipped>2/21/2018 3:05:21 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>9999</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Matthew Metzger</ServiceEngineer>
+    <ShipTo>Manfred Schumacher</ShipTo>
+    <Weight>18.0</Weight>
+    <OnHold>false</OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\2-21-2018 3-05-24 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Hydac Hydraulic Accumulator kit">
+    <AssetNumber>0013</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00130.JPG</Image>
+    </Images>
+    <DateRecieved>11/3/2017 2:02:45 PM</DateRecieved>
+    <DateShipped>11/3/2017 2:02:45 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>12.50</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\10-26-2017 3-10-02 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\11-3-2017-9999.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Olaer Hydraulic Test Kit">
+    <AssetNumber>0014</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\001400.JPG</Image>
+      <Image>Images\001410.JPG</Image>
+    </Images>
+    <DateRecieved>2/9/2018 1:12:19 PM</DateRecieved>
+    <DateShipped>2/13/2018 1:01:01 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490013236</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Manfred Schumacher</ServiceEngineer>
+    <ShipTo>AMT</ShipTo>
+    <Weight>7</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\2-13-2018 1-01-05 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Olaer Hydraulic Test Kit 2">
+    <AssetNumber>0015</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\001590.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 11:29:21 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>7</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Accumulator Test Kit #3">
+    <AssetNumber>0018</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00180.JPG</Image>
+    </Images>
+    <DateRecieved>12/12/2017 9:06:24 AM</DateRecieved>
+    <DateShipped>12/12/2017 9:06:24 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>8.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\4-20-2017 8-09-42 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\12-12-2017-490011261.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Hydraulic Test Kit #2">
+    <AssetNumber>0019</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00190.JPG</Image>
+    </Images>
+    <DateRecieved>11/28/2017 1:07:43 PM</DateRecieved>
+    <DateShipped>11/28/2017 1:07:43 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>4</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\11-14-2017 10-40-49 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\11-28-2017-490012669.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Hydraulic Test Kit #4">
+    <AssetNumber>0020</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00200.JPG</Image>
+    </Images>
+    <DateRecieved>9/12/2017 9:03:43 AM</DateRecieved>
+    <DateShipped>2/13/2018 4:05:46 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490013250</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Matthew Metzger</ServiceEngineer>
+    <ShipTo>ngc</ShipTo>
+    <Weight>4.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\2-13-2018 4-05-50 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Hydraulic Test Kit #3">
+    <AssetNumber>0021</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\002100.JPG</Image>
+    </Images>
+    <DateRecieved>12/12/2017 9:06:24 AM</DateRecieved>
+    <DateShipped>12/12/2017 9:06:24 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>4.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\4-20-2017 8-09-42 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\12-12-2017-490011261.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Renishaw Ballbar QC20-W">
+    <AssetNumber>0022</AssetNumber>
+    <Description>Renishaw Ballbar geometry test kit</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00220.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 12:21:41 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>10.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="StepTec Spindle Commissioning Kit #1">
+    <AssetNumber>0023</AssetNumber>
+    <Description>StepTec Spindle Commissioning Kit #1 </Description>
+    <BarcodeImage />
+    <Images />
+    <DateRecieved>2/5/2018 11:28:29 AM</DateRecieved>
+    <DateShipped>2/5/2018 11:29:08 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490013205</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Nick Johnson</ServiceEngineer>
+    <ShipTo>Royell Manufacturing</ShipTo>
+    <Weight>8.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\2-5-2018 11-29-14 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="StepTec Spindle Commissioning Kit #2">
+    <AssetNumber>0024</AssetNumber>
+    <Description>StepTec Spindle Commissioning Kit #2</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\002400.JPG</Image>
+    </Images>
+    <DateRecieved>2/9/2018 1:12:19 PM</DateRecieved>
+    <DateShipped>2/13/2018 1:01:01 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490013236</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Manfred Schumacher</ServiceEngineer>
+    <ShipTo>AMT</ShipTo>
+    <Weight>8.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\2-13-2018 1-01-05 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="B Axis Removal Tool">
+    <AssetNumber>0025</AssetNumber>
+    <Description>B Axis Removal Tool</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00250.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 12:36:54 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>9.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="30mm Socket Long Extension">
+    <AssetNumber>0026</AssetNumber>
+    <Description>Long Extension 30mm socket</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00260.JPG</Image>
+    </Images>
+    <DateRecieved>11/13/2017 12:50:44 PM</DateRecieved>
+    <DateShipped>11/13/2017 12:50:44 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>7.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\11-3-2017 9-02-29 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\11-13-2017-490012536.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Vise Pressure Gauge">
+    <AssetNumber>0027</AssetNumber>
+    <Description>IPA Analyzer #7884</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00270.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 12:44:58 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>3.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="LX151 Calibration Tools">
+    <AssetNumber>0029</AssetNumber>
+    <Description>LX151 Calibration Tools</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00290.JPG</Image>
+    </Images>
+    <DateRecieved>7/24/2017 10:30:28 AM</DateRecieved>
+    <DateShipped>7/24/2017 10:30:28 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>21.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\6-6-2017 10-17-55 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\7-24-2017-490011545.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Electric Skillet">
+    <AssetNumber>0030</AssetNumber>
+    <Description>Electric skillet</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00300.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 12:54:54 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>7.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Pulley Idler">
+    <AssetNumber>0031</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00310.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 12:59:41 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>20</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="HSK 60 Short Test Bar">
+    <AssetNumber>0032</AssetNumber>
+    <Description>Short Test Bar for HSK 60</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\0032110.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:10:49 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>10.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="MF-46 Taper Cleaner">
+    <AssetNumber>0033</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\6550.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:13:32 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>9</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Flexible Video Scope">
+    <AssetNumber>0034</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00340.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:16:48 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>6</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Milli-Ohm Kit">
+    <AssetNumber>0035</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00350.JPG</Image>
+    </Images>
+    <DateRecieved>1/2/2018 4:25:23 PM</DateRecieved>
+    <DateShipped>1/2/2018 4:25:23 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>10</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\12-7-2017 2-37-32 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\1-2-2018-490012827.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Collector Service Kit #1">
+    <AssetNumber>0036</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00360.JPG</Image>
+    </Images>
+    <DateRecieved>6/13/2017 12:53:16 PM</DateRecieved>
+    <DateShipped>6/13/2017 12:53:16 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>35</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\6-13-2017 9-34-04 AM .png</PackingSlip>
+      <UPSlabel>Labels\1Z9A14T70195325564.gif</UPSlabel>
+      <ReturnReport>ReceivingReport\6-13-2017-490011542.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="OTT Pull Force Checker #2">
+    <AssetNumber>0037</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00370.JPG</Image>
+    </Images>
+    <DateRecieved>2/5/2018 11:32:02 AM</DateRecieved>
+    <DateShipped>2/13/2018 1:01:01 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490013236</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Manfred Schumacher</ServiceEngineer>
+    <ShipTo>AMT</ShipTo>
+    <Weight>40</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\2-13-2018 1-01-05 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="OTT Pull Force Checker #1">
+    <AssetNumber>0038</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00380.JPG</Image>
+    </Images>
+    <DateRecieved>4/20/2017 8:06:44 AM</DateRecieved>
+    <DateShipped>4/20/2017 8:09:38 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490011261</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Nick Johnson</ServiceEngineer>
+    <ShipTo>Bell Helicopter - Grand Prairie</ShipTo>
+    <Weight>31</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\4-20-2017 8-09-42 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\12-12-2017-490011261.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Gates Belt Tension Meter">
+    <AssetNumber>0039</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\2220.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:33:22 PM</DateRecieved>
+    <DateShipped>7/11/2017 11:00:51 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490011326</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Nick Johnson</ServiceEngineer>
+    <ShipTo>Royell Manufacturing</ShipTo>
+    <Weight>3</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\7-11-2017 11-00-54 AM .png</PackingSlip>
+      <UPSlabel>Labels\1Z9A14T70195197720.gif</UPSlabel>
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Gates Belt Tension Meter #2">
+    <AssetNumber>0040</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00400.JPG</Image>
+    </Images>
+    <DateRecieved>2/5/2018 11:32:02 AM</DateRecieved>
+    <DateShipped>2/5/2018 11:32:02 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>3</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\1-4-2018 1-00-22 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\2-5-2018-490012973.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="IFM Programmer #1">
+    <AssetNumber>0041</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00410.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:37:25 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="IFM Programmer">
+    <AssetNumber>0042</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00420.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:37:50 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="IFM Programmer">
+    <AssetNumber>0043</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00430.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:38:11 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Siemens AS-Interface Analyzer">
+    <AssetNumber>0044</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00440.JPG</Image>
+    </Images>
+    <DateRecieved>12/1/2017 8:43:21 AM</DateRecieved>
+    <DateShipped>12/1/2017 8:43:21 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>2.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\10-24-2017 12-51-14 PM .png</PackingSlip>
+      <UPSlabel>Labels\1Z9A14T70193267407.gif</UPSlabel>
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="IFM Programmer Model 2000">
+    <AssetNumber>0045</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00450.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:45:40 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>3</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="ASI BUS Testing Tool">
+    <AssetNumber>0046</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00460.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:53:16 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>3.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="ZS Series Enabling Switch">
+    <AssetNumber>0047</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00470.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:56:49 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>3.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Extraction Tool">
+    <AssetNumber>0048</AssetNumber>
+    <Description>ST 107</Description>
+    <BarcodeImage>Barcodes\0048.png</BarcodeImage>
+    <Images>
+      <Image>Images\004800.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:04:33 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="HEC800 Laser Plate">
+    <AssetNumber>0049</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0049.png</BarcodeImage>
+    <Images>
+      <Image>Images\004900.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:07:04 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>39.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="HX251 Laser plates">
+    <AssetNumber>0052</AssetNumber>
+    <Description>Qty 2</Description>
+    <BarcodeImage>Barcodes\0052.png</BarcodeImage>
+    <Images />
+    <DateRecieved>1/5/2017 6:14:07 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>9.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Laser Mounting Plate">
+    <AssetNumber>0050</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0050.png</BarcodeImage>
+    <Images>
+      <Image>Images\005000.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:22:06 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>17.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Laser Mounting Plate 2">
+    <AssetNumber>0051</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0051.png</BarcodeImage>
+    <Images>
+      <Image>Images\005100.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:25:14 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>21.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Lockout/Tagout Safety Kit">
+    <AssetNumber>0053</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0053.png</BarcodeImage>
+    <Images>
+      <Image>Images\005300.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:29:06 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>3.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Paragon Walbar">
+    <AssetNumber>0054</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0054.png</BarcodeImage>
+    <Images>
+      <Image>Images\005400.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:31:49 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>4</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Laser Mounting Plate#3 ">
+    <AssetNumber>0055</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0055.png</BarcodeImage>
+    <Images>
+      <Image>Images\005500.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:34:02 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>8.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="HEC1600 Spindle Plate for Levels">
+    <AssetNumber>0056</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0056.png</BarcodeImage>
+    <Images>
+      <Image>Images\005600.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:36:31 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>9</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Laser Mounting Plates ">
+    <AssetNumber>0057</AssetNumber>
+    <Description>Qty 2</Description>
+    <BarcodeImage>Barcodes\0057.png</BarcodeImage>
+    <Images>
+      <Image>Images\005700.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:39:20 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>14.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Par005 Plate">
+    <AssetNumber>0058</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0058.png</BarcodeImage>
+    <Images>
+      <Image>Images\005800.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:41:57 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>14.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Lockout Kit #2">
+    <AssetNumber>0059</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0059.png</BarcodeImage>
+    <Images>
+      <Image>Images\005900.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:45:05 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>4.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="WireMic#1">
+    <AssetNumber>0060</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0060.png</BarcodeImage>
+    <Images>
+      <Image>Images\006000.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:48:34 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>9.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Test Bar TEB-005">
+    <AssetNumber>0061</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0061.png</BarcodeImage>
+    <Images>
+      <Image>Images\006100.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:53:58 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>24.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="SIP Measuring Calibration Tool Kit">
+    <AssetNumber>0062</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0062.png</BarcodeImage>
+    <Images>
+      <Image>Images\006200.JPG</Image>
+    </Images>
+    <DateRecieved>1/26/2018 10:01:31 AM</DateRecieved>
+    <DateShipped>2/21/2018 1:58:54 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490013031</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Steve Tunget</ServiceEngineer>
+    <ShipTo>General Dynamics</ShipTo>
+    <Weight>52.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\2-21-2018 1-58-58 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Ball Screw Kit">
+    <AssetNumber>0063</AssetNumber>
+    <Description>Ball Screw Alignment Tool</Description>
+    <BarcodeImage>Barcodes\0063.png</BarcodeImage>
+    <Images>
+      <Image>Images\006300.JPG</Image>
+    </Images>
+    <DateRecieved>2/5/2018 11:28:38 AM</DateRecieved>
+    <DateShipped>2/5/2018 11:28:38 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>29.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\1-4-2018 1-00-22 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\2-5-2018-490012973.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Tool Box - Field Service Tools">
+    <AssetNumber>0064</AssetNumber>
+    <Description>Field ServiceTool Kit</Description>
+    <BarcodeImage>Barcodes\0064.png</BarcodeImage>
+    <Images>
+      <Image>Images\006400.JPG</Image>
+      <Image>Images\006411.JPG</Image>
+      <Image>Images\006422.JPG</Image>
+    </Images>
+    <DateRecieved>2/20/2018 9:49:49 AM</DateRecieved>
+    <DateShipped>2/20/2018 9:49:49 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>71.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\12-22-2017 9-26-48 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\2-20-2018-490012811.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Teflon Quill Bearing Removal Tool">
+    <AssetNumber>0065</AssetNumber>
+    <Description>Special ring with 4 screws</Description>
+    <BarcodeImage>Barcodes\0065.png</BarcodeImage>
+    <Images>
+      <Image>Images\006500.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 2:42:35 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>4.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Waynes 60 Taper Test Bar">
+    <AssetNumber>0066</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0066.png</BarcodeImage>
+    <Images>
+      <Image>Images\006600.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 2:46:04 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>26.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="50 Taper Test Bar">
+    <AssetNumber>0067</AssetNumber>
+    <Description>50mm x 130mm Test Bar</Description>
+    <BarcodeImage>Barcodes\0067.png</BarcodeImage>
+    <Images>
+      <Image>Images\006700.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 2:49:55 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>15.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Tachometer and Temperature Kit">
+    <AssetNumber>0068</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0068.png</BarcodeImage>
+    <Images>
+      <Image>Images\006800.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 2:57:04 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>1.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="SK50 Test Bar">
+    <AssetNumber>0069</AssetNumber>
+    <Description>SK 50mm x 300mm </Description>
+    <BarcodeImage>Barcodes\0069.png</BarcodeImage>
+    <Images>
+      <Image>Images\006900.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 3:03:52 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>11.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Morse Taper Test Bar">
+    <AssetNumber>0070</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0070.png</BarcodeImage>
+    <Images />
+    <DateRecieved>1/5/2017 3:08:48 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>15</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="ISO 45 Taper Tool">
+    <AssetNumber>0071</AssetNumber>
+    <Description>4 pieces, coarse and fine lapping tools included</Description>
+    <BarcodeImage>Barcodes\0071.png</BarcodeImage>
+    <Images>
+      <Image>Images\007100.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 3:12:53 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>9</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="ISO 50 Taper Test Bar">
+    <AssetNumber>0072</AssetNumber>
+    <Description>50mm x 210mm Test Bar</Description>
+    <BarcodeImage>Barcodes\0072.png</BarcodeImage>
+    <Images>
+      <Image>Images\007200.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 3:18:19 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>15</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="ISO 50 Taper Test Bar">
+    <AssetNumber>0073</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0073.png</BarcodeImage>
+    <Images>
+      <Image>Images\007300.JPG</Image>
+    </Images>
+    <DateRecieved>1/6/2017 8:50:03 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>16.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="XL80 Laser System Kit">
+    <AssetNumber>0998</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0098.png</BarcodeImage>
+    <Images>
+      <Image>Images\009800.JPG</Image>
+      <Image>Images\099810.JPG</Image>
+      <Image>Images\099821.JPG</Image>
+      <Image>Images\099832.JPG</Image>
+      <Image>Images\099843.JPG</Image>
+      <Image>Images\099854.JPG</Image>
+      <Image>Images\099865.JPG</Image>
+      <Image>Images\099876.JPG</Image>
+      <Image>Images\099887.JPG</Image>
+      <Image>Images\099898.JPG</Image>
+      <Image>Images\0998109.JPG</Image>
+      <Image>Images\09981110.JPG</Image>
+      <Image>Images\09981211.JPG</Image>
+      <Image>Images\09981312.JPG</Image>
+      <Image>Images\09981413.JPG</Image>
+      <Image>Images\09981514.JPG</Image>
+      <Image>Images\09981615.JPG</Image>
+      <Image>Images\09981716.JPG</Image>
+    </Images>
+    <DateRecieved>12/13/2017 9:40:34 AM</DateRecieved>
+    <DateShipped>12/13/2017 9:40:34 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>115.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\12-1-2017 1-19-22 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\12-13-2017-490012805.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="XR 20 Rotary Indexer Kit">
+    <AssetNumber>0997</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0997.png</BarcodeImage>
+    <Images>
+      <Image>Images\099710.JPG</Image>
+      <Image>Images\099721.JPG</Image>
+    </Images>
+    <DateRecieved>12/13/2017 9:40:34 AM</DateRecieved>
+    <DateShipped>12/13/2017 9:40:34 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>115</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\12-1-2017 1-19-22 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\12-13-2017-490012805.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="40 Degree Fixture Kit">
+    <AssetNumber>0996</AssetNumber>
+    <Description>Fixture, plate, tool with arm</Description>
+    <BarcodeImage>Barcodes\0096.png</BarcodeImage>
+    <Images>
+      <Image>Images\009600.JPG</Image>
+      <Image>Images\009610.JPG</Image>
+      <Image>Images\009621.JPG</Image>
+    </Images>
+    <DateRecieved>8/1/2017 10:41:39 AM</DateRecieved>
+    <DateShipped>8/1/2017 10:41:39 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>125</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\6-13-2017 11-11-06 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\8-1-2017-490011127.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Small Steel Angle">
+    <AssetNumber>0995</AssetNumber>
+    <Description>500 x 700 MM</Description>
+    <BarcodeImage>Barcodes\0095.png</BarcodeImage>
+    <Images>
+      <Image>Images\009500.JPG</Image>
+    </Images>
+    <DateRecieved>1/6/2017 11:16:40 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>150</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Alignment Kit in Blue Steel Box">
+    <AssetNumber>0994</AssetNumber>
+    <Description>Lineal Granite  1000 x 56 x 100  Angle Granite   600 x 800  MM  Assorted sockets, Plates, Extentions, Etc.</Description>
+    <BarcodeImage>Barcodes\0094.png</BarcodeImage>
+    <Images />
+    <DateRecieved>12/12/2017 9:06:24 AM</DateRecieved>
+    <DateShipped>2/13/2018 1:01:01 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490013236</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Manfred Schumacher</ServiceEngineer>
+    <ShipTo>AMT</ShipTo>
+    <Weight>900</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\2-13-2018 1-01-05 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Small Granite Angle">
+    <AssetNumber>0993</AssetNumber>
+    <Description>300 x 500  MM</Description>
+    <BarcodeImage>Barcodes\0093.png</BarcodeImage>
+    <Images>
+      <Image>Images\009300.JPG</Image>
+    </Images>
+    <DateRecieved>1/6/2017 11:25:52 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>85</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Granite Lineal">
+    <AssetNumber>0992</AssetNumber>
+    <Description>1500 x 220 x 800</Description>
+    <BarcodeImage>Barcodes\0092.png</BarcodeImage>
+    <Images>
+      <Image>Images\009210.JPG</Image>
+      <Image>Images\009221.JPG</Image>
+      <Image>Images\009232.JPG</Image>
+    </Images>
+    <DateRecieved>6/8/2017 2:55:50 PM</DateRecieved>
+    <DateShipped>12/22/2017 9:26:44 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490012811</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Heckert Engineers</ServiceEngineer>
+    <ShipTo>Dial Machine</ShipTo>
+    <Weight>375</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\12-22-2017 9-26-48 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\2-20-2018-490012811.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Stee Lineal">
+    <AssetNumber>0991</AssetNumber>
+    <Description>1000 MM  Old Ref# PAR 007</Description>
+    <BarcodeImage>Barcodes\0991.png</BarcodeImage>
+    <Images>
+      <Image>Images\099100.JPG</Image>
+      <Image>Images\099111.JPG</Image>
+      <Image>Images\099122.JPG</Image>
+      <Image>Images\099133.JPG</Image>
+    </Images>
+    <DateRecieved>1/6/2017 2:36:46 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>50</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Granite Cube">
+    <AssetNumber>0990</AssetNumber>
+    <Description>500 x 500 x 500  For Ecospeed Machines</Description>
+    <BarcodeImage>Barcodes\0990.png</BarcodeImage>
+    <Images>
+      <Image>Images\099000.JPG</Image>
+      <Image>Images\099011.JPG</Image>
+    </Images>
+    <DateRecieved>1/6/2017 2:38:03 PM</DateRecieved>
+    <DateShipped>8/8/2017 9:40:53 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>9999</OrderNumber>
+    <PersonShipping>Jason Noble</PersonShipping>
+    <ServiceEngineer>Werner Brinkheinrich</ServiceEngineer>
+    <ShipTo>Orizon</ShipTo>
+    <Weight>900</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\8-8-2017 9-40-57 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Steel Lineal">
+    <AssetNumber>0989</AssetNumber>
+    <Description>2400 MM Blue Box Old Ref# PAR 010</Description>
+    <BarcodeImage>Barcodes\0989.png</BarcodeImage>
+    <Images>
+      <Image>Images\098900.JPG</Image>
+      <Image>Images\098911.JPG</Image>
+      <Image>Images\098922.JPG</Image>
+    </Images>
+    <DateRecieved>10/2/2017 10:46:47 AM</DateRecieved>
+    <DateShipped>10/2/2017 10:46:47 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>300</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\8-28-2017 1-51-02 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\12-6-2017-999999.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Steel Lineal">
+    <AssetNumber>0988</AssetNumber>
+    <Description>1200 MM  Old Ref # PAR 001</Description>
+    <BarcodeImage>Barcodes\0988.png</BarcodeImage>
+    <Images>
+      <Image>Images\098811.JPG</Image>
+      <Image>Images\098810.JPG</Image>
+    </Images>
+    <DateRecieved>12/6/2017 3:54:58 PM</DateRecieved>
+    <DateShipped>12/6/2017 3:54:58 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>300</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\8-28-2017 1-51-02 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\12-6-2017-999999.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Steel Lineal">
+    <AssetNumber>0987</AssetNumber>
+    <Description>2400 MM  Old Ref # PAR 011  not used often</Description>
+    <BarcodeImage>Barcodes\0987.png</BarcodeImage>
+    <Images>
+      <Image>Images\098700.JPG</Image>
+      <Image>Images\098711.JPG</Image>
+      <Image>Images\098722.JPG</Image>
+    </Images>
+    <DateRecieved>1/6/2017 3:57:35 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>300</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Granite Angle">
+    <AssetNumber>0986</AssetNumber>
+    <Description>800 x 600 x 100</Description>
+    <BarcodeImage>Barcodes\0986.png</BarcodeImage>
+    <Images>
+      <Image>Images\098600.JPG</Image>
+      <Image>Images\098611.JPG</Image>
+    </Images>
+    <DateRecieved>11/13/2017 12:50:44 PM</DateRecieved>
+    <DateShipped>12/22/2017 9:26:44 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490012811</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Heckert Engineers</ServiceEngineer>
+    <ShipTo>Dial Machine</ShipTo>
+    <Weight>345</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\12-22-2017 9-26-48 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\2-20-2018-490012811.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Measuring Bar">
+    <AssetNumber>0074</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0074.png</BarcodeImage>
+    <Images>
+      <Image>Images\007400.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 8:49:19 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>14</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Morse Taper">
+    <AssetNumber>0075</AssetNumber>
+    <Description>MK6-001</Description>
+    <BarcodeImage>Barcodes\0075.png</BarcodeImage>
+    <Images>
+      <Image>Images\007500.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 8:51:54 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>6.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Special Wrench for Spindle Head 640/740">
+    <AssetNumber>0076</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0076.png</BarcodeImage>
+    <Images>
+      <Image>Images\007600.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 8:54:37 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>12.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="50HM Test Bar">
+    <AssetNumber>0077</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0077.png</BarcodeImage>
+    <Images>
+      <Image>Images\007700.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 8:57:06 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>13.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="HSK100 Tools">
+    <AssetNumber>0078</AssetNumber>
+    <Description>3 pieces</Description>
+    <BarcodeImage>Barcodes\0078.png</BarcodeImage>
+    <Images>
+      <Image>Images\007800.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 9:13:36 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>30.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Starrett Master Precision Level">
+    <AssetNumber>0079</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0079.png</BarcodeImage>
+    <Images>
+      <Image>Images\007900.JPG</Image>
+    </Images>
+    <DateRecieved>11/1/2017 1:48:36 PM</DateRecieved>
+    <DateShipped>11/1/2017 1:48:36 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>9.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\10-4-2017 11-22-37 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\11-1-2017-490012112.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Case L02 SIP Tool">
+    <AssetNumber>0080</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0080.png</BarcodeImage>
+    <Images>
+      <Image>Images\008000.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 9:18:46 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>20.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Risers Parallels">
+    <AssetNumber>0081</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0081.png</BarcodeImage>
+    <Images />
+    <DateRecieved>1/9/2017 9:20:58 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>21.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="SK50 Test Bar 300L">
+    <AssetNumber>0082</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0082.png</BarcodeImage>
+    <Images>
+      <Image>Images\008200.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 9:23:55 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>13.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="SK40 Bar">
+    <AssetNumber>0083</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0083.png</BarcodeImage>
+    <Images>
+      <Image>Images\008300.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 9:52:13 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>9.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="PAR14 for FOG">
+    <AssetNumber>0084</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0084.png</BarcodeImage>
+    <Images>
+      <Image>Images\008400.JPG</Image>
+    </Images>
+    <DateRecieved>10/2/2017 10:46:47 AM</DateRecieved>
+    <DateShipped>10/2/2017 10:46:47 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>18.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\8-28-2017 3-39-38 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\10-2-2017-99999.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Gauge Blocks for FOG">
+    <AssetNumber>0085</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0085.png</BarcodeImage>
+    <Images>
+      <Image>Images\008500.JPG</Image>
+    </Images>
+    <DateRecieved>10/2/2017 10:46:47 AM</DateRecieved>
+    <DateShipped>10/2/2017 10:46:47 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>19.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\8-28-2017 3-39-38 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\10-2-2017-99999.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="500mm Linear Granite">
+    <AssetNumber>0086</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0086.png</BarcodeImage>
+    <Images>
+      <Image>Images\008600.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 10:04:17 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>22.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="TEB-002">
+    <AssetNumber>0087</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0087.png</BarcodeImage>
+    <Images>
+      <Image>Images\008700.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 10:06:32 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>26.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="50 Taper Long Nose">
+    <AssetNumber>0088</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0088.png</BarcodeImage>
+    <Images>
+      <Image>Images\008800.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 10:09:07 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>26.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Riser Blocks (Small and Large)">
+    <AssetNumber>0089</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0089.png</BarcodeImage>
+    <Images>
+      <Image>Images\008900.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 10:12:33 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>62.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="SK40 Alignment Tool">
+    <AssetNumber>0092</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0092.png</BarcodeImage>
+    <Images>
+      <Image>Images\009200.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 10:15:43 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>2</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Ball Screw Alignment Tools LX-251/151">
+    <AssetNumber>0094</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0094.png</BarcodeImage>
+    <Images>
+      <Image>Images\009400.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 10:19:33 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>2</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="A/AA Axis Socket Wrench LX-151">
+    <AssetNumber>0095</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0095.png</BarcodeImage>
+    <Images>
+      <Image>Images\009500.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 10:25:31 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>9</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Gearbox Exchange Tools Heckert w/Quill">
+    <AssetNumber>0093</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0093.png</BarcodeImage>
+    <Images>
+      <Image>Images\009300.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 10:30:21 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>4</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="V-Block for Table Guideways w/tester">
+    <AssetNumber>0090</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0090.png</BarcodeImage>
+    <Images>
+      <Image>Images\009000.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 10:35:47 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>5.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="OTT-Jakob IFH-63 Single Spanning Head">
+    <AssetNumber>0091</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0091.png</BarcodeImage>
+    <Images>
+      <Image>Images\009100.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 10:41:39 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>4.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Bumotec Kit 1">
+    <AssetNumber>0985</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0985.png</BarcodeImage>
+    <Images>
+      <Image>Images\098500.JPG</Image>
+    </Images>
+    <DateRecieved>12/13/2017 2:34:32 PM</DateRecieved>
+    <DateShipped>12/13/2017 2:34:32 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>103</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\11-20-2017 1-50-15 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\12-13-2017-490012687.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Bumotec Kit #2">
+    <AssetNumber>0984</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0984.png</BarcodeImage>
+    <Images>
+      <Image>Images\098400.JPG</Image>
+    </Images>
+    <DateRecieved>1/16/2018 2:57:27 PM</DateRecieved>
+    <DateShipped>2/7/2018 9:05:18 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490012980</OrderNumber>
+    <PersonShipping>Jason Noble</PersonShipping>
+    <ServiceEngineer>Ettore Chiaradonna</ServiceEngineer>
+    <ShipTo>Pulse Technologies</ShipTo>
+    <Weight>103</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\2-7-2018 9-05-22 AM .png</PackingSlip>
+      <UPSlabel>Labels\1Z9A14T70395922450.gif</UPSlabel>
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Measuring Link Bar #1">
+    <AssetNumber>0096</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0096.png</BarcodeImage>
+    <Images>
+      <Image>Images\009600.JPG</Image>
+    </Images>
+    <DateRecieved>2/20/2018 9:49:49 AM</DateRecieved>
+    <DateShipped>2/20/2018 9:49:49 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>8.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\12-22-2017 9-53-23 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\2-20-2018-490012811.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Measuring Link Bar #2">
+    <AssetNumber>0097</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0097.png</BarcodeImage>
+    <Images>
+      <Image>Images\009700.JPG</Image>
+    </Images>
+    <DateRecieved>3/16/2017 8:53:39 AM</DateRecieved>
+    <DateShipped>3/16/2017 8:53:39 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>8.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\3-16-2017-490010536.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Ecospeed Dial Indicator">
+    <AssetNumber>0983</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0983.png</BarcodeImage>
+    <Images>
+      <Image>Images\098300.JPG</Image>
+    </Images>
+    <DateRecieved>10/2/2017 10:46:47 AM</DateRecieved>
+    <DateShipped>10/2/2017 10:46:47 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\8-28-2017 1-51-02 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\12-6-2017-999999.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Hydraulic Accumulator Kit">
+    <AssetNumber>0016</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0016.png</BarcodeImage>
+    <Images>
+      <Image>Images\001600.JPG</Image>
+    </Images>
+    <DateRecieved>8/8/2017 11:10:56 AM</DateRecieved>
+    <DateShipped>8/8/2017 11:10:56 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>8</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\7-24-2017 10-29-44 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Hydraulic Test Kit #1">
+    <AssetNumber>0017</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0017.png</BarcodeImage>
+    <Images>
+      <Image>Images\001700.JPG</Image>
+    </Images>
+    <DateRecieved>2/9/2018 1:12:19 PM</DateRecieved>
+    <DateShipped>2/13/2018 1:01:01 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490013236</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Manfred Schumacher</ServiceEngineer>
+    <ShipTo>AMT</ShipTo>
+    <Weight>4</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\2-13-2018 1-01-05 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="LX Geometry Tools (2 boxes)">
+    <AssetNumber>0982</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0982.png</BarcodeImage>
+    <Images>
+      <Image>Images\098200.JPG</Image>
+    </Images>
+    <DateRecieved>11/1/2017 1:48:36 PM</DateRecieved>
+    <DateShipped>1/22/2018 12:45:07 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490013033</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Gus Morales</ServiceEngineer>
+    <ShipTo>Siemens</ShipTo>
+    <Weight>0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\1-22-2018 12-45-11 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Ceramic Angle">
+    <AssetNumber>0098</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0098.png</BarcodeImage>
+    <Images>
+      <Image>Images\009810.JPG</Image>
+      <Image>Images\009810.jpg</Image>
+      <Image>Images\009821.jpg</Image>
+    </Images>
+    <DateRecieved>9/21/2017 8:18:31 AM</DateRecieved>
+    <DateShipped>9/21/2017 8:18:31 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>56</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\8-18-2017 2-48-17 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\10-25-2017-490011902.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="XL 80 Laser with Tripod">
+    <AssetNumber>0981</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0981.png</BarcodeImage>
+    <Images>
+      <Image>Images\098110.JPG</Image>
+      <Image>Images\098121.JPG</Image>
+      <Image>Images\098132.JPG</Image>
+      <Image>Images\098143.JPG</Image>
+    </Images>
+    <DateRecieved>2/5/2018 2:39:50 PM</DateRecieved>
+    <DateShipped>2/13/2018 1:01:01 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490013236</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Manfred Schumacher</ServiceEngineer>
+    <ShipTo>AMT</ShipTo>
+    <Weight>90</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\2-13-2018 1-01-05 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="HSK63 Alignment Tools: Proofing Bar, Tool changer tools, sweeping tools">
+    <AssetNumber>0099</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0099.png</BarcodeImage>
+    <Images>
+      <Image>Images\009900.JPG</Image>
+    </Images>
+    <DateRecieved>2/5/2018 11:28:29 AM</DateRecieved>
+    <DateShipped>2/5/2018 11:29:08 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490013205</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Nick Johnson</ServiceEngineer>
+    <ShipTo>Royell Manufacturing</ShipTo>
+    <Weight>29</Weight>
+    <OnHold>false</OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\2-5-2018 11-29-14 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="PM Misc tools">
+    <AssetNumber>004A</AssetNumber>
+    <Description>IFM 2001, Belt tension meter, PM Strips, Walkie Talkies</Description>
+    <BarcodeImage>Barcodes\004a.png</BarcodeImage>
+    <Images>
+      <Image>Images\004a00.JPG</Image>
+    </Images>
+    <DateRecieved>11/13/2017 12:50:44 PM</DateRecieved>
+    <DateShipped>11/13/2017 12:50:44 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>11</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\11-3-2017 9-02-29 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\11-13-2017-490012536.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="XR20 Rotary Axis Calibrator and Bracket">
+    <AssetNumber>0980</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0980.png</BarcodeImage>
+    <Images>
+      <Image>Images\098000.JPG</Image>
+    </Images>
+    <DateRecieved>2/5/2018 2:39:50 PM</DateRecieved>
+    <DateShipped>2/13/2018 1:01:01 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490013236</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Manfred Schumacher</ServiceEngineer>
+    <ShipTo>AMT</ShipTo>
+    <Weight>51</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\2-13-2018 1-01-05 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Levelling Cubes for Granite sqare">
+    <AssetNumber>0100</AssetNumber>
+    <Description>3 devices that allow the large granite cube to be levelled</Description>
+    <BarcodeImage>Barcodes\0100.png</BarcodeImage>
+    <Images>
+      <Image>Images\010000.JPG</Image>
+      <Image>Images\010011.JPG</Image>
+      <Image>Images\010022.JPG</Image>
+      <Image>Images\010033.JPG</Image>
+      <Image>Images\010044.JPG</Image>
+      <Image>Images\010055.JPG</Image>
+      <Image>Images\010066.JPG</Image>
+      <Image>Images\010077.JPG</Image>
+      <Image>Images\010088.JPG</Image>
+    </Images>
+    <DateRecieved>2/10/2017 3:41:46 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>11</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Accumulator Kit #1 ">
+    <AssetNumber>013A</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\013A.png</BarcodeImage>
+    <Images>
+      <Image>Images\013A00.JPG</Image>
+    </Images>
+    <DateRecieved>11/13/2017 12:50:44 PM</DateRecieved>
+    <DateShipped>11/13/2017 12:50:44 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>10</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\11-3-2017 9-02-29 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\11-13-2017-490012536.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="SK50 Proofing Bar, alignment tools, tool changers">
+    <AssetNumber>0010</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0010.png</BarcodeImage>
+    <Images>
+      <Image>Images\001000.JPG</Image>
+    </Images>
+    <DateRecieved>2/20/2018 9:47:53 AM</DateRecieved>
+    <DateShipped>2/20/2018 9:47:53 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>31</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\12-22-2017 9-53-23 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\2-20-2018-490012811.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Granite Sqare 1000 x 800">
+    <AssetNumber>0979</AssetNumber>
+    <Description>1000 x 800 </Description>
+    <BarcodeImage>Barcodes\0979.png</BarcodeImage>
+    <Images>
+      <Image>Images\097900.JPG</Image>
+      <Image>Images\097911.JPG</Image>
+      <Image>Images\097922.JPG</Image>
+      <Image>Images\097933.JPG</Image>
+      <Image>Images\097944.JPG</Image>
+    </Images>
+    <DateRecieved>6/8/2017 3:02:16 PM</DateRecieved>
+    <DateShipped>6/8/2017 3:02:16 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>650</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-18-2017 1-16-49 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\6-8-2017-490011302.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Lineal Granite 1200 x 200 x 60">
+    <AssetNumber>0978</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0978.png</BarcodeImage>
+    <Images>
+      <Image>Images\097810.JPG</Image>
+    </Images>
+    <DateRecieved>11/13/2017 12:50:44 PM</DateRecieved>
+    <DateShipped>11/13/2017 12:50:44 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>140</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-1-2017 9-10-04 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="C axis spindle centerline fixture- Ecospeed">
+    <AssetNumber>0101</AssetNumber>
+    <Description>Fixture that allows measurment of the C axis spindle centerline on Ecospeed </Description>
+    <BarcodeImage>Barcodes\0101.png</BarcodeImage>
+    <Images>
+      <Image>Images\010100.jpg</Image>
+      <Image>Images\010111.jpg</Image>
+      <Image>Images\010122.jpg</Image>
+    </Images>
+    <DateRecieved>5/8/2017 3:33:36 PM</DateRecieved>
+    <DateShipped>5/8/2017 3:33:36 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\4-20-2017 1-30-30 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\5-8-2017-490011214.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Test Mandrel - Ecospeed">
+    <AssetNumber>0102</AssetNumber>
+    <Description>Test Mandrel for Ecospeed HSK A063 DST # 48012754</Description>
+    <BarcodeImage>Barcodes\0102.png</BarcodeImage>
+    <Images>
+      <Image>Images\010200.jpg</Image>
+      <Image>Images\010211.jpg</Image>
+      <Image>Images\010222.jpg</Image>
+    </Images>
+    <DateRecieved>8/11/2017 2:19:44 PM</DateRecieved>
+    <DateShipped>8/11/2017 2:19:44 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\7-25-2017 2-18-39 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Installation Toolbox">
+    <AssetNumber>0976</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0976.png</BarcodeImage>
+    <Images>
+      <Image>Images\097600.JPG</Image>
+    </Images>
+    <DateRecieved>12/6/2017 3:50:17 PM</DateRecieved>
+    <DateShipped>12/6/2017 3:50:17 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>1000</Weight>
+    <OnHold>false</OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-9-2017 2-27-41 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\12-6-2017-490009823.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Installation Toolbox #2 ">
+    <AssetNumber>0975</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0975.png</BarcodeImage>
+    <Images>
+      <Image>Images\097500.JPG</Image>
+    </Images>
+    <DateRecieved>11/14/2017 10:27:42 AM</DateRecieved>
+    <DateShipped>11/14/2017 10:27:42 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>1000</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-16-2017 11-48-08 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\11-14-2017-490011326.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="TT10 TesaTronic Display with 2 probes">
+    <AssetNumber>0974</AssetNumber>
+    <Description>2 probes included. Jim Scott will permanantly keep this. </Description>
+    <BarcodeImage>Barcodes\0974.png</BarcodeImage>
+    <Images>
+      <Image>Images\097400.JPG</Image>
+    </Images>
+    <DateRecieved>8/10/2017 8:38:39 AM</DateRecieved>
+    <DateShipped>8/10/2017 8:39:40 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>9999</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Jim Scott</ServiceEngineer>
+    <ShipTo>Jim Scott</ShipTo>
+    <Weight>3</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\8-10-2017 8-39-52 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Steel Lineal">
+    <AssetNumber>0973</AssetNumber>
+    <Description>1200 MM Steel PAR003</Description>
+    <BarcodeImage>Barcodes\0973.png</BarcodeImage>
+    <Images />
+    <DateRecieved>9/21/2017 8:18:31 AM</DateRecieved>
+    <DateShipped>9/21/2017 8:18:31 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>100</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\8-18-2017 2-48-17 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\10-25-2017-490011902.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Granite Square 24&quot;x24&quot;x4&quot;">
+    <AssetNumber>0972</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0972.png</BarcodeImage>
+    <Images>
+      <Image>Images\097200.JPG</Image>
+    </Images>
+    <DateRecieved>9/11/2017 10:40:36 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>320.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Siemens ASI Programmer">
+    <AssetNumber>027A</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\027a.png</BarcodeImage>
+    <Images>
+      <Image>Images\027a00.JPG</Image>
+    </Images>
+    <DateRecieved>12/1/2017 8:43:21 AM</DateRecieved>
+    <DateShipped>12/1/2017 8:43:21 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\10-19-2017 1-28-23 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\12-1-2017-490012292.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Ecospeed Spindle Exchange Tool Kit">
+    <AssetNumber>0971</AssetNumber>
+    <Description>Tools kit with tools for exchange of spindle on Ecospeed machines</Description>
+    <BarcodeImage>Barcodes\0971.png</BarcodeImage>
+    <Images>
+      <Image>Images\097110.JPG</Image>
+      <Image>Images\097121.JPG</Image>
+      <Image>Images\097132.JPG</Image>
+    </Images>
+    <DateRecieved>2/8/2018 8:12:01 AM</DateRecieved>
+    <DateShipped>2/8/2018 8:43:56 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490013240</OrderNumber>
+    <PersonShipping>Jason Noble</PersonShipping>
+    <ServiceEngineer>Damien Tepe</ServiceEngineer>
+    <ShipTo>AMG Huntington Beach LLC</ShipTo>
+    <Weight>330</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\2-8-2018 8-43-59 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Mounting Set for Ecospeed Gear Rach Exchange">
+    <AssetNumber>0103</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0103.png</BarcodeImage>
+    <Images>
+      <Image>Images\010300.JPG</Image>
+      <Image>Images\010311.JPG</Image>
+      <Image>Images\010322.JPG</Image>
+      <Image>Images\010333.JPG</Image>
+      <Image>Images\010344.JPG</Image>
+      <Image>Images\010355.JPG</Image>
+      <Image>Images\010366.JPG</Image>
+      <Image>Images\010381.JPG</Image>
+      <Image>Images\010392.JPG</Image>
+      <Image>Images\0103103.JPG</Image>
+      <Image>Images\0103114.JPG</Image>
+      <Image>Images\0103125.JPG</Image>
+      <Image>Images\0103136.JPG</Image>
+      <Image>Images\0103140.JPG</Image>
+    </Images>
+    <DateRecieved>1/17/2018 11:16:38 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>3</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Belt Tension Meter">
+    <AssetNumber>0104</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0104.png</BarcodeImage>
+    <Images>
+      <Image>Images\010400.JPG</Image>
+      <Image>Images\010411.JPG</Image>
+    </Images>
+    <DateRecieved>1/22/2018 3:35:00 PM</DateRecieved>
+    <DateShipped>2/13/2018 1:03:40 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490013236</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Manfred Schumacher</ServiceEngineer>
+    <ShipTo>AMT</ShipTo>
+    <Weight>0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\2-13-2018 1-03-43 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Belt Tension Meter">
+    <AssetNumber>0105</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0105.png</BarcodeImage>
+    <Images>
+      <Image>Images\010500.JPG</Image>
+      <Image>Images\010511.JPG</Image>
+    </Images>
+    <DateRecieved>1/22/2018 3:35:39 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Belt Tension Meter">
+    <AssetNumber>0106</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0106.png</BarcodeImage>
+    <Images>
+      <Image>Images\010600.JPG</Image>
+      <Image>Images\010611.JPG</Image>
+    </Images>
+    <DateRecieved>1/22/2018 3:35:54 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Wyler Level Set - 2D">
+    <AssetNumber>0107</AssetNumber>
+    <Description>Wyler Level Set - 2D</Description>
+    <BarcodeImage>Barcodes\107.png</BarcodeImage>
+    <Images>
+      <Image>Images\10711.JPG</Image>
+      <Image>Images\10722.JPG</Image>
+      <Image>Images\10733.JPG</Image>
+      <Image>Images\10744.JPG</Image>
+      <Image>Images\10755.JPG</Image>
+      <Image>Images\10766.JPG</Image>
+      <Image>Images\10777.JPG</Image>
+      <Image>Images\10788.JPG</Image>
+      <Image>Images\10799.JPG</Image>
+      <Image>Images\1071010.JPG</Image>
+      <Image>Images\1071111.JPG</Image>
+      <Image>Images\1071212.JPG</Image>
+      <Image>Images\1071313.JPG</Image>
+      <Image>Images\1071414.JPG</Image>
+      <Image>Images\1071515.JPG</Image>
+      <Image>Images\1071616.JPG</Image>
+      <Image>Images\1071717.JPG</Image>
+      <Image>Images\1071818.JPG</Image>
+      <Image>Images\0107190.jpg</Image>
+      <Image>Images\0107201.jpg</Image>
+      <Image>Images\0107212.jpg</Image>
+      <Image>Images\0107223.jpg</Image>
+    </Images>
+    <DateRecieved>2/5/2018 11:49:57 AM</DateRecieved>
+    <DateShipped>2/13/2018 1:01:01 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490013236</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Manfred Schumacher</ServiceEngineer>
+    <ShipTo>AMT</ShipTo>
+    <Weight>13</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <IsCalibrated>false</IsCalibrated>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\2-13-2018 1-01-05 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Settings>
+    <StaticEmails />
+    <StandardMessages>
+      <CheckOutMessage>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt;. &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team
+
+
+</CheckOutMessage>
+      <CheckInMessage>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+Thank you for returning th &lt;serviceTool&gt;, assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt;. &lt;NL&gt;
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team
+
+
+</CheckInMessage>
+      <NotificationMessage>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service Tool, &lt;serviceTool&gt;, has been checked out since &lt;dateAssigned&gt;.&lt;NL&gt; 
+
+For job &lt;serviceOrder&gt;.&lt;NL&gt;
+
+This is a reminder to return the tool for check in. Should you or the customer requrie this service tool still, please disregard this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Kind Regards,&lt;NL&gt;&lt;NL&gt;
+
+Support Team
+
+
+</NotificationMessage>
+      <ShipperNotification>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service Tool, &lt;serviceTool&gt;, has been checked out since &lt;dateAssigned&gt;.&lt;NL&gt; 
+
+For job &lt;serviceOrder&gt;.&lt;NL&gt;
+
+This is a reminder to return the tool for check in. Should you or the customer requrie this service tool still, please disregard this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Kind Regards,&lt;NL&gt;&lt;NL&gt;
+
+Support Team
+
+
+</ShipperNotification>
+    </StandardMessages>
+  </Settings>
+  <Customers>
+    <Customer AccountNumber="Account Number" AccPostalCd="Acc Postal Cd" Address="Street Address Line 1" Address2="Street Address Line 2" Address3="Street Address Line 3" Attn="Contact Name" City="City" CompanyName="Company Name" ConsInd="Cons Ind" Country="Country" Email="" Fax="" LocID="Loc ID" NickName="Nick Name" OrderNumber="" PackageWeight="" Phone="" Postal="Postal Cd" ResInd="Res Ind" State="St/Prov" USPSPOBoxIND="USPSPO Box IND" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2070 Airport Road" Address2="" Address3="" Attn="" City="WATERFORD" CompanyName="A.A. Jansson" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Jason Noble" OrderNumber="" PackageWeight="" Phone="" Postal="48327" ResInd="0" State="MI" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="124 Columbia St" Address2="" Address3="" Attn="" City="CLYDE" CompanyName="AA Tech" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="AA Tech" OrderNumber="" PackageWeight="" Phone="" Postal="144331049" ResInd="0" State="NY" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="Hwy 50 and Hazel Ave Bldg" Address2="Bldg 20022 Door 16E" Address3="" Attn="" City="Rancho Cordova" CompanyName="Aerojet Propulsion" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Aerojet Propulsion" OrderNumber="" PackageWeight="" Phone="" Postal="95670" ResInd="0" State="CA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="9001 Lurline Ave" Address2="" Address3="" Attn="" City="CHATSWORTH" CompanyName="Aerojet Rocketdyne" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Aerojet Rocketdyne" OrderNumber="" PackageWeight="" Phone="" Postal="913116122" ResInd="0" State="CA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="202 Industrial Park" Address2="" Address3="" Attn="" City="JACKSON" CompanyName="AGCO" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Michael DiChiara" OrderNumber="" PackageWeight="" Phone="" Postal="561439448" ResInd="0" State="MN" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="117 Gordon Street" Address2="" Address3="" Attn="" City="ELK GROVE VILLAGE" CompanyName="AJR Industries" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="AJR" OrderNumber="" PackageWeight="" Phone="" Postal="600071118" ResInd="0" State="IL" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="5245 27th Ave" Address2="" Address3="" Attn="" City="ROCKFORD" CompanyName="Alpha Gage" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Alpha Gage" OrderNumber="" PackageWeight="" Phone="" Postal="611091714" ResInd="0" State="IL" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="5770 Clarkson St." Address2="Unit C" Address3="" Attn="" City="DENVER" CompanyName="AME Inc." ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Denny Leonard" OrderNumber="" PackageWeight="" Phone="" Postal="802161348" ResInd="0" State="CO" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="5416 Argosy Avenue" Address2="" Address3="" Attn="" City="HUNTINGTON BEACH" CompanyName="AMG Huntington Beach LLC" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Jason Noble" OrderNumber="" PackageWeight="" Phone="" Postal="92649" ResInd="0" State="CA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="20100 71st Ave N.E." Address2="" Address3="" Attn="Elizabeth Miller" City="ARLINGTON" CompanyName="AMT" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Michael DiChiara" OrderNumber="" PackageWeight="" Phone="" Postal="982237447" ResInd="0" State="WA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="3941 B Street NW" Address2="" Address3="" Attn="" City="AUBURN" CompanyName="Application Specialties" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Application Specialties" OrderNumber="" PackageWeight="" Phone="" Postal="980012420" ResInd="0" State="WA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2200 Airport Industrial Dr." Address2="#300" Address3="" Attn="" City="BALL GROUND" CompanyName="Applied Machine Solutions" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Applied Machine Solutions" OrderNumber="" PackageWeight="" Phone="" Postal="301074692" ResInd="0" State="GA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1476 N. Hap Arnold Drive" Address2="" Address3="" Attn="" City="ARNOLD A F B" CompanyName="ATA - Arnold's AFB" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="ATA - Arnold's AFB" OrderNumber="" PackageWeight="" Phone="" Postal="37389" ResInd="0" State="TN" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="3050 Westinghouse Road" Address2="" Address3="" Attn="" City="RURAL HALL" CompanyName="ATC" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="ATC" OrderNumber="" PackageWeight="" Phone="" Postal="27045" ResInd="0" State="NC" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="115 Union Valley Road" Address2="" Address3="" Attn="" City="OAK RIDGE" CompanyName="B&amp;W Y 12" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="B&amp;W Y12" OrderNumber="" PackageWeight="" Phone="" Postal="378308045" ResInd="0" State="TN" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="15 Windham Blvd" Address2="" Address3="" Attn="" City="AIKEN" CompanyName="BAE Systems" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="BAE Systems" OrderNumber="" PackageWeight="" Phone="" Postal="298059320" ResInd="0" State="SC" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="9110 Grogans Mills Rd." Address2="" Address3="" Attn="" City="THE WOODLANDS" CompanyName="Baker Hughes" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Baker Hughes - Woodlands" OrderNumber="" PackageWeight="" Phone="" Postal="773803615" ResInd="0" State="TX" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="5024 Pelham Road" Address2="" Address3="" Attn="" City="GREENVILLE" CompanyName="Baldor Electric" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Baldor Electric Co." OrderNumber="" PackageWeight="" Phone="" Postal="296155717" ResInd="0" State="SC" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1600 Commerce St." Address2="" Address3="" Attn="" City="BOULDER" CompanyName="Ball Aerospace" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Ball Aerospace" OrderNumber="" PackageWeight="" Phone="" Postal="803012734" ResInd="0" State="CO" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="Batallon de San Patricio 109" Address2="Piso 16" Address3="Col. Valle Oriente" Attn="" City="SAN PEDRO GARZA GARCIA" CompanyName="Basham, Ringe y Correa, S.C." ConsInd="0" Country="MX" Email="" Fax="" LocID="" NickName="Basham" OrderNumber="" PackageWeight="" Phone="" Postal="66269" ResInd="0" State="NL" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="Plant 5 Bldg 3" Address2="1700 North Hwy 360" Address3="" Attn="" City="GRAND PRAIRIE" CompanyName="Bell Helicopter - Grand Prairie" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Michael DiChiara" OrderNumber="" PackageWeight="" Phone="" Postal="750501926" ResInd="0" State="TX" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="600 E Hurst Blvd" Address2="Bldg 1 Basement DP 01" Address3="Hurst, TX 76053" Attn="" City="HURST" CompanyName="Bell Helicopter - Hurst" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Michael DiChiara" OrderNumber="" PackageWeight="" Phone="" Postal="760538030" ResInd="0" State="TX" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="5732 St. Anthony Rd" Address2="" Address3="" Attn="" City="Ottawa Lake" CompanyName="Bischoff Enterprises" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Bischoff Enterprises" OrderNumber="" PackageWeight="" Phone="" Postal="49267" ResInd="0" State="MI" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="8740 49th Avenue North" Address2="" Address3="" Attn="" City="MINNEAPOLIS" CompanyName="Bob, Inc." ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Michael DiChiara" OrderNumber="" PackageWeight="" Phone="" Postal="554284002" ResInd="0" State="MN" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="WA 17-04.1 MX" Address2="700 15th St. SW DR W - 45" Address3="" Attn="" City="AUBURN" CompanyName="Boeing - Auburn" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Boeing Auburn" OrderNumber="" PackageWeight="" Phone="" Postal="98002" ResInd="0" State="WA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="Everett 40-11 Stores" Address2="3003 West Casino Road Door W-7" Address3="" Attn="" City="Everett" CompanyName="Boeing - Everett" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Boeing" OrderNumber="" PackageWeight="" Phone="" Postal="98203" ResInd="0" State="WA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="5400 International Blvd." Address2="Bldg 88-30" Address3="" Attn="" City="NORTH CHARLESTON" CompanyName="Boeing - N Charleston" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Boeing - SC" OrderNumber="" PackageWeight="" Phone="" Postal="294186938" ResInd="0" State="SC" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="7644 E Marginal Way SO" Address2="2-31.1 Door N11" Address3="" Attn="" City="Tukwila" CompanyName="Boeing - Tukwilla" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Boeing" OrderNumber="" PackageWeight="" Phone="" Postal="98108" ResInd="0" State="WA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="19000 NE Sandy Blvd Door W-2" Address2="" Address3="" Attn="Bob Faulkenberry" City="PORTLAND" CompanyName="Boeing Portland" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Steve Tunget" OrderNumber="" PackageWeight="" Phone="" Postal="97230" ResInd="1" State="OR" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1987 Thimens" Address2="Gate 251 Drop Point KH" Address3="" Attn="" City="St. Laurent" CompanyName="Bombardier Aerospace" ConsInd="0" Country="CA" Email="" Fax="" LocID="" NickName="Bombardier Aerospace" OrderNumber="" PackageWeight="" Phone="" Postal="H4R1K2" ResInd="0" State="QC" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="831 Ford Rd" Address2="" Address3="" Attn="" City="LOWELL" CompanyName="Brad Lyles" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Brad Lyles" OrderNumber="" PackageWeight="" Phone="" Postal="280981668" ResInd="0" State="NC" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2400 N. Priority Way" Address2="" Address3="" Attn="" City="YORKTOWN" CompanyName="Brevini Wind US Inc." ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Brevini Wind" OrderNumber="" PackageWeight="" Phone="" Postal="473968034" ResInd="0" State="IN" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="949 East National Avenue" Address2="" Address3="" Attn="" City="BRAZIL" CompanyName="Britt Aero" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Jason Noble" OrderNumber="" PackageWeight="" Phone="" Postal="478342705" ResInd="0" State="IN" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="Rte du Rontet 17" Address2="" Address3="" Attn="" City="SALEZ" CompanyName="Bumotec" ConsInd="0" Country="CH" Email="" Fax="" LocID="" NickName="Bumotec" OrderNumber="" PackageWeight="" Phone="" Postal="1625" ResInd="0" State="" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="Joliet Plant Bldg &quot;B&quot; ( dock 5 )" Address2="220 Channahon Road" Address3="" Attn="" City="JOLIET" CompanyName="Caterpillar - Joliet" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Caterpillar Joliet" OrderNumber="" PackageWeight="" Phone="" Postal="604049330" ResInd="0" State="IL" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="Bldg BB dock 2 crib 42/60 BB57B" Address2="Old Galena Rd @ Neal Ln" Address3="" Attn="" City="MOSSVILLE" CompanyName="Caterpillar - Mossville" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Caterpillar Mossville" OrderNumber="" PackageWeight="" Phone="" Postal="61552" ResInd="0" State="IL" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="100 Tractor Drive" Address2="" Address3="" Attn="" City="EAST PEORIA" CompanyName="Caterpillar - Peoria" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Caterpillar east Peoria" OrderNumber="" PackageWeight="" Phone="" Postal="616301200" ResInd="0" State="IL" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="10221 Avenue E Bldg. 1770" Address2="Mail Stop 30" Address3="" Attn="" City="CORPUS CHRISTI" CompanyName="CCAD" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="CCAD" OrderNumber="" PackageWeight="" Phone="" Postal="78419" ResInd="0" State="TX" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="3901 Castle Hayne Rd" Address2="" Address3="" Attn="" City="Wilmington" CompanyName="CH2MHill - GE Hitachi Nuclear" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="CH2MHill - GE Hitachi Nuclear" OrderNumber="" PackageWeight="" Phone="" Postal="28402" ResInd="0" State="NC" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="13605 South Mosiertown Rd." Address2="" Address3="" Attn="" City="MEADVILLE" CompanyName="Chip Blaster" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Chip Blaster" OrderNumber="" PackageWeight="" Phone="" Postal="163358346" ResInd="0" State="PA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="689 Chase Avenue" Address2="" Address3="" Attn="" City="ELK GROVE VILLAGE" CompanyName="CN Tool" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="CN Tool" OrderNumber="" PackageWeight="" Phone="" Postal="600074801" ResInd="0" State="IL" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="12344 Delta Drive" Address2="" Address3="" Attn="" City="TAYLOR" CompanyName="Colonial Tool" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Colonial Tool" OrderNumber="" PackageWeight="" Phone="" Postal="481806832" ResInd="0" State="MI" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="14452 Arndt Road N.E." Address2="" Address3="" Attn="" City="AURORA" CompanyName="Columbia Helicopters" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Columbia Helicopters" OrderNumber="" PackageWeight="" Phone="" Postal="970029525" ResInd="0" State="OR" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="22591 Avenida Empressa" Address2="" Address3="" Attn="" City="RANCHO SANTA MARGARITA" CompanyName="Control Components Inc." ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="CCI" OrderNumber="" PackageWeight="" Phone="" Postal="926882012" ResInd="0" State="CA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="441 East Main Street" Address2="" Address3="" Attn="" City="CORRY" CompanyName="Corry Forge Company" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Corry Forge" OrderNumber="" PackageWeight="" Phone="" Postal="164072013" ResInd="0" State="PA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="917 Rutgers Court" Address2="" Address3="" Attn="" City="ALLEN" CompanyName="Damien Tepe" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Damien Tepe - Home" OrderNumber="" PackageWeight="" Phone="" Postal="750025280" ResInd="0" State="TX" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2400 Esters Blvd" Address2="" Address3="" Attn="" City="DFW Airport" CompanyName="DB Schenker - Texas" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="DB Schenker DFW" OrderNumber="" PackageWeight="" Phone="" Postal="75261" ResInd="0" State="TX" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="DSCR-VIBB, Bldg. 33 E Bay" Address2="8000 Jefferson Davis Highway" Address3="" Attn="" City="RICHMOND" CompanyName="Defence Supply Center Richmond" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Defense Supply Center - Richmond" OrderNumber="" PackageWeight="" Phone="" Postal="232975002" ResInd="0" State="VA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2902 Eastrock Dr" Address2="" Address3="" Attn="" City="ROCKFORD" CompanyName="Dial Machine" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Michael DiChiara" OrderNumber="" PackageWeight="" Phone="" Postal="611091738" ResInd="0" State="IL" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="36 Spring Lane" Address2="" Address3="" Attn="" City="FARMINGTON" CompanyName="Doncasters" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Doncasters" OrderNumber="" PackageWeight="" Phone="" Postal="60323140" ResInd="0" State="CT" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="Hugo-Junkers-Strasse 12-32" Address2="" Address3="" Attn="" City="MOENCHENGLADBACH" CompanyName="Dorries Scharmann Technologie" ConsInd="0" Country="DE" Email="" Fax="" LocID="" NickName="DST Moenchengladbach" OrderNumber="" PackageWeight="" Phone="" Postal="41236" ResInd="1" State="" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="224 Stone Park Drive" Address2="" Address3="" Attn="" City="WOODSTOCK" CompanyName="Doug Fullbeck" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Doug Fullbeck - Home" OrderNumber="" PackageWeight="" Phone="" Postal="301881627" ResInd="0" State="GA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="500 Paul Clark Drive" Address2="" Address3="" Attn="" City="OLEAN" CompanyName="Dresser Rand" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Dresser Rand - Olean" OrderNumber="" PackageWeight="" Phone="" Postal="147602463" ResInd="0" State="NY" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="Hofkamp  2" Address2="" Address3="" Attn="" City="BIELEFELD" CompanyName="Droop + Rein" ConsInd="0" Country="DE" Email="" Fax="" LocID="" NickName="Droop + Rein" OrderNumber="" PackageWeight="" Phone="" Postal="33719" ResInd="0" State="" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="3990 East Broad St." Address2="" Address3="" Attn="" City="COLUMBUS" CompanyName="DSCC" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="DSCC" OrderNumber="" PackageWeight="" Phone="" Postal="432131152" ResInd="0" State="OH" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="263 Shoemaker Rd" Address2="" Address3="" Attn="" City="POTTSTOWN" CompanyName="EASTWOOD" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="EASTWOOD" OrderNumber="" PackageWeight="" Phone="" Postal="194646433" ResInd="0" State="PA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="4000 Silas Creek Pkwy" Address2="" Address3="" Attn="" City="WINSTON SALEM" CompanyName="Edward Warg" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Crotts &amp; Saunders" OrderNumber="" PackageWeight="" Phone="" Postal="271043828" ResInd="0" State="NC" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="165 Dillabur Avenue" Address2="" Address3="" Attn="" City="NORTH KINGSTOWN" CompanyName="Electric Boat Corporation" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Electric Boat Corporation" OrderNumber="" PackageWeight="" Phone="" Postal="28527511" ResInd="0" State="RI" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="9301 W. 55th Street, Dock H" Address2="" Address3="" Attn="" City="McCook" CompanyName="Electro-Motive Diesel" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Electro-Motive Diesel" OrderNumber="" PackageWeight="" Phone="" Postal="60525" ResInd="0" State="IL" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="901 North 4th Street" Address2="" Address3="" Attn="" City="JEANNETTE" CompanyName="Elliot Group" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Elliot Group" OrderNumber="" PackageWeight="" Phone="" Postal="156441474" ResInd="0" State="PA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1610 S Priest Dr. Suite 101" Address2="" Address3="" Attn="" City="TEMPE" CompanyName="Ellison Machinery" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Ellison Machinery" OrderNumber="" PackageWeight="" Phone="" Postal="852816204" ResInd="0" State="AZ" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1 Front Street" Address2="" Address3="" Attn="" City="IRVINE" CompanyName="Ellwood National Forge" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Ellwood National Forge" OrderNumber="" PackageWeight="" Phone="" Postal="163291801" ResInd="0" State="PA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="701 Highway 32" Address2="" Address3="" Attn="AJ Jennings" City="LEBANON" CompanyName="Emerson Climate Technologies" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Steve Tunget" OrderNumber="" PackageWeight="" Phone="417-588-8619" Postal="655365336" ResInd="0" State="MO" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="147 Old Amherst Rd." Address2="" Address3="" Attn="" City="BELCHERTOWN" CompanyName="Empire Imports" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Empire Imports" OrderNumber="" PackageWeight="" Phone="" Postal="10079745" ResInd="1" State="MA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="4316 E Sunrise Dr" Address2="" Address3="" Attn="" City="PHOENIX" CompanyName="Equinox Manufacturing" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Equinox Mft." OrderNumber="" PackageWeight="" Phone="" Postal="850441005" ResInd="1" State="AZ" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1326 Brandywine Creek Rd" Address2="" Address3="" Attn="" City="COATESVILLE" CompanyName="Ettore Chiaradonna" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Ettore Chiaradonna" OrderNumber="" PackageWeight="" Phone="" Postal="193205211" ResInd="0" State="PA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="N59 w14272 Bobolink Ave" Address2="" Address3="" Attn="" City="MENOMONEE FALLS" CompanyName="Euro Machinery Specialists" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Euro Machinery" OrderNumber="" PackageWeight="" Phone="" Postal="53051" ResInd="0" State="WI" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2945 Crescentville Road" Address2="" Address3="" Attn="" City="WEST CHESTER" CompanyName="Ferguson Integrated Services" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Ferguson" OrderNumber="" PackageWeight="" Phone="" Postal="450693883" ResInd="0" State="OH" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2130 Casino Center Drive Ext" Address2="" Address3="" Attn="" City="ROBINSONVILLE" CompanyName="FEUER Powertrain North America, Inc" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="FEUER Powertrain North America" OrderNumber="" PackageWeight="" Phone="" Postal="386649603" ResInd="0" State="MS" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="61 Creek Run Road" Address2="" Address3="" Attn="" City="NEWBURGH" CompanyName="Firehorse Machine" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Firehorse" OrderNumber="" PackageWeight="" Phone="" Postal="12550" ResInd="0" State="NY" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="Govenor Road Plant" Address2="1309 east Olive Street" Address3="" Attn="Matthew Bischof" City="MARSHALLTOWN" CompanyName="Fisher Controls" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Jason Noble" OrderNumber="" PackageWeight="" Phone="" Postal="501582892" ResInd="0" State="IA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2300 E. Vernon Avenue" Address2="" Address3="" Attn="" City="VERNON" CompanyName="Flowserve Corporation - CA" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Flowserver CA" OrderNumber="" PackageWeight="" Phone="" Postal="900581609" ResInd="0" State="CA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1978 Foreman Drive" Address2="" Address3="" Attn="" City="COOKEVILLE" CompanyName="Flowserve Corporation - TN" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Steve Tunget" OrderNumber="" PackageWeight="" Phone="" Postal="385013731" ResInd="0" State="TN" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2830 West Frey" Address2="" Address3="" Attn="" City="STEPHENVILLE" CompanyName="FMC Fluid Control" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="FMC TX" OrderNumber="" PackageWeight="" Phone="" Postal="76401" ResInd="0" State="TX" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="650 Bourbonniere" Address2="" Address3="" Attn="" City="L EPIPHANIE" CompanyName="Francois Poirier" ConsInd="0" Country="CA" Email="" Fax="" LocID="" NickName="Francois' Home Address" OrderNumber="" PackageWeight="" Phone="" Postal="J5X4M3" ResInd="0" State="QC" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="MCAS Cunningham Street" Address2="Bldg 159 / Bay Door R4" Address3="" Attn="" City="CHERRY POINT" CompanyName="FRC East Receiving Officer" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="FRC East" OrderNumber="" PackageWeight="" Phone="" Postal="285535040" ResInd="0" State="NC" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2 Boulevard de l'aeroport" Address2="" Address3="" Attn="" City="Bromont" CompanyName="GE Bromont" ConsInd="0" Country="CA" Email="" Fax="" LocID="" NickName="GE Bromont" OrderNumber="" PackageWeight="" Phone="" Postal="J2L1S6" ResInd="0" State="QC" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1161 Buckeye Road" Address2="" Address3="" Attn="" City="LIMA" CompanyName="General Dynamics" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Michael DiChiara" OrderNumber="" PackageWeight="" Phone="" Postal="45804" ResInd="0" State="OH" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="142 James S McDonnell Blvd" Address2="" Address3="" Attn="Robert Carpenter" City="HAZELWOOD" CompanyName="GKN Aerospace" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Jason Noble" OrderNumber="" PackageWeight="" Phone="" Postal="630423102" ResInd="0" State="MO" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="300 Progress Rd" Address2="" Address3="" Attn="" City="DAYTON" CompanyName="Gleason Metrology" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Gleason Metrology" OrderNumber="" PackageWeight="" Phone="" Postal="454492322" ResInd="0" State="OH" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2995 River Road" Address2="" Address3="" Attn="" City="BUFFALO" CompanyName="GM Powertrain Division" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="GE Tonawanda" OrderNumber="" PackageWeight="" Phone="" Postal="142071059" ResInd="0" State="NY" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1900 8th St S.W" Address2="" Address3="" Attn="" City="WAVERLY" CompanyName="GMT" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="GMT * New correct *" OrderNumber="" PackageWeight="" Phone="" Postal="506774361" ResInd="0" State="IA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1400 South Service Road W" Address2="" Address3="" Attn="" City="Oakville" CompanyName="Goodrich Landing Gear" ConsInd="0" Country="CA" Email="" Fax="" LocID="" NickName="Jason Noble" OrderNumber="" PackageWeight="" Phone="" Postal="L6L5Y7" ResInd="1" State="ON" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="108 Business Part Drive" Address2="" Address3="" Attn="" City="STATESVILLE" CompanyName="Goodyear" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Goodyear" OrderNumber="" PackageWeight="" Phone="" Postal="286779133" ResInd="0" State="NC" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="735 Old Johnson Road" Address2="" Address3="" Attn="" City="LAWRENCEVILLE" CompanyName="Gustavo Morales" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Gustavo Morales" OrderNumber="" PackageWeight="" Phone="" Postal="300456368" ResInd="1" State="GA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="101 River Street" Address2="" Address3="" Attn="" City="FORD CITY" CompanyName="Herkules U.S.A. Corporation" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="KPM Herkules" OrderNumber="" PackageWeight="" Phone="" Postal="162261165" ResInd="0" State="PA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="9207 Bent Spur Lane" Address2="" Address3="" Attn="" City="HOUSTON" CompanyName="Hillary Machinery" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Mike Bachmann - Hilllary Machinery" OrderNumber="" PackageWeight="" Phone="" Postal="770647110" ResInd="0" State="TX" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1900 Congressional" Address2="" Address3="" Attn="" City="SAINT LOUIS" CompanyName="HIS TECH" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="HIS TECH" OrderNumber="" PackageWeight="" Phone="" Postal="631464102" ResInd="0" State="MO" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="350 West Mart Center Drive" Address2="Holiday Inn" Address3="" Attn="" City="CHICAGO" CompanyName="Holiday Inn - Chicago-Mart Plaza" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Holiday Inn Mart Plaza - Chicago" OrderNumber="" PackageWeight="" Phone="" Postal="60654" ResInd="0" State="IL" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1300 West Warner Road" Address2="" Address3="" Attn="" City="TEMPE" CompanyName="Honeywell - AZ" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Honeywell" OrderNumber="" PackageWeight="" Phone="" Postal="852842822" ResInd="1" State="AZ" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="National Security Campus" Address2="14520 Botts Road" Address3="P1 Group KCIMS White Space" Attn="" City="KANSAS CITY" CompanyName="Honeywell - MO" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Honeywell KCI" OrderNumber="" PackageWeight="" Phone="" Postal="641471302" ResInd="0" State="MO" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="313 S. Main St." Address2="" Address3="" Attn="" City="ORANGE" CompanyName="HPM LLC" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="HPM - Ken Otzel" OrderNumber="" PackageWeight="" Phone="" Postal="13641745" ResInd="0" State="MA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2000 Bamford Blvd" Address2="" Address3="" Attn="" City="POOLER" CompanyName="JCB" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="JCB" OrderNumber="" PackageWeight="" Phone="" Postal="313229504" ResInd="0" State="GA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1422 South 25th Street" Address2="" Address3="" Attn="" City="SAGINAW" CompanyName="JCP" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="JCP" OrderNumber="" PackageWeight="" Phone="" Postal="486016601" ResInd="0" State="MI" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="8380 South FM Road 730" Address2="" Address3="" Attn="" City="BOYD" CompanyName="Jim Scott" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Michael DiChiara" OrderNumber="" PackageWeight="" Phone="" Postal="76023" ResInd="0" State="TX" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="3394 SW Ash Place" Address2="" Address3="" Attn="" City="PALM CITY" CompanyName="Joe Garofalo home" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Joe Garofalo" OrderNumber="" PackageWeight="" Phone="" Postal="34990" ResInd="1" State="FL" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="631 S. Richlan Ave." Address2="" Address3="" Attn="" City="YORK" CompanyName="Johnson Controls" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Johnson Controls" OrderNumber="" PackageWeight="" Phone="" Postal="174033486" ResInd="0" State="PA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="8552 Marsh Overlook" Address2="" Address3="" Attn="" City="NORTH CHARLESTON" CompanyName="Juergen Mertens" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Juergen Mertens - Home" OrderNumber="" PackageWeight="" Phone="" Postal="294209037" ResInd="0" State="SC" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1800 North 300 West" Address2="" Address3="" Attn="Jim Dewberry" City="SPANISH FORK" CompanyName="Klune Industries" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Michael DiChiara" OrderNumber="" PackageWeight="" Phone="" Postal="846609504" ResInd="0" State="UT" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="303-313 West Girard" Address2="" Address3="" Attn="" City="MADISON HEIGHTS" CompanyName="Knoll America" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Knoll" OrderNumber="" PackageWeight="" Phone="" Postal="480711843" ResInd="0" State="MI" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="6600 Preston Ave." Address2="" Address3="" Attn="" City="LIVERMORE" CompanyName="L.J. Walch" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="LJ Walch" OrderNumber="" PackageWeight="" Phone="" Postal="945515132" ResInd="0" State="CA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="999 Regency Drive" Address2="" Address3="" Attn="" City="GLENDALE HEIGHTS" CompanyName="La Vezzi Precision" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Michael DiChiara" OrderNumber="" PackageWeight="" Phone="" Postal="601392281" ResInd="0" State="IL" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="87 Campbell Road" Address2="" Address3="" Attn="" City="GUELPH" CompanyName="Linergy Mft" ConsInd="0" Country="CA" Email="" Fax="" LocID="" NickName="Linergy" OrderNumber="" PackageWeight="" Phone="" Postal="N1H1B9" ResInd="0" State="ON" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1111 Lockheed Martin Way" Address2="Bldg 184 Recieving" Address3="" Attn="" City="SUNNYVALE" CompanyName="Lockheed Martin" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Lockheed Martin" OrderNumber="" PackageWeight="" Phone="" Postal="940891212" ResInd="0" State="CA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="One Lockheed Blvd" Address2="Bldg 12, Col 18A, 1st Floor" Address3="" Attn="" City="FORT WORTH" CompanyName="Lockheed Martin Aeronautics - Ft.Worth" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Lockheed Martin Ft Worth, TX" OrderNumber="" PackageWeight="" Phone="" Postal="761083619" ResInd="1" State="TX" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1011 Lockheed Way" Address2="B/637" Address3="" Attn="" City="PALMDALE" CompanyName="Lockheed Martin Aeronautics - Palmdale" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Jason Noble" OrderNumber="" PackageWeight="" Phone="" Postal="935990001" ResInd="0" State="CA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1050 108th Ave SE" Address2="" Address3="" Attn="" City="NORMAN" CompanyName="Lomar Reclaimation" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Lomar / Tinker" OrderNumber="" PackageWeight="" Phone="" Postal="730268203" ResInd="0" State="OK" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1460 Atlantic Blvd." Address2="" Address3="" Attn="" City="AUBURN HILLS" CompanyName="Louca Mold and Aircraft Machining" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Jason Noble" OrderNumber="" PackageWeight="" Phone="" Postal="483261574" ResInd="0" State="MI" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="10011 E Montgomery Drive" Address2="" Address3="" Attn="" City="SPOKANE" CompanyName="Mackay Manufacturing" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="John Robbins" OrderNumber="" PackageWeight="" Phone="" Postal="992064125" ResInd="0" State="WA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="660 Berry Street" Address2="" Address3="" Attn="" City="WINNIPEG" CompanyName="Magellan Aerospace Ltd." ConsInd="0" Country="CA" Email="" Fax="" LocID="" NickName="Jason Noble" OrderNumber="" PackageWeight="" Phone="" Postal="R3C2S4" ResInd="1" State="MB" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2219 Merritt Way" Address2="" Address3="" Attn="" City="ARLINGTON" CompanyName="Manfred Schumacher" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Michael DiChiara" OrderNumber="" PackageWeight="" Phone="" Postal="760183130" ResInd="0" State="TX" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="120 Baytech Drive" Address2="" Address3="" Attn="" City="SAN JOSE" CompanyName="Maquet Cardio" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Maquet Cardio" OrderNumber="" PackageWeight="" Phone="" Postal="951342302" ResInd="0" State="CA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="176 Rifton Drive" Address2="" Address3="" Attn="Scott Russell/Juergen Mertens" City="Marion" CompanyName="Marion Mold and Tool" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Michael DiChiara" OrderNumber="" PackageWeight="" Phone="" Postal="24354" ResInd="0" State="VA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="845, rue Berlinguet" Address2="" Address3="" Attn="" City="TROIS RIVIERES" CompanyName="Marmen" ConsInd="0" Country="CA" Email="" Fax="" LocID="" NickName="Marmen" OrderNumber="" PackageWeight="" Phone="" Postal="G8T8N9" ResInd="0" State="QC" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="9016 Winnetka Ave" Address2="" Address3="" Attn="" City="NORTHRIDGE" CompanyName="Maroney Company" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Maroney Company" OrderNumber="" PackageWeight="" Phone="" Postal="913243235" ResInd="0" State="CA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1450 Progress Drive" Address2="" Address3="" Attn="" City="HIAWATHA" CompanyName="Master Tool and Mfg." ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Master Tool" OrderNumber="" PackageWeight="" Phone="" Postal="522332206" ResInd="0" State="IA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="110 Wesley Street # 51" Address2="" Address3="" Attn="" City="MANLIUS" CompanyName="Meagley Machinery Inc." ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Meagley Machinery" OrderNumber="" PackageWeight="" Phone="" Postal="13104" ResInd="0" State="NY" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2620 Saradan Dr." Address2="" Address3="" Attn="" City="JACKSON" CompanyName="Melling Tool Co." ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Melling Tool Co." OrderNumber="" PackageWeight="" Phone="" Postal="492021214" ResInd="0" State="MI" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="8112 River Bluffs" Address2="" Address3="" Attn="" City="CORONA" CompanyName="MMS Machinery" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Mike Miller- MMS Machinery" OrderNumber="" PackageWeight="" Phone="" Postal="928808585" ResInd="0" State="CA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1701 Kitty Hawk Ave." Address2="Bldg # 20 Code 1423" Address3="" Attn="Faris Ibrahim" City="PHILADELPHIA" CompanyName="Naval Foundry Propeller Center" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Jason Noble" OrderNumber="" PackageWeight="" Phone="" Postal="19112" ResInd="0" State="PA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="4101 WASHINGTON AVE." Address2="BLDG. 103-STOP 174" Address3="" Attn="" City="NEWPORT NEWS" CompanyName="NEWPORT NEWS SHIPBUILDING" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Newport News Shipbuilding" OrderNumber="" PackageWeight="" Phone="" Postal="236072734" ResInd="0" State="VA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="3985 Cherry Street SE" Address2="" Address3="" Attn="" City="SOUTHWORTH" CompanyName="Nick Johnson" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="NICK Johnson PO Street Address" OrderNumber="" PackageWeight="" Phone="" Postal="983869991" ResInd="0" State="WA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="700 N Douglas Street" Address2="Bldg 905 Gate # 2" Address3="" Attn="James King" City="EL SEGUNDO" CompanyName="Northrop Grumman" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Jason Noble" OrderNumber="" PackageWeight="" Phone="" Postal="902452841" ResInd="0" State="CA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="180 Market Drive" Address2="" Address3="" Attn="" City="Milton" CompanyName="Northstar Aerospace" ConsInd="0" Country="CA" Email="" Fax="" LocID="" NickName="Northstar Aerospace" OrderNumber="" PackageWeight="" Phone="" Postal="L9T3H5" ResInd="0" State="ON" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="3600 Chamberlain Lane" Address2="Suite 502" Address3="" Attn="" City="LOUISVILLE" CompanyName="Novel Precision" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Novel Precision" OrderNumber="" PackageWeight="" Phone="" Postal="402411956" ResInd="0" State="KY" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="17216 Saticoy St." Address2="#403" Address3="" Attn="" City="VAN NUYS" CompanyName="Nyman/MMS" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Nyman Machinery" OrderNumber="" PackageWeight="" Phone="" Postal="914062103" ResInd="0" State="CA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1990 Oak Ridge Turnpike" Address2="" Address3="" Attn="" City="OAK RIDGE" CompanyName="Oak Ridge Automotive" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Oak Ridge Automotive" OrderNumber="" PackageWeight="" Phone="" Postal="378306000" ResInd="0" State="TN" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2301 Silverville Rd" Address2="" Address3="" Attn="" City="FREEPORT" CompanyName="Oberg Industries" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Oberg" OrderNumber="" PackageWeight="" Phone="" Postal="162291630" ResInd="0" State="PA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1374 Enterprise Pky" Address2="" Address3="" Attn="" City="ASHLAND" CompanyName="Ohio Tool Works" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Ohio Tool Works" OrderNumber="" PackageWeight="" Phone="" Postal="448058926" ResInd="0" State="OH" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="500 Industrial Road" Address2="" Address3="" Attn="Jeff Yount" City="Grove" CompanyName="Orizon" ConsInd="" Country="" Email="" Fax="" LocID="" NickName="Jason Noble" OrderNumber="" PackageWeight="" Phone="918-402-8388" Postal="74344" ResInd="" State="OK" USPSPOBoxIND="" />
+    <Customer AccountNumber="" AccPostalCd="" Address="Bay # 2, 1916 30th Ave N.E." Address2="" Address3="" Attn="" City="CALGARY" CompanyName="Pan Am Spindle" ConsInd="0" Country="CA" Email="" Fax="" LocID="" NickName="Pan Am" OrderNumber="" PackageWeight="" Phone="" Postal="T2E7B2" ResInd="0" State="AB" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="134 Commerce Street" Address2="" Address3="" Attn="" City="EAST BERLIN" CompanyName="Paradigm Precision" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Paradigm Precision" OrderNumber="" PackageWeight="" Phone="" Postal="60231105" ResInd="0" State="CT" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="5225 33rd ST SE" Address2="" Address3="" Attn="" City="GRAND RAPIDS" CompanyName="Paragon D&amp;amp;E Co." ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Paragon D &amp; E" OrderNumber="" PackageWeight="" Phone="" Postal="495122071" ResInd="0" State="MI" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="236 Sand Paver Way" Address2="" Address3="" Attn="" City="FORT MILL" CompanyName="Patrick Vasquez" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Patrick Vasquez" OrderNumber="" PackageWeight="" Phone="" Postal="297088072" ResInd="1" State="SC" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="N 60 W 22700" Address2="Silver Spring Drive" Address3="" Attn="" City="SUSSEX" CompanyName="Power Test" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Power test" OrderNumber="" PackageWeight="" Phone="" Postal="53089" ResInd="0" State="WI" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1480-14th Street" Address2="" Address3="" Attn="" City="COLUMBUS" CompanyName="Product Engineering Company" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Product Engineering" OrderNumber="" PackageWeight="" Phone="" Postal="47201" ResInd="0" State="IN" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="10921 E. 26th St." Address2="" Address3="" Attn="" City="WICHITA" CompanyName="PSS Inc." ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="PSS Inc." OrderNumber="" PackageWeight="" Phone="" Postal="672264526" ResInd="0" State="KS" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2000 AM Drive" Address2="" Address3="" Attn="Olivia/Brad Lyles" City="QUAKERTOWN" CompanyName="Pulse Technologies" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Jason Noble" OrderNumber="" PackageWeight="" Phone="" Postal="189513811" ResInd="0" State="PA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1525 Midway Park Rd." Address2="" Address3="" Attn="" City="BRIDGEPORT" CompanyName="PWC Aircraft Services" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="PWC Aircraft Services" OrderNumber="" PackageWeight="" Phone="" Postal="263309688" ResInd="0" State="WV" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="207 W. Willams St." Address2="" Address3="" Attn="" City="BRECKENRIDGE" CompanyName="R.E. Dye Mfg" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="R E Dye - for Hilary Machine" OrderNumber="" PackageWeight="" Phone="" Postal="764244441" ResInd="0" State="TX" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="6000 Lemmon Ave" Address2="" Address3="" Attn="" City="DALLAS" CompanyName="Raytheon Company" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Raytheon Company" OrderNumber="" PackageWeight="" Phone="" Postal="752095824" ResInd="0" State="TX" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2209 Old Jacksonville Rd" Address2="" Address3="" Attn="" City="SPRINGFIELD" CompanyName="Richardson Manufacturing" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Richardson Mft" OrderNumber="" PackageWeight="" Phone="" Postal="627042228" ResInd="0" State="IL" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="Plant 5 Dock 54" Address2="2355 S Tibbs Ave" Address3="" Attn="" City="INDIANAPOLIS" CompanyName="Rolls Royce" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Rolls Royce" OrderNumber="" PackageWeight="" Phone="" Postal="462414818" ResInd="0" State="IN" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="402 S. Kuther Road" Address2="" Address3="" Attn="" City="SIDNEY" CompanyName="Ross Casting &amp;amp; Innovation LLC" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Ross Casting" OrderNumber="" PackageWeight="" Phone="" Postal="45365" ResInd="0" State="OH" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="3817 Smith Ave" Address2="" Address3="" Attn="Nick Johnson" City="EVERETT" CompanyName="Royell Manufacturing" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Michael DiChiara" OrderNumber="" PackageWeight="" Phone="" Postal="982014547" ResInd="0" State="WA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="10 Old Highway 8 SW" Address2="" Address3="" Attn="" City="New Brighton" CompanyName="RTI Remmele Engineering" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="John Robbins" OrderNumber="" PackageWeight="" Phone="" Postal="55112" ResInd="0" State="MN" USPSPOBoxIND="" />
+    <Customer AccountNumber="" AccPostalCd="" Address="6900 Main Street" Address2="" Address3="" Attn="" City="STRATFORD" CompanyName="Sikorsky Aircraft" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Sikorsky Aircraft" OrderNumber="" PackageWeight="" Phone="" Postal="66141378" ResInd="0" State="CT" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="19, Rue du Pre-de-la-Fontaine" Address2="Meyrin" Address3="" Attn="" City="Geneva" CompanyName="SIP" ConsInd="0" Country="CH" Email="" Fax="" LocID="" NickName="SIP" OrderNumber="" PackageWeight="" Phone="" Postal="1217" ResInd="0" State="" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="434 W. Levers PL" Address2="" Address3="" Attn="" City="ORANGE" CompanyName="SKB Corporation" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="SKB Corporation" OrderNumber="" PackageWeight="" Phone="" Postal="928673621" ResInd="0" State="CA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="34580 Lakeland Blvd." Address2="" Address3="" Attn="" City="EASTLAKE" CompanyName="SKRL Tool &amp; Die" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="SKRL" OrderNumber="" PackageWeight="" Phone="" Postal="440955221" ResInd="0" State="OH" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2200 Pacific Highway" Address2="San Diego, CA.92101" Address3="Harbor Plant Drive" Attn="" City="San Diego" CompanyName="Solar Turbines" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Solar Turbines" OrderNumber="" PackageWeight="" Phone="" Postal="92101" ResInd="0" State="CA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="5600 Hardy Drive" Address2="" Address3="" Attn="" City="OKLAHOMA CITY" CompanyName="Spor Enterprises" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Spor" OrderNumber="" PackageWeight="" Phone="" Postal="731796638" ResInd="0" State="OK" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="300 Fenn Rd." Address2="" Address3="" Attn="" City="NEWINGTON" CompanyName="SPX Precision Components" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="SPX Precision Components" OrderNumber="" PackageWeight="" Phone="" Postal="61112277" ResInd="0" State="CT" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1844 Sargent Ave  Door 3-1" Address2="" Address3="" Attn="" City="WINNIPEG" CompanyName="Standard Aero" ConsInd="0" Country="CA" Email="" Fax="" LocID="" NickName="Standard Aero" OrderNumber="" PackageWeight="" Phone="" Postal="R3H0C9" ResInd="0" State="MB" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="3360 Miler Park Road" Address2="" Address3="" Attn="" City="AKRON" CompanyName="Standard Jig Boring" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Standard Jig Boring" OrderNumber="" PackageWeight="" Phone="" Postal="443125342" ResInd="0" State="OH" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2195 Eastview Parkway" Address2="Suite 103" Address3="" Attn="" City="CONYERS" CompanyName="Stanley Proto" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Proto" OrderNumber="" PackageWeight="" Phone="" Postal="300135769" ResInd="0" State="GA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="Seebleichestrasse 61" Address2="" Address3="" Attn="" City="Rorschacherberg" CompanyName="Starrag AG" ConsInd="0" Country="CH" Email="" Fax="" LocID="" NickName="Starrag AG" OrderNumber="" PackageWeight="" Phone="" Postal="9404" ResInd="0" State="" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="Otto-Schmerbach-Strasse 15/17" Address2="" Address3="" Attn="" City="Chemnitz" CompanyName="Starrag Chemnitz" ConsInd="0" Country="DE" Email="" Fax="" LocID="" NickName="Starrag Chemnitz" OrderNumber="" PackageWeight="" Phone="" Postal="9117" ResInd="0" State="" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2379 Progress Drive" Address2="" Address3="" Attn="" City="HEBRON" CompanyName="Starrag USA Inc." ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Starrag USA Inc." OrderNumber="" PackageWeight="" Phone="" Postal="41048" ResInd="0" State="KY" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="3621 W. 79th Ave, C3" Address2="" Address3="" Attn="" City="WESTMINSTER" CompanyName="Stefan Schulze" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Stefan Schulze" OrderNumber="" PackageWeight="" Phone="" Postal="800304267" ResInd="0" State="CO" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="Kamerlingh Onnesstraat 21" Address2="" Address3="" Attn="" City="SNEEK" CompanyName="Stork Turbo Blading B.V." ConsInd="0" Country="NL" Email="" Fax="" LocID="" NickName="Stork Turbo Blading B.V." OrderNumber="" PackageWeight="" Phone="" Postal="8606" ResInd="0" State="" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="11518 Old La Porte Road" Address2="" Address3="" Attn="" City="LA PORTE" CompanyName="Sulzer Turbo" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Sulzer turbo" OrderNumber="" PackageWeight="" Phone="" Postal="775719516" ResInd="1" State="TX" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="692 North Cashua Drive" Address2="" Address3="" Attn="" City="FLORENCE" CompanyName="Superior Machines of South Carolina" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Superior Machines" OrderNumber="" PackageWeight="" Phone="" Postal="295012006" ResInd="0" State="SC" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="811 East 7th Street" Address2="" Address3="" Attn="" City="ERIE" CompanyName="Swanson Erie Corp." ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Swanson Erie Corp." OrderNumber="" PackageWeight="" Phone="" Postal="165031501" ResInd="0" State="PA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2908 Interstate Parkway" Address2="" Address3="" Attn="" City="BRUNSWICK" CompanyName="Swisstronic Precision Inc." ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Swisstronics" OrderNumber="" PackageWeight="" Phone="" Postal="442124323" ResInd="0" State="OH" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="109 North Main Street" Address2="" Address3="" Attn="" City="ROCKFORD" CompanyName="TAC Rockford" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="TAC Rockford" OrderNumber="" PackageWeight="" Phone="" Postal="611011101" ResInd="0" State="IL" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="8511 Florida Mining Blvd" Address2="" Address3="" Attn="" City="TAMPA" CompanyName="Tampa Brass and Aluminum" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Tampa Brass" OrderNumber="" PackageWeight="" Phone="" Postal="336341221" ResInd="0" State="FL" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="24301 Catherine Industrial Road" Address2="Suite 116" Address3="" Attn="" City="NOVI" CompanyName="Tektronix" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Tektronix" OrderNumber="" PackageWeight="" Phone="" Postal="48375" ResInd="0" State="MI" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2039 Broad Street" Address2="" Address3="" Attn="" City="MOBILE" CompanyName="Teledyne Technologies" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Teledyne Technologies" OrderNumber="" PackageWeight="" Phone="" Postal="366151286" ResInd="0" State="AL" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="W 136 N 7708 North Hills Drive" Address2="" Address3="" Attn="" City="MENOMONEE FALLS" CompanyName="The Gary Company" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="The Gary Company" OrderNumber="" PackageWeight="" Phone="" Postal="53051" ResInd="0" State="WI" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="47709 Galleon Drive" Address2="" Address3="" Attn="" City="PLYMOUTH" CompanyName="Toolco" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Toolco" OrderNumber="" PackageWeight="" Phone="" Postal="481702466" ResInd="0" State="MI" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="6623 W Washington Street" Address2="" Address3="" Attn="" City="WEST ALLIS" CompanyName="Toshiba" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Toshiba-Orvie Smith" OrderNumber="" PackageWeight="" Phone="" Postal="532145641" ResInd="1" State="WI" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="955 Green Valley Road" Address2="" Address3="" Attn="" City="LONDON" CompanyName="TR Electronic" ConsInd="0" Country="CA" Email="" Fax="" LocID="" NickName="TR Electronics" OrderNumber="" PackageWeight="" Phone="" Postal="N6N1E4" ResInd="0" State="ON" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="Milo Distribution Center" Address2="" Address3="" Attn="" City="LAREDO" CompanyName="Tramitaciones Group - Mahle" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Mahle" OrderNumber="" PackageWeight="" Phone="" Postal="78045" ResInd="0" State="TX" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1995 Billy Mitchell Blvd" Address2="" Address3="" Attn="" City="BROWNSVILLE" CompanyName="Trico Products" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Trico Products" OrderNumber="" PackageWeight="" Phone="" Postal="785215625" ResInd="0" State="TX" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="6125 Silver Creek Drive" Address2="" Address3="" Attn="" City="PARK CITY" CompanyName="Triumph Gear Systems" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Triumph Gear Systems" OrderNumber="" PackageWeight="" Phone="" Postal="840986242" ResInd="0" State="UT" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="4009 E. 137 Terrace" Address2="" Address3="" Attn="" City="GRANDVIEW" CompanyName="Triumph Structure" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Triumph Structures" OrderNumber="" PackageWeight="" Phone="" Postal="640302833" ResInd="0" State="MO" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="102 Industrial Drive" Address2="" Address3="" Attn="" City="FRANKFORT" CompanyName="Turbo Machined Products" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Steve Tunget" OrderNumber="" PackageWeight="" Phone="" Postal="133401139" ResInd="0" State="NY" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="Plant Recieving Department" Address2="726 Bell Avenue" Address3="" Attn="" City="CARNEGIE" CompanyName="Union Electric Steel" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Union Electric Steel" OrderNumber="" PackageWeight="" Phone="" Postal="151061138" ResInd="0" State="PA" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="550 McArthur" Address2="" Address3="" Attn="" City="MONTREAL" CompanyName="Velan Valve" ConsInd="0" Country="CA" Email="" Fax="" LocID="" NickName="Velan Valve" OrderNumber="" PackageWeight="" Phone="" Postal="H4T1X8" ResInd="0" State="QC" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="12221 North Houston Rosslyn Road" Address2="" Address3="" Attn="" City="HOUSTON" CompanyName="Vetco Gray Houston Inc" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Vetco Gray Houston" OrderNumber="" PackageWeight="" Phone="" Postal="770863216" ResInd="0" State="TX" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="206 Birch Leaf" Address2="" Address3="" Attn="" City="SAINT PETERS" CompanyName="Walker Precision Machinery" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Walker Precision" OrderNumber="" PackageWeight="" Phone="" Postal="633767038" ResInd="0" State="MO" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="229 S. River Drive" Address2="" Address3="" Attn="" City="TEMPE" CompanyName="Walter's Precision Service" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Walter's Precision Service" OrderNumber="" PackageWeight="" Phone="" Postal="852813057" ResInd="0" State="AZ" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1 Buffington Street" Address2="Ship Rec. Bldg.  35" Address3="" Attn="" City="WATERVLIET" CompanyName="Watervilet Aresenal" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Watervliet Aresenal" OrderNumber="" PackageWeight="" Phone="" Postal="121894050" ResInd="0" State="NY" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="3215 Kim Street" Address2="" Address3="" Attn="" City="SAINT JOSEPH" CompanyName="Wayne Tremblay" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Wayne Tremblay" OrderNumber="" PackageWeight="" Phone="" Postal="490853658" ResInd="1" State="MI" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="178 Shattuck Way" Address2="" Address3="" Attn="" City="NEWINGTON" CompanyName="Westinghouse Electric Company" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Westinghouse" OrderNumber="" PackageWeight="" Phone="" Postal="38017868" ResInd="0" State="NH" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="1000 East Drake Rd." Address2="" Address3="" Attn="" City="FORT COLLINS" CompanyName="Woodard" ConsInd="0" Country="US" Email="" Fax="" LocID="" NickName="Woodard" OrderNumber="" PackageWeight="" Phone="" Postal="805251824" ResInd="0" State="CO" USPSPOBoxIND="0" />
+    <Customer AccountNumber="" AccPostalCd="" Address="10 Old Highway 8 SW" Address2="" Address3="" Attn="Paul Zeitz" City="New Brighton" CompanyName="Arconic" ConsInd="" Country="US" Email="" Fax="" LocID="" NickName="Jason Noble" OrderNumber="" PackageWeight="" Phone="" Postal="55112" ResInd="" State="MN" USPSPOBoxIND="" />
+    <Customer AccountNumber="" AccPostalCd="" Address="5750 Cornell Road" Address2="" Address3="" Attn="" City="Blue Ash" CompanyName="Metalex" ConsInd="" Country="US" Email="" Fax="" LocID="" NickName="Nick Bolmer" OrderNumber="" PackageWeight="" Phone="513-489-0507" Postal="45242" ResInd="" State="OH" USPSPOBoxIND="" />
+    <Customer AccountNumber="" AccPostalCd="" Address="40 Crescent Street" Address2="" Address3="" Attn="Dennis Desplaines" City="Worcester" CompanyName="Primetals" ConsInd="" Country="US" Email="" Fax="" LocID="" NickName="Michael DiChiara" OrderNumber="" PackageWeight="" Phone="" Postal="01605" ResInd="" State="MA" USPSPOBoxIND="" />
+    <Customer AccountNumber="" AccPostalCd="" Address="3050 Westinghouse Road" Address2="" Address3="" Attn="Michael Cox/Gus Morales" City="Rural Hall" CompanyName="Siemens" ConsInd="" Country="US" Email="" Fax="" LocID="" NickName="Michael DiChiara" OrderNumber="" PackageWeight="" Phone="336-969-1362" Postal="27045" ResInd="" State="NC" USPSPOBoxIND="" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2675 Precision Drive" Address2="" Address3="" Attn="Sam Crueger/Brad Lyles" City="Plover" CompanyName="Point Precision" ConsInd="" Country="US" Email="" Fax="" LocID="" NickName="Michael DiChiara" OrderNumber="" PackageWeight="" Phone="715.254.2210" Postal="54467" ResInd="" State="WI" USPSPOBoxIND="" />
+    <Customer AccountNumber="" AccPostalCd="" Address="2411 East Ave." Address2="" Address3="" Attn="Jon Rude" City="LA CROSSE" CompanyName="Trane - Gauge Room" ConsInd="" Country="US" Email="" Fax="" LocID="" NickName="Michael DiChiara" OrderNumber="" PackageWeight="" Phone="608-790-2885" Postal="54601" ResInd="" State="WI" USPSPOBoxIND="" />
+    <Customer AccountNumber="" AccPostalCd="" Address="8273 Halsey Road" Address2="" Address3="" Attn="Randy Horton" City="Whitesboro" CompanyName="TECT" ConsInd="" Country="US" Email="" Fax="" LocID="" NickName="Michael DiChiara" OrderNumber="" PackageWeight="" Phone="" Postal="13492" ResInd="" State="NY" USPSPOBoxIND="" />
+  </Customers>
+  <Engineers>
+    <Engineer Name="Matthew Metzger" Email="matthew.metzger@starrag.com" />
+    <Engineer Name="Nick Bolmer" Email="nick.bolmer@starrag.com" />
+    <Engineer Name="Francois Poirier" Email="francois.poirier@starrag.com" />
+    <Engineer Name="Heckert Engineers" Email="michael.dichiara@starrag.com" />
+    <Engineer Name="Nick Johnson" Email="nick.johnson@starrag.com" />
+    <Engineer Name="Brad Lyles" Email="brad.lyles@starrag.com" />
+    <Engineer Name="Damien Tepe" Email="damien.tepe@starrag.com" />
+    <Engineer Name="Doug Fullbeck" Email="doug.fullbeck@starrag.com" />
+    <Engineer Name="Ettore Chiaradonna" Email="ettore.chiaradonna@starrag.com" />
+    <Engineer Name="Geoff Morse" Email="firehorsemachine@yahoo.com" />
+    <Engineer Name="Gus Morales" Email="gustavo.morales@starrag.com" />
+    <Engineer Name="Jim Scott" Email="james.scott@starrag.com" />
+    <Engineer Name="Joe Burke" Email="joe.burke@starrag.com" />
+    <Engineer Name="Juergen Mertens" Email="juergen.mertens@starrag.com" />
+    <Engineer Name="Manfred Schumacher" Email="manfred.schumacher@starrag.com" />
+    <Engineer Name="Stefan Schulze" Email="stefan.schulze@starrag.com" />
+    <Engineer Name="Steve Tunget" Email="steve.tunget@starrag.com" />
+    <Engineer Name="Wayne Tremblay" Email="wayne.tremblay@starrag.com" />
+    <Engineer Name="Calibration" Email="jason.noble@starrag.com" />
+    <Engineer Name="Werner Brinkheinrich" Email="werner.brinkheinrich@starrag.com" />
+  </Engineers>
+  <Shippers>
+    <Shipper Name="Michael DiChiara" Email="michael.dichiara@starrag.com" />
+    <Shipper Name="Steve Tunget" Email="Steve.Tunget@starrag.com" />
+    <Shipper Name="Jason Noble" Email="Jason.Noble@starrag.com" />
+    <Shipper Name="John Robbins" Email="John.Robbins@starrag.com" />
+    <Shipper Name="Leah Crist" Email=" Leah.Crist@starrag.com" />
+    <Shipper Name="Stephen Barclay" Email=" Steve.Barclay@starrag.com" />
+    <Shipper Name="Nick Bolmer" Email="Nick.Bolmer@starrag.com" />
+    <Shipper Name="Robert Starks" Email="robert.starks@starrag.com" />
+  </Shippers>
+</AssetList>

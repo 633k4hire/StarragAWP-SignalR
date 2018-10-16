@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NotificationList>
+  <Notice AssetNumber="0005" IsNotified="True" LastNotified="1-10-2018 9:26:08 AM" Time="1-10-2018 9:26:08 AM" Is30day="True" Is15Day="False">
+    <Emails>
+      <Email Name="Matthew Metzger" Email="metzger.matthew@gmail.com" />
+      <Email Name="Matthew Metzger" Email="matthew.metzger@starrag.com" />
+    </Emails>
+  </Notice>
+</NotificationList>

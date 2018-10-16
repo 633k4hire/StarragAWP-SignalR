@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWP", "Web App Master\AWP.csproj", "{B16A16F7-C920-4046-9338-F534BF20E43E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{23C08A2B-E53F-4AC6-978A-859C145C03C8} = {23C08A2B-E53F-4AC6-978A-859C145C03C8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPS_API", "UPS_API-master\UPS_API\UPS_API.csproj", "{23C08A2B-E53F-4AC6-978A-859C145C03C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B16A16F7-C920-4046-9338-F534BF20E43E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16A16F7-C920-4046-9338-F534BF20E43E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16A16F7-C920-4046-9338-F534BF20E43E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B16A16F7-C920-4046-9338-F534BF20E43E}.Debug|x86.Build.0 = Debug|Any CPU
+		{B16A16F7-C920-4046-9338-F534BF20E43E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16A16F7-C920-4046-9338-F534BF20E43E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B16A16F7-C920-4046-9338-F534BF20E43E}.Release|x86.ActiveCfg = Release|Any CPU
+		{B16A16F7-C920-4046-9338-F534BF20E43E}.Release|x86.Build.0 = Release|Any CPU
+		{23C08A2B-E53F-4AC6-978A-859C145C03C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C08A2B-E53F-4AC6-978A-859C145C03C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C08A2B-E53F-4AC6-978A-859C145C03C8}.Debug|x86.ActiveCfg = Debug|x86
+		{23C08A2B-E53F-4AC6-978A-859C145C03C8}.Debug|x86.Build.0 = Debug|x86
+		{23C08A2B-E53F-4AC6-978A-859C145C03C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C08A2B-E53F-4AC6-978A-859C145C03C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C08A2B-E53F-4AC6-978A-859C145C03C8}.Release|x86.ActiveCfg = Release|x86
+		{23C08A2B-E53F-4AC6-978A-859C145C03C8}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79DE67A1-E839-4FF8-AFF6-855216681A11}
+	EndGlobalSection
+EndGlobal

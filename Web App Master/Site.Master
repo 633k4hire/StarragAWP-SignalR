@@ -1,0 +1,719 @@
+﻿<%@ Master Language="C#"  AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Web_App_Master.SiteMaster" %>
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - AWP</title>
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link rel="stylesheet" media="screen, projection" href="Content/screen.css"/>
+    <link href="Content/metro-colors.css" rel="stylesheet" />
+    <link href="Content/awp.css"  rel="stylesheet">
+    <link href="Content/metro-icons.css" rel="stylesheet" />
+<%--   <link href="Content/metro.css" rel="stylesheet" />--%>
+    <script type="text/javascript" src='<%= ResolveClientUrl("Scripts/jquery-1.11.0.min.js") %>'></script>	
+    <script type="text/javascript" src='<%= ResolveClientUrl("Scripts/bootstrap.min.js") %>'></script>
+    <script type="text/javascript" src='<%= ResolveClientUrl("Scripts/webapp.js") %>'></script>
+    <link href="Content/fontawesome-all.css" rel="stylesheet" />
+
+</head>
+    <body style="" onload="PollNavItems();" >   <%--onload="UpdateMenuItems()"--%>
+	    <form id="form1" runat="server" style="height:100%">
+<!--App-header -->
+          <asp:ScriptManager ID="ScriptManager1" runat="server" AjaxFrameworkMode="Enabled" EnablePageMethods="true"> </asp:ScriptManager> 
+<!--End App-header -->            
+<!--Menu -->           
+            
+	         <div id="MainMenu" class="navbar navbar-inverse navbar-fixed-top shadow-bottom bg-grayDark" style="z-index:99997; padding-right:20px;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle " style="text-decoration:none" data-toggle="collapse" data-target="#MasterMenu">
+                        <span class="icon-bar bg-hover-blue "></span>
+                        <span class="icon-bar  bg-hover-blue"></span>
+                        <span class="icon-bar bg-hover-blue"></span>
+                    </button>
+                    <asp:LoginView ID="BrandLogoLoginView" runat="server">
+                        <AnonymousTemplate><a class="navbar-brand fg-white shadow-metro-black LaneFont fg-hover-starrag" runat="server" href="~/" style=" padding-top:3px !important; padding-bottom:0px !important;">
+                            </a></AnonymousTemplate>
+                        <LoggedInTemplate> 
+                            <span class="navbar-brand fg-white shadow-metro-black" style="vertical-align:middle; padding-top:13px !important; padding-bottom:0px !important;" runat="server" href="#">
+                            <span  style="vertical-align:top; display:inline-block">
+                                <input class=" form-control" id="BarcodeSearchBox"  style="width:80px; height:25px;" />
+                                </span>
+                                <button style="width:auto; height:25px; padding:2px; display:inline-block" class="button form-control" id="BarcodeButton" type="button" onclick=" BarcodeScanned($('#BarcodeSearchBox').val());"><i id="barcodeIcon" style="font-size:1.2em;" class="glyphicon glyphicon-barcode "></i></button>
+                            
+                                <asp:CheckBox ClientIDMode="Static" id="BarcodeCheckBox"  runat="server"  style="vertical-align:middle; display:inline-block" />
+                                                             
+                                </span>
+                        </LoggedInTemplate>
+                    </asp:LoginView>
+                </div>
+                <div id="MasterMenu" class="navbar-collapse collapse ">
+                   
+                    <asp:LoginView ID ="RoleLoginViewer" runat="server" ViewStateMode="Disabled">
+                        <AnonymousTemplate>
+                              <%--left items--%>
+                                    <ul class="nav navbar-nav starrag-menu">     
+                                        <li  style="max-height:50px !important; margin-top:-10px !important;"><a onclick="ShowLoader()" runat="server" href="/Account/AssetView.aspx"><img src="/Images/starrag-40.png" /></a></li>
+<%--                                        <li><asp:LinkButton ID="ViewChangerBtn" Text="TEST" runat="server" OnClick="ViewChangeBtn_Click" /></li>--%>
+<%--                                        <li ><span class="fg-blue av-hand-cursor" style="vertical-align:middle" onclick=";"> ToggleDropDown('');</span></li>--%>
+                                    </ul>
+                                     <%-- right items--%>
+                                    <ul class="nav navbar-nav starrag-menu navbar-right ">                          
+<%--CHECKOUT--%>
+                                        <li class="dropdown" style="z-index:99999;" >
+                                            <a id="CheckoutDropDown" class="dropdown-toggle fg-hover-starrag" data-toggle="dropdown" href="#" onclick="Quiet('CheckInIcon')"><i id="CheckOutIcon" class="fa fa-shopping-cart"> &nbsp; Shopping Cart</i></span>
+                                            <span class="caret"></span></a>
+                                            <span style="margin-left:100px !important;" id="checkout_badge" class="badge badge-notify">0</span>
+                                            <ul class="dropdown-menu starrag-menu" style="z-index:99999; width:250px;">
+                                                <li><a href="/Account/ShoppingCart.aspx" ><i class=" fa fa-shopping-cart"></i>&nbsp;&nbsp;Shopping Cart</a></li>
+                                                <li id="checkout_items" class="notice-holder ShowScroll">
+                                                </li>
+                                            </ul>
+                                        </li>
+                    
+<%--Notice--%>                                                                          
+                                        <li class="dropdown" style="z-index:99999;" >
+                                            <a id="NoticeDropDown" class="dropdown-toggle fg-hover-starrag" data-toggle="dropdown" href="#" ><i id="NoticeIcon" class="glyphicon glyphicon-bell"></i>
+                                            <span class="caret"></span></a>
+                                             <span id="notice_badge" class="badge badge-notify">0</span>
+                                            <ul class="dropdown-menu starrag-menu" style="z-index:99999; width:250px;">
+                                                <li id="notice_items" class="notice-holder ShowScroll">
+
+                                                </li>
+                                            </ul>
+                                        </li>
+<%--USER--%>                                                                          
+                                        <li class="dropdown" style="z-index:99999;" >
+                                            <a id="UserDropDown" class="dropdown-toggle fg-hover-starrag" data-toggle="dropdown" href="#" onclick="Quiet('UserIcon')"><i id="UserIcon" class="glyphicon glyphicon-user"></i>
+                                            <span class="caret"></span></a>
+                                            <ul class="dropdown-menu starrag-menu" style="z-index:99999">
+                                        <li><a runat="server" href="~/Account/Register">Register</a></li>
+                                        <li><a runat="server" href="~/Account/Login">Log in</a></li>
+                                            </ul>
+                                        </li>
+
+                             
+                                    </ul>  
+
+                        </AnonymousTemplate>
+                         <RoleGroups>
+                             <asp:RoleGroup Roles="superadmin,Admins,Customers,Users">
+                                 <ContentTemplate>
+                                    <%--left items--%>
+                                    <ul class="nav navbar-nav starrag-menu">     
+                                        <li  style="max-height:50px !important; margin-top:-10px !important;"><a onclick="ShowLoader()" runat="server" href="/Account/AssetView.aspx"><img src="/Images/starrag-40.png" /></a></li>
+                                       <%-- <li class="bg-hover-grayed fg-hover-starrag" style="max-height:50px !important; margin-top:-10px !important;">--%>
+<%--                                        <li ><span class="fg-blue av-hand-cursor" style="vertical-align:middle" onclick="ToggleDropDown('NoticeDropDown');"> ToggleDropDown</span></li>--%>
+
+                                    </ul>
+                                     <%-- right items--%>
+                                    <ul class="nav navbar-nav starrag-menu navbar-right ">
+<%--MAP--%>                                   
+                                       <%-- <li class="fg-hover-starrag">
+                                            <a href="/Map.aspx" ><i class="glyphicon glyphicon-map-marker"></i></a>
+                                        </li>--%>
+<%--CHECKOUT--%>
+                                        <li class="dropdown" style="z-index:99999;" >
+                                            <a id="CheckinDropDown" class="dropdown-toggle fg-hover-starrag" data-toggle="dropdown" href="#" onclick="Quiet('CheckInIcon')"><i id="CheckInIcon" class="glyphicon glyphicon-cloud-upload"></i>
+                                            <span class="caret"></span></a>
+                                            <span id="checkin_badge" class="badge badge-notify">0</span>
+                                            <ul class="dropdown-menu starrag-menu" style="z-index:99999; width:250px;">
+                                                <li class="fg-white"><span style="text-decoration:none"><a style="text-decoration:none" class="fg-white" href="/Account/CheckIn.aspx" ><i class="glyphicon glyphicon-cloud-upload"></i>&nbsp;&nbsp;Checkin</a></span> &nbsp; - &nbsp; <span class="fg-white av-hand-cursor" style="text-align:left" onclick="ClearCheckIn();"><b>Clear</b></span></li>
+                                                <li id="checkin_items" class=" notice-holder ShowScroll">
+
+                                                </li>
+                                            </ul>
+                                        </li>
+<%--CHECKIN--%>
+                                        <li class="dropdown" style="z-index:99999;" >
+                                            <a id="CheckoutDropDown" class="dropdown-toggle fg-hover-starrag" data-toggle="dropdown" href="#" onclick="Quiet('CheckOutIcon')"><i id="CheckOutIcon" class=" fa fa-shopping-cart"></i></span>
+                                            <span class="caret"></span></a>
+                                            <span id="checkout_badge" class="badge badge-notify">0</span>
+                                            <ul class="dropdown-menu starrag-menu" style="z-index:99999; width:250px;">
+                                                <li class="fg-white"><span style="text-decoration:none"><a style="text-decoration:none" class="fg-white" href="/Account/OutCart.aspx" ><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Checkout</a></span> &nbsp; - &nbsp; <span class="fg-white av-hand-cursor" style="text-align:left" onclick="ClearCheckOut();"><b>Clear</b></span></li>
+                                                <li id="checkout_items" class="notice-holder ShowScroll">
+                                                </li>
+                                            </ul>
+                                        </li>
+<%--Notice--%>                                                                          
+                                        <li class="dropdown" style="z-index:99999;" >
+                                            <a id="NoticeDropDown" class="dropdown-toggle fg-hover-starrag" data-toggle="dropdown" href="#" ><i id="NoticeIcon" class="glyphicon glyphicon-bell"></i>
+                                            <span class="caret"></span></a>
+                                             <span id="notice_badge" class="badge badge-notify">0</span>
+                                            <ul class="dropdown-menu starrag-menu" style="z-index:99999; width:250px;">
+                                                <li id="notice_items" class="notice-holder ShowScroll">
+
+                                                </li>
+                                            </ul>
+                                        </li>
+<%--USER--%>                                                                          
+                                        <li class="dropdown" style="z-index:99999;" >
+                                            <a id="UserDropDown" class="dropdown-toggle fg-hover-starrag" data-toggle="dropdown" href="#" onclick="Quiet('UserIcon')"><i id="UserIcon" class="glyphicon glyphicon-user"></i>
+                                            <span class="caret"></span></a>
+                                            <span id="transaction_badge" class="badge badge-notify">0</span>
+                                            <ul class="dropdown-menu starrag-menu" style="z-index:99999">
+                                                <li><a runat="server" href="~/Account/Manage" title="Manage your account">Manage Account (<%: Page.User.Identity.Name %>)</a></li>
+                                                <li><a href="/Browser/ControlPanel.aspx" onclick="ShowLoader();" >Control Panel</a></li>
+                                                <li class="bg-hover-grayed fg-hover-starrag"><a  runat="server" href="Account/PrintBarcodes.aspx"><i class="glyphicon glyphicon-print"></i>&nbsp;<strong>Labels</strong></a></li>
+
+                                                <%--<li><a runat="server" href="~/Account/Admin/AdminDashboard" onclick="ShowLoader();">Admin(Use Control Panel)</a></li>--%>
+                                                <li><asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" /></li>
+                                                
+
+                                                <li><a href="/Account/Transactions.aspx" onclick="ShowLoader();" >Transactions</a></li>
+                                                <li id="transaction_items" class="notice-holder ShowScroll">
+
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                             
+                                    </ul>      
+                                </ContentTemplate>
+                            </asp:RoleGroup>
+                             <asp:RoleGroup Roles="NoRole">
+                                                                  <ContentTemplate>
+                                    <%--left items--%>
+                                    <ul class="nav navbar-nav starrag-menu">     
+                                        <li  style="max-height:50px !important; margin-top:-10px !important;"><a onclick="ShowLoader()" runat="server" href="/Account/AssetView.aspx"><img src="/Images/starrag-40.png" /></a></li>
+                                   
+                                    </ul>
+                                     <%-- right items--%>
+                                    <ul class="nav navbar-nav starrag-menu navbar-right ">                          
+<%--CHECKOUT--%>
+                                        <li class="dropdown" style="z-index:99999;" >
+                                            <a id="CheckoutDropDown" class="dropdown-toggle fg-hover-starrag" data-toggle="dropdown" href="#" onclick="Quiet('CheckInIcon')"><i id="CheckOutIcon" class="fa fa-shopping-cart"></i></span>
+                                            <span class="caret"></span></a>
+                                            <span id="checkout_badge" class="badge badge-notify">0</span>
+                                            <ul class="dropdown-menu starrag-menu" style="z-index:99999; width:250px;">
+                                                <li><a href="/Account/ShoppingCart.aspx" ><i class=" fa fa-shopping-cart"></i>&nbsp;&nbsp;Checkout</a></li>
+                                                <li id="checkout_items" class="notice-holder ShowScroll">
+                                                </li>
+                                            </ul>
+                                        </li>
+                    
+<%--Notice--%>                                                                          
+                                        <li class="dropdown" style="z-index:99999;" >
+                                            <a id="NoticeDropDown" class="dropdown-toggle fg-hover-starrag" data-toggle="dropdown" href="#" ><i id="NoticeIcon" class="glyphicon glyphicon-bell"></i>
+                                            <span class="caret"></span></a>
+                                             <span id="notice_badge" class="badge badge-notify">0</span>
+                                            <ul class="dropdown-menu starrag-menu" style="z-index:99999; width:250px;">
+                                                <li id="notice_items" class="notice-holder ShowScroll">
+
+                                                </li>
+                                            </ul>
+                                        </li>
+<%--USER--%>                                                                          
+                                        <li class="dropdown" style="z-index:99999;" >
+                                            <a id="UserDropDown" class="dropdown-toggle fg-hover-starrag" data-toggle="dropdown" href="#" onclick="Quiet('UserIcon')"><i id="UserIcon" class="glyphicon glyphicon-user"></i>
+                                            <span class="caret"></span></a>
+                                            <ul class="dropdown-menu starrag-menu" style="z-index:99999">
+                                                <li><a runat="server" href="~/Account/Manage" title="Manage your account">Manage Account (<%: Page.User.Identity.Name %>)</a></li>
+                                                <li><asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" /></li>
+                                            </ul>
+                                        </li>
+
+                             
+                                    </ul>      
+                                </ContentTemplate>
+
+                            </asp:RoleGroup>
+
+                        </RoleGroups>
+                    </asp:LoginView>
+                </div>
+            </div>
+        </div>
+
+<!--End Menu -->
+<!--Main-content -->
+	        <div class="main-content bg-grayed " style="height: 618px; margin-top:50px ;">
+                
+		        <!-- main-content-inner -->
+		        <div class="main-content-inner" style="text-align:center !important">                   
+<%--                    <asp:UpdatePanel ID="MainContentUpdatePanel" UpdateMode="Conditional" ChildrenAsTriggers="true" runat="server">
+                        <ContentTemplate>
+                            <div style="z-index:99999 !important;">
+                            <asp:MultiView ID="MainContentMultiView" ActiveViewIndex="0" runat="server">
+                                <asp:View ID="MainView" runat="server">--%>
+                                    <%--<div class="bg" id="BackgoundDiv"><div class="bg-starrag" style="width:100%; z-index:2; height:3px;"></div></div> --%>
+                                    <div class="image-wrap" id="BackgoundDiv"><img src="/Images/starrag_group_rorschacherberg.jpg" /> </div>
+                                    <asp:ContentPlaceHolder ID="MainContent" runat="server" Visible="true">
+                                    </asp:ContentPlaceHolder>  
+  <%--                              </asp:View>
+                                <asp:View ID="AssetView" runat="server">
+                                    <div style="padding-top:10px;" ><h4  class=" fg-green fa-bold">TEST OF THIS</h4></div>
+                                </asp:View>
+                            </asp:MultiView>
+
+                            </div>
+                        </ContentTemplate>
+                        
+                    </asp:UpdatePanel>--%>
+                    
+			                                          
+                    
+
+		        </div><!-- /main-content-inner -->		
+	        </div>
+<!--End Main-content --> 
+<!--Asset View -->
+            <div id="asset-modal-new" >
+              <div>
+                <nav  id ="NewAssetHeader"   class="navbar navbar-inverse shadow-bottom bg-sg-title" style=" height:auto; z-index:25000; border-radius:0px !important; position:absolute;">
+                  <div class="container-fluid">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#AssetModalMenu" style="float:left !important">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                      </button>      
+                    </div>
+                    <div id="AssetModalMenu" class="collapse navbar-collapse" >
+                    <ul class="nav navbar-nav fg-white">
+                        <li><span style="display:inline-flex; padding-top:2px;" class="awp-add-btn bg-green shadow av-hand-cursor" id="InOutBtn"><span id="new-awp-inner-btn" style="padding-top:5px;"><i title="Add To Task List" class="glyphicon glyphicon-plus"></i></span></span><span  style="display:inline-flex"> <h3> <span runat="server" id="AssetViewHeaderLabel" class="shadow-metro-black"></span></h3></span></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right" style="padding-right:18px;">
+                       <li><span style="display:inline-flex; padding-top:7px" class="awp-add-btn bg-starrag fg-white shadow av-hand-cursor" id="CloseModal" onclick="HideDiv('asset-modal-new');"><i title="Add To Task List" class="glyphicon glyphicon-remove"></i></span></li>
+                    </ul>
+                    </div>
+                  </div>
+                </nav>
+                  </div>
+                <div id="asset-modal-new-content" class=" bg-sg-box ">
+                    <span id="AssetTab" class="tablink bg-sg-title " style="text-align:center; text-decoration:none" ><asp:LinkButton ID="AssetTabBtn" runat="server" OnClick="AssetTabBtn_Click"  ><span class="fg-white bold" style="text-decoration:none">Asset</span></asp:LinkButton></span>
+                    <span id="ReportTab" class="tablink bg-sg-title" style="text-align:center; text-decoration:none" ><asp:LinkButton ID="ReportTabBtn" runat="server" OnClick="ReportTabBtn_Click" ><span class="fg-white bold" style="text-decoration:none">Documents</span></asp:LinkButton></span>
+<%--                    <span id="CalibrationTab" class="tablink bg-sg-title" style="text-align:center; text-decoration:none" ><asp:LinkButton ID="CalibrationTabBtn" runat="server" OnClick="CalibrationTabBtn_Click" ><span class="fg-white fa-bold" style="text-decoration:none">Calibration</span></asp:LinkButton></span>--%>
+                    <span id="HistoryTab" class="tablink bg-sg-title " style="text-align:center; text-decoration:none" ><asp:LinkButton ID="HistoryTabBtn" runat="server" OnClick="HistoryTabBtn_Click" ><span class="fg-white bold" style="text-decoration:none">History</span></asp:LinkButton></span>
+                    <div style="margin-top:15px;"></div>
+                    <asp:UpdatePanel ID="AssetModalUpdatePanel" EnableViewState="true" UpdateMode="Conditional" runat="server" ChildrenAsTriggers="true">
+                        <ContentTemplate>
+                            <div style="padding-top:23px"></div>
+                            <asp:MultiView  ID="AssetModalTabsMultiView" ActiveViewIndex="0" runat="server">
+                                <%--ASSETTAB--%>
+                                <asp:View ID="AssetTabView" runat="server">
+                                    <div style="padding-top:10px;">
+                                    <div class="col-md-4" style="padding-top:10px;">
+                                        <!-- Slideshow container -->
+                                            <asp:UpdatePanel ID="AssetImageUpdatePanel" UpdateMode="Conditional" runat="server">
+                                                <ContentTemplate>
+                                                    <div class="slideshow-container">
+                                                      <!-- Full-width images with number and caption text -->
+                                                      <div id="" class="mySlides ">
+                                                        <div class="numbertext bg-starrag" ><asp:Literal ID="AssetImageCountLiteral" Text="1/1" runat="server" /></div>                                           
+                                                          <asp:Image ID="AssetImageHolder" ClientIDMode="Static" runat="server" Width="100%" />
+                                                       <%-- <div class="text">Caption Text</div>--%>
+                                                      </div>
+                                                      <!-- Next and previous buttons -->
+                                                      <span class="prev fg-white fg-hover-starrag" style="text-decoration:none" ><asp:LinkButton CssClass="fg-white fg-hover-starrag" ID="AssetImagePrevBtn" runat="server" OnClick="AssetImagePrevBtn_Click" > &#10094;</asp:LinkButton></span>
+                                                      <span class="next fg-white fg-hover-starrag"  style="text-decoration:none"  ><asp:LinkButton  CssClass="fg-white fg-hover-starrag" ID="AssetImageNextBtn" runat="server" OnClick="AssetImageNextBtn_Click" > &#10095;</asp:LinkButton></span>
+                                                    </div>
+                                                    <br>
+                                                    <!-- The dots/circles -->
+                                                    <div style="text-align:center">
+                                                        <asp:Literal ID="AssetImageDotsLiteral" runat="server" />
+                                                      <%--<span class="dot" onclick="currentSlide(1)"></span> 
+                                                      <span class="dot" onclick="currentSlide(2)"></span> 
+                                                      <span class="dot" onclick="currentSlide(3)"></span> --%>
+                                                    </div>           
+                                                </ContentTemplate>
+                                                <Triggers>
+                                                    <asp:AsyncPostBackTrigger ControlID="AssetImagePrevBtn" EventName="click" />
+                                                    <asp:AsyncPostBackTrigger ControlID="AssetImageNextBtn" EventName="click" />
+                                                </Triggers>
+                                            </asp:UpdatePanel>
+                                       
+                                    </div>
+                                    <div class="col-md-8 " style="padding-top:10px;">
+                                        <div id="HiddenAssetDiv" style="display:none"><asp:Literal ID="HiddenAssetLabel" runat="server"></asp:Literal> </div>
+                                        <asp:LoginView ID="AssetViewMenuLoginView" runat="server">
+                                            <LoggedInTemplate>
+                                            </LoggedInTemplate>
+                                            <RoleGroups>
+                                                <asp:RoleGroup Roles="Admins,superadmin">
+                                                    <ContentTemplate>
+                                                        <span class="awp-save-btn bg-red fg-white shadow" "><asp:LinkButton runat="server" ID="AssetSaveBtn" OnClick="AssetSaveBtn_Click"><i title="Save" style="font-size:1em;" class=" fg-white glyphicon glyphicon-floppy-disk av-hand-cursor"></i></asp:LinkButton></span>
+                                                        <span style="right:75px" class="awp-save-btn bg-blue fg-white shadow" "><asp:LinkButton runat="server" ID="AssetImgUploadBtn" OnClientClick="ShowDiv('UploadAssetImage');" ><i title="Upload" style="font-size:1em;" class=" fg-white glyphicon glyphicon-upload av-hand-cursor"></i></asp:LinkButton></span>
+                                                    </ContentTemplate>
+                                                </asp:RoleGroup>
+                                            </RoleGroups>
+                                        </asp:LoginView>
+
+                                        <%--<div class="awp_box rounded bg-sg-title shadow">
+                                            <div class="awp_box_title bg-sg-title">
+                                                <span class="fg-white shadow-metro-black text-left"><span id="AssetViewWindowLabel" class="shadow-metro-black"></span></span>
+                                            </div>--%>
+                                            <%--<div class="awp_box_content" style="text-align:left !important;">--%>
+                                                <div class="row fg-white ">
+                                                    <div class="col-md-8">
+                                                        <%--                                                <span style="font-weight:bold;"><strong>Asset Name</strong></span>--%>
+                                                        <div class="  "><input style="font-weight:bold;" runat="server" id="av_AssetName" type="text" class="form-control" placeholder="Name" /></div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <%--                                                <span style="font-weight:bold;"><strong>Asset Number</strong></span>--%>
+                                                        <div class=" "><input style="font-weight:bold;" runat="server" id="av_AssetNumber" type="text" class="form-control" placeholder="0000" /></div>
+                                                    </div>
+                                                </div>
+                                        <asp:LoginView  ID="AssetViewLoggedInUserView" runat="server">
+                                            <LoggedInTemplate>
+                                                <div class="row fg-white">
+                                                    <div class="col-md-4">
+                                                        <span style="font-weight:bold;">Ship To</span>
+                                                        <div class=" "><input style="font-weight:bold;" runat="server" id="av_ShipTo" type="text" class="form-control" placeholder="Ship to" /></div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <span style="font-weight:bold;">Service Order</span>
+                                                        <div class=""><input style="font-weight:bold;" runat="server" id="av_ServiceOrder" type="text" class="form-control" placeholder="Service Order Number" /></div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <span style="font-weight:bold;">Date Shipped</span>
+                                                        <div class=" "><input style="font-weight:bold;" runat="server" id="av_DateShipped" type="text" class="form-control" placeholder="Date Shipped" /></div>
+                                                    </div>
+                                                </div>
+                                                <div class="row fg-white">
+                                                    <div class="col-md-4">
+                                                        <span style="font-weight:bold;">Service Engineer</span>
+                                                        <div><input style="font-weight:bold;" runat="server" id="av_ServiceEngineer" type="text" class="form-control" placeholder="Service Engineer" /></div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <span style="font-weight:bold;">Person Shipping</span>
+                                                        <div><input style="font-weight:bold;" runat="server" id="av_PersonShipping" type="text" class="form-control" placeholder="Person Shipping" /></div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <span style="font-weight:bold;">Date Received</span>
+                                                        <div><input style="font-weight:bold;" runat="server" id="av_DateRecieved" type="text" class="form-control" placeholder="Date Recieved" /></div>
+                                                    </div>
+                                                </div>
+                                                <div class="row fg-white">
+                                                    <div class="col-md-3">
+                                                        <span style="font-weight:bold;">Weight (lbs)</span>
+                                                        <div><input style="font-weight:bold;" runat="server" id="av_Weight" type="text" class="form-control" /></div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <span style="font-weight:bold;">Damaged</span>
+                                                        <div><asp:CheckBox ID="av_IsDamaged" runat="server" /></div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <span style="font-weight:bold;">Calibrated tool</span>
+                                                        <div>
+                                                            <asp:CheckBox ID="av_CalibratedTool" runat="server" /></div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <span style="font-weight:bold;">On Hold</span>
+                                                        <div>
+                                                            <asp:CheckBox ID="av_OnHold" runat="server" /></div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </LoggedInTemplate>
+                                            <AnonymousTemplate>
+                                            </AnonymousTemplate>
+                                        </asp:LoginView>
+                                                    
+
+                                                <div class="row fg-white">
+                                                    <div class="col-md-12">
+                                                        <span style="font-weight:bold;">Description</span>
+                                                        <div><textarea aria-multiline="true" style="height:auto;font-weight:bold;" runat="server" class="form-control" id="av_Description"></textarea></div>
+                                                    </div>
+                                                </div>
+                                           <%-- </div>--%>
+                                       <%-- </div>--%>
+                                    </div>
+                                    </div>
+                                </asp:View>
+                                <%--REPORTTAB--%>
+                                <asp:View ID="ReportTabView" runat="server">
+                                    <div class="row">
+                                        <%--<div class="col-md-12">
+                                            <div class="awp_box rounded bg-sg-title shadow">
+                                                <div class="awp_box_title bg-sg-title">
+                                                    <span class="fg-white shadow-metro-black">Packing Slip</span>
+                                                </div>
+                                                <div class="awp_box_content bg-sg-box" style="text-align:left !important; height:800px !important">
+                                                    <div id="AssetPackingReportDiv" style="min-height:100%; height:100%">
+                                                        <div id="AssetPackingReportHidden" style="display:none"><asp:Literal ID="AssetPackingReportHiddenLink" runat="server"></asp:Literal> </div>
+                                                        <iframe frameborder="0" style=" width:90%;height:90%" id="AssetPackingReportFrame" runat="server" src=""></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="awp_box rounded bg-sg-title shadow">
+                                                <div class="awp_box_title bg-sg-title">
+                                                    <span class="fg-white shadow-metro-black">Shipping Label</span>
+                                                </div>
+                                                <div class="awp_box_content bg-sg-box" style="text-align:left !important; height:800px !important;">
+                                                    <div id="AssetShippingReportDiv" style="min-height:100%; height:100%">
+                                                        <div id="AssetShippingReportHidden" style="display:none"><asp:Literal ID="AssetShippingReportLink" runat="server"></asp:Literal> </div>
+                                                        <iframe frameborder="0" style=" width:90%;height:90%" id="AssetShippingReportFrame" runat="server" src=""></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="awp_box rounded bg-sg-title shadow">
+                                                <div class="awp_box_title bg-sg-title">
+                                                    <span class="fg-white shadow-metro-black">Receiving Report</span>
+                                                </div>
+                                                <div class="awp_box_content bg-sg-box" style="text-align:left !important; height:800px !important">
+                                                    <div id="AssetReceivingReportDiv" style="min-height:100%;  height:100%">
+                                                        <div id="AssetReceivingReportHidden" style="display:none"><asp:Literal ID="AssetReceivingReportLink" runat="server"></asp:Literal> </div>
+                                                        <iframe frameborder="0" style=" width:90%;height:90%" id="AssetReceivingReportFrame" runat="server" src=""></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>--%>
+                                        <script>
+                                            function doSomething(arg) {
+                                                $("#ASuperBtnArg").val(arg);
+                                                var a = $("#ASuperBtn");
+                                                $("#ASuperBtn").click();
+                                        }
+                                        </script>
+                                        <asp:UpdatePanel ID ="AssetDocumentsViewer" UpdateMode="Conditional" runat="server">
+                                            <ContentTemplate> 
+                                                    <div class="row">     
+                                                        <div class="col-md-3">
+                                                        <asp:UpdatePanel runat="server" ID="AssetDocumentTreeUpdatePanel" UpdateMode="Conditional">
+                                                            <ContentTemplate>
+                             
+                                                                <div class="awp_box rounded bg-sg-title shadow">
+                                                                    <div class="awp_box_title bg-sg-title">
+                                                                        <span class="fg-white shadow-metro-black">Documents</span>
+                                                                    </div>
+                                                                    <div class="awp_box_content bg-sg-box" style="min-height:400px;">
+                                                                        <asp:TreeView 
+                                                                        EnableViewState="true"                                    
+                                                                        ViewStateMode="Enabled"  
+                                                                        ShowLines="false" 
+                                                                        runat="server"
+                                                                        ID ="AssetDocumentTree" 
+                                                                        ClientIDMode="Static" 
+                                                                        NodeWrap="false"                                       
+                                                                        ></asp:TreeView>   
+                                                                    </div>
+                                                                </div>
+
+
+                                                            </ContentTemplate>                            
+                                                        </asp:UpdatePanel>
+
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <asp:UpdatePanel ID="AssetDocumentIframeUpdatePanel" UpdateMode="Conditional" runat="server">
+                                                                <ContentTemplate>  
+                                                                <div class="awp_box rounded bg-sg-title shadow">
+                                                                    <div class="awp_box_title bg-sg-title">
+                                                                        <span class="fg-white shadow-metro-black"><asp:Label ID="AssetCurrentDocumentLabel" runat="server" Text="" ></asp:Label></span>
+                                                                    </div>
+                                                                    <div class="awp_box_content bg-sg-box" style="min-height:400px">
+                                                                            <div id="SPD" style="text-align:center; height:800px; width:100%">  
+                                                                                <div id="CurrentAssetHidden" style="display:none"><asp:Literal ID="CurrentAssetDocumentHidden" runat="server"></asp:Literal> </div>
+                               
+                                                                                <iframe style="height:90%; width:90%; position:relative; z-index:2000;" id="CurrentAssetDocumentSrc" runat="server" src="/Account/Pdfs/blank.pdf"  ></iframe>
+                                                                            </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                </ContentTemplate>
+                                                            </asp:UpdatePanel>
+                                                        </div>
+                                                    </div>
+                                            </ContentTemplate>
+                                        </asp:UpdatePanel>
+                                        <asp:TextBox ID="ASuperBtnArg" ClientIDMode="Static" style="display:none"  runat="server" />  
+                                        <asp:Button Text="" ID="ASuperBtn" ClientIDMode="Static" style="display:none" runat="server" OnClick="ASuperBtn_Click" />
+
+                                    </div>
+
+                                </asp:View>
+                                <%--CALIBRATIONTAB--%>
+                                <asp:View ID="CalibrationTabView" runat="server">   
+                                    <div class="row">
+                                    <div class="col-md-12">
+
+                                        <div class="awp_box rounded bg-sg-title shadow">
+                                            <asp:LoginView runat="server">
+                                                <RoleGroups>
+                                                    <asp:RoleGroup Roles="Admins,superadmin">
+                                                        <ContentTemplate>
+                                                            <div class="awp-bar">
+                                                                <span class="awp-bar-btn bg-blue fg-white shadow" onclick="ShowDiv('UploadAssetCert')"><i title="Upload New Certificate" style="font-size:1em;" class="mif-file-upload av-hand-cursor"></i></span>
+                                                            </div>
+
+                                                        </ContentTemplate>
+                                                    </asp:RoleGroup>
+                                                </RoleGroups>
+                                            </asp:LoginView>
+                                            <div class="awp_box_title bg-sg-title">
+                                                <span class="fg-white shadow-metro-black">Calibration Certificates</span>
+                                            </div>
+                                            <div class="awp_box_content bg-sg-box" style="text-align:left !important;">
+                                                <div id="AssetCalibrationDiv" style=" text-align:left;">
+                                                    <asp:UpdatePanel ID="CalibrationUpdatePanel" runat="server">
+                                                        <ContentTemplate>
+                                                            <asp:Repeater ID="CalibrationRepeater" runat="server">
+                                                                <HeaderTemplate>
+                                                                    <ul class="list-group">
+                                                                </HeaderTemplate>
+                                                                <ItemTemplate>
+                                                                    <li class="list-group-item">
+                                                                        <asp:Button ToolTip="Delete" ID="DeleteCalBtn" CssClass="btn btn-sm" runat="server" Text="X" Font-Bold="true" CommandName='<%#Eval("Guid")%>' OnCommand="DeleteCalBtn_Command" />
+                                                                        <a href='<%# Eval("ImagePath") %>'>
+                                                                            <span> <%# Eval("CalibrationCompany") %></span>-
+                                                                            <span> <%# Eval("DaysLeft").ToString() %></span>:Days Left
+                                                                        </a>
+                                                                    </li>
+                                                                </ItemTemplate>
+                                                                <FooterTemplate>
+                                                                    </ul>
+                                                                </FooterTemplate>
+                                                            </asp:Repeater>
+                                                        </ContentTemplate>
+                                                        <Triggers>
+                                                            <asp:AsyncPostBackTrigger ControlID="CalibrationBinderBtn" EventName="Click" />
+                                                        </Triggers>
+                                                    </asp:UpdatePanel>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                </asp:View>
+                                <%--HISTORYTAB--%>
+                                <asp:View ID="HistoryTabView" runat="server">   
+                                    <asp:UpdatePanel runat="server" ID="AssetHistoryUpdatePanel" UpdateMode="Conditional" ChildrenAsTriggers="true">
+                                        <ContentTemplate>
+                                            <!--REPEATER-->
+                                            <div><%-- style="margin-top:-21px!important; margin-bottom:0px !important;"--%>
+                                                <asp:Repeater ID="AssetHistoryRepeater" runat="server" EnableViewState="false" OnItemDataBound="AssetHistoryRepeater_ItemDataBound">
+                                                    <HeaderTemplate> </HeaderTemplate>
+                                                    <ItemTemplate></ItemTemplate>
+                                                    <FooterTemplate> </FooterTemplate>
+                                                </asp:Repeater>
+                                            </div>
+                                        </ContentTemplate>
+                                        <Triggers>
+                                            <asp:AsyncPostBackTrigger ControlID="UpdateAllCarts" EventName="Click" />
+                                            <asp:AsyncPostBackTrigger ControlID="HistoryBinderBtn" EventName="Click" />
+                                        </Triggers>
+                                    </asp:UpdatePanel>
+                                </asp:View>
+                            </asp:MultiView>
+                        </ContentTemplate>
+                        <Triggers>
+                            <asp:AsyncPostBackTrigger ControlID="AssetTabBtn" EventName="click" />
+                            <asp:AsyncPostBackTrigger ControlID="ReportTabBtn" EventName="click" />
+                           <%-- <asp:AsyncPostBackTrigger ControlID="CalibrationTabBtn" EventName="click" />--%>
+                            <asp:AsyncPostBackTrigger ControlID="HistoryTabBtn" EventName="click" />
+                           
+                            
+                            
+                        </Triggers>
+                    </asp:UpdatePanel>
+                </div>
+            </div>
+<!--End Asset View -->
+
+<!--Message Charm-->
+            <asp:UpdatePanel ID ="ErrorModalUpdatePanel" UpdateMode="Conditional" runat="server">
+                <ContentTemplate>
+                    <div runat="server" id="ErrorBox" class=" transition-bottom" style="z-index:99999;" visible="false">
+                        <span class="modal-closer fg-white shadow-metro-black" onclick="HideDiv('ErrorBox');">X</span>
+                        <div id="error-box-label"><span class="mif-warning mif-2x fg-white shadow-metro-black"></span>
+                        <asp:Label Text="" ID="ErrorLabel" ClientIDMode="Static" CssClass="fg-white shadow-metro-black" runat="server" />
+                        </div>          
+                        <div id="error-box-content">
+                            <asp:Label ID="ErrorMessage" ClientIDMode="Static" CssClass="fg-white shadow-metro-black" runat="server" />
+                        </div>
+                    </div>  
+                </ContentTemplate>
+            </asp:UpdatePanel>
+        
+<!--End Message Charm-->
+<!--Super Button & SuperFields-->         
+            <div id="IsAvUp" style="display:none">false</div>
+            <asp:TextBox runat="server" ID ="CurrentAssetNumber" ClientIDMode="Static" style="display:none"></asp:TextBox>
+            
+            <asp:Button ID="HistoryBinderBtn" runat="server" Text="CLICK ME" OnClick="HistoryBinderBtn_Click" style="display:none" ClientIDMode="Static"/>
+           <asp:Button ID="CalibrationBinderBtn" runat="server" Text="CLICK ME" OnClick="CalibrationBinderBtn_Click" style="display:none" ClientIDMode="Static"/>
+            <asp:Button ID="ViewChangeBtn" runat="server" Text="" OnClick="ViewChangeBtn_Click" style="display:none" ClientIDMode="Static"/>
+            <asp:Button ID="button33" runat="server" Text="CLICK ME" OnClick="button33_Click" style="display:none" ClientIDMode="Static"/>
+            <asp:Button ID="UpdateAllCarts" runat="server" Text="UpdateAllCarts" OnClick= "UpdateAllCarts_Click" style="display:none" ClientIDMode="Static"/>   
+<!--End Super Buttons-->  
+<!--Dialogs-->
+            <div id="UploadAssetImage" class="awp-outer-dialog" style="display:none; z-index:99999" >
+        <div class=" awp-inner-dialog" style="opacity:initial !important">
+
+                    <span class="awp-dialog-close-btn bg-red fg-white shadow " onclick="HideDiv('UploadAssetImage')"><i title="Close"  style="vertical-align:top" class="mif-cross av-hand-cursor fg-white shadow-metro-black"></i></span>
+                    <div class="awp_box rounded bg-sg-title shadow" style="left:50% !important; top:30%">
+                        <div class="awp_box_title bg-sg-title">
+                           <span class="fg-white shadow-metro-black"><span class="mif-file-upload"></span>New Asset Image</span>
+                        </div>
+                        <div class="awp_box_content bg-sg-box">  
+                            <asp:FileUpload ID="AssetImageUploader" runat="server" />
+                           
+                            <asp:Button OnClientClick="ShowLoader()" runat="server" ID="UploadAssetImg" ClientIDMode="Static" OnClick="UploadAssetImg_Click" Text="Upload" />
+                       </div>
+                    </div>
+      
+        </div>
+    </div>
+            <div id="UploadAssetCert" class="awp-outer-dialog" style="display:none; z-index:99999" >
+                 <div class=" awp-inner-dialog" style="opacity:initial !important">
+                    <span class="awp-dialog-close-btn bg-red fg-white shadow " onclick="HideDiv('UploadAssetCert')"><i title="Close"  style="vertical-align:top" class="mif-cross av-hand-cursor fg-white shadow-metro-black"></i></span>
+                    <div class="awp_box rounded bg-sg-title shadow" style="left:50% !important; top:30%">
+                        
+                        <div class="awp_box_title bg-sg-title">
+                           <span class="fg-white shadow-metro-black"><span class="mif-file-upload"></span>New Asset Certificate</span>
+                        </div>
+                        <div class="awp_box_content bg-sg-box">  
+                            <div style="font-weight:bold;" ><strong>Calibration Company</strong></div>
+                            <div><input style="font-weight:bold;" runat="server"  id="CalCompany" type="text" class="form-control" placeholder="Calibration Company" /></div>                        
+                            <div style="font-weight:bold;" ><strong>Calibration Period</strong></div>
+                            <div><input style="font-weight:bold;" runat="server"  id="CalPeriod" type="text" class="form-control" placeholder="Calibration Period" /></div>                        
+                            <div>
+                            <asp:FileUpload ID="CertUpload" runat="server" />
+                            <asp:Button OnClientClick="ShowLoader()" runat="server" CssClass="btn" ID="UploadAssetCertificateBtn" ClientIDMode="Static" OnClick="UploadAssetCertificateBtn_Click" Text="Upload" />
+                            </div>
+                       </div>
+                    </div>      
+                 </div>
+             </div>
+
+<!--End Dialogs-->
+<!--Loader-->
+            <div id="FullScreenLoader" class="awp-outer-loader" style="display:none" >
+                <div class=" awp-inner-loader">
+                    <div class="bg-starrag" style="border-radius:5px"><img src="/Images/loading.gif" width="60px" height="60px" /></div>
+                </div>
+            </div>
+<!--End Loader-->
+
+          
+       </form>
+<!-- menu item template -->
+    <script type="text/html" id="notice-template">
+      <div class="notice"><span style="display:inline-block; cursor:pointer; padding-right:2px;" class="notice-btn" onclick="DeleteNotice('%%Target%%','%%Index%%')"><strong>X</strong></span>
+          %%TEXT%%
+      </div>
+    </script>
+<!--transacion item template -->
+    <script type="text/html" id="transaction-template">
+      <div class="notice"><span style="display:inline-block ; cursor:pointer; padding-right:2px;" class="notice-btn" onclick="DeleteNotice('%%Target%%','%%Index%%')"><strong>X</strong></span>
+         <a class="transaction-notice" href="/Account/OutCart.aspx?pend=%%TID%%">%%TEXT%%</a> 
+      </div>
+    </script>
+
+</body>
+
+</html>

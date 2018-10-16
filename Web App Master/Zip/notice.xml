@@ -1,0 +1,1221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NotificationSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <m_guid>AWP_Notification_System</m_guid>
+  <Guid>AWP_Notification_System</Guid>
+  <Capacity>-1</Capacity>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>-1</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>cf45ab6c-8aea-45e0-99df-56c44d9b0212</Guid>
+    <Data />
+    <Name>Matthew Metzger</Name>
+    <EmailAddress>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </EmailAddress>
+    <Email>matthew.metzger@starrag.com</Email>
+    <Created>2018-08-28T11:34:10.5811681-07:00</Created>
+    <Scheduled>2018-09-27T11:34:10.5811681-07:00</Scheduled>
+    <Expires>2019-08-28T11:34:10.5811681-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>0002</Assets>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt;. &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>490012146</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>be803085-99af-4edc-ba28-b8dec41e0808</Guid>
+    <Data />
+    <Name>Gus Morales</Name>
+    <EmailAddress>
+      <Name>Gus Morales</Name>
+      <Email>gustavo.morales@starrag.com</Email>
+    </EmailAddress>
+    <Email>gustavo.morales@starrag.com</Email>
+    <Created>2018-08-29T06:47:07.6297156-07:00</Created>
+    <Scheduled>2018-09-28T06:47:07.6297156-07:00</Scheduled>
+    <Expires>2019-08-29T06:47:07.6297156-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>0997</Assets>
+    <Assets>0998</Assets>
+    <Emails>
+      <Name>Gus Morales</Name>
+      <Email>gustavo.morales@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt;. &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>-1</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>c33612e9-9a57-4a27-bcf7-8fa48ae7dab0</Guid>
+    <Data />
+    <Name>Nick Sundhausen</Name>
+    <EmailAddress>
+      <Name>Nick Sundhausen</Name>
+      <Email>nick.sundhausen@starrag.com</Email>
+    </EmailAddress>
+    <Email>nick.sundhausen@starrag.com</Email>
+    <Created>2018-08-29T08:35:29.5033014-07:00</Created>
+    <Scheduled>2018-09-28T08:35:29.5033014-07:00</Scheduled>
+    <Expires>2019-08-29T08:35:29.5033014-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>0017</Assets>
+    <Emails>
+      <Name>Nick Sundhausen</Name>
+      <Email>nick.sundhausen@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt;. &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>490014724</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>001c1967-103c-4b95-a653-d9cb3f3e9134</Guid>
+    <Data />
+    <Name>Matthew Metzger</Name>
+    <EmailAddress>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </EmailAddress>
+    <Email>matthew.metzger@starrag.com</Email>
+    <Created>2018-08-29T11:38:08.6425501-07:00</Created>
+    <Scheduled>2018-09-28T11:38:08.6425501-07:00</Scheduled>
+    <Expires>2019-08-29T11:38:08.6425501-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>0017</Assets>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt;. &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>-1</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>b423c433-5fbe-4f91-a567-2b4c9a6185da</Guid>
+    <Data />
+    <Name>Matthew Metzger</Name>
+    <EmailAddress>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </EmailAddress>
+    <Email>matthew.metzger@starrag.com</Email>
+    <Created>2018-08-29T11:41:37.336782-07:00</Created>
+    <Scheduled>2018-09-28T11:41:37.336782-07:00</Scheduled>
+    <Expires>2019-08-29T11:41:37.336782-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>0018</Assets>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt;. &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>nopo</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>b2f1b775-9cfd-4b4a-8753-6d8cda25a1c9</Guid>
+    <Data />
+    <Name>Nick Sundhausen</Name>
+    <EmailAddress>
+      <Name>Nick Sundhausen</Name>
+      <Email>nick.sundhausen@starrag.com</Email>
+    </EmailAddress>
+    <Email>nick.sundhausen@starrag.com</Email>
+    <Created>2018-08-29T11:50:23.0372066-07:00</Created>
+    <Scheduled>2018-09-28T11:50:23.0372066-07:00</Scheduled>
+    <Expires>2019-08-29T11:50:23.0372066-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>0018</Assets>
+    <Emails>
+      <Name>Nick Sundhausen</Name>
+      <Email>nick.sundhausen@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt;. &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>nopo</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>f93ca144-710c-4977-93fb-87b07b0cc8d5</Guid>
+    <Data />
+    <Name>Gus Morales</Name>
+    <EmailAddress>
+      <Name>Gus Morales</Name>
+      <Email>gustavo.morales@starrag.com</Email>
+    </EmailAddress>
+    <Email>gustavo.morales@starrag.com</Email>
+    <Created>2018-08-29T12:36:41.5159747-07:00</Created>
+    <Scheduled>2018-09-28T12:36:41.5159747-07:00</Scheduled>
+    <Expires>2019-08-29T12:36:41.5159747-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>0018</Assets>
+    <Emails>
+      <Name>Gus Morales</Name>
+      <Email>gustavo.morales@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt;. &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>nnnnnn</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>cfe254b5-603d-4d53-96d3-7ab7ad7fa448</Guid>
+    <Data />
+    <Name>Steve Tunget</Name>
+    <EmailAddress>
+      <Name>Steve Tunget</Name>
+      <Email>steve.tunget@starrag.com</Email>
+    </EmailAddress>
+    <Email>steve.tunget@starrag.com</Email>
+    <Created>2018-08-29T12:45:01.0599767-07:00</Created>
+    <Scheduled>2018-09-28T12:45:01.0599767-07:00</Scheduled>
+    <Expires>2019-08-29T12:45:01.0599767-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>0018</Assets>
+    <Emails>
+      <Name>Steve Tunget</Name>
+      <Email>steve.tunget@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt;. &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>nopo</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>fb103592-0415-4120-97df-f02e5f42fcfc</Guid>
+    <Data />
+    <Name>Ettore Chiaradonna</Name>
+    <EmailAddress>
+      <Name>Ettore Chiaradonna</Name>
+      <Email>ettore.chiaradonna@starrag.com</Email>
+    </EmailAddress>
+    <Email>ettore.chiaradonna@starrag.com</Email>
+    <Created>2018-08-29T12:54:14.2294219-07:00</Created>
+    <Scheduled>2018-09-28T12:54:14.2294219-07:00</Scheduled>
+    <Expires>2019-08-29T12:54:14.2294219-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>0018</Assets>
+    <Emails>
+      <Name>Ettore Chiaradonna</Name>
+      <Email>ettore.chiaradonna@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt;. &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>nopo</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>6a1f75eb-27f7-45b5-9009-86c219a7152d</Guid>
+    <Data />
+    <Name>Heckert Engineers</Name>
+    <EmailAddress>
+      <Name>Heckert Engineers</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </EmailAddress>
+    <Email>michael.dichiara@starrag.com</Email>
+    <Created>2018-08-29T13:04:48.4930322-07:00</Created>
+    <Scheduled>2018-09-28T13:04:48.4930322-07:00</Scheduled>
+    <Expires>2019-08-29T13:04:48.4930322-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>0018</Assets>
+    <Emails>
+      <Name>Heckert Engineers</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt;. &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>nopo</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>daf49d71-cfde-495b-813f-1306a16c108f</Guid>
+    <Data />
+    <Name>Geoff Morse</Name>
+    <EmailAddress>
+      <Name>Geoff Morse</Name>
+      <Email>firehorsemachine@yahoo.com</Email>
+    </EmailAddress>
+    <Email>firehorsemachine@yahoo.com</Email>
+    <Created>2018-08-29T13:07:39.15933-07:00</Created>
+    <Scheduled>2018-09-28T13:07:39.15933-07:00</Scheduled>
+    <Expires>2019-08-29T13:07:39.15933-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>0018</Assets>
+    <Emails>
+      <Name>Geoff Morse</Name>
+      <Email>firehorsemachine@yahoo.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt;. &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>nopo</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>ff2837c6-83f1-440a-8fef-1daefd4dea68</Guid>
+    <Data />
+    <Name>Heckert Engineers</Name>
+    <EmailAddress>
+      <Name>Heckert Engineers</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </EmailAddress>
+    <Email>michael.dichiara@starrag.com</Email>
+    <Created>2018-08-29T13:26:33.5179294-07:00</Created>
+    <Scheduled>2018-09-28T13:26:33.5179294-07:00</Scheduled>
+    <Expires>2019-08-29T13:26:33.5179294-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>0018</Assets>
+    <Emails>
+      <Name>Heckert Engineers</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt;. &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>0</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>93300ab1-28f9-4367-9be8-a75b945b9ce6</Guid>
+    <Data />
+    <Name>Matthew Metzger</Name>
+    <EmailAddress>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </EmailAddress>
+    <Email>matthew.metzger@starrag.com</Email>
+    <Created>2018-08-29T13:47:26.7430827-07:00</Created>
+    <Scheduled>2018-09-28T13:47:26.7430827-07:00</Scheduled>
+    <Expires>2019-08-29T13:47:26.7430827-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>9999</Assets>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt;. &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>nopo</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>3cfa1e5e-8fcf-4512-9d5d-3eaa282bb647</Guid>
+    <Data />
+    <Name>Matthew Metzger</Name>
+    <EmailAddress>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </EmailAddress>
+    <Email>matthew.metzger@starrag.com</Email>
+    <Created>2018-08-29T14:07:10.5102839-07:00</Created>
+    <Scheduled>2018-09-28T14:07:10.5102839-07:00</Scheduled>
+    <Expires>2019-08-29T14:07:10.5102839-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>9999</Assets>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt;. &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>nopo</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>5e486497-dea6-4f20-8a9b-7c6918ae5619</Guid>
+    <Data />
+    <Name>Matthew Metzger</Name>
+    <EmailAddress>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </EmailAddress>
+    <Email>matthew.metzger@starrag.com</Email>
+    <Created>2018-08-29T14:15:07.3813046-07:00</Created>
+    <Scheduled>2018-09-28T14:15:07.3813046-07:00</Scheduled>
+    <Expires>2019-08-29T14:15:07.3813046-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>9999</Assets>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt; at &lt;customer&gt; &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>nopo</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>0e11bfb6-7abc-4730-a014-268198b42999</Guid>
+    <Data />
+    <Name>Matthew Metzger</Name>
+    <EmailAddress>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </EmailAddress>
+    <Email>matthew.metzger@starrag.com</Email>
+    <Created>2018-08-30T04:46:52.5900126-07:00</Created>
+    <Scheduled>2018-09-29T04:46:52.5900126-07:00</Scheduled>
+    <Expires>2019-08-30T04:46:52.5900126-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>9999</Assets>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt; at &lt;customer&gt; &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>not real</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>71143e3a-01b9-4df9-b813-e3f5d53d0c1d</Guid>
+    <Data />
+    <Name>Matthew Metzger</Name>
+    <EmailAddress>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </EmailAddress>
+    <Email>matthew.metzger@starrag.com</Email>
+    <Created>2018-08-30T10:46:49.5708347-07:00</Created>
+    <Scheduled>2018-09-29T10:46:49.5708347-07:00</Scheduled>
+    <Expires>2019-08-30T10:46:49.5708347-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>9999</Assets>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt; at &lt;customer&gt; &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>nopo</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>298da84c-6672-492a-b62d-218521b13caa</Guid>
+    <Data />
+    <Name>Matthew Metzger</Name>
+    <EmailAddress>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </EmailAddress>
+    <Email>matthew.metzger@starrag.com</Email>
+    <Created>2018-08-30T10:56:44.3838561-07:00</Created>
+    <Scheduled>2018-09-29T10:56:44.3838561-07:00</Scheduled>
+    <Expires>2019-08-30T10:56:44.3838561-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>9999</Assets>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt; at &lt;customer&gt; &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>nopo</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>359c8569-c614-4724-b3b1-0a458b823ec1</Guid>
+    <Data />
+    <Name>Matthew Metzger</Name>
+    <EmailAddress>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </EmailAddress>
+    <Email>matthew.metzger@starrag.com</Email>
+    <Created>2018-08-30T11:04:06.2121272-07:00</Created>
+    <Scheduled>2018-09-29T11:04:06.2121272-07:00</Scheduled>
+    <Expires>2019-08-30T11:04:06.2121272-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>9999</Assets>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt; at &lt;customer&gt; &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>490014109</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>54c6bd11-37f5-49e4-aefc-bcd6897782ed</Guid>
+    <Data />
+    <Name>Matthew Metzger</Name>
+    <EmailAddress>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </EmailAddress>
+    <Email>matthew.metzger@starrag.com</Email>
+    <Created>2018-09-04T06:53:21.1870913-07:00</Created>
+    <Scheduled>2018-10-04T06:53:21.1870913-07:00</Scheduled>
+    <Expires>2019-09-04T06:53:21.1870913-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>0099</Assets>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt; at &lt;customer&gt; &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>490014109</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>bacc1b43-6208-410a-9c53-ce6dcfa235f2</Guid>
+    <Data />
+    <Name>Brad Lyles</Name>
+    <EmailAddress>
+      <Name>Brad Lyles</Name>
+      <Email>brad.lyles@starrag.com</Email>
+    </EmailAddress>
+    <Email>brad.lyles@starrag.com</Email>
+    <Created>2018-09-04T06:54:14.8469577-07:00</Created>
+    <Scheduled>2018-10-04T06:54:14.8469577-07:00</Scheduled>
+    <Expires>2019-09-04T06:54:14.8469577-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>0006</Assets>
+    <Assets>0014</Assets>
+    <Assets>0020</Assets>
+    <Assets>0024</Assets>
+    <Assets>0035</Assets>
+    <Assets>0044</Assets>
+    <Assets>0116</Assets>
+    <Assets>0965</Assets>
+    <Emails>
+      <Name>Brad Lyles</Name>
+      <Email>brad.lyles@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt; at &lt;customer&gt; &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>123456</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>c01eef77-46d2-4d56-a9fa-1b2ba6087cbf</Guid>
+    <Data />
+    <Name>Gus Morales</Name>
+    <EmailAddress>
+      <Name>Gus Morales</Name>
+      <Email>gustavo.morales@starrag.com</Email>
+    </EmailAddress>
+    <Email>gustavo.morales@starrag.com</Email>
+    <Created>2018-09-04T09:55:14.4125983-07:00</Created>
+    <Scheduled>2018-10-04T09:55:14.4125983-07:00</Scheduled>
+    <Expires>2019-09-04T09:55:14.4125983-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>0112</Assets>
+    <Assets>0114</Assets>
+    <Assets>0976</Assets>
+    <Emails>
+      <Name>Gus Morales</Name>
+      <Email>gustavo.morales@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt; at &lt;customer&gt; &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>490014423</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>b81930f0-1246-455a-914c-6484b82c4099</Guid>
+    <Data />
+    <Name>Nick Bolmer</Name>
+    <EmailAddress>
+      <Name>Nick Bolmer</Name>
+      <Email>nick.bolmer@starrag.com</Email>
+    </EmailAddress>
+    <Email>nick.bolmer@starrag.com</Email>
+    <Created>2018-09-04T12:12:00.9086305-07:00</Created>
+    <Scheduled>2018-10-04T12:12:00.9086305-07:00</Scheduled>
+    <Expires>2019-09-04T12:12:00.9086305-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>0006</Assets>
+    <Emails>
+      <Name>Nick Bolmer</Name>
+      <Email>nick.bolmer@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt; at &lt;customer&gt; &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>99999</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>68ce3932-215d-4edb-a229-87e42faeffd2</Guid>
+    <Data />
+    <Name>Matthew Metzger</Name>
+    <EmailAddress>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </EmailAddress>
+    <Email>matthew.metzger@starrag.com</Email>
+    <Created>2018-09-05T12:42:20.3533891-07:00</Created>
+    <Scheduled>2018-10-05T12:42:20.3533891-07:00</Scheduled>
+    <Expires>2019-09-05T12:42:20.3533891-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>0039</Assets>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>matthew.metzger@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt; at &lt;customer&gt; &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>-1</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>458bc24b-9ff0-4b31-a40f-da2133963559</Guid>
+    <Data />
+    <Name>Nick Bolmer</Name>
+    <EmailAddress>
+      <Name>Nick Bolmer</Name>
+      <Email>nick.bolmer@starrag.com</Email>
+    </EmailAddress>
+    <Email>nick.bolmer@starrag.com</Email>
+    <Created>2018-09-24T11:17:48.3920327-07:00</Created>
+    <Scheduled>2018-10-24T11:17:48.3920327-07:00</Scheduled>
+    <Expires>2019-09-24T11:17:48.3920327-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>0985</Assets>
+    <Emails>
+      <Name>Nick Bolmer</Name>
+      <Email>nick.bolmer@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt; at &lt;customer&gt; &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>490014423</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>b30f957b-4f62-4486-8e0a-166b253bc521</Guid>
+    <Data />
+    <Name>Gus Morales</Name>
+    <EmailAddress>
+      <Name>Gus Morales</Name>
+      <Email>gustavo.morales@starrag.com</Email>
+    </EmailAddress>
+    <Email>gustavo.morales@starrag.com</Email>
+    <Created>2018-09-26T11:19:40.5422822-07:00</Created>
+    <Scheduled>2018-10-26T11:19:40.5422822-07:00</Scheduled>
+    <Expires>2019-09-26T11:19:40.5422822-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>0116</Assets>
+    <Emails>
+      <Name>Gus Morales</Name>
+      <Email>gustavo.morales@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt; at &lt;customer&gt; &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>490014484</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>b15ce1ff-5e3c-4081-92ba-8a90f5ad1bd5</Guid>
+    <Data />
+    <Name>Nick Johnson</Name>
+    <EmailAddress>
+      <Name>Nick Johnson</Name>
+      <Email>nick.johnson@starrag.com</Email>
+    </EmailAddress>
+    <Email>nick.johnson@starrag.com</Email>
+    <Created>2018-09-27T09:42:04.7122143-07:00</Created>
+    <Scheduled>2018-10-27T09:42:04.7122143-07:00</Scheduled>
+    <Expires>2019-09-27T09:42:04.7122143-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>0006</Assets>
+    <Emails>
+      <Name>Nick Johnson</Name>
+      <Email>nick.johnson@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt; at &lt;customer&gt; &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Notices xsi:type="EmailNotice">
+    <NoticeControlNumber>-1</NoticeControlNumber>
+    <NoticeType>Checkout</NoticeType>
+    <Guid>7a6f545f-b337-4c3f-8bf2-2905403e98be</Guid>
+    <Data />
+    <Name>Steve Tunget</Name>
+    <EmailAddress>
+      <Name>Steve Tunget</Name>
+      <Email>steve.tunget@starrag.com</Email>
+    </EmailAddress>
+    <Email>steve.tunget@starrag.com</Email>
+    <Created>2018-09-27T10:53:38.2528908-07:00</Created>
+    <Scheduled>2018-10-27T10:53:38.2528908-07:00</Scheduled>
+    <Expires>2019-09-27T10:53:38.2528908-07:00</Expires>
+    <IsTimed>true</IsTimed>
+    <IsExpirable>false</IsExpirable>
+    <Assets>0062</Assets>
+    <Emails>
+      <Name>Steve Tunget</Name>
+      <Email>steve.tunget@starrag.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Matthew Metzger</Name>
+      <Email>metzger.matthew@gmail.com</Email>
+    </Emails>
+    <Emails>
+      <Name>Michael DiChiara</Name>
+      <Email>michael.dichiara@starrag.com</Email>
+    </Emails>
+    <Body>Hello &lt;name&gt;,&lt;NL&gt;&lt;NL&gt;
+
+A service tool, &lt;serviceTool&gt;, has been assigned to you on &lt;dateAssigned&gt;. &lt;NL&gt; 
+
+For Job &lt;serviceOrder&gt; at &lt;customer&gt; &lt;NL&gt;
+
+You will recieve a reminder to return (&lt;serviceTool&gt;) 30 days after reciept of this message.&lt;NL&gt;&lt;NL&gt;
+
+
+Thank you,&lt;NL&gt;&lt;NL&gt;
+
+Support Team</Body>
+    <Subject>Asset Return Reminder</Subject>
+  </Notices>
+  <Interval>60000</Interval>
+</NotificationSystem>

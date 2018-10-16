@@ -1,0 +1,51 @@
+﻿appcontainer 
+{
+    width:100%;
+    height:100%;
+    position:relative
+}
+
+#toolbar {
+    height: 50px;
+    width: 100%;
+    background-color: #333333;
+}
+#footer {    
+    height: 25px;
+    width: 100%;
+    background-color: #333333;
+    z-index:10001;
+}
+#browserbox{
+    display:table;
+    width:100%;
+    height:200px;
+}
+#directorytree {
+    overflow:auto;
+    display: table-cell;
+    min-width: 220px;
+    max-width:400px;
+    border-right: 3px solid #333333;
+    background-color: #ffffff;
+    padding:5px;
+    padding-right:15px;
+    z-index:1000;
+}
+#filebox {
+    padding:10px;
+    display: table-cell;
+    width: 80%;
+    background-color: #ffffff;
+}
+
+.main-content {
+    overflow: auto;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    overflow: auto;
+}
+.nodeSelected {
+    color: red;
+    text-decoration: none;
+}

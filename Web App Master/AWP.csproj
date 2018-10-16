@@ -1,0 +1,1812 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B16A16F7-C920-4046-9338-F534BF20E43E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Web_App_Master</RootNamespace>
+    <AssemblyName>Web App Master</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort>44353</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=18.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.18.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Ghostscript.NET, Version=1.2.1.0, Culture=neutral, PublicKeyToken=f85051de34525b59, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ghostscript.NET.1.2.1\lib\net40\Ghostscript.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.12.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.12\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Core, Version=2.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Core.2.3.0\lib\net45\Microsoft.AspNet.SignalR.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.SystemWeb, Version=2.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.SystemWeb.2.3.0\lib\net45\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Extensions.Design" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.bootstrap">
+      <HintPath>..\packages\AspNet.ScriptManager.bootstrap.3.0.0\lib\net45\AspNet.ScriptManager.bootstrap.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.1.10.2\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Providers">
+      <HintPath>..\packages\Microsoft.AspNet.Providers.Core.2.0.0\lib\net40\System.Web.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\AddPhoneNumber.aspx" />
+    <Content Include="Account\Admin\AdminDashboard.aspx" />
+    <Content Include="Account\AssetController.aspx" />
+    <Content Include="Account\AssetView.aspx" />
+    <Content Include="Account\CheckIn.aspx" />
+    <Content Include="Account\Checkout.aspx" />
+    <Content Include="Account\CreateAsset.aspx" />
+    <Content Include="Account\Images\00010.JPG" />
+    <Content Include="Account\Images\00020.JPG" />
+    <Content Include="Account\Images\00030.JPG" />
+    <Content Include="Account\Images\00040.JPG" />
+    <Content Include="Account\Images\000400.JPG" />
+    <Content Include="Account\Images\000411.JPG" />
+    <Content Include="Account\Images\000422.JPG" />
+    <Content Include="Account\Images\00050.JPG" />
+    <Content Include="Account\Images\00060.JPG" />
+    <Content Include="Account\Images\000600.JPG" />
+    <Content Include="Account\Images\00070.JPG" />
+    <Content Include="Account\Images\00080.JPG" />
+    <Content Include="Account\Images\00090.JPG" />
+    <Content Include="Account\Images\00100.JPG" />
+    <Content Include="Account\Images\001000.JPG" />
+    <Content Include="Account\Images\00110.JPG" />
+    <Content Include="Account\Images\00120.JPG" />
+    <Content Include="Account\Images\001290.JPG" />
+    <Content Include="Account\Images\00130.JPG" />
+    <Content Include="Account\Images\00140.JPG" />
+    <Content Include="Account\Images\001400.JPG" />
+    <Content Include="Account\Images\001410.JPG" />
+    <Content Include="Account\Images\00150.JPG" />
+    <Content Include="Account\Images\001590.JPG" />
+    <Content Include="Account\Images\001600.JPG" />
+    <Content Include="Account\Images\00170.JPG" />
+    <Content Include="Account\Images\001700.JPG" />
+    <Content Include="Account\Images\00180.JPG" />
+    <Content Include="Account\Images\00190.JPG" />
+    <Content Include="Account\Images\00200.JPG" />
+    <Content Include="Account\Images\002100.JPG" />
+    <Content Include="Account\Images\00220.JPG" />
+    <Content Include="Account\Images\00240.JPG" />
+    <Content Include="Account\Images\002400.JPG" />
+    <Content Include="Account\Images\00250.JPG" />
+    <Content Include="Account\Images\00260.JPG" />
+    <Content Include="Account\Images\00270.JPG" />
+    <Content Include="Account\Images\00280.JPG" />
+    <Content Include="Account\Images\00290.JPG" />
+    <Content Include="Account\Images\00300.JPG" />
+    <Content Include="Account\Images\003000.JPG" />
+    <Content Include="Account\Images\00310.JPG" />
+    <Content Include="Account\Images\0032110.JPG" />
+    <Content Include="Account\Images\00330.JPG" />
+    <Content Include="Account\Images\00340.JPG" />
+    <Content Include="Account\Images\00350.JPG" />
+    <Content Include="Account\Images\00360.JPG" />
+    <Content Include="Account\Images\00370.JPG" />
+    <Content Include="Account\Images\00380.JPG" />
+    <Content Include="Account\Images\00390.JPG" />
+    <Content Include="Account\Images\00400.JPG" />
+    <Content Include="Account\Images\00410.JPG" />
+    <Content Include="Account\Images\00420.JPG" />
+    <Content Include="Account\Images\00430.JPG" />
+    <Content Include="Account\Images\00440.JPG" />
+    <Content Include="Account\Images\00450.JPG" />
+    <Content Include="Account\Images\00460.JPG" />
+    <Content Include="Account\Images\00470.JPG" />
+    <Content Include="Account\Images\004800.JPG" />
+    <Content Include="Account\Images\004900.JPG" />
+    <Content Include="Account\Images\004a00.JPG" />
+    <Content Include="Account\Images\004A11.jpg" />
+    <Content Include="Account\Images\005000.JPG" />
+    <Content Include="Account\Images\005100.JPG" />
+    <Content Include="Account\Images\005200.JPG" />
+    <Content Include="Account\Images\005300.JPG" />
+    <Content Include="Account\Images\005400.JPG" />
+    <Content Include="Account\Images\005500.JPG" />
+    <Content Include="Account\Images\005600.JPG" />
+    <Content Include="Account\Images\005700.JPG" />
+    <Content Include="Account\Images\005800.JPG" />
+    <Content Include="Account\Images\005900.JPG" />
+    <Content Include="Account\Images\006000.JPG" />
+    <Content Include="Account\Images\006100.JPG" />
+    <Content Include="Account\Images\006200.JPG" />
+    <Content Include="Account\Images\006300.JPG" />
+    <Content Include="Account\Images\006400.JPG" />
+    <Content Include="Account\Images\006411.JPG" />
+    <Content Include="Account\Images\006422.JPG" />
+    <Content Include="Account\Images\006500.JPG" />
+    <Content Include="Account\Images\006600.JPG" />
+    <Content Include="Account\Images\006700.JPG" />
+    <Content Include="Account\Images\006800.JPG" />
+    <Content Include="Account\Images\006900.JPG" />
+    <Content Include="Account\Images\007100.JPG" />
+    <Content Include="Account\Images\007200.JPG" />
+    <Content Include="Account\Images\007300.JPG" />
+    <Content Include="Account\Images\007400.JPG" />
+    <Content Include="Account\Images\007500.JPG" />
+    <Content Include="Account\Images\007600.JPG" />
+    <Content Include="Account\Images\007700.JPG" />
+    <Content Include="Account\Images\007800.JPG" />
+    <Content Include="Account\Images\007900.JPG" />
+    <Content Include="Account\Images\008000.JPG" />
+    <Content Include="Account\Images\008200.JPG" />
+    <Content Include="Account\Images\008300.JPG" />
+    <Content Include="Account\Images\008400.JPG" />
+    <Content Include="Account\Images\008500.JPG" />
+    <Content Include="Account\Images\008600.JPG" />
+    <Content Include="Account\Images\008700.JPG" />
+    <Content Include="Account\Images\008800.JPG" />
+    <Content Include="Account\Images\008900.JPG" />
+    <Content Include="Account\Images\009000.JPG" />
+    <Content Include="Account\Images\009100.JPG" />
+    <Content Include="Account\Images\009200.JPG" />
+    <Content Include="Account\Images\009210.JPG" />
+    <Content Include="Account\Images\009221.JPG" />
+    <Content Include="Account\Images\009232.JPG" />
+    <Content Include="Account\Images\009300.JPG" />
+    <Content Include="Account\Images\009500.JPG" />
+    <Content Include="Account\Images\009600.JPG" />
+    <Content Include="Account\Images\009610.JPG" />
+    <Content Include="Account\Images\009611.JPG" />
+    <Content Include="Account\Images\009621.JPG" />
+    <Content Include="Account\Images\009622.JPG" />
+    <Content Include="Account\Images\009700.JPG" />
+    <Content Include="Account\Images\009711.JPG" />
+    <Content Include="Account\Images\009722.JPG" />
+    <Content Include="Account\Images\009810.jpg" />
+    <Content Include="Account\Images\009821.jpg" />
+    <Content Include="Account\Images\009900.JPG" />
+    <Content Include="Account\Images\01000.JPG" />
+    <Content Include="Account\Images\010000.JPG" />
+    <Content Include="Account\Images\010011.JPG" />
+    <Content Include="Account\Images\010022.JPG" />
+    <Content Include="Account\Images\010033.JPG" />
+    <Content Include="Account\Images\010044.JPG" />
+    <Content Include="Account\Images\010055.JPG" />
+    <Content Include="Account\Images\010066.JPG" />
+    <Content Include="Account\Images\010077.JPG" />
+    <Content Include="Account\Images\010088.JPG" />
+    <Content Include="Account\Images\010100.jpg" />
+    <Content Include="Account\Images\010111.jpg" />
+    <Content Include="Account\Images\010121.JPG" />
+    <Content Include="Account\Images\010122.jpg" />
+    <Content Include="Account\Images\010132.JPG" />
+    <Content Include="Account\Images\010143.JPG" />
+    <Content Include="Account\Images\010200.jpg" />
+    <Content Include="Account\Images\010211.jpg" />
+    <Content Include="Account\Images\010222.jpg" />
+    <Content Include="Account\Images\010300.JPG" />
+    <Content Include="Account\Images\0103103.JPG" />
+    <Content Include="Account\Images\010311.JPG" />
+    <Content Include="Account\Images\0103114.JPG" />
+    <Content Include="Account\Images\0103125.JPG" />
+    <Content Include="Account\Images\0103136.JPG" />
+    <Content Include="Account\Images\0103140.JPG" />
+    <Content Include="Account\Images\010322.JPG" />
+    <Content Include="Account\Images\010333.JPG" />
+    <Content Include="Account\Images\010344.JPG" />
+    <Content Include="Account\Images\010355.JPG" />
+    <Content Include="Account\Images\010366.JPG" />
+    <Content Include="Account\Images\010381.JPG" />
+    <Content Include="Account\Images\010392.JPG" />
+    <Content Include="Account\Images\010400.JPG" />
+    <Content Include="Account\Images\010411.JPG" />
+    <Content Include="Account\Images\010500.JPG" />
+    <Content Include="Account\Images\010511.JPG" />
+    <Content Include="Account\Images\010600.JPG" />
+    <Content Include="Account\Images\010611.JPG" />
+    <Content Include="Account\Images\010700.JPG" />
+    <Content Include="Account\Images\010711.JPG" />
+    <Content Include="Account\Images\0107190.jpg" />
+    <Content Include="Account\Images\0107201.jpg" />
+    <Content Include="Account\Images\0107212.jpg" />
+    <Content Include="Account\Images\010722.JPG" />
+    <Content Include="Account\Images\0107223.jpg" />
+    <Content Include="Account\Images\010800.jpg" />
+    <Content Include="Account\Images\010900.JPG" />
+    <Content Include="Account\Images\010910.JPG" />
+    <Content Include="Account\Images\011000.JPG" />
+    <Content Include="Account\Images\011011.JPG" />
+    <Content Include="Account\Images\011110.jpg" />
+    <Content Include="Account\Images\011132.JPG" />
+    <Content Include="Account\Images\011143.JPG" />
+    <Content Include="Account\Images\011200.JPEG" />
+    <Content Include="Account\Images\011211.JPEG" />
+    <Content Include="Account\Images\011300.JPEG" />
+    <Content Include="Account\Images\011311.JPEG" />
+    <Content Include="Account\Images\011400.jpg" />
+    <Content Include="Account\Images\011411.jpg" />
+    <Content Include="Account\Images\011500.jpg" />
+    <Content Include="Account\Images\011511.jpg" />
+    <Content Include="Account\Images\011600.jpg" />
+    <Content Include="Account\Images\011611.jpg" />
+    <Content Include="Account\Images\011711.JPG" />
+    <Content Include="Account\Images\011730.JPG" />
+    <Content Include="Account\Images\011733.JPG" />
+    <Content Include="Account\Images\011744.JPG" />
+    <Content Include="Account\Images\011752.JPG" />
+    <Content Include="Account\Images\011774.JPG" />
+    <Content Include="Account\Images\013A00.JPG" />
+    <Content Include="Account\Images\027a00.JPG" />
+    <Content Include="Account\Images\096500.jpg" />
+    <Content Include="Account\Images\096511.jpg" />
+    <Content Include="Account\Images\096700.JPEG" />
+    <Content Include="Account\Images\096711.JPEG" />
+    <Content Include="Account\Images\096722.JPEG" />
+    <Content Include="Account\Images\096733.JPEG" />
+    <Content Include="Account\Images\096800.JPEG" />
+    <Content Include="Account\Images\096811.JPEG" />
+    <Content Include="Account\Images\096822.JPEG" />
+    <Content Include="Account\Images\096833.JPEG" />
+    <Content Include="Account\Images\096900.JPG" />
+    <Content Include="Account\Images\096911.JPG" />
+    <Content Include="Account\Images\097000.jpg" />
+    <Content Include="Account\Images\097011.jpg" />
+    <Content Include="Account\Images\097110.JPG" />
+    <Content Include="Account\Images\097121.JPG" />
+    <Content Include="Account\Images\097132.JPG" />
+    <Content Include="Account\Images\097200.JPG" />
+    <Content Include="Account\Images\097400.JPG" />
+    <Content Include="Account\Images\097500.JPG" />
+    <Content Include="Account\Images\097600.JPG" />
+    <Content Include="Account\Images\097810.JPG" />
+    <Content Include="Account\Images\097900.JPG" />
+    <Content Include="Account\Images\097911.JPG" />
+    <Content Include="Account\Images\097922.JPG" />
+    <Content Include="Account\Images\097933.JPG" />
+    <Content Include="Account\Images\097944.JPG" />
+    <Content Include="Account\Images\098000.JPG" />
+    <Content Include="Account\Images\098110.JPG" />
+    <Content Include="Account\Images\098121.JPG" />
+    <Content Include="Account\Images\098132.JPG" />
+    <Content Include="Account\Images\098143.JPG" />
+    <Content Include="Account\Images\098200.JPG" />
+    <Content Include="Account\Images\098300.JPG" />
+    <Content Include="Account\Images\098400.JPEG" />
+    <Content Include="Account\Images\098400.JPG" />
+    <Content Include="Account\Images\098411.JPEG" />
+    <Content Include="Account\Images\098422.JPEG" />
+    <Content Include="Account\Images\098433.JPEG" />
+    <Content Include="Account\Images\098444.JPEG" />
+    <Content Include="Account\Images\098500.JPG" />
+    <Content Include="Account\Images\098600.JPG" />
+    <Content Include="Account\Images\098611.JPG" />
+    <Content Include="Account\Images\098700.JPG" />
+    <Content Include="Account\Images\098711.JPG" />
+    <Content Include="Account\Images\098722.JPG" />
+    <Content Include="Account\Images\098810.JPG" />
+    <Content Include="Account\Images\098811.JPG" />
+    <Content Include="Account\Images\098900.JPG" />
+    <Content Include="Account\Images\098911.JPG" />
+    <Content Include="Account\Images\098922.JPG" />
+    <Content Include="Account\Images\099000.JPG" />
+    <Content Include="Account\Images\099011.JPG" />
+    <Content Include="Account\Images\099100.JPG" />
+    <Content Include="Account\Images\099111.JPG" />
+    <Content Include="Account\Images\099122.JPG" />
+    <Content Include="Account\Images\099133.JPG" />
+    <Content Include="Account\Images\099200.JPG" />
+    <Content Include="Account\Images\099500.JPG" />
+    <Content Include="Account\Images\099710.JPG" />
+    <Content Include="Account\Images\099721.JPG" />
+    <Content Include="Account\Images\099810.JPG" />
+    <Content Include="Account\Images\0998109.JPG" />
+    <Content Include="Account\Images\09981110.JPG" />
+    <Content Include="Account\Images\09981211.JPG" />
+    <Content Include="Account\Images\09981312.JPG" />
+    <Content Include="Account\Images\09981413.JPG" />
+    <Content Include="Account\Images\09981514.JPG" />
+    <Content Include="Account\Images\09981615.JPG" />
+    <Content Include="Account\Images\09981716.JPG" />
+    <Content Include="Account\Images\099821.JPG" />
+    <Content Include="Account\Images\099832.JPG" />
+    <Content Include="Account\Images\099843.JPG" />
+    <Content Include="Account\Images\099854.JPG" />
+    <Content Include="Account\Images\099865.JPG" />
+    <Content Include="Account\Images\099876.JPG" />
+    <Content Include="Account\Images\099887.JPG" />
+    <Content Include="Account\Images\099898.JPG" />
+    <Content Include="Account\Images\1071010.JPG" />
+    <Content Include="Account\Images\10711.JPG" />
+    <Content Include="Account\Images\1071111.JPG" />
+    <Content Include="Account\Images\1071212.JPG" />
+    <Content Include="Account\Images\1071313.JPG" />
+    <Content Include="Account\Images\1071414.JPG" />
+    <Content Include="Account\Images\1071515.JPG" />
+    <Content Include="Account\Images\1071616.JPG" />
+    <Content Include="Account\Images\1071717.JPG" />
+    <Content Include="Account\Images\1071818.JPG" />
+    <Content Include="Account\Images\10722.JPG" />
+    <Content Include="Account\Images\10733.JPG" />
+    <Content Include="Account\Images\10744.JPG" />
+    <Content Include="Account\Images\10755.JPG" />
+    <Content Include="Account\Images\10766.JPG" />
+    <Content Include="Account\Images\10777.JPG" />
+    <Content Include="Account\Images\10788.JPG" />
+    <Content Include="Account\Images\10799.JPG" />
+    <Content Include="Account\Images\2220.JPG" />
+    <Content Include="Account\Images\6550.JPG" />
+    <Content Include="Account\OutCart.aspx" />
+    <Content Include="Account\Confirm.aspx" />
+    <Content Include="Account\Forgot.aspx" />
+    <Content Include="Account\Lockout.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Manage.aspx" />
+    <Content Include="Account\ManageLogins.aspx" />
+    <Content Include="Account\ManagePassword.aspx" />
+    <Content Include="Account\menu.ascx" />
+    <Content Include="Account\OpenAuthProviders.ascx" />
+    <Content Include="Account\PackingLists\1-14-2017 4-55-58 PM .png" />
+    <Content Include="Account\PackingLists\1-14-2017 5-00-13 PM .png" />
+    <Content Include="Account\PackingLists\1-15-2018 10-24-33 AM .png" />
+    <Content Include="Account\PackingLists\1-16-2017 1-43-16 PM .png" />
+    <Content Include="Account\PackingLists\1-16-2017 12-47-15 PM .png" />
+    <Content Include="Account\PackingLists\1-16-2017 12-48-28 PM .png" />
+    <Content Include="Account\PackingLists\1-16-2017 12-51-46 PM .png" />
+    <Content Include="Account\PackingLists\1-16-2017 12-52-15 PM .png" />
+    <Content Include="Account\PackingLists\1-22-2018 12-45-11 PM .png" />
+    <Content Include="Account\PackingLists\1-22-2018 2-31-13 PM .png" />
+    <Content Include="Account\PackingLists\1-24-2018 10-04-09 AM .png" />
+    <Content Include="Account\PackingLists\1-25-2017 11-16-22 AM .png" />
+    <Content Include="Account\PackingLists\1-25-2017 2-10-59 PM .png" />
+    <Content Include="Account\PackingLists\1-25-2017 2-11-55 PM .png" />
+    <Content Include="Account\PackingLists\1-27-2017 10-26-31 AM .png" />
+    <Content Include="Account\PackingLists\1-27-2017 10-29-46 AM .png" />
+    <Content Include="Account\PackingLists\1-27-2017 10-29-49 AM .png" />
+    <Content Include="Account\PackingLists\1-3-2018 1-13-33 PM .png" />
+    <Content Include="Account\PackingLists\1-31-2017 2-25-57 PM .png" />
+    <Content Include="Account\PackingLists\1-31-2017 2-31-45 PM .png" />
+    <Content Include="Account\PackingLists\1-31-2018 2-08-38 PM .png" />
+    <Content Include="Account\PackingLists\1-31-2018 8-17-13 AM .png" />
+    <Content Include="Account\PackingLists\1-4-2018 1-00-22 PM .png" />
+    <Content Include="Account\PackingLists\10-13-2017 1-10-39 PM .png" />
+    <Content Include="Account\PackingLists\10-19-2017 1-28-23 PM .png" />
+    <Content Include="Account\PackingLists\10-20-2017 1-07-00 PM .png" />
+    <Content Include="Account\PackingLists\10-23-2017 8-52-41 AM .png" />
+    <Content Include="Account\PackingLists\10-24-2017 12-27-40 PM .png" />
+    <Content Include="Account\PackingLists\10-24-2017 12-51-14 PM .png" />
+    <Content Include="Account\PackingLists\10-25-2017 10-18-37 AM .png" />
+    <Content Include="Account\PackingLists\10-26-2017 3-10-02 PM .png" />
+    <Content Include="Account\PackingLists\10-4-2017 11-22-37 AM .png" />
+    <Content Include="Account\PackingLists\11-13-2017 8-25-28 AM .png" />
+    <Content Include="Account\PackingLists\11-14-2017 10-40-49 AM .png" />
+    <Content Include="Account\PackingLists\11-20-2017 1-50-15 PM .png" />
+    <Content Include="Account\PackingLists\11-28-2017 8-23-14 AM .png" />
+    <Content Include="Account\PackingLists\11-3-2017 9-02-29 AM .png" />
+    <Content Include="Account\PackingLists\11-30-2017 8-06-42 AM .png" />
+    <Content Include="Account\PackingLists\11-7-2017 12-47-52 PM .png" />
+    <Content Include="Account\PackingLists\11-7-2017 4-27-02 PM .png" />
+    <Content Include="Account\PackingLists\12-1-2017 1-19-22 PM .png" />
+    <Content Include="Account\PackingLists\12-19-2017 11-37-33 AM .png" />
+    <Content Include="Account\PackingLists\12-22-2017 9-26-48 AM .png" />
+    <Content Include="Account\PackingLists\12-22-2017 9-53-23 AM .png" />
+    <Content Include="Account\PackingLists\12-4-2017 1-22-03 PM .png" />
+    <Content Include="Account\PackingLists\12-7-2017 2-37-32 PM .png" />
+    <Content Include="Account\PackingLists\2-10-2017 1-58-36 PM .png" />
+    <Content Include="Account\PackingLists\2-10-2017 2-01-44 PM .png" />
+    <Content Include="Account\PackingLists\2-13-2017 2-39-13 PM .png" />
+    <Content Include="Account\PackingLists\2-13-2017 2-39-42 PM .png" />
+    <Content Include="Account\PackingLists\2-13-2017 7-57-14 AM .png" />
+    <Content Include="Account\PackingLists\2-13-2018 1-01-05 PM .png" />
+    <Content Include="Account\PackingLists\2-13-2018 1-03-43 PM .png" />
+    <Content Include="Account\PackingLists\2-13-2018 4-05-50 PM .png" />
+    <Content Include="Account\PackingLists\2-14-2017 3-01-02 PM .png" />
+    <Content Include="Account\PackingLists\2-17-2017 10-12-02 AM .png" />
+    <Content Include="Account\PackingLists\2-17-2017 10-16-39 AM .png" />
+    <Content Include="Account\PackingLists\2-17-2017 8-38-22 AM .png" />
+    <Content Include="Account\PackingLists\2-17-2017 9-28-24 AM .png" />
+    <Content Include="Account\PackingLists\2-21-2017 2-03-17 PM .png" />
+    <Content Include="Account\PackingLists\2-21-2017 2-44-31 PM .png" />
+    <Content Include="Account\PackingLists\2-21-2018 1-58-58 PM .png" />
+    <Content Include="Account\PackingLists\2-21-2018 2-57-04 PM .png" />
+    <Content Include="Account\PackingLists\2-21-2018 3-05-24 PM .png" />
+    <Content Include="Account\PackingLists\2-23-2017 2-34-45 PM .png" />
+    <Content Include="Account\PackingLists\2-23-2017 4-03-33 PM .png" />
+    <Content Include="Account\PackingLists\2-23-2017 4-12-47 PM .png" />
+    <Content Include="Account\PackingLists\2-23-2017 4-21-27 PM .png" />
+    <Content Include="Account\PackingLists\2-23-2018 8-42-09 AM .png" />
+    <Content Include="Account\PackingLists\2-27-2018 8-21-36 AM .png" />
+    <Content Include="Account\PackingLists\2-27-2018 8-24-27 AM .png" />
+    <Content Include="Account\PackingLists\2-28-2017 11-48-44 AM .png" />
+    <Content Include="Account\PackingLists\2-28-2017 9-27-00 AM .png" />
+    <Content Include="Account\PackingLists\2-28-2017 9-33-35 AM .png" />
+    <Content Include="Account\PackingLists\2-28-2017 9-36-04 AM .png" />
+    <Content Include="Account\PackingLists\2-3-2017 1-13-59 PM .png" />
+    <Content Include="Account\PackingLists\2-3-2017 3-35-16 PM .png" />
+    <Content Include="Account\PackingLists\2-3-2017 3-37-07 PM .png" />
+    <Content Include="Account\PackingLists\2-5-2018 11-29-14 AM .png" />
+    <Content Include="Account\PackingLists\2-6-2017 9-31-13 AM .png" />
+    <Content Include="Account\PackingLists\2-7-2017 10-39-58 AM .png" />
+    <Content Include="Account\PackingLists\2-7-2018 9-05-22 AM .png" />
+    <Content Include="Account\PackingLists\2-8-2017 3-29-24 PM .png" />
+    <Content Include="Account\PackingLists\2-8-2017 3-31-53 PM .png" />
+    <Content Include="Account\PackingLists\2-8-2017 3-32-10 PM .png" />
+    <Content Include="Account\PackingLists\2-8-2018 8-43-59 AM .png" />
+    <Content Include="Account\PackingLists\2-9-2017 2-04-43 PM .png" />
+    <Content Include="Account\PackingLists\2-9-2017 2-24-00 PM .png" />
+    <Content Include="Account\PackingLists\3-1-2017 4-16-20 PM .png" />
+    <Content Include="Account\PackingLists\3-1-2017 4-19-43 PM .png" />
+    <Content Include="Account\PackingLists\3-1-2017 4-52-37 PM .png" />
+    <Content Include="Account\PackingLists\3-1-2017 8-55-32 AM .png" />
+    <Content Include="Account\PackingLists\3-11-2017 3-26-11 PM .png" />
+    <Content Include="Account\PackingLists\3-14-2017 4-12-59 PM .png" />
+    <Content Include="Account\PackingLists\3-16-2018 11-27-18 AM .png" />
+    <Content Include="Account\PackingLists\3-21-2017 2-28-46 PM .png" />
+    <Content Include="Account\PackingLists\3-21-2017 2-32-26 PM .png" />
+    <Content Include="Account\PackingLists\3-21-2017 2-36-55 PM .png" />
+    <Content Include="Account\PackingLists\3-22-2017 12-48-35 PM .png" />
+    <Content Include="Account\PackingLists\3-23-2017 10-25-21 AM .png" />
+    <Content Include="Account\PackingLists\3-27-2017 10-48-09 AM .png" />
+    <Content Include="Account\PackingLists\3-27-2017 11-15-26 AM .png" />
+    <Content Include="Account\PackingLists\3-27-2017 11-16-16 AM .png" />
+    <Content Include="Account\PackingLists\3-27-2017 11-16-47 AM .png" />
+    <Content Include="Account\PackingLists\3-27-2017 11-17-15 AM .png" />
+    <Content Include="Account\PackingLists\3-27-2018 11-43-27 AM .png" />
+    <Content Include="Account\PackingLists\3-27-2018 2-17-49 PM .png" />
+    <Content Include="Account\PackingLists\3-28-2017 11-43-04 AM .png" />
+    <Content Include="Account\PackingLists\3-28-2018 1-58-13 PM .png" />
+    <Content Include="Account\PackingLists\3-28-2018 3-07-37 PM .png" />
+    <Content Include="Account\PackingLists\3-6-2018 2-44-25 PM .png" />
+    <Content Include="Account\PackingLists\3-7-2017 1-15-41 PM .png" />
+    <Content Include="Account\PackingLists\3-7-2017 1-17-37 PM .png" />
+    <Content Include="Account\PackingLists\3-7-2018 3-52-06 PM .png" />
+    <Content Include="Account\PackingLists\3-8-2017 1-34-01 AM .png" />
+    <Content Include="Account\PackingLists\3-8-2017 1-37-21 AM .png" />
+    <Content Include="Account\PackingLists\3-8-2017 1-40-13 AM .png" />
+    <Content Include="Account\PackingLists\3-8-2017 1-43-04 AM .png" />
+    <Content Include="Account\PackingLists\3-8-2017 2-05-03 AM .png" />
+    <Content Include="Account\PackingLists\3-8-2017 4-34-56 PM .png" />
+    <Content Include="Account\PackingLists\3-9-2018 1-36-58 PM .png" />
+    <Content Include="Account\PackingLists\3-9-2018 9-07-55 AM .png" />
+    <Content Include="Account\PackingLists\4-13-2017 8-25-26 AM .png" />
+    <Content Include="Account\PackingLists\4-16-2018 9-03-21 AM .png" />
+    <Content Include="Account\PackingLists\4-16-2018 9-03-35 AM .png" />
+    <Content Include="Account\PackingLists\4-16-2018 9-04-23 AM .png" />
+    <Content Include="Account\PackingLists\4-19-2018 10-32-38 AM .png" />
+    <Content Include="Account\PackingLists\4-19-2018 10-39-03 AM .png" />
+    <Content Include="Account\PackingLists\4-19-2018 10-41-03 AM .png" />
+    <Content Include="Account\PackingLists\4-2-2018 1-26-15 PM .png" />
+    <Content Include="Account\PackingLists\4-20-2017 1-30-30 PM .png" />
+    <Content Include="Account\PackingLists\4-20-2017 8-09-42 AM .png" />
+    <Content Include="Account\PackingLists\4-21-2017 9-29-44 AM .png" />
+    <Content Include="Account\PackingLists\4-24-2018 10-03-17 AM .png" />
+    <Content Include="Account\PackingLists\4-24-2018 10-30-18 AM .png" />
+    <Content Include="Account\PackingLists\4-28-2017 1-05-49 PM .png" />
+    <Content Include="Account\PackingLists\4-3-2017 2-35-32 PM .png" />
+    <Content Include="Account\PackingLists\4-3-2017 8-59-43 AM .png" />
+    <Content Include="Account\PackingLists\4-30-2018 5-01-44 PM .png" />
+    <Content Include="Account\PackingLists\4-5-2018 11-25-24 AM .png" />
+    <Content Include="Account\PackingLists\4-6-2018 10-06-22 AM .png" />
+    <Content Include="Account\PackingLists\4-7-2017 3-47-45 PM .png" />
+    <Content Include="Account\PackingLists\5-1-2017 9-10-04 AM .png" />
+    <Content Include="Account\PackingLists\5-1-2018 3-52-40 PM .png" />
+    <Content Include="Account\PackingLists\5-10-2017 1-21-17 PM .png" />
+    <Content Include="Account\PackingLists\5-10-2017 1-22-12 PM .png" />
+    <Content Include="Account\PackingLists\5-11-2017 2-14-28 PM .png" />
+    <Content Include="Account\PackingLists\5-11-2017 2-15-18 PM .png" />
+    <Content Include="Account\PackingLists\5-11-2017 2-15-46 PM .png" />
+    <Content Include="Account\PackingLists\5-11-2017 2-16-18 PM .png" />
+    <Content Include="Account\PackingLists\5-11-2017 2-17-05 PM .png" />
+    <Content Include="Account\PackingLists\5-11-2017 2-17-33 PM .png" />
+    <Content Include="Account\PackingLists\5-11-2017 2-18-05 PM .png" />
+    <Content Include="Account\PackingLists\5-16-2017 11-45-08 AM .png" />
+    <Content Include="Account\PackingLists\5-16-2017 11-46-35 AM .png" />
+    <Content Include="Account\PackingLists\5-16-2017 11-48-08 AM .png" />
+    <Content Include="Account\PackingLists\5-16-2018 9-14-14 AM .png" />
+    <Content Include="Account\PackingLists\5-18-2017 1-16-49 PM .png" />
+    <Content Include="Account\PackingLists\5-18-2017 1-24-54 PM .png" />
+    <Content Include="Account\PackingLists\5-2-2017 2-51-10 PM .png" />
+    <Content Include="Account\PackingLists\5-21-2018 3-45-07 PM .png" />
+    <Content Include="Account\PackingLists\5-21-2018 3-45-46 PM .png" />
+    <Content Include="Account\PackingLists\5-21-2018 9-52-02 AM .png" />
+    <Content Include="Account\PackingLists\5-24-2017 2-50-05 PM .png" />
+    <Content Include="Account\PackingLists\5-24-2017 2-50-13 PM .png" />
+    <Content Include="Account\PackingLists\5-24-2017 2-57-04 PM .png" />
+    <Content Include="Account\PackingLists\5-29-2018 2-21-56 PM .png" />
+    <Content Include="Account\PackingLists\5-3-2017 3-00-36 PM .png" />
+    <Content Include="Account\PackingLists\5-4-2018 9-39-32 AM .png" />
+    <Content Include="Account\PackingLists\5-8-2018 10-08-17 AM .png" />
+    <Content Include="Account\PackingLists\5-8-2018 8-24-23 AM .png" />
+    <Content Include="Account\PackingLists\5-9-2017 2-27-41 PM .png" />
+    <Content Include="Account\PackingLists\6-1-2018 9-43-53 AM .png" />
+    <Content Include="Account\PackingLists\6-1-2018 9-44-02 AM .png" />
+    <Content Include="Account\PackingLists\6-11-2018 10-39-45 AM .png" />
+    <Content Include="Account\PackingLists\6-11-2018 10-41-08 AM .png" />
+    <Content Include="Account\PackingLists\6-11-2018 10-43-59 AM .png" />
+    <Content Include="Account\PackingLists\6-11-2018 8-46-40 AM .png" />
+    <Content Include="Account\PackingLists\6-13-2017 1-05-21 PM .png" />
+    <Content Include="Account\PackingLists\6-13-2017 11-11-06 AM .png" />
+    <Content Include="Account\PackingLists\6-13-2017 12-56-40 PM .png" />
+    <Content Include="Account\PackingLists\6-13-2017 12-57-25 PM .png" />
+    <Content Include="Account\PackingLists\6-13-2017 9-34-04 AM .png" />
+    <Content Include="Account\PackingLists\6-15-2017 2-19-41 PM .png" />
+    <Content Include="Account\PackingLists\6-16-2017 2-42-35 PM .png" />
+    <Content Include="Account\PackingLists\6-2-2017 1-01-25 PM .png" />
+    <Content Include="Account\PackingLists\6-2-2017 12-56-05 PM .png" />
+    <Content Include="Account\PackingLists\6-22-2017 2-46-48 PM .png" />
+    <Content Include="Account\PackingLists\6-26-2017 9-15-23 AM .png" />
+    <Content Include="Account\PackingLists\6-6-2017 10-17-55 AM .png" />
+    <Content Include="Account\PackingLists\6-7-2017 4-07-57 PM .png" />
+    <Content Include="Account\PackingLists\7-10-2017 9-02-24 AM .png" />
+    <Content Include="Account\PackingLists\7-10-2017 9-03-47 AM .png" />
+    <Content Include="Account\PackingLists\7-11-2017 10-23-40 AM .png" />
+    <Content Include="Account\PackingLists\7-11-2017 11-00-54 AM .png" />
+    <Content Include="Account\PackingLists\7-20-2017 1-33-40 PM .png" />
+    <Content Include="Account\PackingLists\7-24-2017 10-26-29 AM .png" />
+    <Content Include="Account\PackingLists\7-24-2017 10-29-44 AM .png" />
+    <Content Include="Account\PackingLists\7-25-2017 2-18-39 PM .png" />
+    <Content Include="Account\PackingLists\7-26-2017 12-34-59 PM .png" />
+    <Content Include="Account\PackingLists\7-31-2017 2-57-55 PM .png" />
+    <Content Include="Account\PackingLists\7-5-2017 11-13-02 AM .png" />
+    <Content Include="Account\PackingLists\8-1-2017 10-44-06 AM .png" />
+    <Content Include="Account\PackingLists\8-1-2017 10-44-54 AM .png" />
+    <Content Include="Account\PackingLists\8-10-2017 8-39-52 AM .png" />
+    <Content Include="Account\PackingLists\8-18-2017 2-48-17 PM .png" />
+    <Content Include="Account\PackingLists\8-22-2017 2-14-55 PM .png" />
+    <Content Include="Account\PackingLists\8-23-2017 1-45-44 PM .png" />
+    <Content Include="Account\PackingLists\8-23-2017 1-45-55 PM .png" />
+    <Content Include="Account\PackingLists\8-23-2017 8-11-09 AM .png" />
+    <Content Include="Account\PackingLists\8-28-2017 1-51-02 PM .png" />
+    <Content Include="Account\PackingLists\8-28-2017 2-02-00 PM .png" />
+    <Content Include="Account\PackingLists\8-28-2017 3-39-38 PM .png" />
+    <Content Include="Account\PackingLists\8-28-2017 8-35-01 AM .png" />
+    <Content Include="Account\PackingLists\8-8-2017 9-40-57 AM .png" />
+    <Content Include="Account\PackingLists\8-8-2017 9-45-24 AM .png" />
+    <Content Include="Account\PackingLists\8-8-2017 9-47-05 AM .png" />
+    <Content Include="Account\PackingLists\9-12-2017 8-56-44 AM .png" />
+    <Content Include="Account\PackingLists\9-18-2017 2-22-02 PM .png" />
+    <Content Include="Account\PackingLists\9-18-2017 2-22-42 PM .png" />
+    <Content Include="Account\PackingLists\9-21-2017 8-40-59 AM .png" />
+    <Content Include="Account\PackingLists\9-21-2017 8-41-15 AM .png" />
+    <Content Include="Account\PackingLists\9-27-2017 8-16-36 AM .png" />
+    <Content Include="Account\PackingLists\9-27-2017 8-17-00 AM .png" />
+    <Content Include="Account\PackingLists\9-28-2017 2-24-40 PM .png" />
+    <Content Include="Account\PackingLists\9-28-2017 4-05-22 PM .png" />
+    <Content Include="Account\PackingLists\9-7-2017 10-06-58 AM .png" />
+    <Content Include="Account\PackingLists\9-8-2017 12-50-45 PM .png" />
+    <Content Include="Account\PackingLists\A.A. Jansson 1-13-2017 7-17-44 PM .png" />
+    <Content Include="Account\PackingLists\Orizon 1-12-2017 9-56-10 AM .png" />
+    <Content Include="Account\PdfViewer.aspx" />
+    <Content Include="Account\PrintBarcodes.aspx" />
+    <Content Include="Account\Receiving\1-16-2018-490012980.png" />
+    <Content Include="Account\Receiving\1-2-2018-490012357.png" />
+    <Content Include="Account\Receiving\1-2-2018-490012827.png" />
+    <Content Include="Account\Receiving\1-26-2018-490012811.png" />
+    <Content Include="Account\Receiving\1-26-2018-490012907.png" />
+    <Content Include="Account\Receiving\1-29-2018-490012944.png" />
+    <Content Include="Account\Receiving\10-11-2017-102292.png" />
+    <Content Include="Account\Receiving\10-16-2017-490012153.png" />
+    <Content Include="Account\Receiving\10-17-2017-490012152.png" />
+    <Content Include="Account\Receiving\10-2-2017-99999.png" />
+    <Content Include="Account\Receiving\10-20-2017-490011834.png" />
+    <Content Include="Account\Receiving\10-24-2017-490012292.png" />
+    <Content Include="Account\Receiving\10-25-2017-490011902.png" />
+    <Content Include="Account\Receiving\10-6-2017-490010901.png" />
+    <Content Include="Account\Receiving\11-1-2017-490012112.png" />
+    <Content Include="Account\Receiving\11-13-2017-490012536.png" />
+    <Content Include="Account\Receiving\11-14-2017-490011326.png" />
+    <Content Include="Account\Receiving\11-2-2017-490012462.png" />
+    <Content Include="Account\Receiving\11-2-2017-99099.png" />
+    <Content Include="Account\Receiving\11-21-2017-490012444.png" />
+    <Content Include="Account\Receiving\11-28-2017-490012669.png" />
+    <Content Include="Account\Receiving\11-3-2017-490012462.png" />
+    <Content Include="Account\Receiving\11-3-2017-9999.png" />
+    <Content Include="Account\Receiving\11-7-2017-490012342.png" />
+    <Content Include="Account\Receiving\12-1-2017-490012292.png" />
+    <Content Include="Account\Receiving\12-12-2017-490011261.png" />
+    <Content Include="Account\Receiving\12-13-2017-490012687.png" />
+    <Content Include="Account\Receiving\12-13-2017-490012805.png" />
+    <Content Include="Account\Receiving\12-14-2017-490012755.png" />
+    <Content Include="Account\Receiving\12-5-2017-490012524.png" />
+    <Content Include="Account\Receiving\12-6-2017-490009823.png" />
+    <Content Include="Account\Receiving\12-6-2017-999999.png" />
+    <Content Include="Account\Receiving\2-13-2018-490012811.png" />
+    <Content Include="Account\Receiving\2-14-2017-49000.png" />
+    <Content Include="Account\Receiving\2-15-2017-490010790.png" />
+    <Content Include="Account\Receiving\2-17-2017-450010670.png" />
+    <Content Include="Account\Receiving\2-17-2017-490010770.png" />
+    <Content Include="Account\Receiving\2-20-2018-490012811.png" />
+    <Content Include="Account\Receiving\2-21-2018-9999.png" />
+    <Content Include="Account\Receiving\2-22-2017-4000036.png" />
+    <Content Include="Account\Receiving\2-22-2017-490010790.png" />
+    <Content Include="Account\Receiving\2-22-2017-490010796.png" />
+    <Content Include="Account\Receiving\2-23-2017-490010770.png" />
+    <Content Include="Account\Receiving\2-27-2018-490013205.png" />
+    <Content Include="Account\Receiving\2-28-2017-1.png" />
+    <Content Include="Account\Receiving\2-28-2017-490010743.png" />
+    <Content Include="Account\Receiving\2-28-2017-490010748.png" />
+    <Content Include="Account\Receiving\2-3-2017-0.png" />
+    <Content Include="Account\Receiving\2-5-2018-490012944.png" />
+    <Content Include="Account\Receiving\2-5-2018-490012973.png" />
+    <Content Include="Account\Receiving\2-5-2018-9.png" />
+    <Content Include="Account\Receiving\2-5-2018-9990.png" />
+    <Content Include="Account\Receiving\2-6-2017-0.png" />
+    <Content Include="Account\Receiving\2-7-2017-490010520.png" />
+    <Content Include="Account\Receiving\2-8-2018-490012798.png" />
+    <Content Include="Account\Receiving\2-9-2018-490012999.png" />
+    <Content Include="Account\Receiving\3-1-2017-490010694.png" />
+    <Content Include="Account\Receiving\3-1-2017-490010935.png" />
+    <Content Include="Account\Receiving\3-1-2018-490013031.png" />
+    <Content Include="Account\Receiving\3-11-2017-54.png" />
+    <Content Include="Account\Receiving\3-13-2017-4000040.png" />
+    <Content Include="Account\Receiving\3-13-2017-490010536.png" />
+    <Content Include="Account\Receiving\3-13-2017-490010670.png" />
+    <Content Include="Account\Receiving\3-13-2018-490013344.png" />
+    <Content Include="Account\Receiving\3-14-2017-4900.png" />
+    <Content Include="Account\Receiving\3-16-2017-4900.png" />
+    <Content Include="Account\Receiving\3-16-2017-490010536.png" />
+    <Content Include="Account\Receiving\3-16-2017-490011026.png" />
+    <Content Include="Account\Receiving\3-16-2018-490013203.png" />
+    <Content Include="Account\Receiving\3-17-2017-1.png" />
+    <Content Include="Account\Receiving\3-19-2018-490013443.png" />
+    <Content Include="Account\Receiving\3-20-2017-490010536.png" />
+    <Content Include="Account\Receiving\3-21-2018-490013033.png" />
+    <Content Include="Account\Receiving\3-21-2018-490013444.png" />
+    <Content Include="Account\Receiving\3-22-2018-490013033.png" />
+    <Content Include="Account\Receiving\3-22-2018-490013347.png" />
+    <Content Include="Account\Receiving\3-27-2018-490010535.png" />
+    <Content Include="Account\Receiving\3-27-2018-490013240.png" />
+    <Content Include="Account\Receiving\3-29-2017-490010748.png" />
+    <Content Include="Account\Receiving\3-7-2017-5445.png" />
+    <Content Include="Account\Receiving\3-7-2017-545454.png" />
+    <Content Include="Account\Receiving\3-8-2017-54.png" />
+    <Content Include="Account\Receiving\3-8-2017-545454.png" />
+    <Content Include="Account\Receiving\3-9-2018-490012811.png" />
+    <Content Include="Account\Receiving\4-11-2017-490011008.png" />
+    <Content Include="Account\Receiving\4-12-2017-490010599.png" />
+    <Content Include="Account\Receiving\4-13-2017-490010743.png" />
+    <Content Include="Account\Receiving\4-19-2018-1.png" />
+    <Content Include="Account\Receiving\4-20-2017-490010935.png" />
+    <Content Include="Account\Receiving\4-21-2017-0.png" />
+    <Content Include="Account\Receiving\4-21-2017-1.png" />
+    <Content Include="Account\Receiving\4-21-2017-490011212.png" />
+    <Content Include="Account\Receiving\4-24-2018-490010535.png" />
+    <Content Include="Account\Receiving\4-24-2018-490013168.png" />
+    <Content Include="Account\Receiving\4-24-2018-490013236.png" />
+    <Content Include="Account\Receiving\4-3-2017-490010774.png" />
+    <Content Include="Account\Receiving\4-5-2018-490013600.png" />
+    <Content Include="Account\Receiving\4-5-2018-490013601.png" />
+    <Content Include="Account\Receiving\4-6-2018-490013603.png" />
+    <Content Include="Account\Receiving\5-1-2018-1.png" />
+    <Content Include="Account\Receiving\5-14-2018-490012359.png" />
+    <Content Include="Account\Receiving\5-14-2018-99999.png" />
+    <Content Include="Account\Receiving\5-21-2018-4900.png" />
+    <Content Include="Account\Receiving\5-24-2018-490013283.png" />
+    <Content Include="Account\Receiving\5-24-2018-490013673.png" />
+    <Content Include="Account\Receiving\5-26-2017-490011301.png" />
+    <Content Include="Account\Receiving\5-26-2017-490011302.png" />
+    <Content Include="Account\Receiving\5-30-2017-490011437.png" />
+    <Content Include="Account\Receiving\5-8-2017-490011214.png" />
+    <Content Include="Account\Receiving\5-8-2018-490013616.png" />
+    <Content Include="Account\Receiving\5-8-2018-490013661.png" />
+    <Content Include="Account\Receiving\6-11-2018-490013823.png" />
+    <Content Include="Account\Receiving\6-13-2017-490011542.png" />
+    <Content Include="Account\Receiving\6-26-2017-490011261.png" />
+    <Content Include="Account\Receiving\6-27-2017-490011542.png" />
+    <Content Include="Account\Receiving\6-6-2017-490010598.png" />
+    <Content Include="Account\Receiving\6-6-2017-490011337.png" />
+    <Content Include="Account\Receiving\6-6-2018-490013250.png" />
+    <Content Include="Account\Receiving\6-6-2018-490013827.png" />
+    <Content Include="Account\Receiving\6-7-2018-490013827.png" />
+    <Content Include="Account\Receiving\6-8-2017-490011302.png" />
+    <Content Include="Account\Receiving\6-8-2018-40012.png" />
+    <Content Include="Account\Receiving\6-8-2018-490010535.png" />
+    <Content Include="Account\Receiving\6-8-2018-490013236.png" />
+    <Content Include="Account\Receiving\7-11-2017-490011545.png" />
+    <Content Include="Account\Receiving\7-20-2017-490011236.png" />
+    <Content Include="Account\Receiving\7-21-2017-490010544.png" />
+    <Content Include="Account\Receiving\7-21-2017-490011545.png" />
+    <Content Include="Account\Receiving\7-21-2017-490011699.png" />
+    <Content Include="Account\Receiving\7-24-2017-1.png" />
+    <Content Include="Account\Receiving\7-24-2017-490011437.png" />
+    <Content Include="Account\Receiving\7-24-2017-490011545.png" />
+    <Content Include="Account\Receiving\7-27-2017-999.png" />
+    <Content Include="Account\Receiving\7-31-2017-490010544.png" />
+    <Content Include="Account\Receiving\7-5-2017-490011651.png" />
+    <Content Include="Account\Receiving\7-7-2017-490011658.png" />
+    <Content Include="Account\Receiving\8-1-2017-490011127.png" />
+    <Content Include="Account\Receiving\8-11-2017-490010900.png" />
+    <Content Include="Account\Receiving\8-22-2017-490011903.png" />
+    <Content Include="Account\Receiving\8-23-2017-490009823.png" />
+    <Content Include="Account\Receiving\8-23-2017-999.png" />
+    <Content Include="Account\Receiving\8-25-2017-1.png" />
+    <Content Include="Account\Receiving\8-25-2017-490011236.png" />
+    <Content Include="Account\Receiving\8-25-2017-999.png" />
+    <Content Include="Account\Receiving\8-28-2017-999999.png" />
+    <Content Include="Account\Receiving\8-8-2017-1.png" />
+    <Content Include="Account\Receiving\8-8-2017-490011769.png" />
+    <Content Include="Account\Receiving\9-12-2017-490011875.png" />
+    <Content Include="Account\Receiving\9-18-2017-490012180.png" />
+    <Content Include="Account\Receiving\9-21-2017-11111.png" />
+    <Content Include="Account\Receiving\9-26-2017-490011902.png" />
+    <Content Include="Account\Receiving\9-27-2017-490012180.png" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Account\RegisterExternalLogin.aspx" />
+    <Content Include="Account\ResetPassword.aspx" />
+    <Content Include="Account\ResetPasswordConfirmation.aspx" />
+    <Content Include="Account\ShoppingCart.aspx" />
+    <Content Include="Account\Templates\av_default_footer_template.ascx" />
+    <Content Include="Account\Templates\av_default_header_template.ascx" />
+    <Content Include="Account\Templates\av_default_template.ascx" />
+    <Content Include="Account\Templates\av_history_footer_template.ascx" />
+    <Content Include="Account\Templates\av_history_header_template.ascx" />
+    <Content Include="Account\Templates\av_history_template.ascx" />
+    <Content Include="Account\Templates\av_list_template.ascx" />
+    <Content Include="Account\Templates\av_sm_tile_template.ascx" />
+    <Content Include="Account\Templates\av_footer_template.ascx" />
+    <Content Include="Account\Templates\av_header_template.ascx" />
+    <Content Include="Account\Templates\emptytemplate.ascx" />
+    <Content Include="Account\Templates\DefaultView.ascx" />
+    <Content Include="Account\Test.aspx" />
+    <Content Include="Account\Transactions.aspx" />
+    <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
+    <Content Include="Account\UserCheckout.aspx" />
+    <Content Include="Account\UserView.aspx" />
+    <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="Account\WebApp.aspx" />
+    <Content Include="App_Data\settings.xml" />
+    <Content Include="Browser\App.aspx" />
+    <Content Include="Browser\ControlPanel.aspx" />
+    <Content Include="Browser\FileBrowser.aspx" />
+    <Content Include="Browser\BrowserContent\awp.css" />
+    <Content Include="Browser\BrowserContent\browser.css" />
+    <Content Include="Browser\BrowserContent\jquery-ui.css" />
+    <Content Include="Browser\BrowserContent\jquery.contextMenu.css" />
+    <Content Include="Browser\BrowserContent\L0XX0R.css" />
+    <Content Include="Browser\BrowserScripts\webapp.js" />
+    <Content Include="Browser\BrowserScripts\browser.js" />
+    <Content Include="Browser\BrowserScripts\jquery-resizable.js" />
+    <Content Include="Browser\BrowserScripts\jquery-ui.js" />
+    <Content Include="Browser\BrowserScripts\jquery.contextMenu.js" />
+    <Content Include="Browser\BrowserScripts\jquery.contextMenu.min.js" />
+    <Content Include="Browser\BrowserScripts\jquery.ui.position.js" />
+    <Content Include="Browser\BrowserScripts\jquery.ui.position.min.js" />
+    <Content Include="Browser\images\brandlogo.png" />
+    <Content Include="Browser\images\icons\icons8-document-40.png" />
+    <Content Include="Browser\images\icons\icons8-file-40.png" />
+    <Content Include="Browser\images\icons\icons8-folder-40.png" />
+    <Content Include="Browser\images\l0xx0r.png" />
+    <Content Include="Browser\images\l0xx0rRain.png" />
+    <Content Include="Browser\images\logo.png" />
+    <Content Include="Browser\images\transparent.png" />
+    <Content Include="Browser\Templates\ControlPanel\Assets.ascx" />
+    <Content Include="Browser\Templates\ControlPanel\cp_footer.ascx" />
+    <Content Include="Browser\Templates\ControlPanel\cp_left.ascx" />
+    <Content Include="Browser\Templates\ControlPanel\cp_right.ascx" />
+    <Content Include="Browser\Templates\ControlPanel\cp_toolbar.ascx" />
+    <Content Include="Browser\Templates\ControlPanel\Customers.ascx" />
+    <Content Include="Browser\Templates\ControlPanel\Notices.ascx" />
+    <Content Include="Browser\Templates\ControlPanel\Personnel.ascx" />
+    <Content Include="Browser\Templates\ControlPanel\Settings.ascx" />
+    <Content Include="Browser\Templates\ControlPanel\Transactions.ascx" />
+    <Content Include="Browser\Templates\icon_view.ascx" />
+    <Content Include="Browser\Templates\TransactionFooter.ascx" />
+    <Content Include="Browser\Templates\TransactionLeftPanel.ascx" />
+    <Content Include="Browser\Templates\TransactionRightPanel.ascx" />
+    <Content Include="Browser\Templates\TransactionToolbar.ascx" />
+    <Content Include="Content\awp.css" />
+    <Content Include="Content\browser.css" />
+    <Content Include="Content\fa-brands.css" />
+    <Content Include="Content\fa-brands.min.css" />
+    <Content Include="Content\fa-regular.css" />
+    <Content Include="Content\fa-regular.min.css" />
+    <Content Include="Content\fa-solid.css" />
+    <Content Include="Content\fa-solid.min.css" />
+    <Content Include="Content\fontawesome-all.css" />
+    <Content Include="Content\fontawesome-all.min.css" />
+    <Content Include="Content\fontawesome.css" />
+    <Content Include="Content\fontawesome.min.css" />
+    <Content Include="Content\jquery-ui.css" />
+    <Content Include="Content\jquery.contextMenu.css" />
+    <Content Include="DocumentViewer.ascx" />
+    <Content Include="Images\0101.png" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\metro-colors.css" />
+    <Content Include="Content\metro-colors.min.css" />
+    <Content Include="Content\metro-icons.css" />
+    <Content Include="Content\metro-icons.min.css" />
+    <Content Include="Content\metro-responsive.css" />
+    <Content Include="Content\metro-responsive.min.css" />
+    <Content Include="Content\metro-rtl.css" />
+    <Content Include="Content\metro-rtl.min.css" />
+    <Content Include="Content\metro-schemes.css" />
+    <Content Include="Content\metro-schemes.min.css" />
+    <Content Include="Content\metro.css" />
+    <Content Include="Content\metro.min.css" />
+    <Content Include="Content\screen.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\metro.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Account\Web.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\bd-rom.png" />
+    <Content Include="Images\cpe_floor_rorschacherberg_web.jpg" />
+    <Content Include="Images\disk-sys.png" />
+    <Content Include="Images\folder-documents.png" />
+    <Content Include="Images\folder-downloads.png" />
+    <Content Include="Images\folder-images.png" />
+    <Content Include="Images\folder-music.png" />
+    <Content Include="Images\folder-videos.png" />
+    <Content Include="Images\hard-drive.png" />
+    <Content Include="Images\header.jpg" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\starrag-25.png" />
+    <Content Include="Images\starrag-40.png" />
+    <Content Include="Images\starrag-slim.png" />
+    <Content Include="Images\starrag.png" />
+    <Content Include="Images\starrag.svg" />
+    <Content Include="Images\starrag_group_headquarter_switzerland2.jpg" />
+    <Content Include="Images\starrag_group_rorschacherberg.jpg" />
+    <Content Include="Images\transparent.png" />
+    <Content Include="Images\wn8.png" />
+    <Content Include="items.aspx" />
+    <Content Include="Logs.aspx" />
+    <Content Include="Map.aspx" />
+    <Content Include="Pages\Customers.aspx" />
+    <Content Include="Scripts\browsermain.js" />
+    <Content Include="Scripts\FileBrowserContextMenuActions.js" />
+    <Content Include="Scripts\jquery-1.11.0.min.js" />
+    <Content Include="Scripts\jquery-resizable.js" />
+    <Content Include="Scripts\jquery-ui.js" />
+    <Content Include="Scripts\jquery.contextMenu.js" />
+    <Content Include="Scripts\jquery.contextMenu.min.js" />
+    <Content Include="Scripts\jquery.signalR-2.3.0.js" />
+    <Content Include="Scripts\jquery.signalR-2.3.0.min.js" />
+    <Content Include="Scripts\jquery.ui.position.js" />
+    <Content Include="Scripts\jquery.ui.position.min.js" />
+    <Content Include="Scripts\Map.js" />
+    <Content Include="Scripts\metro.js" />
+    <Content Include="Scripts\metro.min.js" />
+    <Content Include="Scripts\Resizer.js" />
+    <Content Include="Scripts\script.js" />
+    <Content Include="fonts\selection.json" />
+    <Content Include="fonts\metro.woff" />
+    <Content Include="fonts\metro.ttf" />
+    <Content Include="fonts\metro.eot" />
+    <Content Include="Scripts\SignalR\SignalRHubFunctions.js" />
+    <Content Include="Upload\Sync.aspx" />
+    <Content Include="WebUserControl1.ascx" />
+    <Content Include="Account\Certificates\1250x60x190 mm granite lineal - Planolith - 2013.pdf" />
+    <Content Include="Account\Certificates\24x24x4 granite - precision granite - 2017.pdf" />
+    <Content Include="Account\Certificates\EcoSpeed Granite 500x500x500 mm - Johann Fischer - 2018.pdf" />
+    <Content Include="Account\Certificates\gauge block opus - 10mm - opus 2001.pdf" />
+    <Content Include="Account\Certificates\gauge block weber square - st104-a - a a jansson .pdf" />
+    <Content Include="Account\Certificates\gauge block weber square - st105 - a a jansson - 2010.pdf" />
+    <Content Include="Account\Certificates\gauge block weber square - st114 - a a jansson - 2010.pdf" />
+    <Content Include="Account\Certificates\gauge block weber square -st104-b - a a jansson .pdf" />
+    <Content Include="Account\Certificates\general dynamics - sip 50mm plug gauge - 41319 - helios - 2005.pdf" />
+    <Content Include="Account\Certificates\general dynamics - sip 50mm plug gauge - 42559 - helios - 2005.pdf" />
+    <Content Include="Account\Certificates\granite lineal 1000x56x160 mm - planolith - 2007.pdf" />
+    <Content Include="Account\Certificates\granite lineal 500x45x90 mm - asset 0086 - 1240024 - 37184 - johann fischer - 2012.pdf" />
+    <Content Include="Account\Certificates\laser renishaw - ml80 laser - g24578 - ec10 - 52k040 - g27072 - g26032 - g25998 - g26014 - 2014.pdf" />
+    <Content Include="Account\Certificates\laser renishaw - qc20-w ball bar calibrator - g27433 - 2017.pdf" />
+    <Content Include="Account\Certificates\laser renishaw - qc20-w ballbar - 16p493 - 2017.pdf" />
+    <Content Include="Account\Certificates\laser renishaw - rx10 rotary indexer - 7n2260 - 2015.pdf" />
+    <Content Include="Account\Certificates\laser renishaw - xc air temerature sensor - 8p7718 - 2016.pdf" />
+    <Content Include="Account\Certificates\laser renishaw - xc air temperature sensor - 22q101 - 2017.pdf" />
+    <Content Include="Account\Certificates\laser renishaw - xc air temperature sensor - 8w9154 - 2018.pdf" />
+    <Content Include="Account\Certificates\laser renishaw - xc material temerature sensor - 18y189 - 2017.pdf" />
+    <Content Include="Account\Certificates\laser renishaw - xc meterial temperature sensor - 8x0319- 2018.pdf" />
+    <Content Include="Account\Certificates\laser renishaw - xc meterial temperature sensor - 92e595 - 2018.pdf" />
+    <Content Include="Account\Certificates\laser renishaw - xc-80 compensator - 8u7476 - 2017.pdf" />
+    <Content Include="Account\Certificates\laser renishaw - xc-80 compensator - 8y8103 - 2018.pdf" />
+    <Content Include="Account\Certificates\laser renishaw - xl-80 - 10t181 - renishaw - 2018.pdf" />
+    <Content Include="Account\Certificates\laser renishaw - xl-80 laser - 10t025 - 2017.pdf" />
+    <Content Include="Account\Certificates\laser renishaw - xr20-w rotary calibrator - 0944e5 - 2014.pdf" />
+    <Content Include="Account\Certificates\laser renishaw - xr20-w rotary calibrator - 143r69 - 2014.pdf" />
+    <Content Include="Account\Certificates\niveltronic level g1542 - A A jansson - 2017 - 10-31-2018.pdf" />
+    <Content Include="Account\Certificates\niveltronic level h1522 - A A jansson - 2017 - 10-31-2018.pdf" />
+    <Content Include="Account\Certificates\niveltronic level h1526 - A A jansson - 2017 - 10-31-2018.pdf" />
+    <Content Include="Account\Certificates\niveltronic level h1542 - A A jansson - 2017 - 10-31-2018.pdf" />
+    <Content Include="Account\Certificates\pull force check OTT - asset 0037 - power check ii - 536105 - 2012.pdf" />
+    <Content Include="Account\Certificates\ring gauge 40 mm - 41354 helios - 2005.pdf" />
+    <Content Include="Account\Certificates\ring gauge 40 mm - 42919 - metas - 2002.pdf" />
+    <Content Include="Account\Certificates\ring gauge 40 mm - 42921 - metas - 2002.pdf" />
+    <Content Include="Account\Certificates\ring gauge 40 mm - 43064 - metas - 2002.pdf" />
+    <Content Include="Account\Certificates\ring gauge 40 mm - 43065 - metas - 2002.pdf" />
+    <Content Include="Account\Certificates\ring gauge 40 mm sip - 16500 - mess-technik blatter ag - 2001.pdf" />
+    <Content Include="Account\Certificates\ring gauge 40 mm sip - 42898 - swiss federal office of metrology - 2002.pdf" />
+    <Content Include="Account\Certificates\ring gauge 40 mm sip - 42923 - metas - 2002.pdf" />
+    <Content Include="Account\Certificates\ring gauge 40 mm sip - 43067 - metas - 2002.pdf" />
+    <Content Include="Account\Certificates\ring gauge 50 mm - 42445 - sip 50mm plug gauge - 42207 - helios - 2005.pdf" />
+    <Content Include="Account\Certificates\ring guage 12 mm  - cary 1015 - metas - 2001.pdf" />
+    <Content Include="Account\Certificates\ring guage 12 mm  - cary 1023 - metas - 2003.pdf" />
+    <Content Include="Account\Certificates\ring guage 12 mm -helios - 2005.pdf" />
+    <Content Include="Account\Certificates\sip 50mm plug gauge - 43013 - helios - 2005.pdf" />
+    <Content Include="Account\Certificates\sip 50mm plug gauge - 43015 - metas- 2001.pdf" />
+    <Content Include="Account\Certificates\sip 50mm plug gauge - 43046 - metas- 2001.pdf" />
+    <Content Include="Account\Certificates\sphere gauge ceramic 35mm - 35-00-087 - metas - 2001.pdf" />
+    <Content Include="Account\Certificates\sphere gauge ceramic 35mm - 35-99-008 - swiss federal office of metrology- 2001.pdf" />
+    <Content Include="Account\Certificates\sphere gauge ceramic 35mm - 35-99-015 - swiss federal office of metrology- 2001.pdf" />
+    <Content Include="Account\Certificates\tektronik oscilloscope 50mhz 2 channel - tds2001c - c014275 - 2012.pdf" />
+    <Content Include="Account\Certificates\test bar 50mm hsk100 - heckert - 95 09 016 004 - 2016.pdf" />
+    <Content Include="Account\Certificates\wyler level blue level bluelevel bluemeter sigma - t1304 - t1305 - t0403 - wyler ag - 2016.pdf" />
+    <Content Include="Account\Pdfs\blank.pdf" />
+    <Content Include="Account\Templates\blank.pdf" />
+    <Content Include="Account\CheckOutPdf\blank.pdf" />
+    <Content Include="Account\Labels\blank.pdf" />
+    <Content Include="Account\Avery\blank.pdf" />
+    <Content Include="Account\Certs\blank.pdf" />
+    <None Include="Properties\PublishProfiles\basuta - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\basuta - Web Deploy1.pubxml" />
+    <None Include="Properties\PublishProfiles\starrag - Web Deploy - Copy.pubxml" />
+    <None Include="Properties\PublishProfiles\starrag - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\starrag - Web Deploy1.pubxml" />
+    <None Include="Properties\PublishProfiles\starrag-awp - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\starrag-awp - Web Deploy1.pubxml" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\webapp.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Site.Master" />
+    <Content Include="ViewerJS\compatibility.js" />
+    <Content Include="ViewerJS\example.local.css" />
+    <Content Include="ViewerJS\images\kogmbh.png" />
+    <Content Include="ViewerJS\images\nlnet.png" />
+    <Content Include="ViewerJS\images\texture.png" />
+    <Content Include="ViewerJS\images\toolbarButton-download.png" />
+    <Content Include="ViewerJS\images\toolbarButton-fullscreen.png" />
+    <Content Include="ViewerJS\images\toolbarButton-menuArrows.png" />
+    <Content Include="ViewerJS\images\toolbarButton-pageDown.png" />
+    <Content Include="ViewerJS\images\toolbarButton-pageUp.png" />
+    <Content Include="ViewerJS\images\toolbarButton-presentation.png" />
+    <Content Include="ViewerJS\images\toolbarButton-zoomIn.png" />
+    <Content Include="ViewerJS\images\toolbarButton-zoomOut.png" />
+    <Content Include="ViewerJS\index.html" />
+    <Content Include="ViewerJS\pdf.js" />
+    <Content Include="ViewerJS\pdf.worker.js" />
+    <Content Include="ViewerJS\pdfjsversion.js" />
+    <Content Include="ViewerJS\text_layer_builder.js" />
+    <Content Include="ViewerJS\ui_utils.js" />
+    <Content Include="ViewerJS\webodf.js" />
+    <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Bundle.config" />
+    <Content Include="Site.Mobile.Master" />
+    <Content Include="webfonts\fa-brands-400.svg" />
+    <Content Include="webfonts\fa-regular-400.svg" />
+    <Content Include="webfonts\fa-solid-900.svg" />
+    <Content Include="webfonts\fa-solid-900.woff2" />
+    <Content Include="webfonts\fa-solid-900.woff" />
+    <Content Include="webfonts\fa-solid-900.ttf" />
+    <Content Include="webfonts\fa-solid-900.eot" />
+    <Content Include="webfonts\fa-regular-400.woff2" />
+    <Content Include="webfonts\fa-regular-400.woff" />
+    <Content Include="webfonts\fa-regular-400.ttf" />
+    <Content Include="webfonts\fa-regular-400.eot" />
+    <Content Include="webfonts\fa-brands-400.woff2" />
+    <Content Include="webfonts\fa-brands-400.woff" />
+    <Content Include="webfonts\fa-brands-400.ttf" />
+    <Content Include="webfonts\fa-brands-400.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\AddPhoneNumber.aspx.cs">
+      <DependentUpon>AddPhoneNumber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\AddPhoneNumber.aspx.designer.cs">
+      <DependentUpon>AddPhoneNumber.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Admin\AdminDashboard.aspx.cs">
+      <DependentUpon>AdminDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Admin\AdminDashboard.aspx.designer.cs">
+      <DependentUpon>AdminDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\AssetController.aspx.cs">
+      <DependentUpon>AssetController.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\AssetController.aspx.designer.cs">
+      <DependentUpon>AssetController.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\AssetView.aspx.cs">
+      <DependentUpon>AssetView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\AssetView.aspx.designer.cs">
+      <DependentUpon>AssetView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\CheckIn.aspx.cs">
+      <DependentUpon>CheckIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\CheckIn.aspx.designer.cs">
+      <DependentUpon>CheckIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Checkout.aspx.cs">
+      <DependentUpon>Checkout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Checkout.aspx.designer.cs">
+      <DependentUpon>Checkout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\CreateAsset.aspx.cs">
+      <DependentUpon>CreateAsset.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\CreateAsset.aspx.designer.cs">
+      <DependentUpon>CreateAsset.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\OutCart.aspx.cs">
+      <DependentUpon>OutCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\OutCart.aspx.designer.cs">
+      <DependentUpon>OutCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Confirm.aspx.cs">
+      <DependentUpon>Confirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Confirm.aspx.designer.cs">
+      <DependentUpon>Confirm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Forgot.aspx.cs">
+      <DependentUpon>Forgot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Forgot.aspx.designer.cs">
+      <DependentUpon>Forgot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Lockout.aspx.cs">
+      <DependentUpon>Lockout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Lockout.aspx.designer.cs">
+      <DependentUpon>Lockout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Manage.aspx.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Manage.aspx.designer.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ManageLogins.aspx.cs">
+      <DependentUpon>ManageLogins.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ManageLogins.aspx.designer.cs">
+      <DependentUpon>ManageLogins.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ManagePassword.aspx.cs">
+      <DependentUpon>ManagePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ManagePassword.aspx.designer.cs">
+      <DependentUpon>ManagePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\menu.ascx.cs">
+      <DependentUpon>menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\menu.ascx.designer.cs">
+      <DependentUpon>menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\OpenAuthProviders.ascx.cs">
+      <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\OpenAuthProviders.ascx.designer.cs">
+      <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\PdfViewer.aspx.cs">
+      <DependentUpon>PdfViewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\PdfViewer.aspx.designer.cs">
+      <DependentUpon>PdfViewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\PrintBarcodes.aspx.cs">
+      <DependentUpon>PrintBarcodes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\PrintBarcodes.aspx.designer.cs">
+      <DependentUpon>PrintBarcodes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\RegisterExternalLogin.aspx.cs">
+      <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\RegisterExternalLogin.aspx.designer.cs">
+      <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ResetPassword.aspx.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ResetPassword.aspx.designer.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ResetPasswordConfirmation.aspx.cs">
+      <DependentUpon>ResetPasswordConfirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ResetPasswordConfirmation.aspx.designer.cs">
+      <DependentUpon>ResetPasswordConfirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ShoppingCart.aspx.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ShoppingCart.aspx.designer.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Templates\Avery5160TextLabelTemplate.cs" />
+    <Compile Include="Account\Templates\av_default_footer_template.ascx.cs">
+      <DependentUpon>av_default_footer_template.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Templates\av_default_footer_template.ascx.designer.cs">
+      <DependentUpon>av_default_footer_template.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Templates\av_default_header_template.ascx.cs">
+      <DependentUpon>av_default_header_template.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Templates\av_default_header_template.ascx.designer.cs">
+      <DependentUpon>av_default_header_template.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Templates\av_default_template.ascx.cs">
+      <DependentUpon>av_default_template.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Templates\av_default_template.ascx.designer.cs">
+      <DependentUpon>av_default_template.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Templates\av_history_footer_template.ascx.cs">
+      <DependentUpon>av_history_footer_template.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Templates\av_history_footer_template.ascx.designer.cs">
+      <DependentUpon>av_history_footer_template.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Templates\av_history_header_template.ascx.cs">
+      <DependentUpon>av_history_header_template.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Templates\av_history_header_template.ascx.designer.cs">
+      <DependentUpon>av_history_header_template.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Templates\av_history_template.ascx.cs">
+      <DependentUpon>av_history_template.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Templates\av_history_template.ascx.designer.cs">
+      <DependentUpon>av_history_template.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Templates\av_list_template.ascx.cs">
+      <DependentUpon>av_list_template.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Templates\av_list_template.ascx.designer.cs">
+      <DependentUpon>av_list_template.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Templates\av_sm_tile_template.ascx.cs">
+      <DependentUpon>av_sm_tile_template.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Templates\av_sm_tile_template.ascx.designer.cs">
+      <DependentUpon>av_sm_tile_template.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Templates\av_footer_template.ascx.cs">
+      <DependentUpon>av_footer_template.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Templates\av_footer_template.ascx.designer.cs">
+      <DependentUpon>av_footer_template.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Templates\av_header_template.ascx.cs">
+      <DependentUpon>av_header_template.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Templates\av_header_template.ascx.designer.cs">
+      <DependentUpon>av_header_template.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Templates\emptytemplate.ascx.cs">
+      <DependentUpon>emptytemplate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Templates\emptytemplate.ascx.designer.cs">
+      <DependentUpon>emptytemplate.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Templates\DefaultView.ascx.cs">
+      <DependentUpon>DefaultView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Templates\DefaultView.ascx.designer.cs">
+      <DependentUpon>DefaultView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Templates\StarragPackingSlip.cs" />
+    <Compile Include="Account\Templates\StarragReceivingReportTemplate.cs" />
+    <Compile Include="Account\Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Transactions.aspx.cs">
+      <DependentUpon>Transactions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Transactions.aspx.designer.cs">
+      <DependentUpon>Transactions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\TwoFactorAuthenticationSignIn.aspx.cs">
+      <DependentUpon>TwoFactorAuthenticationSignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\TwoFactorAuthenticationSignIn.aspx.designer.cs">
+      <DependentUpon>TwoFactorAuthenticationSignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\UserCheckout.aspx.cs">
+      <DependentUpon>UserCheckout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\UserCheckout.aspx.designer.cs">
+      <DependentUpon>UserCheckout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\UserView.aspx.cs">
+      <DependentUpon>UserView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\UserView.aspx.designer.cs">
+      <DependentUpon>UserView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ValuesController1.cs" />
+    <Compile Include="Account\VerifyPhoneNumber.aspx.cs">
+      <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
+      <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\WebApp.aspx.cs">
+      <DependentUpon>WebApp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\WebApp.aspx.designer.cs">
+      <DependentUpon>WebApp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\AppHub.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\ECDHAES256s.cs" />
+    <Compile Include="App_Start\Email.cs" />
+    <Compile Include="App_Start\Extensions.cs" />
+    <Compile Include="App_Start\Handlers.cs" />
+    <Compile Include="App_Start\IdentityConfig.cs" />
+    <Compile Include="App_Start\MasterLog.cs" />
+    <Compile Include="App_Start\NotificationSystem.cs" />
+    <Compile Include="App_Start\Pdf.cs" />
+    <Compile Include="App_Start\Printing.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\SchedulingSystem.cs" />
+    <Compile Include="App_Start\SerializeClasses.cs" />
+    <Compile Include="App_Start\SignalRHubs.cs" />
+    <Compile Include="App_Start\SQLfunctions.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="App_Start\Helpers.cs" />
+    <Compile Include="App_Start\GlobalFunctions.cs" />
+    <Compile Include="App_Start\Sync.cs" />
+    <Compile Include="App_Start\UPS.cs" />
+    <Compile Include="App_Start\Data.cs" />
+    <Compile Include="App_Start\XmlHelper.cs" />
+    <Compile Include="App_Start\Zip.cs" />
+    <Compile Include="Browser\App.aspx.cs">
+      <DependentUpon>App.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Browser\App.aspx.designer.cs">
+      <DependentUpon>App.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\ControlPanel.aspx.cs">
+      <DependentUpon>ControlPanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Browser\ControlPanel.aspx.designer.cs">
+      <DependentUpon>ControlPanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\FileBrowser.aspx.cs">
+      <DependentUpon>FileBrowser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Browser\FileBrowser.aspx.designer.cs">
+      <DependentUpon>FileBrowser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\Templates\ControlPanel\Assets.ascx.cs">
+      <DependentUpon>Assets.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Browser\Templates\ControlPanel\Assets.ascx.designer.cs">
+      <DependentUpon>Assets.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\Templates\ControlPanel\cp_footer.ascx.cs">
+      <DependentUpon>cp_footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Browser\Templates\ControlPanel\cp_footer.ascx.designer.cs">
+      <DependentUpon>cp_footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\Templates\ControlPanel\cp_left.ascx.cs">
+      <DependentUpon>cp_left.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Browser\Templates\ControlPanel\cp_left.ascx.designer.cs">
+      <DependentUpon>cp_left.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\Templates\ControlPanel\cp_right.ascx.cs">
+      <DependentUpon>cp_right.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Browser\Templates\ControlPanel\cp_right.ascx.designer.cs">
+      <DependentUpon>cp_right.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\Templates\ControlPanel\cp_toolbar.ascx.cs">
+      <DependentUpon>cp_toolbar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Browser\Templates\ControlPanel\cp_toolbar.ascx.designer.cs">
+      <DependentUpon>cp_toolbar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\Templates\ControlPanel\Customers.ascx.cs">
+      <DependentUpon>Customers.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Browser\Templates\ControlPanel\Customers.ascx.designer.cs">
+      <DependentUpon>Customers.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\Templates\ControlPanel\Notices.ascx.cs">
+      <DependentUpon>Notices.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Browser\Templates\ControlPanel\Notices.ascx.designer.cs">
+      <DependentUpon>Notices.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\Templates\ControlPanel\Personnel.ascx.cs">
+      <DependentUpon>Personnel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Browser\Templates\ControlPanel\Personnel.ascx.designer.cs">
+      <DependentUpon>Personnel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\Templates\ControlPanel\Settings.ascx.cs">
+      <DependentUpon>Settings.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Browser\Templates\ControlPanel\Settings.ascx.designer.cs">
+      <DependentUpon>Settings.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\Templates\ControlPanel\Transactions.ascx.cs">
+      <DependentUpon>Transactions.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Browser\Templates\ControlPanel\Transactions.ascx.designer.cs">
+      <DependentUpon>Transactions.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\Templates\icon_view.ascx.cs">
+      <DependentUpon>icon_view.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Browser\Templates\icon_view.ascx.designer.cs">
+      <DependentUpon>icon_view.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\Templates\TransactionFooter.ascx.cs">
+      <DependentUpon>TransactionFooter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Browser\Templates\TransactionFooter.ascx.designer.cs">
+      <DependentUpon>TransactionFooter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\Templates\TransactionLeftPanel.ascx.cs">
+      <DependentUpon>TransactionLeftPanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Browser\Templates\TransactionLeftPanel.ascx.designer.cs">
+      <DependentUpon>TransactionLeftPanel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\Templates\TransactionRightPanel.ascx.cs">
+      <DependentUpon>TransactionRightPanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Browser\Templates\TransactionRightPanel.ascx.designer.cs">
+      <DependentUpon>TransactionRightPanel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\Templates\TransactionToolbar.ascx.cs">
+      <DependentUpon>TransactionToolbar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Browser\Templates\TransactionToolbar.ascx.designer.cs">
+      <DependentUpon>TransactionToolbar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DocumentViewer.ascx.cs">
+      <DependentUpon>DocumentViewer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DocumentViewer.ascx.designer.cs">
+      <DependentUpon>DocumentViewer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="items.aspx.cs">
+      <DependentUpon>items.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="items.aspx.designer.cs">
+      <DependentUpon>items.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logs.aspx.cs">
+      <DependentUpon>Logs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logs.aspx.designer.cs">
+      <DependentUpon>Logs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Map.aspx.cs">
+      <DependentUpon>Map.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Map.aspx.designer.cs">
+      <DependentUpon>Map.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\BrowserModels.cs" />
+    <Compile Include="Models\DataModels.cs" />
+    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Pages\Customers.aspx.cs">
+      <DependentUpon>Customers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Customers.aspx.designer.cs">
+      <DependentUpon>Customers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.designer.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Startup.cs" />
+    <Compile Include="Upload\Sync.aspx.cs">
+      <DependentUpon>Sync.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Upload\Sync.aspx.designer.cs">
+      <DependentUpon>Sync.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControl1.ascx.cs">
+      <DependentUpon>WebUserControl1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControl1.ascx.designer.cs">
+      <DependentUpon>WebUserControl1.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Code\" />
+    <Folder Include="App_Data\img\" />
+    <Folder Include="App_GlobalResources\" />
+    <Folder Include="Upload\Files\" />
+    <Folder Include="Upload\Temp\" />
+    <Folder Include="Zip\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Scripts\jquery.contextMenu.min.js.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>6939</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:6939/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

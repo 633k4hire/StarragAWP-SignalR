@@ -1,0 +1,308 @@
+﻿.LOGO {
+    background-image: url("/images/l0xx0r.png");
+    width: 100%;
+    height: 300px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size:contain
+}
+
+#files {
+    overflow-y: auto !important;
+}
+
+@media (min-width: 768px) {
+    #files {
+        min-height: 0;
+    }
+}
+
+#debug {
+    overflow-y: auto !important;
+    height: 180px;
+}
+
+.dm-uploader {
+    border: 0.25rem dashed #00aff0;
+    text-align: center;
+    padding:15px;
+}
+
+    .dm-uploader.active {
+        border-color: red;
+        border-style: solid;
+    }
+
+#CogBox {
+    top: 100%;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    line-height: 2;
+    text-align: center;
+    box-shadow: 0px 0px 5px #000;
+    z-index: 3800;
+    -moz-transition: ease-in 0.5s;
+    -o-transition: ease-in 0.5s;
+    -webkit-transition: ease-in 0.5s;
+    transition: ease-in 0.5s;
+}
+
+#cog-box-label {
+    text-align: left;
+    position: relative;
+    background-color: #585858;
+    font-size: 200%;
+    padding-left:10px;
+}
+
+#cog-box-content {
+    padding: 5px;
+    text-align: left;
+    height: 100%;
+    position: relative;
+    background-color: #333333;
+    font-size: 150%;
+}
+#cog-box-content input[type="text"] {
+    text-align:center;
+}
+.bau-bold{
+    font-family:'Segoe UI' !important;
+    font-weight:bold !important;
+}
+.open-cog {
+    left:0px !important;
+    top: 50px !important;
+}
+
+.modal-closer {
+    position: absolute;
+    display: block;
+    padding: .5rem;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1rem;
+    font-weight: normal;
+    z-index: 3;
+    outline: none;
+    cursor: pointer;
+    color: #777777;
+    top: 10px;
+    right: 15px
+}
+
+    .modal-closer:hover {
+        text-shadow: 2px 2px 8px #000 !important;
+    }
+
+#ErrorBox {
+    height: auto;
+    width: 100%;
+    position: fixed;
+    bottom: -520px;
+    line-height: 2;
+    text-align: center;
+    box-shadow: 0 0 15px #000;
+    z-index: 99998;
+}
+
+#error-box-label {
+    position: relative;
+    background-color: red;
+    font-size: 200%;
+}
+
+#error-box-content {
+    position: relative;
+    background-color: red;
+    font-size: 150%;
+    padding-bottom: 10px;
+}
+
+.open-error {
+    bottom: 0px !important;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+
+/*SWITCH*/
+.awp-switch {
+    
+    margin: 0 .625rem 0 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+    .awp-switch input {
+        position: absolute;
+        opacity: 0;
+        width: 0.0625rem;
+        height: 0.0625rem;
+    }
+
+    .awp-switch .check,
+    .awp-switch .caption {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 18px;
+    }
+
+    .awp-switch .check {
+        width: 36px;
+        height: 16px;
+        background-color: #929292;
+        border-radius: 8px;
+        overflow: visible;
+        position: relative;
+    }
+
+        .awp-switch .check:before {
+            position: absolute;
+            display: block;
+            content: "";
+            width: 22px;
+            height: 22px;
+            z-index: 2;
+            margin-top: -4px;
+            margin-left: -3px;
+            border-radius: 50%;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+        }
+
+    .awp-switch input:not(:checked) ~ .check:before {
+        background-color: #ffffff;
+        transition: all 0.2s linear;
+    }
+
+    .awp-switch input:checked ~ .check {
+        background-color: deepskyblue;
+    }
+
+        .awp-switch input:checked ~ .check:before {
+            -webkit-transform: translateX(22px);
+            transform: translateX(22px);
+            transition: all 0.2s linear;
+        }
+
+    .awp-switch input:disabled ~ .check {
+        background-color: #D5D5D5;
+    }
+
+        .awp-switch input:disabled ~ .check:before {
+            background-color: #BDBDBD;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rainbowWrapper {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 1800% 1800%;
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-moz-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-o-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+#RainMe:hover {
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 1800% 1800%;
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;
+}

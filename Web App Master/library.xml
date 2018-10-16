@@ -1,0 +1,2972 @@
+<?xml version="1.0" encoding="utf-16"?>
+<AssetList>
+  <Asset Name="Niveltronic Angle Level">
+    <AssetNumber>0001</AssetNumber>
+    <Description>Model # 54-800-000</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00010.JPG</Image>
+    </Images>
+    <DateRecieved>4/13/2017 1:56:41 PM</DateRecieved>
+    <DateShipped>5/24/2017 2:50:01 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>11111</OrderNumber>
+    <PersonShipping>Jason Noble</PersonShipping>
+    <ServiceEngineer>Calibration</ServiceEngineer>
+    <ShipTo>Wyler Precision</ShipTo>
+    <Weight>17.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-24-2017 2-50-13 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Niveltronic angle level">
+    <AssetNumber>0002</AssetNumber>
+    <Description>Model#54-800-000 ELL009</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00020.JPG</Image>
+    </Images>
+    <DateRecieved>2/23/2017 12:56:49 PM</DateRecieved>
+    <DateShipped>5/3/2017 3:00:33 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490011276</OrderNumber>
+    <PersonShipping>Jason Noble</PersonShipping>
+    <ServiceEngineer>Werner Brinkheinrich</ServiceEngineer>
+    <ShipTo>Orizon</ShipTo>
+    <Weight>17.0</Weight>
+    <OnHold>false</OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-3-2017 3-00-36 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Niveltronic Level">
+    <AssetNumber>0003</AssetNumber>
+    <Description>S/N: G1542</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00030.JPG</Image>
+    </Images>
+    <DateRecieved>3/11/2017 4:07:04 PM</DateRecieved>
+    <DateShipped>5/10/2017 1:21:13 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490011276</OrderNumber>
+    <PersonShipping>Jason Noble</PersonShipping>
+    <ServiceEngineer>Werner Brinkheinrich</ServiceEngineer>
+    <ShipTo>Orizon</ShipTo>
+    <Weight>17.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-10-2017 1-22-12 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Wyler Level Set">
+    <AssetNumber>0005</AssetNumber>
+    <Description>S/N Q0068&amp;Q0088</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00050.JPG</Image>
+    </Images>
+    <DateRecieved>7/11/2017 3:19:49 PM</DateRecieved>
+    <DateShipped>7/11/2017 3:19:49 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>22.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\6-13-2017 12-57-25 PM .png</PackingSlip>
+      <UPSlabel>Labels\1Z9A14T70194627892.gif</UPSlabel>
+      <ReturnReport>ReceivingReport\7-11-2017-490011545.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Wyler Blue Level Set #2">
+    <AssetNumber>0006</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\000600.JPG</Image>
+    </Images>
+    <DateRecieved>3/8/2017 2:04:02 AM</DateRecieved>
+    <DateShipped>4/20/2017 8:09:38 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490011261</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Nick Johnson</ServiceEngineer>
+    <ShipTo>Bell Helicopter - Grand Prairie</ShipTo>
+    <Weight>26</Weight>
+    <OnHold>false</OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\4-20-2017 8-09-42 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Allignment ToolsHSK100">
+    <AssetNumber>0007</AssetNumber>
+    <Description>Set#2 Proofing Bar, Tool Changer Tools, Spindle Alignment Tool</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00070.JPG</Image>
+    </Images>
+    <DateRecieved>6/27/2017 2:00:53 PM</DateRecieved>
+    <DateShipped>6/27/2017 2:00:53 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>47</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\6-15-2017 2-19-41 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="HSK100 Proofing Bar Alignment Tools">
+    <AssetNumber>0008</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00080.JPG</Image>
+    </Images>
+    <DateRecieved>5/26/2017 1:49:02 PM</DateRecieved>
+    <DateShipped>5/26/2017 1:49:02 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>25.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-11-2017 2-15-18 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\5-26-2017-490011302.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="HSK50 Proofing Bar Tool Changer Tools">
+    <AssetNumber>0009</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00090.JPG</Image>
+    </Images>
+    <DateRecieved>4/12/2017 1:25:55 PM</DateRecieved>
+    <DateShipped>4/20/2017 8:09:38 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490011261</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Nick Johnson</ServiceEngineer>
+    <ShipTo>Bell Helicopter - Grand Prairie</ShipTo>
+    <Weight>27.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\4-20-2017 8-09-42 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Level Tronic A40">
+    <AssetNumber>0028</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00100.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 10:24:40 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>13.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Belt Tensioner ST-9">
+    <AssetNumber>0011</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00110.JPG</Image>
+    </Images>
+    <DateRecieved>4/12/2017 1:25:55 PM</DateRecieved>
+    <DateShipped>4/20/2017 8:09:38 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490011261</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Nick Johnson</ServiceEngineer>
+    <ShipTo>Bell Helicopter - Grand Prairie</ShipTo>
+    <Weight>1.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\4-20-2017 8-09-42 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="3/8&quot; Drive Torque Wrench">
+    <AssetNumber>0012</AssetNumber>
+    <Description>10-100 ft. lbs</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00120.JPG</Image>
+      <Image>Images\001290.JPG</Image>
+    </Images>
+    <DateRecieved>1/30/2017 7:57:03 AM</DateRecieved>
+    <DateShipped>1/30/2017 7:57:03 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>3</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\1-30-2017-490010395.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="NivelTronic Level">
+    <AssetNumber>0004</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\000400.JPG</Image>
+      <Image>Images\000411.JPG</Image>
+      <Image>Images\000422.JPG</Image>
+    </Images>
+    <DateRecieved>4/21/2017 3:18:55 PM</DateRecieved>
+    <DateShipped>4/21/2017 3:18:55 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>18.0</Weight>
+    <OnHold>true</OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\2-3-2017 1-13-59 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\4-21-2017-0.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Hydac Hydraulic Accumulator kit">
+    <AssetNumber>0013</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00130.JPG</Image>
+    </Images>
+    <DateRecieved>6/8/2017 2:55:50 PM</DateRecieved>
+    <DateShipped>6/8/2017 2:55:50 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>12.50</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-11-2017 2-16-18 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Olaer Hydraulic Test Kit">
+    <AssetNumber>0014</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00140.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 11:26:19 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>7</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Olaer Hydraulic Test Kit 2">
+    <AssetNumber>0015</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\001590.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 11:29:21 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>7</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Accumulator Test Kit #3">
+    <AssetNumber>0018</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00180.JPG</Image>
+    </Images>
+    <DateRecieved>4/12/2017 1:25:55 PM</DateRecieved>
+    <DateShipped>4/20/2017 8:09:38 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490011261</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Nick Johnson</ServiceEngineer>
+    <ShipTo>Bell Helicopter - Grand Prairie</ShipTo>
+    <Weight>8.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\4-20-2017 8-09-42 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Hydraulic Test Kit #2">
+    <AssetNumber>0019</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00190.JPG</Image>
+    </Images>
+    <DateRecieved>6/8/2017 2:55:50 PM</DateRecieved>
+    <DateShipped>6/8/2017 2:55:50 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>4</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-11-2017 2-17-05 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Hydraulic Test Kit #4">
+    <AssetNumber>0020</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00200.JPG</Image>
+    </Images>
+    <DateRecieved>4/12/2017 1:25:55 PM</DateRecieved>
+    <DateShipped>5/16/2017 11:45:04 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490010900</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Brad Lyles</ServiceEngineer>
+    <ShipTo>AMT</ShipTo>
+    <Weight>4.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-16-2017 11-45-08 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Hydraulic Test Kit #3">
+    <AssetNumber>0021</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\002100.JPG</Image>
+    </Images>
+    <DateRecieved>3/16/2017 7:58:53 AM</DateRecieved>
+    <DateShipped>4/20/2017 8:09:38 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490011261</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Nick Johnson</ServiceEngineer>
+    <ShipTo>Bell Helicopter - Grand Prairie</ShipTo>
+    <Weight>4.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\4-20-2017 8-09-42 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Renishaw Ballbar QC20-W">
+    <AssetNumber>0022</AssetNumber>
+    <Description>Renishaw Ballbar geometry test kit</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00220.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 12:21:41 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>10.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="StepTec Spindle Commissioning Kit #1">
+    <AssetNumber>0023</AssetNumber>
+    <Description>StepTec Spindle Commissioning Kit #1 </Description>
+    <BarcodeImage />
+    <Images />
+    <DateRecieved>6/27/2017 2:00:53 PM</DateRecieved>
+    <DateShipped>6/27/2017 2:00:53 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>8.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\6-13-2017 1-05-21 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\6-27-2017-490011542.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="StepTec Spindle Commissioning Kit #2">
+    <AssetNumber>0024</AssetNumber>
+    <Description>StepTec Spindle Commissioning Kit #2</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\002400.JPG</Image>
+    </Images>
+    <DateRecieved>2/22/2017 8:25:35 AM</DateRecieved>
+    <DateShipped>5/16/2017 11:45:04 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490010900</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Brad Lyles</ServiceEngineer>
+    <ShipTo>AMT</ShipTo>
+    <Weight>8.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-16-2017 11-45-08 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="B Axis Removal Tool">
+    <AssetNumber>0025</AssetNumber>
+    <Description>B Axis Removal Tool</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00250.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 12:36:54 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>9.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="30mm Socket Long Extension">
+    <AssetNumber>0026</AssetNumber>
+    <Description>Long Extension 30mm socket</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00260.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 12:40:55 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>7.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Vise Pressure Gauge">
+    <AssetNumber>0027</AssetNumber>
+    <Description>IPA Analyzer #7884</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00270.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 12:44:58 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>3.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="LX151 Calibration Tools">
+    <AssetNumber>0029</AssetNumber>
+    <Description>LX151 Calibration Tools</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00290.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 12:51:31 PM</DateRecieved>
+    <DateShipped>6/6/2017 10:17:52 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490011545</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Gus Morales</ServiceEngineer>
+    <ShipTo>Siemens Industry</ShipTo>
+    <Weight>21.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\6-6-2017 10-17-55 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Electric Skillet">
+    <AssetNumber>0030</AssetNumber>
+    <Description>Electric skillet</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00300.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 12:54:54 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>7.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Pulley Idler">
+    <AssetNumber>0031</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00310.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 12:59:41 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>20</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="HSK 60 Short Test Bar">
+    <AssetNumber>0032</AssetNumber>
+    <Description>Short Test Bar for HSK 60</Description>
+    <BarcodeImage />
+    <Images>
+      <Image>Images\0032110.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:10:49 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>10.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="MF-46 Taper Cleaner">
+    <AssetNumber>0033</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\6550.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:13:32 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>9</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Flexible Video Scope">
+    <AssetNumber>0034</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00340.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:16:48 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>6</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Milli-Ohm Kit">
+    <AssetNumber>0035</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00350.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:20:16 PM</DateRecieved>
+    <DateShipped>5/16/2017 11:45:04 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490010900</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Brad Lyles</ServiceEngineer>
+    <ShipTo>AMT</ShipTo>
+    <Weight>10</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-16-2017 11-45-08 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Collector Service Kit #1">
+    <AssetNumber>0036</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00360.JPG</Image>
+    </Images>
+    <DateRecieved>6/13/2017 12:53:16 PM</DateRecieved>
+    <DateShipped>6/13/2017 12:53:16 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>35</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\6-13-2017 9-34-04 AM .png</PackingSlip>
+      <UPSlabel>Labels\1Z9A14T70195325564.gif</UPSlabel>
+      <ReturnReport>ReceivingReport\6-13-2017-490011542.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="OTT Pull Force Checker #2">
+    <AssetNumber>0037</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00370.JPG</Image>
+    </Images>
+    <DateRecieved>6/27/2017 2:00:53 PM</DateRecieved>
+    <DateShipped>6/27/2017 2:00:53 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>40</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\6-16-2017 2-42-35 PM .png</PackingSlip>
+      <UPSlabel>Labels\1Z9A14T70194655325.gif</UPSlabel>
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="OTT Pull Force Checker #1">
+    <AssetNumber>0038</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00380.JPG</Image>
+    </Images>
+    <DateRecieved>4/20/2017 8:06:44 AM</DateRecieved>
+    <DateShipped>4/20/2017 8:09:38 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490011261</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Nick Johnson</ServiceEngineer>
+    <ShipTo>Bell Helicopter - Grand Prairie</ShipTo>
+    <Weight>31</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\4-20-2017 8-09-42 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Gates Belt Tension Meter">
+    <AssetNumber>0039</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\2220.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:33:22 PM</DateRecieved>
+    <DateShipped>7/11/2017 11:00:51 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490011326</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Nick Johnson</ServiceEngineer>
+    <ShipTo>Royell Manufacturing</ShipTo>
+    <Weight>3</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\7-11-2017 11-00-54 AM .png</PackingSlip>
+      <UPSlabel>Labels\1Z9A14T70195197720.gif</UPSlabel>
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Gates Belt Tension Meter #2">
+    <AssetNumber>0040</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00400.JPG</Image>
+    </Images>
+    <DateRecieved>7/21/2017 1:45:23 PM</DateRecieved>
+    <DateShipped>7/21/2017 1:45:23 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>3</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\6-6-2017 10-17-55 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="IFM Programmer #1">
+    <AssetNumber>0041</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00410.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:37:25 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="IFM Programmer">
+    <AssetNumber>0042</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00420.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:37:50 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="IFM Programmer">
+    <AssetNumber>0043</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00430.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:38:11 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Siemens AS-Interface Analyzer">
+    <AssetNumber>0044</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00440.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:41:39 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>2.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="IFM Programmer Model 2000">
+    <AssetNumber>0045</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00450.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:45:40 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>3</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="ASI BUS Testing Tool">
+    <AssetNumber>0046</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00460.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:53:16 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>3.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="ZS Series Enabling Switch">
+    <AssetNumber>0047</AssetNumber>
+    <Description />
+    <BarcodeImage />
+    <Images>
+      <Image>Images\00470.JPG</Image>
+    </Images>
+    <DateRecieved>1/4/2017 1:56:49 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>3.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Extraction Tool">
+    <AssetNumber>0048</AssetNumber>
+    <Description>ST 107</Description>
+    <BarcodeImage>Barcodes\0048.png</BarcodeImage>
+    <Images>
+      <Image>Images\004800.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:04:33 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="HEC800 Laser Plate">
+    <AssetNumber>0049</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0049.png</BarcodeImage>
+    <Images>
+      <Image>Images\004900.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:07:04 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>39.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="HX251 Laser plates">
+    <AssetNumber>0052</AssetNumber>
+    <Description>Qty 2</Description>
+    <BarcodeImage>Barcodes\0052.png</BarcodeImage>
+    <Images />
+    <DateRecieved>1/5/2017 6:14:07 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>9.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Laser Mounting Plate">
+    <AssetNumber>0050</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0050.png</BarcodeImage>
+    <Images>
+      <Image>Images\005000.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:22:06 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>17.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Laser Mounting Plate 2">
+    <AssetNumber>0051</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0051.png</BarcodeImage>
+    <Images>
+      <Image>Images\005100.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:25:14 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>21.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Lockout/Tagout Safety Kit">
+    <AssetNumber>0053</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0053.png</BarcodeImage>
+    <Images>
+      <Image>Images\005300.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:29:06 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>3.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Paragon Walbar">
+    <AssetNumber>0054</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0054.png</BarcodeImage>
+    <Images>
+      <Image>Images\005400.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:31:49 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>4</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Laser Mounting Plate#3 ">
+    <AssetNumber>0055</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0055.png</BarcodeImage>
+    <Images>
+      <Image>Images\005500.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:34:02 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>8.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="HEC1600 Spindle Plate for Levels">
+    <AssetNumber>0056</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0056.png</BarcodeImage>
+    <Images>
+      <Image>Images\005600.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:36:31 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>9</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Laser Mounting Plates ">
+    <AssetNumber>0057</AssetNumber>
+    <Description>Qty 2</Description>
+    <BarcodeImage>Barcodes\0057.png</BarcodeImage>
+    <Images>
+      <Image>Images\005700.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:39:20 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>14.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Par005 Plate">
+    <AssetNumber>0058</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0058.png</BarcodeImage>
+    <Images>
+      <Image>Images\005800.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:41:57 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>14.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Lockout Kit #2">
+    <AssetNumber>0059</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0059.png</BarcodeImage>
+    <Images>
+      <Image>Images\005900.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:45:05 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>4.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="WireMic#1">
+    <AssetNumber>0060</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0060.png</BarcodeImage>
+    <Images>
+      <Image>Images\006000.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:48:34 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>9.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Test Bar TEB-005">
+    <AssetNumber>0061</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0061.png</BarcodeImage>
+    <Images>
+      <Image>Images\006100.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 6:53:58 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>24.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="SIP Measuring Calibration Tool Kit">
+    <AssetNumber>0062</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0062.png</BarcodeImage>
+    <Images>
+      <Image>Images\006200.JPG</Image>
+    </Images>
+    <DateRecieved>7/21/2017 1:45:23 PM</DateRecieved>
+    <DateShipped>7/21/2017 1:45:23 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>52.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\7-11-2017 10-23-40 AM .png</PackingSlip>
+      <UPSlabel>Labels\1Z9A14T70392767464.gif</UPSlabel>
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Ball Screw Kit">
+    <AssetNumber>0063</AssetNumber>
+    <Description>Ball Screw Alignment Tool</Description>
+    <BarcodeImage>Barcodes\0063.png</BarcodeImage>
+    <Images>
+      <Image>Images\006300.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 10:58:44 AM</DateRecieved>
+    <DateShipped>1/5/2017 10:57:38 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>29.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Tool Box - Field Service Tools">
+    <AssetNumber>0064</AssetNumber>
+    <Description>Field ServiceTool Kit</Description>
+    <BarcodeImage>Barcodes\0064.png</BarcodeImage>
+    <Images>
+      <Image>Images\006400.JPG</Image>
+      <Image>Images\006411.JPG</Image>
+      <Image>Images\006422.JPG</Image>
+    </Images>
+    <DateRecieved>3/20/2017 1:57:24 PM</DateRecieved>
+    <DateShipped>5/18/2017 1:24:51 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490011437</OrderNumber>
+    <PersonShipping>Jason Noble</PersonShipping>
+    <ServiceEngineer>Wayne Tremblay</ServiceEngineer>
+    <ShipTo>Naval Foundry Propeller Center</ShipTo>
+    <Weight>71.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-18-2017 1-24-54 PM .png</PackingSlip>
+      <UPSlabel>Labels\1Z9A14T70398125422.gif</UPSlabel>
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Teflon Quill Bearing Removal Tool">
+    <AssetNumber>0065</AssetNumber>
+    <Description>Special ring with 4 screws</Description>
+    <BarcodeImage>Barcodes\0065.png</BarcodeImage>
+    <Images>
+      <Image>Images\006500.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 2:42:35 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>4.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Waynes 60 Taper Test Bar">
+    <AssetNumber>0066</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0066.png</BarcodeImage>
+    <Images>
+      <Image>Images\006600.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 2:46:04 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>26.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="50 Taper Test Bar">
+    <AssetNumber>0067</AssetNumber>
+    <Description>50mm x 130mm Test Bar</Description>
+    <BarcodeImage>Barcodes\0067.png</BarcodeImage>
+    <Images>
+      <Image>Images\006700.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 2:49:55 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>15.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Tachometer and Temperature Kit">
+    <AssetNumber>0068</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0068.png</BarcodeImage>
+    <Images>
+      <Image>Images\006800.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 2:57:04 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>1.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="SK50 Test Bar">
+    <AssetNumber>0069</AssetNumber>
+    <Description>SK 50mm x 300mm </Description>
+    <BarcodeImage>Barcodes\0069.png</BarcodeImage>
+    <Images>
+      <Image>Images\006900.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 3:03:52 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>11.0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Morse Taper Test Bar">
+    <AssetNumber>0070</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0070.png</BarcodeImage>
+    <Images />
+    <DateRecieved>1/5/2017 3:08:48 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>15</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="ISO 45 Taper Tool">
+    <AssetNumber>0071</AssetNumber>
+    <Description>4 pieces, coarse and fine lapping tools included</Description>
+    <BarcodeImage>Barcodes\0071.png</BarcodeImage>
+    <Images>
+      <Image>Images\007100.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 3:12:53 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>9</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="ISO 50 Taper Test Bar">
+    <AssetNumber>0072</AssetNumber>
+    <Description>50mm x 210mm Test Bar</Description>
+    <BarcodeImage>Barcodes\0072.png</BarcodeImage>
+    <Images>
+      <Image>Images\007200.JPG</Image>
+    </Images>
+    <DateRecieved>1/5/2017 3:18:19 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>15</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="ISO 50 Taper Test Bar">
+    <AssetNumber>0073</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0073.png</BarcodeImage>
+    <Images>
+      <Image>Images\007300.JPG</Image>
+    </Images>
+    <DateRecieved>1/6/2017 8:50:03 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>16.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="XL80 Laser System Kit">
+    <AssetNumber>0998</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0098.png</BarcodeImage>
+    <Images>
+      <Image>Images\009800.JPG</Image>
+      <Image>Images\099810.JPG</Image>
+      <Image>Images\099821.JPG</Image>
+      <Image>Images\099832.JPG</Image>
+      <Image>Images\099843.JPG</Image>
+      <Image>Images\099854.JPG</Image>
+      <Image>Images\099865.JPG</Image>
+      <Image>Images\099876.JPG</Image>
+      <Image>Images\099887.JPG</Image>
+      <Image>Images\099898.JPG</Image>
+      <Image>Images\0998109.JPG</Image>
+      <Image>Images\09981110.JPG</Image>
+      <Image>Images\09981211.JPG</Image>
+      <Image>Images\09981312.JPG</Image>
+      <Image>Images\09981413.JPG</Image>
+      <Image>Images\09981514.JPG</Image>
+      <Image>Images\09981615.JPG</Image>
+      <Image>Images\09981716.JPG</Image>
+    </Images>
+    <DateRecieved>3/13/2017 11:55:46 AM</DateRecieved>
+    <DateShipped>3/23/2017 10:25:18 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>999</OrderNumber>
+    <PersonShipping>Jason Noble</PersonShipping>
+    <ServiceEngineer>Werner Brinkheinrich</ServiceEngineer>
+    <ShipTo>Northrop Grumman</ShipTo>
+    <Weight>115.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\3-23-2017 10-25-21 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="XR 20 Rotary Indexer Kit">
+    <AssetNumber>0997</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0997.png</BarcodeImage>
+    <Images>
+      <Image>Images\099710.JPG</Image>
+      <Image>Images\099721.JPG</Image>
+    </Images>
+    <DateRecieved>3/13/2017 11:56:17 AM</DateRecieved>
+    <DateShipped>3/23/2017 10:25:18 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>999</OrderNumber>
+    <PersonShipping>Jason Noble</PersonShipping>
+    <ServiceEngineer>Werner Brinkheinrich</ServiceEngineer>
+    <ShipTo>Northrop Grumman</ShipTo>
+    <Weight>115</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\3-23-2017 10-25-21 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="40 Degree Fixture Kit">
+    <AssetNumber>0996</AssetNumber>
+    <Description>Fixture, plate, tool with arm</Description>
+    <BarcodeImage>Barcodes\0096.png</BarcodeImage>
+    <Images>
+      <Image>Images\009600.JPG</Image>
+      <Image>Images\009610.JPG</Image>
+      <Image>Images\009621.JPG</Image>
+    </Images>
+    <DateRecieved>1/6/2017 11:09:09 AM</DateRecieved>
+    <DateShipped>6/13/2017 11:11:03 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490011127</OrderNumber>
+    <PersonShipping>Jason Noble</PersonShipping>
+    <ServiceEngineer>Werner Brinkheinrich</ServiceEngineer>
+    <ShipTo>Magellan Aerospace Ltd.</ShipTo>
+    <Weight>125</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\6-13-2017 11-11-06 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Small Steel Angle">
+    <AssetNumber>0995</AssetNumber>
+    <Description>500 x 700 MM</Description>
+    <BarcodeImage>Barcodes\0095.png</BarcodeImage>
+    <Images>
+      <Image>Images\009500.JPG</Image>
+    </Images>
+    <DateRecieved>1/6/2017 11:16:40 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>150</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Alignment Kit in Blue Steel Box">
+    <AssetNumber>0994</AssetNumber>
+    <Description>Lineal Granite  1000 x 56 x 100  Angle Granite   600 x 800  MM  Assorted sockets, Plates, Extentions, Etc.</Description>
+    <BarcodeImage>Barcodes\0094.png</BarcodeImage>
+    <Images />
+    <DateRecieved>4/12/2017 1:25:55 PM</DateRecieved>
+    <DateShipped>4/20/2017 8:09:38 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490011261</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Nick Johnson</ServiceEngineer>
+    <ShipTo>Bell Helicopter - Grand Prairie</ShipTo>
+    <Weight>900</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\4-20-2017 8-09-42 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Small Granite Angle">
+    <AssetNumber>0993</AssetNumber>
+    <Description>300 x 500  MM</Description>
+    <BarcodeImage>Barcodes\0093.png</BarcodeImage>
+    <Images>
+      <Image>Images\009300.JPG</Image>
+    </Images>
+    <DateRecieved>1/6/2017 11:25:52 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>85</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Granite Lineal">
+    <AssetNumber>0992</AssetNumber>
+    <Description>1500 x 220 x 800</Description>
+    <BarcodeImage>Barcodes\0092.png</BarcodeImage>
+    <Images>
+      <Image>Images\009210.JPG</Image>
+      <Image>Images\009221.JPG</Image>
+      <Image>Images\009232.JPG</Image>
+    </Images>
+    <DateRecieved>6/8/2017 2:55:50 PM</DateRecieved>
+    <DateShipped>6/8/2017 2:55:50 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>375</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-18-2017 1-16-49 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\6-8-2017-490011302.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Stee Lineal">
+    <AssetNumber>0991</AssetNumber>
+    <Description>1000 MM  Old Ref# PAR 007</Description>
+    <BarcodeImage>Barcodes\0991.png</BarcodeImage>
+    <Images>
+      <Image>Images\099100.JPG</Image>
+      <Image>Images\099111.JPG</Image>
+      <Image>Images\099122.JPG</Image>
+      <Image>Images\099133.JPG</Image>
+    </Images>
+    <DateRecieved>1/6/2017 2:36:46 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>50</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Granite Cube">
+    <AssetNumber>0990</AssetNumber>
+    <Description>500 x 500 x 500  For Ecospeed Machines</Description>
+    <BarcodeImage>Barcodes\0990.png</BarcodeImage>
+    <Images>
+      <Image>Images\099000.JPG</Image>
+      <Image>Images\099011.JPG</Image>
+    </Images>
+    <DateRecieved>1/6/2017 2:38:03 PM</DateRecieved>
+    <DateShipped>2/21/2017 2:44:28 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490010743</OrderNumber>
+    <PersonShipping>Jason Noble</PersonShipping>
+    <ServiceEngineer>Damien Tepe</ServiceEngineer>
+    <ShipTo>Orizon</ShipTo>
+    <Weight>900</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\2-21-2017 2-44-31 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Steel Lineal">
+    <AssetNumber>0989</AssetNumber>
+    <Description>2400 MM Blue Box Old Ref# PAR 010</Description>
+    <BarcodeImage>Barcodes\0989.png</BarcodeImage>
+    <Images>
+      <Image>Images\098900.JPG</Image>
+      <Image>Images\098911.JPG</Image>
+      <Image>Images\098922.JPG</Image>
+    </Images>
+    <DateRecieved>1/6/2017 3:55:02 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>300</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Steel Lineal">
+    <AssetNumber>0988</AssetNumber>
+    <Description>1200 MM  Old Ref # PAR 001</Description>
+    <BarcodeImage>Barcodes\0988.png</BarcodeImage>
+    <Images>
+      <Image>Images\098811.JPG</Image>
+      <Image>Images\098810.JPG</Image>
+    </Images>
+    <DateRecieved>1/6/2017 3:56:23 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>300</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Steel Lineal">
+    <AssetNumber>0987</AssetNumber>
+    <Description>2400 MM  Old Ref # PAR 011  not used often</Description>
+    <BarcodeImage>Barcodes\0987.png</BarcodeImage>
+    <Images>
+      <Image>Images\098700.JPG</Image>
+      <Image>Images\098711.JPG</Image>
+      <Image>Images\098722.JPG</Image>
+    </Images>
+    <DateRecieved>1/6/2017 3:57:35 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>300</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Granite Angle">
+    <AssetNumber>0986</AssetNumber>
+    <Description>800 x 600 x 100</Description>
+    <BarcodeImage>Barcodes\0986.png</BarcodeImage>
+    <Images>
+      <Image>Images\098600.JPG</Image>
+      <Image>Images\098611.JPG</Image>
+    </Images>
+    <DateRecieved>1/6/2017 3:58:25 PM</DateRecieved>
+    <DateShipped>5/1/2017 9:10:01 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490011301</OrderNumber>
+    <PersonShipping>Steve Tunget</PersonShipping>
+    <ServiceEngineer>Nick Johnson</ServiceEngineer>
+    <ShipTo>Marion Mold and Tool</ShipTo>
+    <Weight>345</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-1-2017 9-10-04 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Measuring Bar">
+    <AssetNumber>0074</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0074.png</BarcodeImage>
+    <Images>
+      <Image>Images\007400.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 8:49:19 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>14</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Morse Taper">
+    <AssetNumber>0075</AssetNumber>
+    <Description>MK6-001</Description>
+    <BarcodeImage>Barcodes\0075.png</BarcodeImage>
+    <Images>
+      <Image>Images\007500.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 8:51:54 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>6.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Special Wrench for Spindle Head 640/740">
+    <AssetNumber>0076</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0076.png</BarcodeImage>
+    <Images>
+      <Image>Images\007600.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 8:54:37 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>12.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="50HM Test Bar">
+    <AssetNumber>0077</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0077.png</BarcodeImage>
+    <Images>
+      <Image>Images\007700.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 8:57:06 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>13.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="HSK100 Tools">
+    <AssetNumber>0078</AssetNumber>
+    <Description>3 pieces</Description>
+    <BarcodeImage>Barcodes\0078.png</BarcodeImage>
+    <Images>
+      <Image>Images\007800.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 9:13:36 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>30.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Starrett Master Precision Level">
+    <AssetNumber>0079</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0079.png</BarcodeImage>
+    <Images>
+      <Image>Images\007900.JPG</Image>
+    </Images>
+    <DateRecieved>7/21/2017 1:45:23 PM</DateRecieved>
+    <DateShipped>7/21/2017 1:45:23 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>9.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\6-6-2017 10-17-55 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Case L02 SIP Tool">
+    <AssetNumber>0080</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0080.png</BarcodeImage>
+    <Images>
+      <Image>Images\008000.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 9:18:46 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>20.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Risers Parallels">
+    <AssetNumber>0081</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0081.png</BarcodeImage>
+    <Images />
+    <DateRecieved>1/9/2017 9:20:58 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>21.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="SK50 Test Bar 300L">
+    <AssetNumber>0082</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0082.png</BarcodeImage>
+    <Images>
+      <Image>Images\008200.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 9:23:55 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>13.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="SK40 Bar">
+    <AssetNumber>0083</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0083.png</BarcodeImage>
+    <Images>
+      <Image>Images\008300.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 9:52:13 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>9.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="PAR14 for FOG">
+    <AssetNumber>0084</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0084.png</BarcodeImage>
+    <Images>
+      <Image>Images\008400.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 9:55:13 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>18.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Gauge Blocks for FOG">
+    <AssetNumber>0085</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0085.png</BarcodeImage>
+    <Images>
+      <Image>Images\008500.JPG</Image>
+    </Images>
+    <DateRecieved>4/3/2017 1:06:11 PM</DateRecieved>
+    <DateShipped>4/3/2017 1:06:11 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>19.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\3-28-2017 11-43-04 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\4-3-2017-490010774.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="500mm Linear Granite">
+    <AssetNumber>0086</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0086.png</BarcodeImage>
+    <Images>
+      <Image>Images\008600.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 10:04:17 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>22.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="TEB-002">
+    <AssetNumber>0087</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0087.png</BarcodeImage>
+    <Images>
+      <Image>Images\008700.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 10:06:32 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>26.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="50 Taper Long Nose">
+    <AssetNumber>0088</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0088.png</BarcodeImage>
+    <Images>
+      <Image>Images\008800.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 10:09:07 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>26.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Riser Blocks (Small and Large)">
+    <AssetNumber>0089</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0089.png</BarcodeImage>
+    <Images>
+      <Image>Images\008900.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 10:12:33 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>62.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="SK40 Alignment Tool">
+    <AssetNumber>0092</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0092.png</BarcodeImage>
+    <Images>
+      <Image>Images\009200.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 10:15:43 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>2</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Ball Screw Alignment Tools LX-251/151">
+    <AssetNumber>0094</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0094.png</BarcodeImage>
+    <Images>
+      <Image>Images\009400.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 10:19:33 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>2</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="A/AA Axis Socket Wrench LX-151">
+    <AssetNumber>0095</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0095.png</BarcodeImage>
+    <Images>
+      <Image>Images\009500.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 10:25:31 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>9</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Gearbox Exchange Tools Heckert w/Quill">
+    <AssetNumber>0093</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0093.png</BarcodeImage>
+    <Images>
+      <Image>Images\009300.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 10:30:21 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>4</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="V-Block for Table Guideways w/tester">
+    <AssetNumber>0090</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0090.png</BarcodeImage>
+    <Images>
+      <Image>Images\009000.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 10:35:47 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>5.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="OTT-Jakob IFH-63 Single Spanning Head">
+    <AssetNumber>0091</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0091.png</BarcodeImage>
+    <Images>
+      <Image>Images\009100.JPG</Image>
+    </Images>
+    <DateRecieved>1/9/2017 10:41:39 AM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>4.00</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Bumotec Kit 1">
+    <AssetNumber>0985</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0985.png</BarcodeImage>
+    <Images>
+      <Image>Images\098500.JPG</Image>
+    </Images>
+    <DateRecieved>7/5/2017 10:53:10 AM</DateRecieved>
+    <DateShipped>7/10/2017 9:03:44 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490011236</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Brad Lyles</ServiceEngineer>
+    <ShipTo>Point Precision</ShipTo>
+    <Weight>103</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\7-10-2017 9-03-47 AM .png</PackingSlip>
+      <UPSlabel>Labels\1Z9A14T70398585097.gif</UPSlabel>
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Bumotec Kit #2">
+    <AssetNumber>0984</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0984.png</BarcodeImage>
+    <Images>
+      <Image>Images\098400.JPG</Image>
+    </Images>
+    <DateRecieved>6/6/2017 9:38:55 AM</DateRecieved>
+    <DateShipped>7/10/2017 9:02:21 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490010544</OrderNumber>
+    <PersonShipping>John Robbins</PersonShipping>
+    <ServiceEngineer>Nick Bolmer</ServiceEngineer>
+    <ShipTo>RTI Remmele Engineering</ShipTo>
+    <Weight>103</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\7-10-2017 9-02-24 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Measuring Link Bar #1">
+    <AssetNumber>0096</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0096.png</BarcodeImage>
+    <Images>
+      <Image>Images\009600.JPG</Image>
+    </Images>
+    <DateRecieved>6/8/2017 3:02:16 PM</DateRecieved>
+    <DateShipped>6/8/2017 3:02:16 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>8.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-11-2017 2-14-28 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Measuring Link Bar #2">
+    <AssetNumber>0097</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0097.png</BarcodeImage>
+    <Images>
+      <Image>Images\009700.JPG</Image>
+    </Images>
+    <DateRecieved>3/16/2017 8:53:39 AM</DateRecieved>
+    <DateShipped>3/16/2017 8:53:39 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>8.5</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\3-16-2017-490010536.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Ecospeed Dial Indicator">
+    <AssetNumber>0983</AssetNumber>
+    <Description />
+    <BarcodeImage>Barcodes\0983.png</BarcodeImage>
+    <Images>
+      <Image>Images\098300.JPG</Image>
+    </Images>
+    <DateRecieved>5/8/2017 3:33:36 PM</DateRecieved>
+    <DateShipped>5/8/2017 3:33:36 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\4-20-2017 1-30-30 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\5-8-2017-490011214.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Hydraulic Accumulator Kit">
+    <AssetNumber>0016</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0016.png</BarcodeImage>
+    <Images>
+      <Image>Images\001600.JPG</Image>
+    </Images>
+    <DateRecieved>7/21/2017 1:45:23 PM</DateRecieved>
+    <DateShipped>7/21/2017 1:45:23 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>8</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\6-7-2017 4-07-57 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\7-21-2017-490011545.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Hydraulic Test Kit #1">
+    <AssetNumber>0017</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0017.png</BarcodeImage>
+    <Images>
+      <Image>Images\001700.JPG</Image>
+    </Images>
+    <DateRecieved>7/21/2017 1:45:23 PM</DateRecieved>
+    <DateShipped>7/21/2017 1:45:23 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>4</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\6-6-2017 10-17-55 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="LX Geometry Tools (2 boxes)">
+    <AssetNumber>0982</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0982.png</BarcodeImage>
+    <Images>
+      <Image>Images\098200.JPG</Image>
+    </Images>
+    <DateRecieved>7/11/2017 3:19:49 PM</DateRecieved>
+    <DateShipped>7/11/2017 3:19:49 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\6-6-2017 10-17-55 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Ceramic Angle">
+    <AssetNumber>0098</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0098.png</BarcodeImage>
+    <Images>
+      <Image>Images\009810.JPG</Image>
+      <Image>Images\009810.jpg</Image>
+      <Image>Images\009821.jpg</Image>
+    </Images>
+    <DateRecieved>2/2/2017 2:11:39 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>56</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="XL 80 Laser with Tripod">
+    <AssetNumber>0981</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0981.png</BarcodeImage>
+    <Images>
+      <Image>Images\098110.JPG</Image>
+      <Image>Images\098121.JPG</Image>
+      <Image>Images\098132.JPG</Image>
+      <Image>Images\098143.JPG</Image>
+    </Images>
+    <DateRecieved>6/26/2017 1:47:42 PM</DateRecieved>
+    <DateShipped>7/5/2017 11:12:58 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490009823</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Ettore Chiaradonna</ServiceEngineer>
+    <ShipTo>Hotel Coronado</ShipTo>
+    <Weight>90</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\7-5-2017 11-13-02 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="HSK63 Alignment Tools: Proofing Bar, Tool changer tools, sweeping tools">
+    <AssetNumber>0099</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0099.png</BarcodeImage>
+    <Images>
+      <Image>Images\009900.JPG</Image>
+    </Images>
+    <DateRecieved>4/21/2017 10:03:52 AM</DateRecieved>
+    <DateShipped>5/16/2017 11:48:05 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490011326</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Nick Johnson</ServiceEngineer>
+    <ShipTo>Royell Manufacturing</ShipTo>
+    <Weight>29</Weight>
+    <OnHold>true</OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-16-2017 11-48-08 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="PM Misc tools">
+    <AssetNumber>004A</AssetNumber>
+    <Description>IFM 2001, Belt tension meter, PM Strips, Walkie Talkies</Description>
+    <BarcodeImage>Barcodes\004a.png</BarcodeImage>
+    <Images>
+      <Image>Images\004a00.JPG</Image>
+    </Images>
+    <DateRecieved>6/8/2017 2:55:50 PM</DateRecieved>
+    <DateShipped>6/8/2017 2:55:50 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>11</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-11-2017 2-18-05 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="XR20 Rotary Axis Calibrator and Bracket">
+    <AssetNumber>0980</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0980.png</BarcodeImage>
+    <Images>
+      <Image>Images\098000.JPG</Image>
+    </Images>
+    <DateRecieved>4/21/2017 9:19:48 AM</DateRecieved>
+    <DateShipped>4/21/2017 9:29:41 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490011261</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Nick Johnson</ServiceEngineer>
+    <ShipTo>Bell Helicopter - Grand Prairie</ShipTo>
+    <Weight>51</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\4-21-2017 9-29-44 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\6-26-2017-490011261.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Levelling Cubes for Granite sqare">
+    <AssetNumber>0100</AssetNumber>
+    <Description>3 devices that allow the large granite cube to be levelled</Description>
+    <BarcodeImage>Barcodes\0100.png</BarcodeImage>
+    <Images>
+      <Image>Images\010000.JPG</Image>
+      <Image>Images\010011.JPG</Image>
+      <Image>Images\010022.JPG</Image>
+      <Image>Images\010033.JPG</Image>
+      <Image>Images\010044.JPG</Image>
+      <Image>Images\010055.JPG</Image>
+      <Image>Images\010066.JPG</Image>
+      <Image>Images\010077.JPG</Image>
+      <Image>Images\010088.JPG</Image>
+    </Images>
+    <DateRecieved>2/10/2017 3:41:46 PM</DateRecieved>
+    <DateShipped>1/1/0001 12:00:00 AM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>11</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip />
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Accumulator Kit #1 ">
+    <AssetNumber>013A</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\013A.png</BarcodeImage>
+    <Images>
+      <Image>Images\013A00.JPG</Image>
+    </Images>
+    <DateRecieved>3/16/2017 7:58:53 AM</DateRecieved>
+    <DateShipped>4/28/2017 1:05:46 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>1</OrderNumber>
+    <PersonShipping>Steve Tunget</PersonShipping>
+    <ServiceEngineer>Steve Tunget</ServiceEngineer>
+    <ShipTo>Metalex</ShipTo>
+    <Weight>10</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\4-28-2017 1-05-49 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="SK50 Proofing Bar, alignment tools, tool changers">
+    <AssetNumber>0010</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0010.png</BarcodeImage>
+    <Images>
+      <Image>Images\001000.JPG</Image>
+    </Images>
+    <DateRecieved>6/8/2017 2:55:50 PM</DateRecieved>
+    <DateShipped>6/8/2017 2:55:50 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>31</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-11-2017 2-15-46 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Granite Sqare 1000 x 800">
+    <AssetNumber>0979</AssetNumber>
+    <Description>1000 x 800 </Description>
+    <BarcodeImage>Barcodes\0979.png</BarcodeImage>
+    <Images>
+      <Image>Images\097900.JPG</Image>
+      <Image>Images\097911.JPG</Image>
+      <Image>Images\097922.JPG</Image>
+      <Image>Images\097933.JPG</Image>
+      <Image>Images\097944.JPG</Image>
+    </Images>
+    <DateRecieved>6/8/2017 3:02:16 PM</DateRecieved>
+    <DateShipped>6/8/2017 3:02:16 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>650</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-18-2017 1-16-49 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\6-8-2017-490011302.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Lineal Granite 1200 x 200 x 60">
+    <AssetNumber>0978</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0978.png</BarcodeImage>
+    <Images>
+      <Image>Images\097810.JPG</Image>
+    </Images>
+    <DateRecieved>3/13/2017 3:33:59 PM</DateRecieved>
+    <DateShipped>5/1/2017 9:10:01 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490011301</OrderNumber>
+    <PersonShipping>Steve Tunget</PersonShipping>
+    <ServiceEngineer>Nick Johnson</ServiceEngineer>
+    <ShipTo>Marion Mold and Tool</ShipTo>
+    <Weight>140</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-1-2017 9-10-04 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="C axis spindle centerline fixture- Ecospeed">
+    <AssetNumber>0101</AssetNumber>
+    <Description>Fixture that allows measurment of the C axis spindle centerline on Ecospeed </Description>
+    <BarcodeImage>Barcodes\0101.png</BarcodeImage>
+    <Images>
+      <Image>Images\010100.jpg</Image>
+      <Image>Images\010111.jpg</Image>
+      <Image>Images\010122.jpg</Image>
+    </Images>
+    <DateRecieved>5/8/2017 3:33:36 PM</DateRecieved>
+    <DateShipped>5/8/2017 3:33:36 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\4-20-2017 1-30-30 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\5-8-2017-490011214.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Test Mandrel - Ecospeed">
+    <AssetNumber>0102</AssetNumber>
+    <Description>Test Mandrel for Ecospeed HSK A063 DST # 48012754</Description>
+    <BarcodeImage>Barcodes\0102.png</BarcodeImage>
+    <Images>
+      <Image>Images\010200.jpg</Image>
+      <Image>Images\010211.jpg</Image>
+      <Image>Images\010222.jpg</Image>
+    </Images>
+    <DateRecieved>5/8/2017 3:33:36 PM</DateRecieved>
+    <DateShipped>5/8/2017 3:33:36 PM</DateShipped>
+    <IsOut>False</IsOut>
+    <OrderNumber>-1</OrderNumber>
+    <PersonShipping></PersonShipping>
+    <ServiceEngineer></ServiceEngineer>
+    <ShipTo></ShipTo>
+    <Weight>0</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\4-20-2017 1-30-30 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport>ReceivingReport\5-8-2017-490011214.png</ReturnReport>
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Installation Toolbox">
+    <AssetNumber>0976</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0976.png</BarcodeImage>
+    <Images>
+      <Image>Images\097600.JPG</Image>
+    </Images>
+    <DateRecieved>5/8/2017 8:51:15 AM</DateRecieved>
+    <DateShipped>5/9/2017 2:27:38 PM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490009823</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Ettore Chiaradonna</ServiceEngineer>
+    <ShipTo>Navy</ShipTo>
+    <Weight>1000</Weight>
+    <OnHold>false</OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-9-2017 2-27-41 PM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+  <Asset Name="Installation Toolbox #2 ">
+    <AssetNumber>0975</AssetNumber>
+    <Description></Description>
+    <BarcodeImage>Barcodes\0975.png</BarcodeImage>
+    <Images>
+      <Image>Images\097500.JPG</Image>
+    </Images>
+    <DateRecieved>5/9/2017 1:56:17 PM</DateRecieved>
+    <DateShipped>5/16/2017 11:48:05 AM</DateShipped>
+    <IsOut>True</IsOut>
+    <OrderNumber>490011326</OrderNumber>
+    <PersonShipping>Michael DiChiara</PersonShipping>
+    <ServiceEngineer>Nick Johnson</ServiceEngineer>
+    <ShipTo>Royell Manufacturing</ShipTo>
+    <Weight>1000</Weight>
+    <OnHold></OnHold>
+    <IsDamaged>false</IsDamaged>
+    <ShippingInformation>
+      <PackingSlip>PackingLists\5-16-2017 11-48-08 AM .png</PackingSlip>
+      <UPSlabel />
+      <ReturnReport />
+    </ShippingInformation>
+  </Asset>
+</AssetList>

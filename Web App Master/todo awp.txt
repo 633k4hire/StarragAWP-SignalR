@@ -1,0 +1,169 @@
+*******************************************************************************************************************************
+
+FIX SHOW ERROR MODAL
+
+
+NEW EXPORT MODEL FOR BOTH DESKTOP AND WEB VERSIOn
+
+DESKTOP VERSION THAT READS FROM THE WEBSITE API
+
+*******************************************************************************************************************************
+
+
+<[o.o]>
+
+
+*******************************************************************************************************************************
+
+MISC
+
+*******************************************************************************************************************************
+
+brcode with text on left barcdoe on riht
+
+label type selector (avery......) or explain on mapge what it is
+
+Checkout with UPS or checkout with user options or new freight api
+option on checkout for user does his own shipping for freight or fedex
+
+Cnge history scrren titles to dates are switched ***********
+more detailed titles and labels HERE Asset Screen
+
+Asset Screen Does Not Scroll
+
+color legend for asset portal 
+
+editable check in pdf receiving report
+
+on receiving sheet instead of shipper put recever and use the currently logged in user
+
+save asset on checkout? wtf did i mean
+
+checkout messag include custoemr name (email)
+
+meeage sent confirm (on notifications)
+
+on asset create if calibrated checked make cal fiedls rewuired
+
+Map link on asset page..more detailed location data on asset
+*******************************************************************************************************************************
+
+
+<[o.o]>
+
+
+*******************************************************************************************************************************
+
+"Customer/Technician" Checkout system
+
+*******************************************************************************************************************************
+
+[two update panel timed server polling]
+two conditional panels with shared async external trigger
+on panel is hidden but contains an ajax timer
+session variable is checked in code behind on _tick
+if variable says refresh is required
+then panel 2 is bound and updated using the async button call, 
+only refreshing  panel 2 when there is a need
+
+or us settimout ajax call to webmethod for near realtime update
+
+
+use l0xx0r file templates
+search / filter bar on left
+
+create new "checkout / outcart" pages for this only
+
+Create confimation number ID
+
+once cart is confirmed and email is sent out to  both logged in TEch and shipping office (michael/tunget/jason)
+
+
+a public class PendingTransaction{}
+
+is made contaiing the requestor, list of assets, date, customer or custom address, Timesamp, Transaction ID(confirmation number for User), PREFERED SHIPPING METHOD
+
+if is custom address create New Customer() and add to setttting file and save.gloabls();
+
+
+pending transaction database is created and each transaction is added to it via SQL
+
+Admins will have a special page call /Account/Transactions.apsx (and short cut with badges on main menu)
+
+
+
+[Transactions.apsx]
+
+will contain a self updating table of current transactions and te ability to sort, search anf filter transactions based on date, customer, tech, asset id, transaction id
+
+clicking on a pending transaction allows the transactino to be edited and approved
+
+upon approval the pending transaction checks available stock(warns if insuf) adds to checkoutlist session variable and then forwards to Checkout.aspx 
+		for final inspection and paperwork / label creation
+
+		
+pending transaction is removed from the pending library, and update is sent to tech telling thm a tool is cheked out
+
+all db are updated
+
+signal goes out that there is a change occured to refresh all attached clients
+
+
+
+PAST KIT REQUEST ON USER MANAGEMENT PAGE
+
+EASY Re-Request with stored requests
+
+**Suggested request....
+
+
+
+
+********************************* MICHAE EDITS *********************************************************************************
+color code in bar of 
+chec.aspx estimated arrival make the date more verbal writtten out eg friday march 11 2018...
+
+
+MORE LOADING SCREENS 
+
+
+FIX DUPES IN LSITS
+
+ORDER NUMBER TO REFERENCE 1 FIELD IN CHECKOUT.ASPX
+put sutmoer drop down selector on destibnation in checkou.aspx
+
+REMOVE CREATE LABL MODAL
+
+TINY X IN ASSET MODAL make bigger, make asset modal nicer!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+
+WHEN ADD TO CHECKOUT MAKE MODAL say item added use bootstrap not just flash
+
+proceedt ocheckout in pace of Dreate+ in assetview
+
+repalce Order nukner with Comment in shoppingcart
+loading screen
+ordernum
+
+new pending task email is blank body
+
+on user assetview dont use use cloud dowlaod use plus symbol
+
+replace add to tasklist with add to cart
+
+
+
+dpnt make assetmodal stay popped after page refresh
+
+
+if you hit enter on serach bar acaully search
+
+dont add duplicatees t osearch results
+
+move search up to 
+
+checkin pdf failed dont hit fianlize twizw make into leave button
+
+
+
+
+DESTINATION DOES NOT WORK FOR PENDING ITEMS ON CHECKOUT PAGE ADMIN USERS NEED TO DO CHECK ONLOAD OF CHECKOUT PAGE FOR PENDING AND USE PENDING ADDRESS INSTREAD OFSERCH FOR CUSTOMER
