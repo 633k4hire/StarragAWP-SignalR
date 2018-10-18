@@ -1,4 +1,24 @@
-﻿.form-control:focus {
+﻿.bottom-msg {
+    transition: all 1s;
+    position: fixed;
+    padding: 2px;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    min-height:25px;
+    max-height:250px;
+    overflow:hidden;
+    bottom: -250px;
+    right: 0px;
+    z-index:999999;
+}
+.bottom-msg.show {    
+    bottom: 0px;
+}
+
+
+.form-control:focus {
     border-color: rgba(241, 0, 6, 0.75);
     box-shadow: 0 1px 1px rgba(241, 0, 6, 0.75) inset, 0 0 10px rgba(241, 0, 6, 0.5);
     outline: 0 none;
@@ -13,7 +33,7 @@
     }
         .transaction-notice:hover {
             color: rgba(241, 0, 6, 1) !important;
-            ;
+            
         }
 .notice-holder {
     height: 150px;
@@ -3920,6 +3940,8 @@ iframe {
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
+    animation-iteration-count:1;
+    
 }
 
 @-webkit-keyframes fade {

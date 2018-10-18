@@ -725,6 +725,14 @@ function JumpToTab(dest)
     //$("#HistoryTab").css("opacity", 0);
    // $("#" + dest).css("opacity", 1);
 }
+
+function ShowBottomDialog(input) {
+    $("#BottomMsgDialog").addClass("show");
+    var h = $("#BottomMsgDialog").html();
+    $("#BottomMsgDialog").text(input);
+    setTimeout(function () { $("#BottomMsgDialog").removeClass("show"); }, 2250);
+}
+
 function AjaxAddCheckout(num, autocheck) {
     if (autocheck === null)
     {
@@ -771,7 +779,9 @@ function AddCheckInItem(msg) {
         var badge = $("#checkin_badge")       
         badge.text(count);        
         Blink("checkin_badge", 250, 5);
-        CheckOutPanelUpdate();
+        //CheckOutPanelUpdate();
+        ShowBottomDialog(msg.d.AssetName + ' added to return cart');
+       
     } catch (err) { return false;  }
 }
 function AddCheckOutItem(msg) {
@@ -783,11 +793,13 @@ function AddCheckOutItem(msg) {
         var count = _checkout_idx;
         var badge = $("#checkout_badge")        
         badge.text(count);
-        Blink("checkout_badge", 250, 5);
+        Blink("checkout_badge", 250, 3);
             // CheckOutPanelUpdate();
+        ShowBottomDialog(msg.d.AssetName + ' added to cart');
     } catch (err) { return false;  }
     return false;
 }
+
 function ClearCheckOut() {
     $.ajax({
         type: 'POST',
@@ -801,7 +813,8 @@ function ClearCheckOut() {
     });
     event.stopPropagation();
     
-}function ClearCheckIn() {
+}
+function ClearCheckIn() {
     $.ajax({
         type: 'POST',
         url: '/Account/AssetController.aspx/ClearCheckIn',

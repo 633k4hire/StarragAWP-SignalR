@@ -63,8 +63,8 @@
                               <%--left items--%>
                                     <ul class="nav navbar-nav starrag-menu">     
                                         <li  style="max-height:50px !important; margin-top:-10px !important;"><a onclick="ShowLoader()" runat="server" href="/Account/AssetView.aspx"><img src="/Images/starrag-40.png" /></a></li>
-                                        <li><asp:LinkButton ID="ViewChangerBtn" Text="TEST" runat="server" OnClick="ViewChangeBtn_Click" /></li>
-<%--                                        <li ><span class="fg-blue av-hand-cursor" style="vertical-align:middle" onclick=";"> ToggleDropDown('');</span></li>--%>
+<%--                                        <li><asp:LinkButton ID="ViewChangerBtn" Text="TEST" runat="server" OnClick="ViewChangeBtn_Click" /></li>--%>
+<%--                                        <li ><span class="fg-blue av-hand-cursor" style="vertical-align:middle" onclick="ShowBottomDialog('Hello World');"> Test Bottom Dialog</span></li>--%>
                                     </ul>
                                      <%-- right items--%>
                                     <ul class="nav navbar-nav starrag-menu navbar-right ">   
@@ -697,7 +697,9 @@
                     </div>      
                  </div>
              </div>
-
+            <div id="BottomMsgDialog" class="bottom-msg bg-starrag fg-white shadow-metro-black">
+                
+            </div>
 <!--End Dialogs-->
 <!--Loader-->
             <div id="FullScreenLoader" class="awp-outer-loader" style="display:none" >
