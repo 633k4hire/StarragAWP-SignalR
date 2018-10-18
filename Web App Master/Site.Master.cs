@@ -13,6 +13,7 @@ using System.Linq;
 using Web_App_Master.Account;
 using System.IO;
 using static Notification.NotificationSystem;
+using static Web_App_Master.App_Start.SignalRHubs;
 
 namespace Web_App_Master
 {
@@ -20,7 +21,10 @@ namespace Web_App_Master
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            ScriptManager.GetCurrent(Page).RegisterAsyncPostBackControl(MasterSuperBtn);
+
+            //start polling
+           
             if (Context.IsAdmin())
             {
                 
@@ -663,22 +667,8 @@ namespace Web_App_Master
 
         protected void ViewChangeBtn_Click(object sender, EventArgs e)
         {
-            var assets = Pull.Assets();
-            foreach (var asset in assets)
-            {
-                try
-                {
-                    var basepath = ("/Account/Images/");
+            this.HubContext<ClientHub>().Clients.All.assetCacheChanged();
 
-                    Directory.CreateDirectory(Server.MapPath(basepath + asset.AssetNumber));
-                    foreach (var item in asset.Images.Split(','))
-                    {
-                        
-                        File.Copy(Server.MapPath(basepath + Path.GetFileName( item)), Server.MapPath(basepath + asset.AssetNumber + "/" + Path.GetFileName( item)));
-                    }
-                }
-                catch { }
-            }
         }
         //public int CurrentView { get { return MainContentMultiView.ActiveViewIndex; } }
 
@@ -833,6 +823,20 @@ namespace Web_App_Master
             AssetCurrentDocumentLabel.Text = arg;
             AssetDocumentIframeUpdatePanel.Update();
             AssetDocumentsViewer.Update();
+        }
+
+        protected void MasterSuperBtn_Click(object sender, EventArgs e)
+        {
+            var cmd = AppCommand.Text;
+            var arg1 = AppArgument.Text;
+            var arg2 = AppArgument2.Text;
+            this.Page.RegisterAsyncTask(
+                new PageAsyncTask(
+                    async ()=>
+                    { await Global.RefreshAssetCacheAsync(); }));
+
+            //Check to see if asset view is present in contentpanel, if so, fir off page delegate 
+            UpdateAssetView(new UpdateRequestEvent(Global.AssetCache));
         }
     }
     public class UpdateRequestEvent : EventArgs

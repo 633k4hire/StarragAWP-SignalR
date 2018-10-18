@@ -91,20 +91,28 @@ namespace Web_App_Master.App_Start
             {
                 ClientData cd = new ClientData();
                 cd.Id = Context.ConnectionId;
-                cd.Data = null;
-                var user = Context.QueryString["user"];
-                if (user != "admin")
+                try
                 {
-                    ClientHandler.ClientDatas.Add(cd);
-                    this.Groups.Add(cd.Id, "clients");
+                    //HttpContext.Current.Session["SignalRid"] = cd.Id;
+
+                    cd.Data = null;
+                    var user = Context.QueryString["user"];
+                    if (user != "admin")
+                    {
+                        ClientHandler.ClientDatas.Add(cd);
+                        this.Groups.Add(cd.Id, "clients");
+                    }
+                    else
+                    {
+                        ClientHandler.AdminClientDatas.Add(cd);
+                        this.Groups.Add(cd.Id, "admins");
+                    }
+                    ClientHandler.ConnectedIds.Add(Context.ConnectionId); //add a connection id to the list 
+                    Clients.Group("admins").usersConnected(ClientHandler.ConnectedIds.Count()); //this will send to ALL the clients  the number of users connected 
                 }
-                else
+                catch
                 {
-                    ClientHandler.AdminClientDatas.Add(cd);
-                    this.Groups.Add(cd.Id, "admins");
                 }
-                ClientHandler.ConnectedIds.Add(Context.ConnectionId); //add a connection id to the list 
-                Clients.Group("admins").usersConnected(ClientHandler.ConnectedIds.Count()); //this will send to ALL the clients  the number of users connected 
                 return base.OnConnected();
             }
 
@@ -159,6 +167,26 @@ namespace Web_App_Master.App_Start
                 {
                     this.Clients.Caller.imgRecved("error");
                 }
+            }
+
+            public void pollMenuItems(string input)
+            {               
+                var pi = Account.AssetController.PollNavItems();
+                try
+                {
+                    
+
+                    this.Clients.Caller.pollItemsReady(pi);
+                }
+                catch
+                {
+                    this.Clients.Caller.pollItemsReady(new PollItems());
+                }
+            }
+
+            public void changeAssetCache(object input)
+            {
+                this.Clients.All.assetCacheChanged();
             }
 
             /// <summary>

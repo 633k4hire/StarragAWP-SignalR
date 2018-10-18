@@ -914,13 +914,10 @@
     <Content Include="Account\Templates\av_header_template.ascx" />
     <Content Include="Account\Templates\emptytemplate.ascx" />
     <Content Include="Account\Templates\DefaultView.ascx" />
-    <Content Include="Account\Test.aspx" />
     <Content Include="Account\Transactions.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\UserCheckout.aspx" />
-    <Content Include="Account\UserView.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
-    <Content Include="Account\WebApp.aspx" />
     <Content Include="App_Data\settings.xml" />
     <Content Include="Browser\App.aspx" />
     <Content Include="Browser\ControlPanel.aspx" />
@@ -1450,13 +1447,6 @@
     </Compile>
     <Compile Include="Account\Templates\StarragPackingSlip.cs" />
     <Compile Include="Account\Templates\StarragReceivingReportTemplate.cs" />
-    <Compile Include="Account\Test.aspx.cs">
-      <DependentUpon>Test.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Account\Test.aspx.designer.cs">
-      <DependentUpon>Test.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Account\Transactions.aspx.cs">
       <DependentUpon>Transactions.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1478,27 +1468,12 @@
     <Compile Include="Account\UserCheckout.aspx.designer.cs">
       <DependentUpon>UserCheckout.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Account\UserView.aspx.cs">
-      <DependentUpon>UserView.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Account\UserView.aspx.designer.cs">
-      <DependentUpon>UserView.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Account\ValuesController1.cs" />
     <Compile Include="Account\VerifyPhoneNumber.aspx.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Account\WebApp.aspx.cs">
-      <DependentUpon>WebApp.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Account\WebApp.aspx.designer.cs">
-      <DependentUpon>WebApp.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\AppHub.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -1769,6 +1744,12 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UPS_API-master\UPS_API\UPS_API.csproj">
+      <Project>{23C08A2B-E53F-4AC6-978A-859C145C03C8}</Project>
+      <Name>UPS_API</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

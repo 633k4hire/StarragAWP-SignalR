@@ -2,36 +2,8 @@
 var output;
 var OnChanged = false;
 $(document).ready(function () {
-    //InitSignalR();
     InitSignalRClient();
 });
-function InitSignalR() {
-
-    hub = $.connection.serverHub; //set hub with the server side class         
-    //output = $("#output");
-
-    hub.client.usersConnected = function (numUsers) { //this instanciate the      usersConnected function receiving the numUsers parameter which is the number of users connected
-        //$("#count").text(numUsers); //show the number of users connected inside a div 
-        var cc = 0;
-    };
-
-    hub.client.incomingMsg = function (name, message) { //this instanciate the shapeMoved function          receiving x, y
-        var bb = 0;
-        HideLocalLoader();
-        //output.html(output.html() + name + ":" + message + "<br>");//.css({ left: x, top: y }); //this moves the shape in the clients to          50.the coords x, y
-    };
-
-    $.connection.hub.start().done(function () {
-        //set timeout to check client status
-        //window.onkeypress = function (e) {
-        //    if (e.charCode == 13) {
-        //        var m = $("#input");
-        //        hub.server.sendMsg("User", m.val());
-        //        e.stopPropagation();
-        //    }
-        //};
-    });
-} 
 
 function InitSignalRClient() {
 
@@ -51,23 +23,28 @@ function InitSignalRClient() {
 
     hub.client.imgReady = function (client) { //this instanciate the shapeMoved function          receiving x, y
         var bb = 0;
-        $("#img_" + client.Id).attr('src', 'data:image/jpeg;base64,'+client.Data);
-
+        //$("#img_" + client.Id).attr('src', 'data:image/jpeg;base64,'+client.Data);
         //Super("c_img", client.Data, client.Id);
         //HideLocalLoader();
         //output.html(output.html() + name + ":" + message + "<br>");//.css({ left: x, top: y }); //this moves the shape in the clients to          50.the coords x, y
     };
 
+    hub.client.assetCacheChanged = function (client) { //this instanciate the shapeMoved function          receiving x, y
+        var bb = 0;
+        MasterSuper("asset-cache", "refresh", "");
+    };
+
     hub.client.onSuper = function (cmd, arg1, arg2) {
         if (cmd === "new connection" || cmd === "end connection") {
-            $.jstree.reference('#jstree').refresh();
-            //UpdateTree();
+           
         }
-        Super(cmd, arg1, arg2);
+        MasterSuper(cmd, arg1, arg2);
     };
 
     $.connection.hub.qs = { 'user': 'admin' };
     $.connection.hub.start().done(function () {
+        
+       // hub.server.changeAssetCache("");
         //set timeout to check client status
         //window.onkeypress = function (e) {
         //    if (e.charCode == 13) {
@@ -79,11 +56,11 @@ function InitSignalRClient() {
     });
 } 
 
-function Super(cmd, arg, arg2) {
+function MasterSuper(cmd, arg, arg2) {
     $("#AppCommand").val(cmd);
     $("#AppArgument").val(arg);
     $("#AppArgument2").val(arg2);
-    $("#SuperButton").click();
+    $("#MasterSuperBtn").click();
 }
 function Ajax(methodurl, arg, success, error) {
     $.ajax({

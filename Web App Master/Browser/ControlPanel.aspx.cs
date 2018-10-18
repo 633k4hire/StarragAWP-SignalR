@@ -448,7 +448,7 @@ namespace Web_App_Master.Browser
             }
             else
             {
-                var assetCache = Application[(Session["guid"] as string)] as List<Asset>;
+                var assetCache = Global.AssetCache;
                 BindAssets(assetCache);
             }
             AssetsUpdatePanel.Update();
@@ -758,7 +758,7 @@ namespace Web_App_Master.Browser
 
                     break;
                 case "assets":
-                    var assetlist = (from a in Application[(Session["guid"] as string)] as List<Asset>
+                    var assetlist = (from a in Global.AssetCache
                     where 
                                        a.AssetName.ToUpper().Contains(query)
                                     || a.CalibrationCompany.ToUpper().Contains(query)
@@ -1036,7 +1036,7 @@ namespace Web_App_Master.Browser
         private void LoadAssetView(string input)
         {
             Session["cv"] = "assets";
-            BindAssets(Application[(Session["guid"] as string)] as List<Asset>);
+            BindAssets(Global.AssetCache);
             AppRightPanelMultiView.SetActiveView(AssetsView);
             AppRightPanelUpdatePanel.Update();
         }
@@ -1184,7 +1184,7 @@ namespace Web_App_Master.Browser
             //Assets
             try
             {
-                var ds = (Application[(Session["guid"] as string)] as List<Asset>).OrderBy(w => w.AssetNumber).ToList();
+                var ds = (Global.AssetCache).OrderBy(w => w.AssetNumber).ToList();
                 ds.ForEach((t) => {
                     TreeNode node = new TreeNode();
                     node.Text = t.AssetNumber + ": " + t.AssetName;

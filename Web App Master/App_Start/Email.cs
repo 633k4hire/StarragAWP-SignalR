@@ -71,8 +71,9 @@ namespace Web_App_Master
                     mClient.Send(msg);
                 return true;
                 }
-                catch
+                catch (Exception ex)
                 {
+                Push.Alert("Email Fail:" + ex.Message);
                 return false;
                 }
           
@@ -105,9 +106,9 @@ namespace Web_App_Master
                 {
                     mClient.Send(msg);
                 }
-                catch
+                catch (Exception ex)
                 {
-                 
+                    Push.Alert("Email Fail:" + ex.Message);
                 }
             }).Start();
         }
@@ -140,10 +141,10 @@ namespace Web_App_Master
                 {
                     mClient.Send(msg);
                 }
-                catch
+                catch (Exception ex)
                 {
-
-                }
+                Push.Alert("Email Fail:" + ex.Message);
+            }
          
         }
         public static void SendMassEmailAsync(string[] emails, string body = "", string subject = "")
@@ -177,9 +178,9 @@ namespace Web_App_Master
                 {
                     mClient.Send(msg);
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    Push.Alert("Email Fail:" + ex.Message);
                 }
             }).Start();
         }
@@ -233,14 +234,16 @@ namespace Web_App_Master
                 {
                     mClient.Send(msg);
                 }
-                catch
+                catch (Exception ex)
                 {
+                    Push.Alert("Email Fail:" + ex.Message);
                     return false;
                 }
                 return true;
             }
-            catch
+            catch (Exception ex)
             {
+                Push.Alert("Email Fail:" + ex.Message);
                 return false;
             }
         }
@@ -294,9 +297,9 @@ namespace Web_App_Master
                 {
                     mClient.Send(msg);
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    Push.Alert("Email Fail:"+ex.Message);
                 }
             }).Start();
         }
@@ -347,9 +350,9 @@ namespace Web_App_Master
                         {
                             mClient.Send(msg);
                         }
-                        catch
+                        catch (Exception ex)
                         {
-
+                            Push.Alert("Email Fail:" + ex.Message);
                         }
                     }).Start();
                 }

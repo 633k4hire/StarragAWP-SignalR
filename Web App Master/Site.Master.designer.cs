@@ -418,6 +418,42 @@ namespace Web_App_Master {
         protected global::System.Web.UI.WebControls.TextBox CurrentAssetNumber;
         
         /// <summary>
+        /// MasterSuperBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button MasterSuperBtn;
+        
+        /// <summary>
+        /// AppArgument control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox AppArgument;
+        
+        /// <summary>
+        /// AppCommand control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox AppCommand;
+        
+        /// <summary>
+        /// AppArgument2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox AppArgument2;
+        
+        /// <summary>
         /// HistoryBinderBtn control.
         /// </summary>
         /// <remarks>

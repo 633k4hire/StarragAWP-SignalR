@@ -7,6 +7,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using static Web_App_Master.App_Start.SignalRHubs;
 
 namespace Web_App_Master.Account
 {
@@ -116,6 +117,9 @@ namespace Web_App_Master.Account
             
             ApplyChangesButton.Visible = false;
             LeavePlaceHolder.Visible = true;
+
+            //Force all clients to update
+            this.HubContext<ClientHub>().Clients.All.assetCacheChanged();
 
         }
         protected void FinalizeCheckIn(List<Asset> assets)

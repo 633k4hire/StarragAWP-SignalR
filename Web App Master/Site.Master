@@ -20,8 +20,12 @@
     <script type="text/javascript" src='<%= ResolveClientUrl("Scripts/webapp.js") %>'></script>
     <link href="Content/fontawesome-all.css" rel="stylesheet" />
 
+    <%--SignalR--%>
+    <script src="/Scripts/jquery.signalR-2.3.0.min.js"></script>
+    <script src="/signalr/hubs"></script> 
+
 </head>
-    <body style="" onload="PollNavItems();" >   <%--onload="UpdateMenuItems()"--%>
+    <body style="" onload="PollNavItems();">   <%-- onload="UpdateMenuItems()"--%>
 	    <form id="form1" runat="server" style="height:100%">
 <!--App-header -->
           <asp:ScriptManager ID="ScriptManager1" runat="server" AjaxFrameworkMode="Enabled" EnablePageMethods="true"> </asp:ScriptManager> 
@@ -59,11 +63,12 @@
                               <%--left items--%>
                                     <ul class="nav navbar-nav starrag-menu">     
                                         <li  style="max-height:50px !important; margin-top:-10px !important;"><a onclick="ShowLoader()" runat="server" href="/Account/AssetView.aspx"><img src="/Images/starrag-40.png" /></a></li>
-<%--                                        <li><asp:LinkButton ID="ViewChangerBtn" Text="TEST" runat="server" OnClick="ViewChangeBtn_Click" /></li>--%>
+                                        <li><asp:LinkButton ID="ViewChangerBtn" Text="TEST" runat="server" OnClick="ViewChangeBtn_Click" /></li>
 <%--                                        <li ><span class="fg-blue av-hand-cursor" style="vertical-align:middle" onclick=";"> ToggleDropDown('');</span></li>--%>
                                     </ul>
                                      <%-- right items--%>
-                                    <ul class="nav navbar-nav starrag-menu navbar-right ">                          
+                                    <ul class="nav navbar-nav starrag-menu navbar-right ">   
+                                     
 <%--CHECKOUT--%>
                                         <li class="dropdown" style="z-index:99999;" >
                                             <a id="CheckoutDropDown" class="dropdown-toggle fg-hover-starrag" data-toggle="dropdown" href="#" onclick="Quiet('CheckInIcon')"><i id="CheckOutIcon" class="fa fa-shopping-cart"> &nbsp; Shopping Cart</i></span>
@@ -102,7 +107,7 @@
 
                         </AnonymousTemplate>
                          <RoleGroups>
-                             <asp:RoleGroup Roles="superadmin,Admins,Customers,Users">
+                             <asp:RoleGroup Roles="superadmin,Admins">
                                  <ContentTemplate>
                                     <%--left items--%>
                                     <ul class="nav navbar-nav starrag-menu">     
@@ -176,7 +181,7 @@
                                     </ul>      
                                 </ContentTemplate>
                             </asp:RoleGroup>
-                             <asp:RoleGroup Roles="NoRole">
+                             <asp:RoleGroup Roles="NoRole,Customers,Users">
                                                                   <ContentTemplate>
                                     <%--left items--%>
                                     <ul class="nav navbar-nav starrag-menu">     
@@ -643,9 +648,12 @@
 <!--Super Button & SuperFields-->         
             <div id="IsAvUp" style="display:none">false</div>
             <asp:TextBox runat="server" ID ="CurrentAssetNumber" ClientIDMode="Static" style="display:none"></asp:TextBox>
-            
+            <asp:Button ID="MasterSuperBtn" runat="server" Text="CLICK ME" OnClick="MasterSuperBtn_Click" style="display:none" ClientIDMode="Static"/>
+            <asp:TextBox runat="server" ID ="AppArgument" ClientIDMode="Static" style="display:none"></asp:TextBox>
+            <asp:TextBox runat="server" ID ="AppCommand" ClientIDMode="Static" style="display:none"></asp:TextBox>
+            <asp:TextBox runat="server" ID ="AppArgument2" ClientIDMode="Static" style="display:none"></asp:TextBox>
             <asp:Button ID="HistoryBinderBtn" runat="server" Text="CLICK ME" OnClick="HistoryBinderBtn_Click" style="display:none" ClientIDMode="Static"/>
-           <asp:Button ID="CalibrationBinderBtn" runat="server" Text="CLICK ME" OnClick="CalibrationBinderBtn_Click" style="display:none" ClientIDMode="Static"/>
+            <asp:Button ID="CalibrationBinderBtn" runat="server" Text="CLICK ME" OnClick="CalibrationBinderBtn_Click" style="display:none" ClientIDMode="Static"/>
             <asp:Button ID="ViewChangeBtn" runat="server" Text="" OnClick="ViewChangeBtn_Click" style="display:none" ClientIDMode="Static"/>
             <asp:Button ID="button33" runat="server" Text="CLICK ME" OnClick="button33_Click" style="display:none" ClientIDMode="Static"/>
             <asp:Button ID="UpdateAllCarts" runat="server" Text="UpdateAllCarts" OnClick= "UpdateAllCarts_Click" style="display:none" ClientIDMode="Static"/>   
@@ -713,6 +721,8 @@
          <a class="transaction-notice" href="/Account/OutCart.aspx?pend=%%TID%%">%%TEXT%%</a> 
       </div>
     </script>
+
+<script src="/Scripts/SignalR/SignalRHubFunctions.js"></script>
 
 </body>
 

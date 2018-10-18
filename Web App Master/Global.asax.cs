@@ -21,11 +21,15 @@ namespace Web_App_Master
 
     public class Global : HttpApplication
     {
-        public static async Task RefreshAssetCacheAsync()
+        /// <summary>
+        /// Refresh assetcache
+        /// </summary>
+        /// <returns></returns>
+        public static async Task<List<Asset>> RefreshAssetCacheAsync()
         {
-           // Global.AssetCache = await Pull.AssetsAsync();
+            HttpContext.Current.Session["SessionAssetCache"] = await Pull.AssetsAsync();
+            return HttpContext.Current.Session["SessionAssetCache"] as List<Asset>;
         }
-
         public static void LogEntry(string entry)
         {
             _MasterLog.Add(entry);
@@ -44,21 +48,40 @@ namespace Web_App_Master
                 }
                 return masterlist;
             } }
+        //public static List<Asset> AssetCache
+        //{
+        //    get {
+        //        var a = HttpContext.Current.Application[HttpContext.Current.Session["guid"] as string] as List<Asset>;
+        //        if (a == null) return new List<Asset>();
+        //        return a;
+        //    }
+        //    set {
+        //        if (HttpContext.Current.Session["guid"] as string == null)
+        //        {
+        //            HttpContext.Current.Session["guid"] = Guid.NewGuid();
+        //        }
+        //            HttpContext.Current.Application[HttpContext.Current.Session["guid"] as string] = value;
+        //    }
+        //}
+
         public static List<Asset> AssetCache
         {
-            get {
-                var a = HttpContext.Current.Application[HttpContext.Current.Session["guid"] as string] as List<Asset>;
+            get
+            {
+                var a = HttpContext.Current.Session["SessionAssetCache"] as List<Asset>;
                 if (a == null) return new List<Asset>();
                 return a;
             }
-            set {
-                if (HttpContext.Current.Session["guid"] as string == null)
+            set
+            {
+                if (HttpContext.Current.Session["SessionAssetCache"] as List<Asset> == null)
                 {
-                    HttpContext.Current.Session["guid"] = Guid.NewGuid();
+                    HttpContext.Current.Session["SessionAssetCache"] = value;
                 }
-                    HttpContext.Current.Application[HttpContext.Current.Session["guid"] as string] = value;
+                
             }
         }
+
         public static void RefreshAssetCache()
         {
             AssetCache = Pull.Assets();
@@ -146,8 +169,8 @@ namespace Web_App_Master
             Session["Notifications"] = list;
             var guid = Guid.NewGuid().ToString();
             Session["guid"] = guid;
-            AssetCache = Pull.Assets();
-         
+            //Pull Assets
+            Session["SessionAssetCache"] =  Pull.Assets();         
         }
         public static void LoadLibrary()
         {

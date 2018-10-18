@@ -57,6 +57,8 @@ namespace Web_App_Master.Account
                 }
                 asset.Description = DescriptionText.Text;
                 var r = Push.Asset(asset);
+                //Force all clients to update
+                this.HubContext<App_Start.SignalRHubs.ClientHub>().Clients.All.assetCacheChanged();
             }
             catch
             {

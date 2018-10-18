@@ -1,14 +1,10 @@
 ﻿using Helpers;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.Owin;
 using ShippingAPI;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
-using System.Web;
-using System.Web.Http;
 using System.Web.UI;
 using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
@@ -16,7 +12,7 @@ using static Notification.NotificationSystem;
 
 namespace Web_App_Master.Account
 {
-   
+
     public partial class Checkout1 : System.Web.UI.Page
     {
         public void SaveToUserPersistantLog()
@@ -290,7 +286,9 @@ namespace Web_App_Master.Account
                     ShowError("Could not add new Customer to List\r\n"+exx.StackTrace);
                 }
 
-
+                //Force all clients to update
+                this.HubContext<App_Start.SignalRHubs.ClientHub>().Clients.All.assetCacheChanged();
+                ShowError("Checkout Succeeded\r\n");
             }
             catch ( Exception exx) { ShowError("Checkout failed\r\n"+exx.StackTrace); }
         }

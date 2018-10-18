@@ -117,17 +117,13 @@ namespace Helpers
             return HttpContext.Current.Request.UserHostAddress;
         }
 
-        public static IHubContext HsacHubContext(this Page page)
-        {
-            return GlobalHost.ConnectionManager.GetHubContext<HsacHub>();
-        }
-
-        public static IHubContext HsacHubContext(this UserControl control)
-        {
-            return GlobalHost.ConnectionManager.GetHubContext<HsacHub>();
-        }
 
         public static IHubContext HubContext<T>(this UserControl control) where T : IHub
+        {
+            return GlobalHost.ConnectionManager.GetHubContext<T>();
+        }
+
+        public static IHubContext HubContext<T>(this Page page) where T : IHub
         {
             return GlobalHost.ConnectionManager.GetHubContext<T>();
         }
