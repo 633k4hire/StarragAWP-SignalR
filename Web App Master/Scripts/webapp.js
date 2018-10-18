@@ -778,7 +778,7 @@ function AddCheckInItem(msg) {
         var count = _checkin_idx;
         var badge = $("#checkin_badge")       
         badge.text(count);        
-        Blink("checkin_badge", 250, 5);
+       // Blink("checkin_badge", 250, 5);
         //CheckOutPanelUpdate();
         ShowBottomDialog(msg.d.AssetName + ' added to return cart');
        
@@ -793,7 +793,7 @@ function AddCheckOutItem(msg) {
         var count = _checkout_idx;
         var badge = $("#checkout_badge")        
         badge.text(count);
-        Blink("checkout_badge", 250, 3);
+        //Blink("checkout_badge", 250, 3);
             // CheckOutPanelUpdate();
         ShowBottomDialog(msg.d.AssetName + ' added to cart');
     } catch (err) { return false;  }
