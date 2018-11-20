@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Web;
 using System.Xml.Serialization;
+using System.IO;
 
 namespace Web_App_Master.Models
 {
@@ -20,6 +21,11 @@ namespace Web_App_Master.Models
     {
         bool Push(T e);
         T Pull(T e);
+    }
+    public interface iLocalStorable<T>
+    {
+        T Read(string filename, bool mapToServer);
+        bool Write(string filename, bool mapToServer);
     }
     [Serializable]
     public class Data_Base_Class : Serializers.Serializer<Data_Base_Class>, iStorable<Data_Base_Class>
@@ -279,5 +285,66 @@ namespace Web_App_Master.Models
             set { nodes = value; }
         }
 
+    }
+
+    [Serializable]
+    public class Local_Storage_Class: Serializers.Serializer<Local_Storage_Class>
+    {
+        public Local_Storage_Class Read<T>(string filename, bool mapToServer=true) where T : Local_Storage_Class
+        {
+            try
+            {
+                if (mapToServer)
+                {
+                    if (File.Exists(HttpContext.Current.Server.MapPath(filename)))
+                    {
+                        var deserialized = new Local_Storage_Class().DeserializeFromXmlFile<Local_Storage_Class>(HttpContext.Current.Server.MapPath(filename));
+                        return deserialized as T;
+                    }
+                    else return null;
+                }
+                else
+                {
+                    if (File.Exists(filename))
+                    {
+                        var deserialized = new Local_Storage_Class().DeserializeFromXmlFile<Local_Storage_Class>(filename);
+                        return deserialized as T;
+                    }
+                    else return null;
+                }              
+                
+            }
+            catch
+            {
+                return null;
+            }
+        }
+        public bool Write(string filename, bool mapToServer = true)
+        {
+            try
+            {
+                if (mapToServer)
+                {
+                    this.SerializeToXmlFile(this, HttpContext.Current.Server.MapPath(filename));
+                }
+                else
+                {
+                    this.SerializeToXmlFile(this,filename);
+                }
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+        [XmlIgnore]
+        private string mGuid = Guid.NewGuid().ToString();
+        [XmlElement]
+        public string Id { get { return mGuid; } set { mGuid = value; } }
+        [XmlIgnore]
+        private string mName = "";
+        [XmlElement]
+        public string Name { get { return mName; } set { mName = value; } }
     }
 }

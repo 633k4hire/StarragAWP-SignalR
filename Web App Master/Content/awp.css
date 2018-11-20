@@ -240,7 +240,7 @@ background-color:black !important;
     top: 50px;
     left: 0;
     z-index: 0;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 .awp-bar {
     text-align: right;
@@ -412,6 +412,52 @@ iframe {
     display: table-cell;
     text-align: left !important;
     overflow: hidden !important;
+}
+
+.bar-loader {
+    height: 4px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #262626;
+}
+
+    .bar-loader:before {
+        display: block;
+        position: absolute;
+        content: "";
+        left: -200px;
+        width: 200px;
+        height: 4px;
+        background-color: #da0a0a;
+        animation: loading 2s linear infinite;
+    }
+
+@keyframes loading {
+    from {
+        left: -200px;
+        width: 30%;
+    }
+
+    50% {
+        width: 45%;
+    }
+
+    70% {
+        width: 70%;
+    }
+
+    80% {
+        left: 50%;
+    }
+
+    95% {
+        left: 120%;
+    }
+
+    to {
+        left: 100%;
+    }
 }
 
 

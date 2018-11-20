@@ -169,7 +169,7 @@
                                                 <%--<li><a runat="server" href="~/Account/Admin/AdminDashboard" onclick="ShowLoader();">Admin(Use Control Panel)</a></li>--%>
                                                 <li><asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" /></li>
                                                 
-
+                                                <li><a href="/OutList.aspx" onclick="ShowLoader();" >Out List</a></li>
                                                 <li><a href="/Account/Transactions.aspx" onclick="ShowLoader();" >Transactions</a></li>
                                                 <li id="transaction_items" class="notice-holder ShowScroll">
 
@@ -233,6 +233,7 @@
                     </asp:LoginView>
                 </div>
             </div>
+                 <div id="starragBarLoader" class="bar-loader" style="display:none;"></div>
         </div>
 
 <!--End Menu -->

@@ -102,20 +102,45 @@ namespace Web_App_Master
         void Application_Start(object sender, EventArgs e)
         {
             LoadMasterLog();
-
             TelemetryConfiguration.Active.DisableTelemetry = true;
-            DeveloperAction();
-           // Error += Global_Error;
+           
+            //Error += Global_Error;
            // Cleanup = new System.Timers.Timer();
            // Cleanup.Interval = (60000 * 30);
            // Cleanup.Elapsed += Cleanup_Elapsed;
            //Cleanup.Enabled = true;
             LoadLibrary();
             LoadSettings();
-            LoadNotificationSystem();
+           // LoadNotificationSystem();
+            
             // Code that runs on application startup
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            DeveloperAction();
+        }
+        public static string CurrentSnapFilename ="/SnapShot/snap.db";
+        public void GenerateSnapShot()
+        {
+            try
+            {
+                if (!File.Exists(Server.MapPath(CurrentSnapFilename)))
+                {
+                    SnapShotData snap = new SnapShotData();
+                    snap.Filename = CurrentSnapFilename;
+                    snap.Add(new SnapShotEntry());
+                    Application[CurrentSnapFilename] = snap;
+                }
+                else
+                {
+                    SnapShotData snap = new SnapShotData().Read<SnapShotData>(Server.MapPath(CurrentSnapFilename)) as SnapShotData;
+                    snap.Add(new SnapShotEntry());
+
+                    Application[CurrentSnapFilename] = snap;
+                    
+                }
+            }
+            catch (Exception ex) { LogEntry(DateTime.Now.ToString()+":"+ex.Message); }
         }
 
         private void LoadMasterLog()
@@ -136,7 +161,7 @@ namespace Web_App_Master
         }
         private void Global_Error(object sender, EventArgs e)
         {
-           
+            try { } catch { }
         }
 
         void Application_Error(object sender, EventArgs e)
@@ -170,7 +195,8 @@ namespace Web_App_Master
             var guid = Guid.NewGuid().ToString();
             Session["guid"] = guid;
             //Pull Assets
-            Session["SessionAssetCache"] =  Pull.Assets();         
+            Session["SessionAssetCache"] =  Pull.Assets();
+            //GenerateSnapShot();
         }
         public static void LoadLibrary()
         {
@@ -236,8 +262,11 @@ namespace Web_App_Master
             {
                 if (!Global.Library.Settings.TESTMODE)
                 {
-                    //EmailHelper.SendNotificationSystemNotice(e.Notice);
+                   var isSent =  EmailHelper.SendNotificationSystemNotice(e.Notice);
+
                     Global.LogEntry(DateTime.Now.ToString() + " User:" + HttpContext.Current.User.Identity.Name + ": " + "notice Email Sent ");
+                    if (isSent)
+                         NoticeSystem.Remove(e.Notice);
                 }                
             }
             catch { }

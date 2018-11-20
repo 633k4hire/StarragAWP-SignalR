@@ -130,6 +130,7 @@
             $("#MainContent_CSEEmailTextBox").val(op.d.Email);
             ShowDiv('CreateStaticEmailModal');
         }
+
          function CP_EditAsset(num) {
             $.ajax({
                 type: 'POST',
@@ -1015,8 +1016,9 @@
                                                         <div class="border-bottom-blue" style="overflow:hidden">                                        
                                                                 <div class="col-sm-12 fg-black" style="width:auto !important; padding-left:10px; text-align:left; font-weight:normal !important">
                                                                     <a href="#" class="btn" title="Delete" onclick="Super('delete_certificate','<%#Eval("Guid")%>');" >X</a>
-                                                                    <a title="Edit Asset" style="font-weight:bold" class="btn btn-sm fg-black shadow-metro-black" href="#"  onclick="Super('edit_certificate','<%# Eval("Guid") %>'); ShowDiv('CreateCertificateModal');">(Edit)</a>    
-                                                                    <span ><a href="#" onclick="window.open('/Account/Certificates/<%# Eval("FileName") %>', '_blank', 'fullscreen=no'); return false;"><%# Eval("FileName") %>&nbsp-&nbsp<%# Eval("AssetNumber") %></a></span>
+                                                                    <a title="Edit Certificate" style="font-weight:bold" class="btn btn-sm fg-black shadow-metro-black" href="#"  onclick="Super('edit_certificate','<%# Eval("Guid") %>'); ShowDiv('CreateCertificateModal');">(Edit)</a>    
+                                                                    <span>Company:<%# Eval("CalibrationCompany") %> - Days Left:<%# Eval("DaysLeft") %> - Asset:<%# Eval("AssetNumber") %> &nbsp;-&nbsp; </span>
+                                                                    <span ><a href="#" onclick="window.open('/Account/Certificates/<%# Eval("FileName") %>', '_blank', 'fullscreen=no'); return false;"><%# Eval("FileName") %></a></span>
                                                                 </div>  
                                                         </div>
                                                     </ItemTemplate>

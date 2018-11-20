@@ -893,7 +893,7 @@ namespace Web_App_Master.Account.Admin
             //send then remove notice
             if (rem != null)
             {
-                EmailHelper.SendNotificationSystemNotice(rem);
+               //TODO EmailHelper.SendNotificationSystemNotice(rem);
                 
                      Global.NoticeSystem.Notices.Remove(rem);
                

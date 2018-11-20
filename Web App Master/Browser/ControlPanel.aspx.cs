@@ -202,6 +202,36 @@ namespace Web_App_Master.Browser
                     { UpdateStatus("Error removing Customer"); }
                 }
             }
+            if (sc.Contains("cust"))
+            {
+                if (sc.Contains("customer")) return;
+                string[] split = sa.Split(new string[] { "-dd-" }, StringSplitOptions.RemoveEmptyEntries);
+                if (sc.Contains("deldoc"))
+                {
+                    var customer = Session["CurrentCustomer"] as Customer;
+                    CustomerData cd = Pull.CustomerData(customer.DataGuid);
+                    if (cd != null)
+                    {
+                        cd.Documents.Remove(split[1]);
+                        Push.CustomerData(cd);
+                        LoadCustomerView(customer);
+                    }
+                }
+                if (sc.Contains("delkit"))
+                {
+                    var customer = Session["CurrentCustomer"] as Customer;
+                    CustomerData cd = Pull.CustomerData(customer.DataGuid);
+                    if (cd != null)
+                    {
+                        var kit = cd.AssetKitHistory.Find((k) => k.Guid == split[0]);
+                        cd.AssetKitHistory.Remove(kit);
+                        Push.CustomerData(cd);
+                        LoadCustomerView(customer);
+                    }
+                }
+
+
+            }
             if (sc.Contains("op"))
             {
                 if (sc.Contains("delete"))
@@ -246,36 +276,6 @@ namespace Web_App_Master.Browser
                     BindAndUpdateTransactions(Pull.Transactions());
                 }
             }
-            if (sc.Contains("cust"))
-            {
-                if (sc.Contains("customer")) return;
-                string[] split = sa.Split(new string[] { "-dd-" }, StringSplitOptions.RemoveEmptyEntries);
-                if (sc.Contains("deldoc"))
-                {
-                    var customer = Session["CurrentCustomer"] as Customer;
-                    CustomerData cd = Pull.CustomerData(customer.DataGuid);
-                    if (cd != null)
-                    {
-                        cd.Documents.Remove(split[1]);
-                        Push.CustomerData(cd);
-                        LoadCustomerView(customer);
-                    }
-                }
-                if (sc.Contains("delkit"))
-                {
-                    var customer = Session["CurrentCustomer"] as Customer;
-                    CustomerData cd = Pull.CustomerData(customer.DataGuid);
-                    if (cd != null)
-                    {
-                        var kit = cd.AssetKitHistory.Find((k)=>  k.Guid== split[0]);
-                        cd.AssetKitHistory.Remove(kit);
-                        Push.CustomerData(cd);
-                        LoadCustomerView(customer);
-                    }
-                }
-                
-                
-            }
             if (sc.Contains("kit"))
             {
                 if (sc.Contains("send"))
@@ -305,6 +305,18 @@ namespace Web_App_Master.Browser
 
                 }
 
+            }
+            if (sc.Contains("certificate"))
+            {
+                if (sc.Contains("delete"))
+                {
+
+                }
+                if (sc.Contains("edit")) //save
+                {
+
+                }
+                BindAndUpdateCertificates();
             }
         }
 
@@ -1235,6 +1247,20 @@ namespace Web_App_Master.Browser
 
         public void BindCertificates(List<CalibrationData> list = null)
         {
+            var push = false;
+            foreach (var item in list)
+            {
+                if (item.FileName==item.CalibrationCompany)
+                {
+                    item.CalibrationCompany = "No Company";
+                        push = true;
+                }
+            }
+            if (push)
+            {
+                Global.Library.Certificates.Calibrations = list;
+                Push.Certificates();
+            }
             CertificateRepeater.DataSource = list;
             CertificateRepeater.DataBind();
             CertificateUpdatePanel.Update();

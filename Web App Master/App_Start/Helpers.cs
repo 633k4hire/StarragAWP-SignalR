@@ -358,7 +358,7 @@ namespace Helpers
             set { m_IsCalibrated = value; }
         }
         [XmlIgnore]
-        public string DaysLeft { get { return DaysUntilNextCalibration.ToString(); } }
+        public string DaysLeft { get { return Math.Round( DaysUntilNextCalibration).ToString(); } }
         [XmlIgnore]
         public object Tag;
         [XmlIgnore]

@@ -8,6 +8,7 @@ using System.Net;
 using System.Web.UI;
 using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
+using Web_App_Master.App_Start;
 using static Notification.NotificationSystem;
 
 namespace Web_App_Master.Account
@@ -138,20 +139,19 @@ namespace Web_App_Master.Account
 
                 if (checkoutdata.CheckOutItems.Count > 0)
                 {
+                    //No shipping label
                     if (ShippingMethodDropDownList.SelectedValue == "00-NoLabel")
                     {
                         Finalized = true;
                         PackingSlipViewBtn.Enabled = true;
 
+
+                        var result = FinalizeAssets(Session["Checkout"] as List<Asset>);
+                        if (!result) return;
                         CreatePackingSlip();
-
-                        //UpdateCost();
-                        // UpdateArrival();
-                        // UpdateUpsLabel();
-
                         PackingSlipOnly();
+                        
 
-                        //notice
                         try
                         {
                             EmailNotice notice = new EmailNotice();
@@ -180,23 +180,21 @@ namespace Web_App_Master.Account
                         }
                         catch { ShowError("Problem Adding Timed Notice"); }
 
-                        SaveToUserPersistantLog();
-
-
-
-                        FinalizeAssets(Session["Checkout"] as List<Asset>);
-
-                        Session["Checkout"] = new List<Asset>();
-
 
                         but_OK.Enabled = false;
 
                         FinalizeHolder.Visible = false;
 
                         LeavePlaceHolder.Visible = true;
-
+                        Session["Checkout"] = new List<Asset>();
+                        Session["Customer"] = null;
+                        Session["Shipper"] = null;
+                        Session["Engineer"] = null;
+                        Session["Ordernumber"] = null;
+                        Session["checkout_success"] = "true";
                         CheckoutView.ActiveViewIndex = 1; // goto report
                     }
+                    //Create shipping labels
                     else
                     {
                         if (checkoutdata.Package.Weight == null) { ShowError("No Package Weight."); return; }
@@ -240,9 +238,14 @@ namespace Web_App_Master.Account
                                 Push.NotificationSystem();
                             }
                             catch { ShowError("Problem Adding Timed Notice"); }
-                            SaveToUserPersistantLog();
+                           // SaveToUserPersistantLog();
                             FinalizeAssets(Session["Checkout"] as List<Asset>);
                             Session["Checkout"] = new List<Asset>();
+                            Session["Customer"] = null;
+                            Session["Shipper"] = null;
+                            Session["Engineer"] = null;
+                            Session["Ordernumber"] = null;
+                            Session["checkout_success"] = "true";
 
                             but_OK.Enabled = false;
                             FinalizeHolder.Visible = false;
@@ -262,6 +265,8 @@ namespace Web_App_Master.Account
                 {
                     ShowError("There are no items in Check Out");
                 }
+
+                //Fix Pendign transaction
                 try
                 {
                     if (Session["IsPending"] as string == "true")
@@ -288,7 +293,16 @@ namespace Web_App_Master.Account
 
                 //Force all clients to update
                 this.HubContext<App_Start.SignalRHubs.ClientHub>().Clients.All.assetCacheChanged();
+
+                try
+                {
+                    (Application[Global.CurrentSnapFilename] as SnapShotData).Add(new SnapShotEntry());
+                }
+                catch { }
+
                 ShowError("Checkout Succeeded\r\n");
+
+
             }
             catch ( Exception exx) { ShowError("Checkout failed\r\n"+exx.StackTrace); }
         }
@@ -310,10 +324,24 @@ namespace Web_App_Master.Account
         }
 
 
-        private void FinalizeAssets(List<Asset> assets)
+        private bool FinalizeAssets(List<Asset> assets)
         {
             var customer = Session["CheckOutCustomer"] as Customer;
             CustomerData cd = new CustomerData();
+            //if (customer.Address=="")
+            //{
+            //    //no customer
+            //    if (ToAddr.Value=="")
+            //    {
+            //        ShowError("Please select a customer, or fill in the destination address line");
+            //        return false;
+            //    }
+            //    else
+            //    {
+            //        //create customer
+            //    }
+                
+            //}
             if (customer.DataGuid == null)
             {
                 Global.Library.Settings.Customers.ForEach((c) =>
@@ -457,6 +485,8 @@ namespace Web_App_Master.Account
             cd.AssetKitHistory = new List<AssetKit>(); cd.AssetKitHistory.Add(assetKit);
             Push.CustomerData(cd);
             var aaa = from aa in Global.Library.Settings.Customers where aa.DataGuid == cd.Guid select aa;
+
+            //send email
             NotifyCheckoutEmail(emaillist);
             if (aaa.Count() ==0)
             {
@@ -471,12 +501,10 @@ namespace Web_App_Master.Account
                     }
                 });
             }
+
+
             Push.Alert((Session["Ordernumber"] as string) + ": Checked Out");
-            Session["Customer"] = null;
-            Session["Shipper"] = null;
-            Session["Engineer"] = null;
-            Session["Ordernumber"] = null;
-            Session["checkout_success"] = "true";
+            return true;
 
 
         }
@@ -538,16 +566,18 @@ namespace Web_App_Master.Account
 
                 DataBindShipping(GetCustomAddress(), Shipper, Engineer, Ordernumber);
             }
-
+            ScriptManager.GetCurrent(Page).RegisterAsyncPostBackControl(RemakeLabelsBtn);
+            checkout_ShipTo.DataSource = GetShipToNames();
+            checkout_ShipTo.DataBind();
+            DestinationUpdatePanel.Update();
             if (!IsPostBack)
             {
                 Session["ups_remake"] = "false";
                 Session["checkout_success"] = "false";
                 Session["ups_success"] = "false";
-                ScriptManager.GetCurrent(Page).RegisterAsyncPostBackControl(RemakeLabelsBtn);
-                ScriptManager.GetCurrent(Page).RegisterAsyncPostBackControl(checkout_ShipTo);
-                checkout_ShipTo.DataSource = GetShipToNames();
-                checkout_ShipTo.DataBind();
+               
+               // ScriptManager.GetCurrent(Page).RegisterAsyncPostBackControl(checkout_ShipTo);
+                
 
                 but_OK.Enabled = true;
                 DataBindShipping(Customer, Shipper, Engineer, Ordernumber);
@@ -798,7 +828,7 @@ namespace Web_App_Master.Account
                         //Check UPS Account
                         if (!ValidateUpsAcct(Global.Library.Settings.UpsAccount))
                         { ShowError("Please check your Shipper Account Settings in Admin Panel: "+GetInnerUpsAcctError(Global.Library.Settings.UpsAccount)); return; }
-                        UPS ups = new UPS(Global.Library.Settings.UpsAccount, true);
+                        UPS ups = new UPS(Global.Library.Settings.UpsAccount, Global.Library.Settings.TESTMODE);
                         ups.OnException += Ups_OnException;
                         ups.OnRateReturn += Ups_OnRateReturn;
                         ups.SoapExceptionListener += Ups_SoapExceptionListener;
@@ -906,7 +936,7 @@ namespace Web_App_Master.Account
                     {
                         if (!ValidateUpsAcct(Global.Library.Settings.UpsAccount))
                         { ShowError("Please check your Shipper Account Settings in Admin Panel:" + GetInnerUpsAcctError(Global.Library.Settings.UpsAccount)); return; }
-                        UPS ups = new UPS(Global.Library.Settings.UpsAccount, true);
+                        UPS ups = new UPS(Global.Library.Settings.UpsAccount, Global.Library.Settings.TESTMODE);
                         ups.OnException += Ups_OnException;
                         ups.OnRateReturn += Ups_OnRateReturn;
                         ups.OnTransitReturn += Ups_OnTransitReturn;
@@ -941,7 +971,7 @@ namespace Web_App_Master.Account
                     {
                         if (!ValidateUpsAcct(Global.Library.Settings.UpsAccount))
                         { ShowError("Please check your Shipper Account Settings in Admin Panel:" + GetInnerUpsAcctError(Global.Library.Settings.UpsAccount)); return; }
-                        UPS ups = new UPS(Global.Library.Settings.UpsAccount,true );
+                        UPS ups = new UPS(Global.Library.Settings.UpsAccount,Global.Library.Settings.TESTMODE );
                         ups.OnException += Ups_OnException;
                         ups.OnRateReturn += Ups_OnRateReturn;
                         ups.OnShipReturn += Ups_OnShipReturn;
@@ -1172,6 +1202,7 @@ namespace Web_App_Master.Account
                 ToPhone.Value = cust.Phone;
             }
             Session["CheckOutCustomer"] = cust;
+            DestinationUpdatePanel.Update();
         }
 
         protected void RemakeLabelsBtn_Click(object sender, EventArgs e)

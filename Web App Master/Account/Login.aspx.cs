@@ -55,7 +55,9 @@ namespace Web_App_Master.Account
                                     }
                                 }
                                 //Context.AddToLog("Logged in"+Email.Text+"::"+Password.Text);
-                            Global.LogEntry(DateTime.Now.ToString() + " User:" + Page.User.Identity.Name + ": " +" User Logged In");
+
+                            Global.LogEntry(DateTime.Now.ToString() + " : "+ user.Email + " : "+"Logged In");
+
                             this.AddUserNotice("Session Started");
                                 IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
                               //  Web_App_Master.Load.();
@@ -92,7 +94,10 @@ namespace Web_App_Master.Account
                 {
                     string code = manager.GenerateEmailConfirmationToken(user.Id);
                     string callbackUrl = IdentityHelper.GetUserConfirmationRedirectUrl(code, user.Id, Request);
-                    EmailHelper.SendEmailAsync(user.Email,"Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>.", "Confirm your account");
+                    manager.SendEmailAsync(user.Email, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>.");
+
+                   
+                    //EmailHelper(user.Email,"Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>.", "Confirm your account");
                    
                     FailureText.Text = "Confirmation email sent. Please view the email and confirm your account.";
                     ErrorMessage.Visible = true;

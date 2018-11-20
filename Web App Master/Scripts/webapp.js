@@ -183,9 +183,9 @@ function SetNotices(data) {
             var badge = $("#notice_badge")
             badge.text(count);
         });
-        var a = PollInterval
+        var a = PollInterval;
         if (_TotalNotices !== _notice_idx && _notice_idx !== 0) {
-            Blink("notice_badge", 250, 5);
+            //Blink("notice_badge", 250, 5);
         }
         _TotalNotices = _notice_idx;
     } catch (exx) {
@@ -730,7 +730,7 @@ function ShowBottomDialog(input) {
     $("#BottomMsgDialog").addClass("show");
     var h = $("#BottomMsgDialog").html();
     $("#BottomMsgDialog").text(input);
-    setTimeout(function () { $("#BottomMsgDialog").removeClass("show"); }, 2250);
+    setTimeout(function () { $("#BottomMsgDialog").removeClass("show"); }, 2850);
 }
 
 function AjaxAddCheckout(num, autocheck) {
@@ -984,10 +984,10 @@ function closeModalDiv(divname) {
     return false;
 }
 function ShowLoader() {
-    $("#FullScreenLoader").show();
+    $("#starragBarLoader").show(); //FullScreenLoader
 }
 function HideLoader() {
-    $("#FullScreenLoader").hide();
+    $("#starragBarLoader").hide(); //FullScreenLoader
 }
 function ShowDiv(divname) {
     try {

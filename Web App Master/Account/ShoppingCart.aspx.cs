@@ -223,12 +223,13 @@ namespace Web_App_Master.Account
                     try
                     {
 
-                        EmailHelper.SendEmail(transaction.Email.Email, body, "AWP - Order Confirmation:");
+                        EmailHelper.SendGridEmail(transaction.Email.Email, body, "AWP - Order Confirmation:");
 
                         var turl = "http://starrag-awp.com/Account/OutCart.aspx?pend=" + transaction.TransactionID;
                         var staticBody = "A new order has been placed by " + transaction.Email.Email + "<br>For Customer " + transaction.Customer.CompanyName + "<br>  Transation ID: " + transaction.TransactionID + "<br> you can complete this transaction here <a href=\"" + turl + "\"></a><br>" + turl;
                         var statics = (from a in Global.Library.Settings.StaticEmails select a.Email).ToArray();
-                        EmailHelper.SendMassEmail(statics, staticbody, "AWP - New Pending Transaction");
+
+                        EmailHelper.SendMassGmailAsync(statics, staticbody, "AWP - New Pending Transaction");
                     }
                     catch (Exception ex)
                     {
@@ -240,6 +241,7 @@ namespace Web_App_Master.Account
                 //redirect
                 // Context.Response.Redirect("/Account/UserCheckout.aspx?tid=" + transaction.TransactionID);    
                 ApplyChangesButton.Visible = false;
+                Global.LogEntry(DateTime.Now.ToString() + " : " + transaction.Email.Email + " : " + "Created Pending transaction");
                 ShowError("Thank You For Placing an Order");
             }
             catch (Exception exx)

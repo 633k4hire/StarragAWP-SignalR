@@ -16,7 +16,8 @@ namespace Web_App_Master
         public Task SendAsync(IdentityMessage message)
         {
             // Plug in your email service here to send an email.
-            return EmailHelper.SendAsync(message);
+            // use SendGrid Now
+            return EmailHelper.SendGmailAsync(message);
         }
         
     }

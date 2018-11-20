@@ -90,19 +90,26 @@
                             <div class="awp_box_title bg-sg-title">
                                <span class="fg-white shadow-metro-black bold"><span class="mif-my-location mif-2x"></span>Destination</span></div>
                             <div class="awp_box_content bg-sg-box">   
-                                    <asp:DropDownList ViewStateMode="Disabled"  AutoPostBack="true" OnTextChanged="checkout_ShipTo_TextChanged" Width="100%" ClientIDMode="Static" ID='checkout_ShipTo' AppendDataBoundItems="true" runat="server"  CssClass="form-control">
-                                        <asp:ListItem Text="--Select One--" Value="" /> 
-                                    </asp:DropDownList>
-                                    <input runat="server" id="ToCompany" type="text" class="form-control" placeholder="CompanyName">
-                                    <input runat="server" id="ToAddr" type="text" class="form-control" placeholder="Address">
-                                    <input runat="server" id="ToAddr2" type="text" class="form-control" placeholder="Address Line #2">
-                                    <input runat="server" id="ToCty" type="text" class="form-control" placeholder="City">
-                                    <input runat="server" id="ToState" type="text" class="form-control" placeholder="State">
-                                    <input runat="server" id="ToPostal" type="text" class="form-control" placeholder="Postal">
-                                    <input runat="server" id="ToCountry" type="text" class="form-control" placeholder="Country">
-                                    <input runat="server" id="ToName" type="text" class="form-control" placeholder="Attn">
-                                    <input runat="server" id="ToEmail" type="text" class="form-control" placeholder="Email">
-                                    <input runat="server" id="ToPhone" type="text" class="form-control" placeholder="Phone">                                                          
+                                <asp:UpdatePanel ID="DestinationUpdatePanel" UpdateMode="Conditional" runat="server">
+                                    <ContentTemplate>
+                                        <asp:DropDownList ViewStateMode="Enabled"  AutoPostBack="true" OnTextChanged="checkout_ShipTo_TextChanged" Width="100%" ClientIDMode="Static" ID='checkout_ShipTo' AppendDataBoundItems="true" runat="server"  CssClass="form-control">
+                                            <asp:ListItem Text="--Select One--" Value="" /> 
+                                        </asp:DropDownList>
+                                        <input runat="server" id="ToCompany" type="text" class="form-control" placeholder="CompanyName">
+                                        <input runat="server" id="ToAddr" type="text" class="form-control" placeholder="Address">
+                                        <input runat="server" id="ToAddr2" type="text" class="form-control" placeholder="Address Line #2">
+                                        <input runat="server" id="ToCty" type="text" class="form-control" placeholder="City">
+                                        <input runat="server" id="ToState" type="text" class="form-control" placeholder="State">
+                                        <input runat="server" id="ToPostal" type="text" class="form-control" placeholder="Postal">
+                                        <input runat="server" id="ToCountry" type="text" class="form-control" placeholder="Country">
+                                        <input runat="server" id="ToName" type="text" class="form-control" placeholder="Attn">
+                                        <input runat="server" id="ToEmail" type="text" class="form-control" placeholder="Email">
+                                        <input runat="server" id="ToPhone" type="text" class="form-control" placeholder="Phone">                                                          
+                                    </ContentTemplate>
+                                    <Triggers>
+                                        <asp:AsyncPostBackTrigger ControlID="checkout_ShipTo" EventName="textchanged" />
+                                    </Triggers>
+                                </asp:UpdatePanel>
 
                             </div>
                         </div>

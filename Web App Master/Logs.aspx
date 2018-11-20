@@ -4,7 +4,7 @@
         $(document).ready(function ()
         {
             $("#BackgoundDiv").hide();
-            setTimeout(PollMessages, 1000);
+           // PollMessages();
         });
         function PollMessages() {
             $("#LogArgument").val("Poll Message");
