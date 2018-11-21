@@ -153,6 +153,28 @@
             //ShowDiv('CreateAssetModal');
         }
 
+         function CP_EditCert(num) {
+            $.ajax({
+                type: 'POST',
+                url: '/Account/AssetController.aspx/GetCert',
+                data: "{'num':'" + num + "'}",
+                contentType: 'application/json; charset=utf-8',
+                dataType: 'json',
+                success: ShowCert
+            });   
+        }
+        function ShowCert(msg) {
+            var cert = msg.d;
+            
+            $("#MainContent_CertFile").val(cert.FileName);
+            $("#MainContent_CertCompany").val(cert.CalibrationCompany);
+            $("#MainContent_CertPeriod").val(cert.SchedulePeriod);
+            $("#MainContent_CertAssignedAsset").val(cert.AssetNumber);
+            $("#MainContent_CertDaysLeft").val(cert.DaysLeft);
+            $("#MainContent_CertGuid").val(cert.Guid);
+           ShowDiv('CreateCertificateModal');
+        }
+
     </script>
         <div id="appcontainer" style="z-index:900000 !important">           
         <div id="toolbar" style="height:0px !important;">       
@@ -231,8 +253,17 @@
             <div class="app-modal transition-bottom" id="CreateCertificateModal" style="display:none">
                 <span class="app-modal-closer" onclick="HideDiv('CreateCertificateModal')" ><strong>X</strong></span>
                  <span><h4>Create Certificate</h4></span>
+                
                 <div>
-                   
+                    <asp:FileUpload ID="CertUpload" AllowMultiple="false" runat="server" CssClass="form-control"/>
+<%--                    <asp:Button OnClientClick="HideDiv('CreateCertificateModal')"  ID="CertUploadBtn" CssClass="btn"  ClientIDMode="Static" runat="server" Text="Upload" OnClick="CertUploadBtn_Click" />--%>
+                    <input runat="server" id="CertFile" type="text" class="form-control" placeholder="FileName" /><br />
+                    <input runat="server" id="CertCompany" type="text" class=" form-control" placeholder="Company..." /><br />
+                    <input runat="server" id="CertPeriod" type="text" class="form-control" placeholder="Period..." /><br />
+                    <input runat="server" id="CertAssignedAsset" type="text" class="form-control" placeholder="Assigned Asset..." /><br />
+                    <input runat="server" id="CertDaysLeft" type="text" class="form-control" readonly="readonly" placeholder="Days Left..." /><br />
+                    <input runat="server" id="CertGuid" type="text" class="form-control" readonly="readonly" placeholder="ID..." /><br />
+                    
                 </div>
                 <div>
                     <asp:Button OnClientClick="HideDiv('CreateCertificateModal')"  ID="CCertOkBtn" CssClass="btn"  ClientIDMode="Static" runat="server" Text="Ok" OnClick="CCertOkBtn_Click" />
@@ -1016,7 +1047,7 @@
                                                         <div class="border-bottom-blue" style="overflow:hidden">                                        
                                                                 <div class="col-sm-12 fg-black" style="width:auto !important; padding-left:10px; text-align:left; font-weight:normal !important">
                                                                     <a href="#" class="btn" title="Delete" onclick="Super('delete_certificate','<%#Eval("Guid")%>');" >X</a>
-                                                                    <a title="Edit Certificate" style="font-weight:bold" class="btn btn-sm fg-black shadow-metro-black" href="#"  onclick="Super('edit_certificate','<%# Eval("Guid") %>'); ShowDiv('CreateCertificateModal');">(Edit)</a>    
+                                                                    <a title="Edit Certificate" style="font-weight:bold" class="btn btn-sm fg-black shadow-metro-black" href="#"  onclick="CP_EditCert('<%# Eval("Guid") %>'); ">(Edit)</a>    
                                                                     <span>Company:<%# Eval("CalibrationCompany") %> - Days Left:<%# Eval("DaysLeft") %> - Asset:<%# Eval("AssetNumber") %> &nbsp;-&nbsp; </span>
                                                                     <span ><a href="#" onclick="window.open('/Account/Certificates/<%# Eval("FileName") %>', '_blank', 'fullscreen=no'); return false;"><%# Eval("FileName") %></a></span>
                                                                 </div>  

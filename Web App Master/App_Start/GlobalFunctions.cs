@@ -11,12 +11,85 @@ using System.Web;
 using System.Xml;
 using Web_App_Master.Account;
 using Web_App_Master.App_Start;
+using static Notification.NotificationSystem;
 
 namespace Web_App_Master
 {
     //MAKE ALL OF THESE ASYNC
     public class Push
     {
+        public static bool ReminderNotice( EmailAddress[] emails, int daysTillReminder=30, NoticeType type= NoticeType.None, string control = null)
+        {
+            try
+            {
+                EmailNotice notice = new EmailNotice();
+
+                notice.Scheduled = DateTime.Now.AddDays(daysTillReminder);
+                notice.NoticeType = type;
+               
+
+                if (control == null)
+                notice.NoticeControlNumber = Guid.NewGuid().ToString();
+                else
+                {
+                    notice.NoticeControlNumber = control;
+                }
+                switch (type)
+                {
+                    case NoticeType.None:
+                        notice.NoticeAction = Global.CheckoutAction;
+                        notice.Body = Global.Library.Settings.CheckOutMessage;
+                        break;
+                    case NoticeType.User:
+                        break;
+                    case NoticeType.Customer:
+                        break;
+                    case NoticeType.Administration:
+                        break;
+                    case NoticeType.Log:
+                        break;
+                    case NoticeType.Application:
+                        break;
+                    case NoticeType.Asset:
+                        break;
+                    case NoticeType.AssetList:
+                        break;
+                    case NoticeType.Calibration:
+                        notice.NoticeAction = Global.CalibrationAction;
+                        notice.Body = Global.Library.Settings.CalibrationMessage;
+                        break;
+                    case NoticeType.Notice:
+                        break;
+                    case NoticeType.Checkout:
+                        notice.NoticeAction = Global.CheckoutAction;
+                        notice.Body = Global.Library.Settings.CheckOutMessage;
+                        break;
+                    case NoticeType.Checkin:
+                        notice.NoticeAction = null;
+                        notice.Body = Global.Library.Settings.CheckInMessage;
+                        break;
+                    case NoticeType.Damaged:
+                        break;
+                    case NoticeType.OnHold:
+                        break;
+                    default:
+                        notice.NoticeAction = Global.CheckoutAction;
+                        notice.Body = Global.Library.Settings.CheckOutMessage;
+                        break;
+                }
+                
+                notice.Subject = "Starrag - AWP: Reminder";
+             
+               
+                notice.Emails.AddRange(emails);
+                notice.EmailAddress = emails.First();
+                Global.NoticeSystem.Add(notice);
+                Push.NotificationSystem();
+            }
+            catch {
+                return false; }
+            return true;
+        }
         public static bool Asset(Asset asset)
         {
             try

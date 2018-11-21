@@ -1261,7 +1261,7 @@ namespace Web_App_Master.Browser
                 Global.Library.Certificates.Calibrations = list;
                 Push.Certificates();
             }
-            CertificateRepeater.DataSource = list;
+            CertificateRepeater.DataSource = list.OrderBy((x)=>x.FileName);
             CertificateRepeater.DataBind();
             CertificateUpdatePanel.Update();
             AppRightPanelUpdatePanel.Update();
@@ -2532,8 +2532,84 @@ namespace Web_App_Master.Browser
         }
         protected void CCertOkBtn_Click(object sender, EventArgs e)
         {
-        
+            //check if new or save
+            var cert = from c in Global.Library.Certificates.Calibrations where c.FileName == CertFile.Value select c;
+            if (cert.Count() > 0)
+            {
+                try
+                {
+                    CalibrationData cd = cert.First();
+                    Global.Library.Certificates.Calibrations.Remove(cd);
+                    cd.SchedulePeriod = CertPeriod.Value;
+                    cd.CalibrationCompany = CertCompany.Value;
+                    if (CertAssignedAsset.Value != "")
+                    {
+                        cd.AssetNumber = CertAssignedAsset.Value;
+                        var asset = Global.AssetCache.FindAssetByNumber(cd.AssetNumber);
+                        if (asset!=null)
+                        {
+                            if (!asset.Documents.Contains(cd.FilePath))
+                            {
+                                asset.Documents.Add(cd.FilePath);
+                                Push.Asset(asset);
+                            }
+                        }
+                        else
+                        {
+                            cd.AssetNumber = "";
+                        }
+                    }
+                    if (CertUpload.PostedFile != null)
+                    {
+                        CertUpload.PostedFile.SaveAs(MapPath("/Account/Certificates/" + CertUpload.FileName));
+                        cd.FilePath = MapPath("/Account/Certificates/" + CertUpload.FileName);
+                    }
+                    
+                    //edit existing notice
+                    var notice = from c in Global.NoticeSystem.Notices where c.Guid == CertGuid.Value select c;
+                    if (notice.Count() > 0)
+                    {
+                        //remove old
+                        Global.NoticeSystem.Remove(notice.First());
+                        Push.ReminderNotice(Global.Library.Settings.StaticEmails.ToArray(), Convert.ToInt32(cd.DaysLeft), NoticeType.Calibration, notice.First().Guid);
 
+                    }
+                    else
+                    {                        
+                        Push.ReminderNotice(Global.Library.Settings.StaticEmails.ToArray(), Convert.ToInt32(cd.DaysLeft), NoticeType.Calibration, cd.Guid);
+                    }
+                    Global.Library.Certificates.Calibrations.Add(cd);
+                    Push.Certificates();
+                    BindAndUpdateCertificates();
+                }
+                catch {
+                    UpdateStatus("Error Saving Certificate"); return; }
+            }
+            else
+            {
+                if (CertUpload.PostedFile==null)
+                {
+                    UpdateStatus("No File Selected");
+                }
+                try
+                {
+                    CertUpload.PostedFile.SaveAs(MapPath("/Account/Certificates/" + CertUpload.FileName));
+
+                    //create new
+                    CalibrationData cd = new CalibrationData();
+                    cd.SchedulePeriod = CertPeriod.Value;
+                    cd.AssetNumber = CertAssignedAsset.Value;
+                    cd.CalibrationCompany = CertCompany.Value;
+                    cd.FilePath = MapPath("/Account/Certificates/" + CertUpload.FileName);                    
+                    Push.ReminderNotice(Global.Library.Settings.StaticEmails.ToArray(), Convert.ToInt32(CertPeriod.Value), NoticeType.Calibration, cd.Guid);
+                    Global.Library.Certificates.Calibrations.Add(cd);
+                    Push.Certificates();
+                    BindAndUpdateCertificates();
+                }
+                catch {
+                    UpdateStatus("Error Saving Certificate"); return; }
+            }
+            UpdateStatus("Certificate Saved");
         }
 
         protected void SortAssetImages_Click(object sender, EventArgs e)
@@ -2726,6 +2802,11 @@ namespace Web_App_Master.Browser
             ChangeUserRole(name.Id,role);
             BindUsersAndRoles();
             AppRightPanelUpdatePanel.Update();
+        }
+
+        protected void CertUploadBtn_Click(object sender, EventArgs e)
+        {
+            CCertOkBtn_Click(sender, e);
         }
     }
 }

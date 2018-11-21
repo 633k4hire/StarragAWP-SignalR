@@ -179,12 +179,12 @@ function closeModalDiv(divname) {
     } catch (err) { }
     return false;
 }
-function ShowLoader() {
-    $("#FullScreenLoader").show();
-}
-function HideLoader() {
-    $("#FullScreenLoader").hide();
-}
+//function ShowLoader() {
+//    $("#FullScreenLoader").show();
+//}
+//function HideLoader() {
+//    $("#FullScreenLoader").hide();
+//}
 function ShowDiv(divname) {
     try {
         $('#' + divname).show();

@@ -72,6 +72,16 @@ namespace Web_App_Master.Account
         }
 
 
+        [WebMethod]
+        public static CalibrationData GetCert(string num)
+        {
+            var cert = from c in Global.Library.Certificates.Calibrations where c.Guid == num select c;
+            if (cert.Count() > 0)
+            {
+                return cert.First();
+            }
+            else return null;
+        }
 
         [WebMethod]
         public static PollItems PollNavItems()

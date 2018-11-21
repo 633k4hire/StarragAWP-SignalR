@@ -111,7 +111,7 @@ namespace Web_App_Master
            //Cleanup.Enabled = true;
             LoadLibrary();
             LoadSettings();
-           // LoadNotificationSystem();
+            LoadNotificationSystem();
             
             // Code that runs on application startup
             RouteConfig.RegisterRoutes(RouteTable.Routes);
@@ -266,7 +266,10 @@ namespace Web_App_Master
 
                     Global.LogEntry(DateTime.Now.ToString() + " User:" + HttpContext.Current.User.Identity.Name + ": " + "notice Email Sent ");
                     if (isSent)
-                         NoticeSystem.Remove(e.Notice);
+                    {
+                        NoticeSystem.Remove(e.Notice);
+                        Push.NotificationSystem();
+                    }
                 }                
             }
             catch { }
