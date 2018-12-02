@@ -1842,7 +1842,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UPS_API-master\UPS_API\UPS_API.csproj">
+    <ProjectReference Include="..\..\UPS_API-master\UPS_API\UPS_API.csproj">
       <Project>{23C08A2B-E53F-4AC6-978A-859C145C03C8}</Project>
       <Name>UPS_API</Name>
     </ProjectReference>

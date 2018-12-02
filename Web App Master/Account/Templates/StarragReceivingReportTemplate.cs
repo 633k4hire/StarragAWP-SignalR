@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace Web_App_Master.Account.Templates
-{   
+﻿namespace Web_App_Master.Account.Templates
+{
     public class StarragReceivingReportTemplate : Pdf.PdfTemplate
     {
         public StarragReceivingReportTemplate()

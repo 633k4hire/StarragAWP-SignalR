@@ -64,7 +64,7 @@
 
                  <asp:UpdatePanel ID ="AddressUpdatePanel" UpdateMode="Conditional" ChildrenAsTriggers="true" runat="server">
                      <ContentTemplate>
-                          <div class="col-md-3">
+                          <div class="col-md-4">
 
                          <div class="awp_box rounded bg-sg-title shadow">           
                             <div class="awp_box_title bg-sg-title">
@@ -84,7 +84,7 @@
                             </div>
                         </div>
                      </div>
-                     <div class="col-md-3">
+                     <div class="col-md-4">
                        
                          <div class="awp_box rounded bg-sg-title shadow">           
                             <div class="awp_box_title bg-sg-title">
@@ -125,7 +125,7 @@
 
 
 
-                     <div class="col-md-3">
+                     <div class="col-md-3 " style="display:none">
                            
                          <div class="awp_box rounded bg-sg-title shadow">           
                             <div class="awp_box_title bg-sg-title">
@@ -179,7 +179,7 @@
                             </div>
                         </div>
                      </div>
-                     <div class="col-md-3">
+                     <div class="col-md-4" ><%-- style="display:none"--%>
                           
                          <div class="awp_box rounded bg-sg-title shadow">           
                             <div class="awp_box_title bg-sg-title">

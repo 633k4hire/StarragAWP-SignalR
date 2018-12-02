@@ -126,15 +126,44 @@ namespace Web_App_Master.Account
         {
             try
             {
-                
+                //Catch no shipping option
                 if (ShippingMethodDropDownList.Text == "")
                 {
                     ShowError("Please Select A Shipping Option");
                     return;
                 }
+
+                //Catch Wrong Customer Input
+                try
+                {
+                    var existingCust = from c in Global.Library.Settings.Customers where c.CompanyName == ToCompany.Value && c.Address == ToAddr.Value select c;
+                    if (existingCust.Count() == 0)
+                    {
+                        var newcust = GetCustomAddress();
+                        if (newcust.Postal == "" || newcust.CompanyName=="")
+                        {
+                            ShowError("Could not add new Customer to List, both a Postal Code and Company Name are required");
+                            return;
+                        }
+                        else
+                        {
+                            Global.Library.Settings.Customers.Add(newcust);
+                            Push.AppSettings();
+                        }
+                    }
+                }
+                catch (Exception exx)
+                {
+                    ShowError("Could not add new Customer to List\r\n" + exx.StackTrace);
+                    return;
+                }
+
+                //Get Checkout Data
                 var checkoutdata = Session["CheckOutData"] as CheckOutData;
                 checkoutdata = UpdateCheckOutData(checkoutdata);
                 Session["CheckOutDataTemp"] = checkoutdata.Clone() as CheckOutData;
+
+                //Catch no checkout items
                 if (checkoutdata.CheckOutItems == null) return;
 
                 if (checkoutdata.CheckOutItems.Count > 0)
@@ -264,6 +293,7 @@ namespace Web_App_Master.Account
                 else
                 {
                     ShowError("There are no items in Check Out");
+                    return;
                 }
 
                 //Fix Pendign transaction
@@ -283,8 +313,16 @@ namespace Web_App_Master.Account
                     if (existingCust.Count() ==0)
                     {
                         var newcust = GetCustomAddress();
-                        Global.Library.Settings.Customers.Add(newcust);
-                        Push.AppSettings();
+                        if (newcust.Postal == "")
+                        {
+                            ShowError("Could not add new Customer to List, a Postal Code is required");
+                            return;
+                        }
+                        else
+                        {
+                            Global.Library.Settings.Customers.Add(newcust);
+                            Push.AppSettings();
+                        }
                     }
                 }
                 catch (Exception exx) {
@@ -294,11 +332,11 @@ namespace Web_App_Master.Account
                 //Force all clients to update
                 this.HubContext<App_Start.SignalRHubs.ClientHub>().Clients.All.assetCacheChanged();
 
-                try
-                {
-                    (Application[Global.CurrentSnapFilename] as SnapShotData).Add(new SnapShotEntry());
-                }
-                catch { }
+                //try
+                //{
+                //    (Application[Global.CurrentSnapFilename] as SnapShotData).Add(new SnapShotEntry());
+                //}
+                //catch { }
 
                 ShowError("Checkout Succeeded\r\n");
 
@@ -580,7 +618,7 @@ namespace Web_App_Master.Account
                 
 
                 but_OK.Enabled = true;
-                DataBindShipping(Customer, Shipper, Engineer, Ordernumber);
+                //DataBindShipping(Customer, Shipper, Engineer, Ordernumber);
 
                 var preferShip = Session["PreferedShipMethod"] as string;
                 if (preferShip == null)
@@ -605,7 +643,13 @@ namespace Web_App_Master.Account
                     PkgWeight.Value = TotalWeight.ToString();
                     checkoutdata.Package.Weight = TotalWeight.ToString();
                 }
-                
+                var cust = from c in Global.Library.Settings.Customers where Customer.Contains(c.CompanyName) && Customer.Contains(c.Postal) select c;
+                if (cust.Count() != 0)
+                    DataBindShipping(cust.First(), Shipper, Engineer, Ordernumber);
+                else
+                {
+                    DataBindShipping(new Customer(), Shipper, Engineer, Ordernumber);                   
+                }
             }
             MessagePlaceHolder.Visible = false;
 

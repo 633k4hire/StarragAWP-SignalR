@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Security.Claims;
-using System.Security.Principal;
 using System.Web;
 using System.Web.Security;
 using System.Web.UI;
@@ -12,7 +10,6 @@ using System.Xml;
 using System.Linq;
 using Web_App_Master.Account;
 using System.IO;
-using static Notification.NotificationSystem;
 using static Web_App_Master.App_Start.SignalRHubs;
 
 namespace Web_App_Master
@@ -66,9 +63,9 @@ namespace Web_App_Master
                 //var ctrl3 = AssetViewLoggedInUserView.FindControl("av_CalibratedTool");
                 //ScriptManager.GetCurrent(Page).RegisterAsyncPostBackControl(ctrl3);
             }
-            AssetHistoryRepeater.HeaderTemplate = Page.LoadTemplate("/Account/Templates/av_history_header_template.ascx");
-            AssetHistoryRepeater.ItemTemplate = Page.LoadTemplate("/Account/Templates/av_history_template.ascx");
-            AssetHistoryRepeater.FooterTemplate = Page.LoadTemplate("/Account/Templates/av_history_footer_template.ascx");
+            //AssetHistoryRepeater.HeaderTemplate = Page.LoadTemplate("/Account/Templates/av_history_header_template.ascx");
+            //AssetHistoryRepeater.ItemTemplate = Page.LoadTemplate("/Account/Templates/av_history_template.ascx");
+           // AssetHistoryRepeater.FooterTemplate = Page.LoadTemplate("/Account/Templates/av_history_footer_template.ascx");
             var ud = Session["PersistingUserData"] as Data.UserData;
             if (ud != null)
             {
@@ -415,7 +412,15 @@ namespace Web_App_Master
                 catch { }
                 asset.IsDamaged=((System.Web.UI.WebControls.CheckBox)AssetViewLoggedInUserView.FindControl("av_IsDamaged")).Checked;
                 asset.OnHold=((System.Web.UI.WebControls.CheckBox)AssetViewLoggedInUserView.FindControl("av_OnHold")).Checked ;
-                asset.IsCalibrated=((System.Web.UI.WebControls.CheckBox)AssetViewLoggedInUserView.FindControl("av_CalibratedTool")).Checked ;
+                asset.IsCalibrated=((System.Web.UI.HtmlControls.HtmlInputCheckBox)AssetViewLoggedInUserView.FindControl("av_CalibratedTool")).Checked ;
+                if (asset.IsCalibrated)
+                {
+                    
+                    //check if cert exists
+                    //check if ields are filled in
+                    //save new cert to database, or assign cert
+
+                }
             }
             catch
             {
@@ -482,10 +487,16 @@ namespace Web_App_Master
             }
             catch { }
         }
-        public void BindAssetToAssetView()
+        public void BindAssetToAssetView(Asset asset = null)
         {
-            
-            var asset = Session["CurrentAsset"] as Asset;
+            if (asset == null)
+            {
+                asset = Session["CurrentAsset"] as Asset;
+            }
+            else
+            {
+
+            }
             AssetImageHolder.ImageUrl = asset.FirstImage;
             AssetImageCountLiteral.Text = "1/" +((asset.Images.Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries)).Length.ToString());
             AssetImageUpdatePanel.Update();
@@ -570,7 +581,40 @@ namespace Web_App_Master
                 av_Description.Value = asset.Description;
                 ((System.Web.UI.WebControls.CheckBox)AssetViewLoggedInUserView.FindControl("av_IsDamaged")).Checked = asset.IsDamaged;
                 ((System.Web.UI.WebControls.CheckBox)AssetViewLoggedInUserView.FindControl("av_OnHold")).Checked = asset.OnHold;
-                ((System.Web.UI.WebControls.CheckBox)AssetViewLoggedInUserView.FindControl("av_CalibratedTool")).Checked = asset.IsCalibrated;
+                ((System.Web.UI.HtmlControls.HtmlInputCheckBox)AssetViewLoggedInUserView.FindControl("av_CalibratedTool")).Checked = asset.IsCalibrated;
+                if (asset.IsCalibrated)
+                {
+                   var ctrl = (System.Web.UI.HtmlControls.HtmlGenericControl)AssetViewLoggedInUserView.FindControl("ExpandedAssetCalibrationInfo");
+                    ctrl.Attributes["style"] = "display: normal;";
+                    //find assigned certificate
+                    var test = Global.Library.Certificates.Calibrations;
+                    var cert = from c in Global.Library.Certificates.Calibrations where c.AssetNumber == asset.AssetNumber select c;
+                    if (cert.Count()>0)
+                    {
+                        var cb = cert.First();
+                        ((System.Web.UI.HtmlControls.HtmlInputText)AssetViewLoggedInUserView.FindControl("MasterCertFile")).Value =cb.FileName ;
+                        ((System.Web.UI.HtmlControls.HtmlInputText)AssetViewLoggedInUserView.FindControl("MasterTotalCerts")).Value = "1/"+cert.Count().ToString() ;
+                        ((System.Web.UI.HtmlControls.HtmlInputText)AssetViewLoggedInUserView.FindControl("MasterCertCompany")).Value = cb.CalibrationCompany;
+                        ((System.Web.UI.HtmlControls.HtmlInputText)AssetViewLoggedInUserView.FindControl("MasterCertPeriod")).Value = cb.SchedulePeriod;
+                        ((System.Web.UI.HtmlControls.HtmlInputText)AssetViewLoggedInUserView.FindControl("MasterCertDaysLeft")).Value = cb.DaysLeft;
+                        ((System.Web.UI.HtmlControls.HtmlInputText)AssetViewLoggedInUserView.FindControl("MasterCertGuid")).Value = cb.Guid;
+                    }
+                    else
+                    {
+
+                        ((System.Web.UI.HtmlControls.HtmlInputText)AssetViewLoggedInUserView.FindControl("MasterCertFile")).Value = "";
+                        ((System.Web.UI.HtmlControls.HtmlInputText)AssetViewLoggedInUserView.FindControl("MasterCertCompany")).Value = "";
+                        ((System.Web.UI.HtmlControls.HtmlInputText)AssetViewLoggedInUserView.FindControl("MasterCertPeriod")).Value = "";
+                        ((System.Web.UI.HtmlControls.HtmlInputText)AssetViewLoggedInUserView.FindControl("MasterCertDaysLeft")).Value = "";
+                        ((System.Web.UI.HtmlControls.HtmlInputText)AssetViewLoggedInUserView.FindControl("MasterCertGuid")).Value = "";
+                    }
+
+                }
+                else
+                {
+                    var ctrl = (System.Web.UI.HtmlControls.HtmlGenericControl)AssetViewLoggedInUserView.FindControl("ExpandedAssetCalibrationInfo");
+                    ctrl.Attributes["style"] = "display: none;";
+                }
                 ((System.Web.UI.HtmlControls.HtmlInputText)AssetViewLoggedInUserView.FindControl("av_DateRecieved")).Value = asset.DateRecievedString;
                 ((System.Web.UI.HtmlControls.HtmlInputText)AssetViewLoggedInUserView.FindControl("av_DateShipped")).Value = asset.DateShippedString;
                 ((System.Web.UI.HtmlControls.HtmlInputText)AssetViewLoggedInUserView.FindControl("av_ServiceOrder")).Value = asset.OrderNumber;
@@ -578,10 +622,16 @@ namespace Web_App_Master
                 ((System.Web.UI.HtmlControls.HtmlInputText)AssetViewLoggedInUserView.FindControl("av_ShipTo")).Value = asset.ShipTo;
                 ((System.Web.UI.HtmlControls.HtmlInputText)AssetViewLoggedInUserView.FindControl("av_PersonShipping")).Value = asset.PersonShipping;
                 ((System.Web.UI.HtmlControls.HtmlInputText)AssetViewLoggedInUserView.FindControl("av_Weight")).Value = asset.weight.ToString();
+                //((System.Web.UI.HtmlControls.HtmlInputCheckBox)AssetViewLoggedInUserView.FindControl("CalibratedToolCheckBox")).Checked = true;
+
+                ((System.Web.UI.WebControls.Button)AssetViewLoggedInUserView.FindControl("MasterCCertOkBtn")).Click += MasterCCertOkBtn_Click;
+                //ScriptManager.GetCurrent(this.Page).RegisterAsyncPostBackControl(((System.Web.UI.WebControls.Button)AssetViewLoggedInUserView.FindControl("MasterCCertOkBtn")));
                 
 
             }
-            catch { }
+            catch
+            {
+            }
             AssetModalUpdatePanel.Update();
         }
 
@@ -597,7 +647,42 @@ namespace Web_App_Master
 
         protected void UploadAssetCertificateBtn_Click(object sender, EventArgs e)
         {
-            
+            if (MasterCertUpload.HasFile)
+            {
+                var asset = Session["CurrentAsset"] as Asset;
+                
+
+                if (MasterCertUpload.PostedFile == null)
+                {
+                    ShowError("No File Selected");
+                }
+                try
+                {
+                    MasterCertUpload.PostedFile.SaveAs(MapPath("/Account/Certificates/" + MasterCertUpload.FileName));
+
+                    //create new
+                    CalibrationData cd = new CalibrationData();
+                    cd.SchedulePeriod = CalPeriod.Value;
+                    cd.AssetNumber = asset.AssetNumber;
+                    cd.CalibrationCompany = CalCompany.Value;
+                    cd.FilePath = MapPath("/Account/Certificates/" + MasterCertUpload.FileName);
+                    Push.ReminderNotice(Global.Library.Settings.StaticEmails.ToArray(), Convert.ToInt32(CalPeriod.Value), Notification.NotificationSystem.NoticeType.Calibration, cd.Guid);
+                    Global.Library.Certificates.Calibrations.Add(cd);
+                    Push.Certificates();
+                    asset.IsCalibrated = true;
+                    asset.Documents.Add("/Account/Certificates/" + MasterCertUpload.FileName);
+                    Push.Asset(asset);
+                }
+                catch
+                {
+                    ShowError("Error Saving Certificate"); return;
+                }
+               
+            }
+            else
+            {
+                ShowError("No File Uplaoded");
+            }
            
         }
 
@@ -675,7 +760,18 @@ namespace Web_App_Master
         protected void AssetTabBtn_Click(object sender, EventArgs e)
         {
             AssetModalTabsMultiView.SetActiveView(AssetTabView);
-            BindAssetToAssetView();
+            if (HistoryItemArguments.Text!="")
+            {
+                var asset = Session["CurrentAsset"] as Asset;
+                var ret = AssetController.GetAssetByDateShipped(asset, HistoryItemArguments.Text);
+                HistoryItemArguments.Text = "";
+                BindAssetToAssetView(ret);
+            }
+            else
+            {
+                BindAssetToAssetView();
+            }
+            
         }
 
         protected void ReportTabBtn_Click(object sender, EventArgs e)
@@ -837,6 +933,11 @@ namespace Web_App_Master
 
             //Check to see if asset view is present in contentpanel, if so, fir off page delegate 
             UpdateAssetView(new UpdateRequestEvent(Global.AssetCache));
+        }
+
+        protected void MasterCCertOkBtn_Click(object sender, EventArgs e)
+        {
+
         }
     }
     public class UpdateRequestEvent : EventArgs

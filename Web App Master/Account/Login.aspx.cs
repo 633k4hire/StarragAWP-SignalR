@@ -3,10 +3,6 @@ using System.Web;
 using System.Web.UI;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
-using Owin;
-using Web_App_Master.Models;
-using System.Web.UI.WebControls;
-using System.IO;
 using Helpers;
 
 namespace Web_App_Master.Account

@@ -293,7 +293,7 @@
                   </div>
                 <div id="asset-modal-new-content" class=" bg-sg-box ">
                     <span id="AssetTab" class="tablink bg-sg-title " style="text-align:center; text-decoration:none" ><asp:LinkButton ID="AssetTabBtn" runat="server" OnClick="AssetTabBtn_Click"  ><span class="fg-white bold" style="text-decoration:none">Asset</span></asp:LinkButton></span>
-                    <span id="ReportTab" class="tablink bg-sg-title" style="text-align:center; text-decoration:none" ><asp:LinkButton ID="ReportTabBtn" runat="server" OnClick="ReportTabBtn_Click" ><span class="fg-white bold" style="text-decoration:none">Documents</span></asp:LinkButton></span>
+                    <span id="ReportTab" class="tablink bg-sg-title" style="text-align:center; text-decoration:none" ><asp:LinkButton ID="ReportTabBtn" runat="server" OnClick="ReportTabBtn_Click"   ><span class="fg-white bold" style="text-decoration:none">Documents</span></asp:LinkButton></span>
 <%--                    <span id="CalibrationTab" class="tablink bg-sg-title" style="text-align:center; text-decoration:none" ><asp:LinkButton ID="CalibrationTabBtn" runat="server" OnClick="CalibrationTabBtn_Click" ><span class="fg-white fa-bold" style="text-decoration:none">Calibration</span></asp:LinkButton></span>--%>
                     <span id="HistoryTab" class="tablink bg-sg-title " style="text-align:center; text-decoration:none" ><asp:LinkButton ID="HistoryTabBtn" runat="server" OnClick="HistoryTabBtn_Click" ><span class="fg-white bold" style="text-decoration:none">History</span></asp:LinkButton></span>
                     <div style="margin-top:15px;"></div>
@@ -344,7 +344,9 @@
                                                 <asp:RoleGroup Roles="Admins,superadmin">
                                                     <ContentTemplate>
                                                         <span class="awp-save-btn bg-red fg-white shadow" "><asp:LinkButton runat="server" ID="AssetSaveBtn" OnClick="AssetSaveBtn_Click"><i title="Save" style="font-size:1em;" class=" fg-white glyphicon glyphicon-floppy-disk av-hand-cursor"></i></asp:LinkButton></span>
-                                                        <span style="right:75px" class="awp-save-btn bg-blue fg-white shadow" "><asp:LinkButton runat="server" ID="AssetImgUploadBtn" OnClientClick="ShowDiv('UploadAssetImage');" ><i title="Upload" style="font-size:1em;" class=" fg-white glyphicon glyphicon-upload av-hand-cursor"></i></asp:LinkButton></span>
+                                                        <span style="right:75px" class="awp-save-btn bg-blue fg-white shadow" "><asp:LinkButton runat="server" ID="AssetImgUploadBtn" OnClientClick="ShowDiv('UploadAssetImage');" ><i title="Upload Image" style="font-size:1em;" class=" fg-white glyphicon glyphicon-upload av-hand-cursor"></i></asp:LinkButton></span>
+                                                        <span style="right:125px" class="awp-save-btn bg-blue fg-white shadow" "><asp:LinkButton runat="server" ID="AssetCertUploadBtn" OnClientClick="ShowDiv('UploadAssetCert');" ><i title="Upload Certificate" style="font-size:1em;" class=" fg-white glyphicon glyphicon-tag av-hand-cursor"></i></asp:LinkButton></span>
+                                                    
                                                     </ContentTemplate>
                                                 </asp:RoleGroup>
                                             </RoleGroups>
@@ -407,14 +409,31 @@
                                                     <div class="col-md-3">
                                                         <span style="font-weight:bold;">Calibrated tool</span>
                                                         <div>
-                                                            <asp:CheckBox ID="av_CalibratedTool" runat="server" /></div>
+                                                            <%--<asp:CheckBox ID="av_CalibratedTool" runat="server" />--%>
+                                                            <input type="checkbox" id="av_CalibratedTool" name="CalibratedToolCheckBox" runat="server" onchange="OnCalChecked()"/>
+                                                        </div>
+                                                        <div id="ExpandedAssetCalibrationInfo" style="display:none" runat="server"><%--put hidden button here for certificate selection modal popup button--%>
+                                                            <div>
+                                                                Total:<input runat="server" id="MasterTotalCerts" type="text" class="form-control" readonly="readonly" placeholder="TotalCerts:" /><br />
+<%--                                                                <asp:FileUpload ID="MasterCertUpload" AllowMultiple="false" runat="server" CssClass="form-control"/>--%>
+                                            <%--                    <asp:Button OnClientClick="HideDiv('CreateCertificateModal')"  ID="CertUploadBtn" CssClass="btn"  ClientIDMode="Static" runat="server" Text="Upload" OnClick="CertUploadBtn_Click" />--%>
+                                                                File:<input runat="server" id="MasterCertFile" type="text" class="form-control" placeholder="FileName" /><br />
+                                                                Company:<input runat="server" id="MasterCertCompany" type="text" class=" form-control" placeholder="Company..." /><br />
+                                                                Period:<input runat="server" id="MasterCertPeriod" type="text" class="form-control" placeholder="Period..." /><br />
+                                                                Days Left:<input runat="server" id="MasterCertDaysLeft" type="text" class="form-control" readonly="readonly" placeholder="Days Left..." /><br />
+                                                                Id:<input runat="server" id="MasterCertGuid" type="text" class="form-control" readonly="readonly" placeholder="ID..." /><br />
+                    
+                                                            </div>
+                                                            <div style="display:none">
+                                                                <asp:Button OnClientClick="HideDiv('CreateCertificateModal')"  ID="MasterCCertOkBtn" CssClass="btn"  ClientIDMode="Static" runat="server" Text="Ok" OnClick="MasterCCertOkBtn_Click" />
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     <div class="col-md-3">
                                                         <span style="font-weight:bold;">On Hold</span>
                                                         <div>
                                                             <asp:CheckBox ID="av_OnHold" runat="server" /></div>
                                                     </div>
-                                                    
                                                 </div>
                                             </LoggedInTemplate>
                                             <AnonymousTemplate>
@@ -603,7 +622,13 @@
                                             <div><%-- style="margin-top:-21px!important; margin-bottom:0px !important;"--%>
                                                 <asp:Repeater ID="AssetHistoryRepeater" runat="server" EnableViewState="false" OnItemDataBound="AssetHistoryRepeater_ItemDataBound">
                                                     <HeaderTemplate> </HeaderTemplate>
-                                                    <ItemTemplate></ItemTemplate>
+                                                    <ItemTemplate>
+                                                        <div class="border-bottom-blue bg-white fg-black" style="overflow:hidden">                                        
+                                                                <div class="col-sm-12 fg-black" style="text-decoration:none !important;width:auto !important; padding-left:10px; text-align:left; font-weight:normal !important">
+                                                                    <a href="#" class="fg-black" style="text-decoration:none !important" onclick="BarcodeScanned('<%# Eval("AssetNumber")%>', 'True','<%# Eval("DateShippedTicks")%>');"><strong>At:<%# Eval("ShipTo") %> - Order:<%# Eval("OrderNumber") %> - Sent:<%# Eval("DateRecievedString") %> - Received<%# Eval("DateShippedString") %> - Sent By:<%# Eval("PersonShipping") %> To:<%# Eval("ServiceEngineer") %> </strong></a>
+                                                                </div>  
+                                                        </div>
+                                                    </ItemTemplate>
                                                     <FooterTemplate> </FooterTemplate>
                                                 </asp:Repeater>
                                             </div>
@@ -653,6 +678,7 @@
             <asp:TextBox runat="server" ID ="AppArgument" ClientIDMode="Static" style="display:none"></asp:TextBox>
             <asp:TextBox runat="server" ID ="AppCommand" ClientIDMode="Static" style="display:none"></asp:TextBox>
             <asp:TextBox runat="server" ID ="AppArgument2" ClientIDMode="Static" style="display:none"></asp:TextBox>
+            <asp:TextBox runat="server" ID ="HistoryItemArguments" ClientIDMode="Static" style="display:none"></asp:TextBox>
             <asp:Button ID="HistoryBinderBtn" runat="server" Text="CLICK ME" OnClick="HistoryBinderBtn_Click" style="display:none" ClientIDMode="Static"/>
             <asp:Button ID="CalibrationBinderBtn" runat="server" Text="CLICK ME" OnClick="CalibrationBinderBtn_Click" style="display:none" ClientIDMode="Static"/>
             <asp:Button ID="ViewChangeBtn" runat="server" Text="" OnClick="ViewChangeBtn_Click" style="display:none" ClientIDMode="Static"/>
@@ -691,8 +717,8 @@
                             <div style="font-weight:bold;" ><strong>Calibration Period</strong></div>
                             <div><input style="font-weight:bold;" runat="server"  id="CalPeriod" type="text" class="form-control" placeholder="Calibration Period" /></div>                        
                             <div>
-                            <asp:FileUpload ID="CertUpload" runat="server" />
-                            <asp:Button OnClientClick="ShowLoader()" runat="server" CssClass="btn" ID="UploadAssetCertificateBtn" ClientIDMode="Static" OnClick="UploadAssetCertificateBtn_Click" Text="Upload" />
+                            <asp:FileUpload ID="MasterCertUpload" runat="server" />
+                            <asp:Button OnClientClick="ShowLoader(); HideDiv('UploadAssetCert');" runat="server" CssClass="btn" ID="UploadAssetCertificateBtn" ClientIDMode="Static" OnClick="UploadAssetCertificateBtn_Click" Text="Upload" />
                             </div>
                        </div>
                     </div>      

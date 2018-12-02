@@ -5,7 +5,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Web.Security;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Web_App_Master.Models;
@@ -13,13 +12,12 @@ using Helpers;
 using System.Xml;
 using System.IO;
 using System.IO.Compression;
-using System.Web.UI.HtmlControls;
 using static Notification.NotificationSystem;
 using Web_App_Master.Account;
 
 namespace Web_App_Master.Browser
 {
-    
+
     public partial class ControlPanel : System.Web.UI.Page
     {
         //SUPER BUTTON
@@ -190,9 +188,15 @@ namespace Web_App_Master.Browser
                     try
                     {
                         string[] split = sa.Split(new string[] { "-dd-" }, StringSplitOptions.None);
+                        if (split.Count()==1)
+                        {
+
+                        }
                         var item = (from n in Global.Library.Settings.Customers where split[0].Contains(n.CompanyName) && split[1].Contains(n.Postal) select n).FirstOrDefault();
                         if (item == null)
+                        {
                             return;
+                        }
                         Global.Library.Settings.Customers.Remove(item);
                         Push.AppSettings();
                         BindAndUpdateCustomers(Global.Library.Settings.Customers);
@@ -2430,12 +2434,17 @@ namespace Web_App_Master.Browser
                     EmailAddress = new EmailAddress() { Name = CustName.Value, Email = CustEmail.Value }
 
                 };
+                if (cust.Postal=="")
+                {
+                    UpdateStatus("***Postal Code REQUIRED***");
+                    return;
+                }
                 Global.Library.Settings.Customers.Add(cust);
                 Push.AppSettings();
                 UpdateStatus("Customer added: " + cust.CompanyName);
                 BindAndUpdateCustomers(Global.Library.Settings.Customers);
             }
-            catch { UpdateStatus("Error Creating Static Email"); }
+            catch { UpdateStatus("Error Creating Customer"); }
         }
 
         protected void ExportXmlBtn_Click(object sender, EventArgs e)

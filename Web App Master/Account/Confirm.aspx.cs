@@ -3,8 +3,6 @@ using System.Web;
 using System.Web.UI;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
-using Owin;
-using Web_App_Master.Models;
 
 namespace Web_App_Master.Account
 {

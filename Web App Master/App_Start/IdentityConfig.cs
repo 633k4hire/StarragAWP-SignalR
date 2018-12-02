@@ -7,7 +7,6 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using Web_App_Master.Models;
-using System.Configuration;
 
 namespace Web_App_Master
 {

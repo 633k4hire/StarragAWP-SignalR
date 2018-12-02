@@ -11,7 +11,6 @@ using System.Web.Services;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Xml;
-using static Notification.NotificationSystem;
 
 namespace Web_App_Master.Account
 {
@@ -731,18 +730,7 @@ namespace Web_App_Master.Account
             try
             {
                 num = ParseBarCode(num);
-                //var connected = Extensions.CheckForInternetConnection();
-                //if (!connected)
-                //{
-                //    var a = from ass in Global.AssetCache where ass.AssetNumber == num select ass;
-                //    var al = a.ToList();
-                //    var asset = al.FirstOrDefault();
-                //    asset.Images = asset.Images.Replace(",,,", "<@#$>").Replace(",", "").Replace("<@#$>", ",").Replace("Images", "").Replace("\\", "");
-                //    HttpContext.Current.Session["CurrentAsset"] = asset;
-                //    var ret = GetAssetByDateShipped(asset, date);
-                //    return ret;
-                //}
-                //barcode was scanned or manually inputted
+              
                 num = ParseScanInput(num);
                 SQL_Request req = new SQL_Request().OpenConnection();
                 req.GetAsset(num);
@@ -758,7 +746,7 @@ namespace Web_App_Master.Account
             }
             catch { return new Asset(); }
         }
-        private static Asset GetAssetByDateShipped(Asset a, string longdatestring)
+        public static Asset GetAssetByDateShipped(Asset a, string longdatestring)
         {
             try
             {

@@ -454,6 +454,15 @@ namespace Web_App_Master {
         protected global::System.Web.UI.WebControls.TextBox AppArgument2;
         
         /// <summary>
+        /// HistoryItemArguments control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox HistoryItemArguments;
+        
+        /// <summary>
         /// HistoryBinderBtn control.
         /// </summary>
         /// <remarks>
@@ -535,13 +544,13 @@ namespace Web_App_Master {
         protected global::System.Web.UI.HtmlControls.HtmlInputText CalPeriod;
         
         /// <summary>
-        /// CertUpload control.
+        /// MasterCertUpload control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload CertUpload;
+        protected global::System.Web.UI.WebControls.FileUpload MasterCertUpload;
         
         /// <summary>
         /// UploadAssetCertificateBtn control.

@@ -7,11 +7,7 @@ using System.Linq;
 using System.Web;
 using Helpers;
 using iTextSharp.text.pdf;
-using Microsoft.AspNet.Identity.Owin;
-using Microsoft.AspNet.Identity;
 using System.Drawing.Drawing2D;
-using Web_App_Master.Account;
-using System.Text;
 
 namespace Web_App_Master
 {

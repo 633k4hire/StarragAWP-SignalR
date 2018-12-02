@@ -35,6 +35,20 @@ $(document).ready(function () {
     }); 
     window.onkeypress = KeyPressed;
     HideLoader();
+
+    //set checkbox intercepts for admins
+    var cal_cb = $("#AssetViewLoggedInUserView_av_CalibratedTool");
+    if (cal_cb !== null) {
+        cal_cb.change(function () {
+            if (this.checked) {
+                var returnVal = confirm("Are you sure?");
+                $(this).prop("checked", returnVal);
+            }
+            //pop modal
+            var aa = 0;
+        });
+    }
+
 });
 function KeyPressed(e) {
     if (e.charCode == 13) {
@@ -326,7 +340,9 @@ function ShowAssetModal() {
             ResizeAssetReport();
         }
     } else {
-        $("#AssetTab-btn").click();
+        //$("#AssetTabBtn").click();
+        __doPostBack('ctl00$AssetTabBtn', '');
+          
     }
     
     return false;
@@ -398,18 +414,9 @@ function TestModeChanged()
 }
 function BarcodeScanned(num, isHistory, date) {
     try {
-        //disable scan if on iframe pages
-        //var url = document.location.href;
-        //url = url.substr(url.lastIndexOf('/') + 1);
-        //if (url.startsWith("Checkout") || url.startsWith("CheckIn") || url.startsWith("PdfViewer")) {
-        //    var NAME = document.getElementById("barcodeIcon");
-        //    if (NAME !== null) {
-        //        NAME.className = "glyphicon glyphicon-barcode";   // Set other class name
-        //    }
-        //    return false;
-        //}
-
+    
         if (isHistory === "True") {
+            $("#HistoryItemArguments").val(date);            
             $.ajax({
                 type: 'POST',
                 url: '/Account/AssetController.aspx/GetHistory',
@@ -421,8 +428,10 @@ function BarcodeScanned(num, isHistory, date) {
 
             });
             JumpToTab('AssetTab');
+            
             return false;
         } else {
+            $("#HistoryItemArguments").val("");            
             $.ajax({
                 type: 'POST',
                 url: '/Account/AssetController.aspx/GetAsset',
@@ -473,7 +482,7 @@ function AssetSuccess(msg) {
        
     } else {
         SetAutoCheck('false');
-        $("#AssetTab-btn").click();
+        //$("#AssetTab-btn").click();
          LoadAsset(msg.d);
     }
    
@@ -548,16 +557,7 @@ function LoadAsset(asset) {
          $("#av_DateRecieved").val(asset.DateRecievedString);
         $("#av_Weight").val(asset.weight);
          $("#av_Description").val(asset.Description);
-         $("#CalCompany").val(asset.CalibrationCompany);
-         $("#CalPeriod").val(asset.CalibrationPeriod);
-        //try {
-        //   $("#AssetReceivingReportFrame").attr("src", asset.ReturnReport);
-        //   $("#AssetShippingReportFrame").attr("src", asset.UpsLabel);
-        //   $("#AssetPackingReportFrame").attr("src", asset.PackingSlip);
-        //    //$("#AssetReceivingReportFrame").attr("src", "/Account/Receiving/d4eb709d-beec-40f1-9634-07180121f2c8.pdf");
-        //   // $("#AssetShippingReportFrame").attr("src", "/Account/Receiving/d4eb709d-beec-40f1-9634-07180121f2c8.pdf");
-        //    //$("#AssetPackingReportFrame").attr("src", "/Account/Receiving/d4eb709d-beec-40f1-9634-07180121f2c8.pdf");
-        //} catch (erx) { }
+              
 
 
         if (asset.IsOut) {
@@ -639,7 +639,9 @@ function LoadAsset(asset) {
 
         if (asset.IsCalibrated) {
             $("#av_CalibratedTool").prop('checked', true);
+            $("#AssetViewLoggedInUserView_ExpandedAssetCalibrationInfo").show(); 
         } else {
+            $("#AssetViewLoggedInUserView_ExpandedAssetCalibrationInfo").hide();    
             $("#av_CalibratedTool").prop('checked', false);
         }
         $("#av_CalibratedTool").attr("onclick", "AssetIsCalibrated('" + asset.AssetNumber + "')");
@@ -1370,4 +1372,17 @@ function RunScanner()
     //Event Hookups
     window.onkeypress = FocusMonitor;
     FocusTimer();
+}
+
+function OnCalChecked() {
+
+    var cb = $("#AssetViewLoggedInUserView_av_CalibratedTool");
+    var checked = cb.is(":checked");
+    if (checked) {
+        $("#AssetViewLoggedInUserView_ExpandedAssetCalibrationInfo").show();       
+    } else {
+        $("#AssetViewLoggedInUserView_ExpandedAssetCalibrationInfo").hide();
+       
+    }
+    var aa = 0;
 }
